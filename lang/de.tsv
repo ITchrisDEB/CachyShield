@@ -1,0 +1,1892 @@
+0	$1 Schwachstelle(n), die von Angreifern ausgenutzt werden
+1	Intelligente Pflege
+2	Schutz
+3	Schwachstellen
+4	Updates
+5	Netzwerk
+6	Konfiguration
+7	Erweitert
+8	SCHUTZ
+9	SCHWACHSTELLEN
+10	UPDATES
+11	KONFIGURATION
+12	NETZWERK
+13	ROOTKITS UND SPIONAGESOFTWARE
+14	FERNZUGRIFF
+15	IHR SYSTEM
+16	IHRE PROJEKTE
+17	ECHTE ANGRIFFE
+18	ECHTE ANGRIFFE — ZUERST BEHANDELN
+19	SYSTEM-UPDATES
+20	SCHWACHSTELLEN-DATENBANKEN
+21	FÜR DAS NETZWERK GEÖFFNETE DIENSTE
+22	AUS IHREM NETZWERK ERREICHBARE DIENSTE
+23	FIREWALL
+24	VERBINDUNGEN INS INTERNET
+25	VERBINDUNGEN INS INTERNET, NACH PROGRAMM
+26	SICHERHEITSWERT
+27	VERALTETE EINTRÄGE — IHRE VERSION IST NEUER ALS DIE BETROFFENE
+28	Willkommen
+29	Starten Sie eine schnelle, vollständige Analyse: Schwachstellen, Updates, Schutz und Netzwerk.
+30	Analysieren
+31	Beheben
+32	Stopp
+33	Prüfen
+34	Schließen
+35	Abbrechen
+36	Details
+37	‹ Neu beginnen
+38	Analyse läuft…
+39	Berechnung läuft…
+40	Ergebnisse
+41	Unvollständige Ergebnisse
+42	Fertig!
+43	Ihre Ergebnisse sind bereit. Das haben wir gefunden:
+44	Ihr Computer ist gesund!
+45	Das haben wir bei der letzten Analyse gefunden.
+46	Wählen Sie aus, was behoben werden soll, und drücken Sie „Beheben“. „Prüfen“ öffnet die Details.
+47	Administrator-Analysen (Lynis, rkhunter) einbeziehen — Ihr Passwort wird einmal abgefragt
+48	Automatische CVE-Updates
+49	nie analysiert
+50	Nicht analysiert
+51	Auf dem neuesten Stand
+52	Update nötig
+53	Keine Schwachstelle
+54	Keine bekannte Schwachstelle
+55	Keine echte Schwachstelle
+56	Keine Bedrohung
+57	Keine Bedrohung erkannt
+58	Kein verdächtiger Dienst
+59	System aktuell
+60	Ihr System ist aktuell
+61	Kein Update ausstehend.
+62	Es steht kein Update aus.
+63	Bekannte Schwachstellen betreffen Ihre Software
+64	Beginnen Sie mit der Liste „Echte Angriffe“: Das sind die dringendsten.
+65	Starten Sie eine Analyse, um erneut zu prüfen.
+66	Keine bekannte Schwachstelle in den letzten Analysen.
+67	Installierte Software mit einer bekannten Schwachstelle, laut dem Arch-Linux-Sicherheitsteam.
+68	Von Ihren Projekten verwendete Bibliotheken (Python, npm, Rust…) mit einer bekannten Schwachstelle.
+69	Schwachstellen, die gerade von echten Angreifern ausgenutzt werden (offizielle CISA-Liste). Zuerst behandeln.
+70	Liste aktualisieren
+71	Wird aktualisiert…
+72	Ihr Schutz wurde noch nicht geprüft
+73	Die Analyse sucht nach versteckter Spionagesoftware und veränderten Systemdateien. Ihr Passwort wird abgefragt.
+74	Eine mögliche Bedrohung wurde erkannt
+75	Warnungen werden mit pacman geprüft…
+76	Jede gemeldete Datei wird mit dem Original des offiziellen Pakets verglichen.
+77	Keine Warnung. Ihr System ist gesund.
+78	Ihr System ist gesund.
+79	Geprüft, harmlos
+80	Harmlos
+81	Empfohlene Einstellung
+82	Bekannter Fehlalarm
+83	Zu prüfen
+84	Zu untersuchen
+85	Dringend
+86	Veraltet
+87	Verändert!
+88	Unbekannt
+89	Schwerwiegend
+90	Mittel
+91	Niedrig
+92	Kritisch
+93	SSH ist aktiv
+94	SSH ist deaktiviert
+95	Die Konfiguration wurde noch nicht geprüft
+96	Die Analyse untersucht SSH, Passwörter, den Kernel, Berechtigungen… Ihr Passwort wird abgefragt.
+97	Warnung
+98	Hinweis
+99	Keine Hinweise.
+100	Ihr System ist aktuell: In den offiziellen Paketquellen steht kein Update aus.
+101	Vorerst nichts zu installieren
+102	System aktualisieren
+103	Jetzt aktualisieren
+104	Automatisch
+105	Beheben: System aktualisieren…
+106	Beheben: Korrekturen vorschlagen…
+107	Kein verdächtiger Port
+108	Einige Dienste sind ohne Ihre Bestätigung geöffnet
+109	Erlauben
+110	Das ist normal: nicht mehr melden
+111	Erlaubt
+112	Aktiv
+113	Inaktiv
+114	Wieder anzeigen
+115	Kein Dienst lauscht auf allen Schnittstellen.
+116	Derzeit keine Verbindung ins Internet.
+117	SSH-Fernzugriff
+118	Remote-Desktop
+119	Namensauflösung (DNS)
+120	Drucken (CUPS)
+121	PostgreSQL-Datenbank
+122	Live-Überwachung
+123	Lauschende Ports
+124	Aktive Verbindungen
+125	Verbindungsversuche
+126	Ereignisse
+127	Übersicht
+128	Überblick über die Sicherheit Ihres Systems.
+129	Alles analysieren
+130	Alles aktualisieren
+131	Schwachstellen-Datenbanken
+132	Weltweite Schwachstellen — alle Systeme und Hersteller
+133	Aktiv ausgenutzt (CISA KEV)
+134	NVD-Suche
+135	NVD durchsuchen
+136	CISA-KEV-Katalog aktualisieren
+137	Nur solche, die meinen Rechner betreffen könnten
+138	Analyse starten
+139	Rohausgabe
+140	Befehl
+141	Bereit
+142	Läuft…
+143	Startet…
+144	Analyse beendet
+145	Konfigurationsanalyse
+146	Analyse Ihrer Pakete
+147	Analyse Ihrer Projekte
+148	Analyse der Bibliotheken
+149	Systempakete
+150	Bibliotheken und Geheimnisse
+151	Abhängigkeiten Ihrer Projekte
+152	Systemkonfiguration
+153	Rootkit-Suche
+154	CVE-Datenbanken werden aktualisiert…
+155	Suche nach Updates…
+156	Administrator-Analysen (Lynis, rkhunter)…
+157	Administrator-Analysen laufen (einmalige Autorisierung)…
+158	Warten auf Ihr Administrator-Passwort (Authentifizierungsfenster)…
+159	Nichts zu beheben in Ihrer Auswahl
+160	Wählen Sie eine Kachel mit Korrektur aus oder öffnen Sie „Prüfen“, um einen Eintrag von Hand zu behandeln.
+161	Firewall
+162	Root über SSH verbieten
+163	Korrektur rückgängig machen
+164	Korrekturen anzeigen
+165	Befehl kopieren
+166	Programm beenden
+167	Diese Server blockieren
+168	Befehl kopiert
+169	WAS DIE ANWENDUNG DIREKT TUN KANN
+170	Für diesen Eintrag ist keine direkte Aktion möglich.
+171	Fehlalarm bestätigt.
+172	Veränderte Datei: zuerst untersuchen.
+173	Den Paketen unbekannte Datei.
+174	Harmlos.
+175	Zu untersuchen.
+176	Von echten Angriffen betroffene Software.
+177	Installierte Software mit einer bekannten Schwachstelle.
+178	Bibliothek eines Ihrer Projekte mit einer bekannten Schwachstelle.
+179	Update verfügbar.
+180	AUR-Update verfügbar.
+181	Veralteter Tracker-Eintrag.
+182	AUR — zuerst prüfen
+183	Konfigurationswarnung
+184	Härtungshinweis
+185	Analyse schließen
+186	zu analysieren (Administratorrechte) · Korrektur verfügbar
+187	Aktiv ($1)
+188	aktiv ($1)
+189	aktiviert
+190	deaktiviert
+191	Deaktiviert
+192	zu installieren · kein besonderes Risiko erkannt
+193	zu installieren · ⚠ $1 Element(e) mit hohem Risiko: Sie werden vorher gewarnt
+194	Analyse
+195	Analysiert
+196	Analyse läuft bereits
+197	analysiert am $1 um $2
+198	Administrator-Analysen: Autorisierung verweigert, abgebrochen oder fehlgeschlagen
+199	⚠ $1 Analyse(n) konnte(n) nicht gestartet werden: $2
+200	alte Schwachstelle: wahrscheinlich bereits behoben, prüfen Sie, ob die Software aktuell ist
+201	Altes SSH-Protokoll 1
+202	Vorschau an einer Kopie des Projekts (npm / Maven) mit Einschätzung des Bruchrisikos. Ihre Dateien werden nicht verändert.
+203	Wenden Sie die Gegenmaßnahmen laut Herstelleranweisung an oder stellen Sie die Nutzung des Produkts ein, falls keine Gegenmaßnahmen verfügbar sind.
+204	$1 verwundbare(s) Paket(e)
+205	Arch Security Tracker + Versionsvergleich (vercmp von pacman)
+206	Beobachten
+207	Netzwerkadress-Vergabe (DHCP)
+208	Keine
+209	kein bekannter echter Angriff auf Ihre Software
+210	Kein Paket besitzt sie, weil systemd selbst sie bei jedem Update schreibt. Fazit: normal.
+211	Kein offizielles Paket liefert diese Datei, und sie gehört nicht zu den als normal bekannten Typen: Sie ist ungewöhnlich.
+212	Kein offizielles Paket liefert diese Datei: ungewöhnlich, untersuchen Sie sie.
+213	Kein besonderes Risiko erkannt.
+214	AUR (Arch User Repository)
+215	AUR: kein Helfer (paru, yay) erkannt: Ihre AUR-Pakete werden nicht überwacht.
+216	AUR ($1): kein Update ausstehend.
+217	Datenbanken
+218	$1 rkhunter-Warnung(en) geprüft: Es sind Fehlalarme, unten bestätigt. Letzte Prüfung: $2
+219	$1 harmlose Warnung(en), mit der Paketdatenbank geprüft.
+220	Bibliotheken
+221	Port $1 blockieren
+222	Katalog fehlt
+223	Diese Datei UNTERSCHEIDET sich von der im Paket $1. Wenn Sie sie nicht selbst geändert haben, betrachten Sie den Rechner als möglicherweise kompromittiert.
+224	Einige können das System blockieren, wenn etwas schiefgeht: Sie werden vor der Installation gewarnt.
+225	Diese Warnung bezeichnet keine bestimmte Datei: Die Anwendung kann sie nicht automatisch prüfen.
+226	Klicken Sie, um zu sehen, was die Anwendung tun kann, und die Empfehlung der Quelle
+227	Klicken Sie, um zu sehen, was möglich ist, und die Empfehlung
+228	Klicken Sie, um zu sehen, wie Sie es sicher installieren
+229	Klicken Sie, um die Empfehlung von Lynis zu sehen
+230	Klicken Sie für die Details und zum Installieren
+231	Fazit: Fehlalarm, keine Korrektur nötig.
+232	Fazit: normal, solange dieses Programm läuft.
+233	Derzeit ins Internet geöffnete Verbindungen (Browser, Updates usw.).
+234	SSH-Anmeldung als Administrator (root) nicht ausdrücklich verboten
+235	Verbindungen ins Internet
+236	Korrektur verfügbar: $1
+237	Port $1 freigeben
+238	Geräteerkennung im Netzwerk (mDNS)
+239	Geräteerkennung (UPnP)
+240	$1 Abhängigkeiten
+241	Verwundbare Abhängigkeiten und offengelegte Geheimnisse.
+242	Letzte Analyse: $1   ·   CVE-Datenbanken geprüft — CISA: $2 · Trivy: $3$4
+243	   ·   ⟳ Datenbanken werden geprüft…
+244	Letzte Prüfung: $1
+245	UNTERSCHIEDLICH zum Paket $1: verändert.
+246	$1 Aufgabe(n) erledigt. Starten Sie erneut eine Analyse, um das Ergebnis zu prüfen.
+247	Systemhärtung
+248	Live
+249	$1 Tracker-Einträge für „$2“: $3.
+250	$1 Tracker-Einträge betreffen alte Versionen (älter als Ihre): ignoriert, siehe unten.
+251	Bekannte Schwachstellen in Ihren pacman-Paketen.
+252	Schwachstellen aus der OSV-Datenbank in Ihren Abhängigkeitsdateien.
+253	Ausgenutzte Schwachstellen (Ihre Software)
+254	$1 Schwachstellen
+255	Weltweite Schwachstellen
+256	Systemschwachstellen
+257	Häufiger Fehlalarm: Modernes OpenSSH unterstützt Protokoll 1 überhaupt nicht mehr.
+258	Offizielle Datei des Pakets $1 $2, identisch mit dem Original: pacman hat ihre Prüfsumme mit der bei der Installation gespeicherten verglichen.
+259	Offizielle Datei des Pakets $1 $2, identisch mit dem Original (mit pacman geprüft). $3
+260	Datei: $1
+261	Versteckte Dateien außerhalb der üblichen Orte
+262	Ungewöhnliche Dateien in /dev
+263	Veränderte Dateien und Hintertüren.
+264	Systemdatei: $1
+265	Temporäre Datei von $1, das derzeit auf diesem Rechner läuft (Besitzer und Prozess geprüft).
+266	Temporäre Datei: $1
+267	Ergebnisse filtern…
+268	⚠ $1 Element(e) mit hohem Risiko: Vorher wird ein Sicherheits-Snapshot erstellt.
+269	Es gibt nichts zu beheben: Ihre Version ist neuer als die von diesen Einträgen betroffene.
+270	$1 Software-Element(e), auf die echte Angriffe zielen
+271	$1 Software-Element(e) · $2 Schwachstellen
+272	$1 — Port $2
+273	$1 läuft…
+274	Die Korrektur erstellt eine separate Datei, vor und nach der Änderung geprüft, mit Sicherheits-Snapshot: Sie lässt sich mit einem Klick entfernen.
+275	Führen Sie den kopierten Befehl in einem Terminal aus: $1 zeigt die Unterschiede im PKGBUILD, damit Sie sie vor der Installation prüfen können.
+276	Starten Sie die Analyse, um hier die Hinweise zu sehen.
+277	Starten Sie die Analyse, um hier die Ergebnisse zu sehen.
+278	Die Anwendung installiert es absichtlich nicht für Sie.
+279	Die Anwendung kann nicht für Sie entscheiden, ob diese Datei legitim ist.
+280	Unerwünschte eingehende Verbindungen werden blockiert.
+281	AUR-Pakete werden von Arch nicht geprüft: Jeder kann sie ändern, und 2026 wurden AUR-Pakete mit Schadcode präpariert (bösartige Build-Skripte).
+282	Der Tracker behält diese Einträge als „Vulnerable“, ohne je eine Korrektur zu vermerken, daher die arch-audit-Warnung. Es ist keine absolute Gewissheit (der Tracker nennt nicht die korrigierende Version), aber sehr wahrscheinlich ein Fehlalarm.
+283	Der Tracker zielt auf Version $1; Sie haben $2: wahrscheinlich bereits behoben
+284	Liste echter Angriffe (CISA): $1\nSchwachstellen-Datenbank (Trivy): $2\nAutomatisches Update: $3
+285	Listet die Updates auf, markiert solche, die das System blockieren könnten, und fragt dann nach Bestätigung.
+286	$1 Software-Element(e)
+287	Lynis bewertet Ihre Konfiguration mit einer Zahl von 0 bis 100 und schlägt Verbesserungen vor.
+288	Gemeinsamer Speicher von $1: normal.
+289	diese Software aktualisieren
+290	auf $1 aktualisieren
+291	$1 Update(s)
+292	$1 Update(s) verfügbar
+293	$1 Verbindung(en) zu $2 Server(n)
+294	$1 Schwachstellen, davon $2 schwerwiegend
+295	$1 Schwachstellen, die von Angreifern ausgenutzt werden
+296	zuletzt gemeldet am $1
+297	(ungültige Option: $1)
+298	$1 Schwachstellen in Ihren Projekten
+299	Von rkhunter benötigte Werkzeuge
+300	AUR-PAKETE — VOR DER INSTALLATION PRÜFEN ($1)
+301	Verwundbare Pakete
+302	Standardmäßig akzeptiert OpenSSH root nur mit einem Schlüssel („prohibit-password“). Wenn Sie root über SSH nicht brauchen, lautet die Empfehlung „PermitRootLogin no“.
+303	keine bekannte Korrektur
+304	noch keine Korrektur veröffentlicht
+305	Niemand kann sich per SSH aus der Ferne verbinden. Das ist am sichersten, wenn Sie es nicht brauchen.
+306	Je höher der Wert, desto besser ist Ihr System geschützt. Die Hinweise sind auf Englisch: Sie stammen vom Werkzeug Lynis.
+307	Ports: $1
+308	$1 Port(s) zu prüfen
+309	Dem Netzwerk ausgesetzte Ports
+310	Warum rkhunter es meldet: $1
+311	So stellen Sie das Original wieder her: Sichern Sie zuerst die Datei und führen Sie dann den kopierten Befehl aus (installiert das Paket neu).
+312	Bereit zur Installation.
+313	Programme, die Verbindungen anderer Geräte in Ihrem Netzwerk annehmen.
+314	Systemprogramm: $1
+315	Projekte
+316	Die als normal markierten $1 Warnung(en) wieder anzeigen
+317	Sehen Sie sich Besitzer und Datum mit dem kopierten Befehl an: Eine neue Datei, die von einem bekannten Programm erstellt wurde, ist normal.
+318	Netzwerk (Details)
+319	Lokale Namensauflösung (LLMNR)
+320	Nichts blockiert eingehende Verbindungen. In Ihrem Heimnetzwerk ist das akzeptabel; in einem öffentlichen WLAN aktivieren Sie eine Firewall.
+321	Hohes Risiko
+322	rkhunter vergleicht Ihre Systemdateien mit einer Referenz und sucht nach bekannten Rootkits.
+323	rkhunter meldet, dass die „root“-Anmeldung über SSH nicht ausdrücklich verboten ist (PermitRootLogin fehlt in der Konfiguration).
+324	$1 Bedrohung(en)
+325	Mögliches Rootkit: sofort untersuchen.
+326	Rootkits
+327	$1 / 100
+328	Zustand kann nicht gespeichert werden: $1
+329	Wert und Konfigurationsempfehlungen.
+330	Wert $1/100
+331	$1 zu untersuchen
+332	$1 Element(e) zu untersuchen
+333	$1 erlaubte(r) Dienst(e)
+334	Firewall aktiv
+335	Firewall inaktiv
+336	Firewall $1
+337	Systemdienst (Port $1)
+338	Oft Fehlalarme: Öffnen Sie „Prüfen“ für Erklärungen.
+339	SSH erlaubt die Verbindung zu diesem Computer aus der Ferne. Wenn Sie es nicht nutzen, deaktivieren Sie es besser.
+340	Beendet — $1
+341	$1 zu prüfen
+342	$1 zu prüfen · $2 erlaubt
+343	Alle aus Ihrem Netzwerk erreichbaren Dienste sind die, die Sie gewählt haben.
+344	Alle Ihre Pakete sind auf dem neuesten Stand.
+345	Eine Administrator-Analyse kann hier nicht unterbrochen werden.
+346	Eine veränderte Systemdatei lässt sich nicht risikofrei automatisch beheben: Eine Neuinstallation des Pakets würde auch eine Änderung überschreiben, die Sie vielleicht absichtlich vorgenommen haben.
+347	Prüfung mit der Paketdatenbank (pacman) und rkhunter
+348	Prüfung läuft…
+349	Prüfen Sie die Liste unten: Klicken Sie auf „Erlauben“, wenn Sie sie erkennen.
+350	$1 (Zielversion $2)
+351	Ihre Konfiguration ist korrekt, mit Verbesserungspunkten
+352	Ihre Konfiguration ist solide
+353	Ihre Konfiguration sollte gestärkt werden
+354	Ihre installierte Version ist $1, neuer als jede der Zielversionen.
+355	Übersicht
+356	$1 Warnung(en)
+357	$1 Warnung(en), $2 {Vorschlag|Vorschläge} zur Stärkung des Systems
+358	$1 erlaubt
+359	$1. Vom System bei Updates erstellt: normal.
+360	$1. Der Dateiinhalt wurde geprüft: Er trägt tatsächlich den Vermerk seines Erstellers.
+361	Von systemd erstellte Update-Markierung (systemd-update-done)
+362	Versteckte Datei gemeldet: Die Anwendung vergleicht sie mit der Paketdatenbank, um zu wissen, ob sie normal ist.
+363	Ungewöhnliche Datei in /dev: Die Anwendung prüft, wem sie gehört.
+364	Das sind Shell-Skripte, keine Binärdateien: Unter Arch sehr oft ein Fehlalarm.
+365	Ein von rkhunter benötigtes Werkzeug ist ein Skript oder fehlt: meist harmlos.
+366	Keine Referenzdatenbank: Führen Sie auf einem gesunden System „Referenzdatenbank initialisieren“ aus und starten Sie dann erneut.
+367	PermitRootLogin ist in sshd_config nicht ausdrücklich gesetzt. Setzen Sie es auf „no“, damit die Warnung verschwindet.
+368	Häufiger Fehlalarm: Modernes OpenSSH unterstützt Protokoll 1 nicht mehr.
+369	Zu prüfen: ungewöhnliche Dateien in /dev (oft virtuelle Geräte).
+370	Zu prüfen: versteckte Dateien außerhalb der üblichen Orte (oft Anwendungsdateien).
+371	Erlauben / nicht mehr erlauben
+372	Weltweite Schwachstellen — alle Systeme und Hersteller
+373	Zeitraum (Tage):
+374	alle (Sek.)
+375	Automatisch aktualisieren
+376	Nur öffentliche Verbindungen
+377	Aktualisieren
+378	Verbindungsversuche analysieren (Admin)
+379	Liest das SSH-Protokoll und lastb. Erfordert Administratorrechte.
+380	Proto
+381	Adresse
+382	Port
+383	Prozess
+384	Exposition
+385	Status
+386	Alle Schnittstellen
+387	Nur lokal
+388	Hinzugefügt am
+389	Fälligkeitsdatum
+390	Ransomware
+391	Auf Ihrem Rechner
+392	Hersteller
+393	Produkt
+394	Schwachstelle
+395	Veröffentlicht
+396	Wert
+397	Schweregrad
+398	Beschreibung
+399	Letzter Versuch
+400	Quell-IP
+401	Fehlversuche
+402	Quelle
+403	Lokal
+404	Entfernt
+405	Typ
+406	Internet
+407	Lokales Netzwerk
+408	Paket
+409	Korrektur
+410	CVE-Anzahl
+411	CVE
+412	Benötigt von
+413	Kennung
+414	Ziel
+415	Version
+416	Paket / Regel
+417	Ökosystem
+418	Datei
+419	Zusammenfassung
+420	Warnung
+421	Kommentar
+422	Systemprogramm
+423	Alle erlauben
+424	Firewall aktivieren
+425	Firewall deaktivieren
+426	Firewall aktivieren?
+427	Aktivieren
+428	Freigeben
+429	Alle freigeben
+430	AKTIVE SPERREN
+431	Aus dem Netzwerk erreichbarer Dienst
+432	Verbindungen ins Internet
+433	Klicken Sie, um die möglichen Aktionen zu sehen (beenden, blockieren)
+434	Die Anwendungs-Firewall blockiert unerwünschte eingehende Verbindungen (bis zum nächsten Neustart).
+435	Firewall bis zum nächsten Neustart aktiviert.
+436	Firewall deaktiviert.
+437	Cachy Shield
+438	1 Schwachstelle $1
+439	Geprüfte Warnungen, harmlos: keine Aktion nötig
+440	Alte Schwachstellen, wahrscheinlich bereits behoben: keine Aktion nötig
+441	Veraltete Tracker-Einträge: Ihre Version ist neuer, keine Aktion nötig
+442	Nichts Dringendes zu beheben.
+443	Ordner wählen…
+444	Analysierter Ordner:
+445	Nicht mehr erlauben
+446	Offene Ports aktualisieren
+447	Bis zum Neustart
+448	Dauerhaft
+449	Dauerhafte Firewall: Sie blockiert bei jedem Start unerwünschte eingehende Verbindungen.
+450	Firewall dauerhaft aktiviert (entfernt mit „Firewall deaktivieren“).
+451	Firewall DAUERHAFT aktiviert (sie kommt bei jedem Start zurück).
+452	Firewall bis zum nächsten Neustart aktiviert.
+453	Anwendungs-Firewall deaktiviert (und aus dem Start entfernt).
+454	SYSTEMHÄRTUNG
+455	Angewendet
+456	Nichts zu härten
+457	Härtung rückgängig machen
+458	Anwenden
+459	Kernel- und Netzwerkeinstellungen gehärtet (sysctl.d-Datei). Sie können sie jederzeit rückgängig machen.
+460	Die vorgeschlagenen Kernel- und Netzwerkeinstellungen haben bereits den empfohlenen Wert.
+461	Sichere Kernel- und Netzwerkeinstellungen (ICMP-Umleitungen, Kerneladressen…), über den nativen Linux-Mechanismus angewendet, ohne Auswirkung auf die normale Nutzung.
+462	$1 Einstellung(en) anzuwenden
+463	Systemhärtung anwenden?
+464	Nichts zu härten
+465	Systemhärtung
+466	Härtung wird rückgängig gemacht
+467	Härtung angewendet. Zum Rückgängigmachen: „Härtung rückgängig machen“.
+468	Härtung rückgängig gemacht.
+469	Firewall aktiviert (sie bleibt bei jedem Start aktiv).
+470	System-Firewall ($1) aktiv: Sie blockiert unerwünschte eingehende Verbindungen.
+471	Eine auf Ihrem System konfigurierte nftables-Firewall ist aktiv: Sie verwalten sie selbst, die Anwendung berührt sie nicht.
+472	FIREWALL-REGELN
+473	Als „erlaubt“ markierte Dienste werden automatisch erlaubt. Fügen Sie eigene Regeln hinzu: einen Port erlauben, verweigern oder in der Rate begrenzen, für alle oder eine einzelne Adresse. Sie können sie jederzeit bearbeiten, auch bei ausgeschalteter Firewall: Sie werden bei der Aktivierung angewendet.
+474	Regel hinzufügen…
+475	Firewall-Regel hinzufügen
+476	Die Regel wird gespeichert und angewendet, wenn die Firewall aktiviert oder aktualisiert wird. Am System wird jetzt nichts geändert.
+477	Löschen
+478	Erlauben
+479	Verweigern
+480	Begrenzen
+481	Begrenzen (Missbrauchsschutz: 10 Verbindungen/Minute)
+482	Aktion
+483	Protokoll
+484	Von
+485	Port (1 bis 65535)
+486	Quelladresse oder Netzwerk, z. B. 192.168.0.0/24 (leer = überall)
+487	Hinzufügen
+488	Ungültige Regel
+489	Prüfen Sie den Port (1 bis 65535) und die Quelladresse (IPv4 oder ein Netzwerk wie 192.168.0.0/24).
+490	Abgelehnte Verbindungen protokollieren
+491	von überall
+492	von $1
+493	Port $1/$2
+494	Benachrichtigungen
+495	Neuer offener Port
+496	Verbindungsversuche erkannt
+497	Analyse beendet
+498	Neustart erforderlich
+499	Dem laufenden Kernel fehlen die installierten Module (der Kernel wurde ohne Neustart aktualisiert). Die Firewall konnte ihre Komponenten nicht laden: Starten Sie den Computer neu und aktivieren Sie dann die Firewall.
+500	Die Module des laufenden Kernels sind nicht mehr installiert (Kernel ohne Neustart aktualisiert): Starten Sie vor dem Aktivieren der Firewall neu.
+501	Ordner…
+502	Entfernen
+503	Ordner hinzufügen…
+504	Ordner abgelehnt
+505	Wählen Sie einen bestimmten Projektordner (nicht das Systemwurzelverzeichnis) ohne das Zeichen „;“ im Pfad.
+506	Ihre Projekte
+507	Zu analysierende Projektordner
+508	Die Analyse sucht in diesen Ordnern und ihren Unterordnern nach Abhängigkeitsdateien (requirements.txt, package-lock.json, Cargo.lock, go.mod…) und meldet Bibliotheken mit bekannter Schwachstelle. Ihre Dateien werden nie ohne Ihre Zustimmung geändert.
+509	Noch kein Ordner. Fügen Sie die Ordner mit Ihren Projekten hinzu (Python, Node, Rust, Go…).
+510	Kein Projektordner: Klicken Sie auf „Ordner…“, um welche hinzuzufügen.
+511	Analysierte Ordner:
+512	Einrichtungsassistent
+513	Dieses Programm analysiert die Sicherheit Ihres Computers mit bekannten Werkzeugen. Diese sind auf diesem Rechner installiert:
+514	Bekannte Schwachstellen von Arch-Paketen
+515	Konfigurationsprüfung
+516	Rootkit-Suche
+517	Bibliotheken und Geheimnisse
+518	Abhängigkeiten Ihrer Projekte
+519	Liste der Updates
+520	Firewall (optional: sonst firewalld oder nftables)
+521	Sicherheits-Snapshots (optional)
+522	Fehlende Werkzeuge blockieren das Programm nicht: Die davon abhängigen Funktionen sind einfach nicht verfügbar. So installieren Sie sie:
+523	Befehl kopieren
+524	Fügen Sie die Ordner mit Ihren Programmierprojekten hinzu. Sie können später welche hinzufügen oder entfernen (Seite Schwachstellen, Kachel „Ihre Projekte“). Dieser Schritt ist optional.
+525	Einstellungen
+526	Schwachstellen-Datenbanken (CVE) automatisch aktualisieren
+527	Desktop-Benachrichtigungen (neuer offener Port, Eindringversuche, Analyse beendet)
+528	Administrator-Analysen (Lynis, rkhunter) in „Analysieren“ einbeziehen: Ihr Passwort wird einmal abgefragt
+529	Ohne Ihre Bestätigung wird an Ihrem System nichts geändert, und die Firewall wird nie automatisch aktiviert.
+530	Zurück
+531	Weiter
+532	Überspringen
+533	Fertigstellen
+534	Ordner, deren Name „;“ enthält, werden abgelehnt.
+535	⚠ Aktivierung derzeit nicht möglich: Dem laufenden Kernel fehlen die installierten Module (der Kernel wurde ohne Neustart aktualisiert). Starten Sie den Computer neu und kommen Sie dann hierher zurück. Bis dahin können Sie ansehen, was angewendet würde, und Ihre Regeln bearbeiten (Abschnitt „Firewall-Regeln“ auf der Netzwerkseite).
+536	Schließen
+537	Ihr System ist gesund
+538	Keine bekannte Schwachstelle betrifft Ihre Software. Starten Sie eine Analyse, um erneut zu prüfen.
+539	Nur die Bibliotheken Ihrer Projekte haben bekannte Schwachstellen (siehe „Ihre Projekte“ unten).
+540	Keine Dringlichkeit
+541	Keine Ihrer Software ist von einer kürzlich ausgenutzten Schwachstelle betroffen: Die auf der CISA-Liste sind auf Ihrem Rechner bereits behoben (Paket neuer als die Schwachstelle).
+542	Keines Ihrer Pakete hat eine bekannte, nicht behobene Schwachstelle.
+543	Wahrscheinlich behoben
+544	Ihr Paket ist neuer als die Schwachstelle: wahrscheinlich bereits behoben
+545	Regeln bearbeiten
+546	Firewall-Regeln
+547	Firewall
+548	Bearbeiten Sie Ihre Regeln hier, auch bei ausgeschalteter Firewall: Am System wird jetzt nichts geändert. Die Regeln werden angewendet, wenn Sie die Firewall aktivieren (oder aktualisieren). Als „erlaubt“ markierte Dienste sind immer erlaubt.
+549	Keine eigene Regel. Von Ihnen als „erlaubt“ markierte Dienste bleiben automatisch erlaubt.
+550	• angewendete Regeln (Ihre „erlaubten“ Dienste und Ihre eigenen Regeln): {kept}
+551	• angewendete Regeln (Ihre „erlaubten“ Dienste und Ihre eigenen Regeln): $1
+552	$1 $2$3 erlauben
+553	$1 $2$3 verweigern
+554	$1 $2$3 begrenzen
+555	$1 von $2
+556	Protokollierung abgelehnter Verbindungen
+557	Jetzt neu starten
+558	Computer jetzt neu starten (nach Bestätigung)
+559	Computer neu starten?
+560	Neu starten
+561	Alle Programme werden geschlossen und der Computer startet sofort neu.
+562	Speichern Sie zuerst Ihre laufende Arbeit. Ein Neustart wendet Kernel- und Treiber-Updates an.
+563	Der laufende Kernel ist nicht mehr der installierte: Ein Neustart wendet Kernel- und Treiber-Updates an (und lässt die Firewall ihre Komponenten laden). Speichern Sie zuerst Ihre Arbeit.
+564	Der Neustart wurde nicht gestartet (abgelehnt oder Fehler: siehe oben).
+565	Neustart
+566	Lokale Datenbank: automatisch heruntergeladen
+567	Lokale Datenbank: mit Administratorrechten aktualisiert
+568	Lokaler Katalog: automatisch heruntergeladen
+569	Konfiguration (Lynis-Wert)
+570	Bereinigung
+571	FREIZUGEBENDER SPEICHERPLATZ
+572	Speicher freigeben und Ihre Privatsphäre schützen
+573	Analysieren Sie, um zu sehen, was bereinigt werden kann, wählen Sie aus und drücken Sie Bereinigen. Ohne Ihre Bestätigung wird nichts gelöscht.
+574	Drücken Sie Analysieren, um den freigebbaren Platz zu berechnen.
+575	Wählen Sie aus, was bereinigt werden soll.
+576	Ausgewählte Elemente:
+577	SYSTEM UND ANWENDUNGEN
+578	BROWSER
+579	ADMINISTRATOR (Passwort wird abgefragt)
+580	Analyse läuft…
+581	Nichts zu bereinigen
+582	Bereinigen
+583	Jetzt bereinigen?
+584	Schließen Sie zuerst den Browser
+585	Diese Browser sind geöffnet:
+586	Schließen Sie sie vollständig und versuchen Sie es erneut: Ihre Daten können nicht bereinigt werden, solange sie laufen.
+587	Analysieren Sie zuerst und wählen Sie dann aus, was bereinigt werden soll.
+588	Was gelöscht wird:
+589	Freigegebener Platz:
+590	Dieser Vorgang ist endgültig: Die Dateien kommen nicht in den Papierkorb.
+591	Gelöschte Cookies melden Sie auf den meisten Websites ab.
+592	Bereinigung beendet
+593	Element(e) konnte(n) nicht gelöscht werden (in Benutzung?):
+594	Administrator-Bereinigung
+595	Papierkorb
+596	Bereits in den Papierkorb geworfene Dateien: Sie werden endgültig gelöscht.
+597	Bildvorschauen
+598	Vom Desktop erzeugte Vorschauen; sie werden von selbst neu erstellt.
+599	Caches von Entwicklungswerkzeugen
+600	Von pip, npm, yay und paru behaltene Downloads; sie werden bei Bedarf erneut heruntergeladen.
+601	Grafik-Caches
+602	Kompilierte Shader (Mesa, NVIDIA); sie werden beim nächsten Start eines Spiels oder einer 3D-Anwendung neu erstellt.
+603	Im Speicher gehaltene Seiten und Bilder: Der Browser lädt sie erneut herunter (das erste Laden ist etwas langsamer).
+604	Im Speicher gehaltene Seiten und Bilder: Der Browser lädt sie erneut herunter.
+605	Sie werden auf den meisten Websites abgemeldet (Konten, Warenkörbe…). Nützlich für die Privatsphäre.
+606	Sie werden auf den meisten Websites abgemeldet. Nützlich für die Privatsphäre.
+607	Die Liste der besuchten Seiten. Lesezeichen und Passwörter werden NICHT angetastet.
+608	pacman-Cache
+609	Alte Versionen heruntergeladener Pakete (die letzten 3 bleiben erhalten): gibt oft mehrere GB frei. Erfordert Ihr Passwort.
+610	Alte Systemprotokolle
+611	Protokolle, die älter als 14 Tage sind. Erfordert Ihr Passwort.
+612	$1: Cache
+613	$1: Cookies
+614	$1: Browserverlauf
+615	Dateien
+616	Öffnen
+617	Symbol im Benachrichtigungsbereich (beim nächsten Start; die Schließen-Schaltfläche des Fensters lässt das Programm dann im Hintergrund weiterlaufen)
+618	Ihre Projekte beheben
+619	Auswahl beheben
+620	Keine dieser Korrekturen kann automatisch angewendet werden: Das müssen Sie von Hand ändern.
+621	Wählen Sie die anzuwendenden Updates. Jede Datei wird zuerst gesichert („.cs-backup-…“ daneben) und bei einem Fehlschlag wiederhergestellt. Es wird kein Installationsskript ausgeführt und keine Administratorrechte werden verwendet. Testen Sie danach Ihre Projekte.
+622	⚠ Sprung auf eine neue Hauptversion: kann das Projekt beschädigen
+623	Von Hand zu erledigen
+624	Update läuft…
+625	Update(s) erfolgreich
+626	{Fehlschlag|Fehlschläge}
+627	führen Sie „Analysieren“ erneut aus, um zu prüfen
+628	Der npm-Projektordner wurde nicht gefunden.
+629	Diese Bibliothek ist in dieser Datei nicht festgelegt (==): Ändern Sie die Einschränkung von Hand.
+630	Cargo.toml neben Cargo.lock nicht gefunden.
+631	Die Datei „$1“ wird nicht automatisch geändert: Aktualisieren Sie die Abhängigkeit mit dem eigenen Werkzeug dieses Projekts.
+632	Nichts zu beheben
+633	Es wird keine Korrektur angeboten: Führen Sie zuerst „Analysieren“ aus, oder OSV kennt keine korrigierte Version für diese Bibliotheken.
+634	Vorerst nichts zu beheben
+635	Es ist kein Update verfügbar für:
+636	Ihre Version ist die neueste in den Paketquellen: Vorerst gibt es nichts zu installieren. Die CISA-Liste nennt nicht, welche Version die Schwachstelle behebt. Sobald die {distro}-Paketquellen eine Korrektur veröffentlichen, erscheint sie unter „Updates“ und hier.
+637	in $1
+638	✔ erledigt
+639	✘ fehlgeschlagen: $1
+640	Datei nicht gefunden oder symbolischer Link
+641	Projektordner nicht gefunden
+642	ungültiger Name oder ungültige Version
+643	nur manuelle Korrektur
+644	Originaldateien wiederhergestellt.
+645	„$1“ ist nicht installiert
+646	$1 Zeile(n) in $2 geändert. Danach installieren: $3
+647	„$1“ in der Datei nicht gefunden (bereits geändert?)
+648	schwerwiegend
+649	pip (venv des Projekts)
+650	pip (nur Datei: nichts installiert)
+651	Wählen Sie die anzuwendenden Updates. Python: Die Bibliothek wird im venv des Projekts aktualisiert (pip lehnt ab, wenn ein anderes Paket die Version begrenzt, und bei einem Konflikt wird alles zurückgerollt). Jede Datei wird zuerst gesichert („.cs-backup-…“ daneben) und bei einem Fehlschlag wiederhergestellt. Es wird kein Installationsskript ausgeführt und keine Administratorrechte werden verwendet. Testen Sie danach Ihre Projekte.
+652	Das venv des Projekts hat Version $1 (nicht $2): Ändern Sie bei Bedarf die Einschränkung des Projekts von Hand.
+653	Diese Bibliothek ist im venv des Projekts nicht installiert: Ändern Sie die Einschränkung des Projekts von Hand.
+654	Kein venv gefunden, und die Bibliothek ist in dieser Datei nicht festgelegt (==): Ändern Sie die Einschränkung von Hand.
+655	venv: $1
+656	im venv bereits aktuell ($1)
+657	im venv installiert: $1
+658	venv in den ursprünglichen Zustand zurückversetzt
+659	$1 Zeile(n) in $2 geändert
+660	Die Abhängigkeitsdatei hat keine festgelegte Zeile zum Ändern: Sie bleibt unverändert.
+661	pip hat das Update abgelehnt (ein anderes Paket begrenzt die Version, oder es gibt kein Binärpaket):
+662	Diese Version würde die Abhängigkeiten des Projekts beschädigen, abgebrochen:
+663	pip in diesem venv nicht gefunden ($1)
+664	Pakete geprüft
+665	Bibliothek(en) installierter Programme mit bekannter Schwachstelle
+666	Bibliotheken von Programmen (Python, Node, Rust…): noch nicht analysiert
+667	Pakete werden geprüft, dann die Bibliotheken Ihrer installierten Programme (Python, Node, Rust…). Das kann einige Minuten dauern.
+668	BIBLIOTHEKEN INSTALLIERTER PROGRAMME
+669	Bibliothek eines installierten Programms mit bekannter Schwachstelle.
+670	Nicht analysiert
+671	$1 Bibliothek(en)
+672	Durch Kommas getrennt. Ihr Home-Ordner ist standardmäßig ausgeschlossen: Ihre Projekte werden getrennt analysiert (Schaltfläche „Ordner…“).
+673	Bibliotheken des Systems beheben
+674	Ort unbekannt: Führen Sie „Analysieren“ erneut aus, um ihn zu finden.
+675	Dieses venv gehört nicht Ihrem Benutzer: Die Anwendung ändert es nicht (es werden keine Administratorrechte verwendet).
+676	Die in diesem venv installierte Version ist nicht mehr die der Analyse: Führen Sie „Analysieren“ erneut aus.
+677	Teil des Pakets „$1“: Es wird durch ein Update dieses Pakets behoben (Seite „Updates“). Keines steht aus, bis die Paketquellen eine Korrektur veröffentlichen.
+678	Global außerhalb von pacman installiert (pip als Administrator?): Ändern Sie es unter Arch nicht mit pip. Installieren Sie es in einem venv neu oder installieren Sie das passende pacman-Paket (python-…).
+679	Mit einem installierten Programm oder Projekt mitgeliefert: Es wird durch ein Update dieses Programms (oder Projekts) behoben.
+680	Administrator: für diese Sitzung autorisiert
+681	Administrator: warte auf Ihr Passwort…
+682	Administrator: nicht erteilt (Passwort wird bei jeder Aktion abgefragt)
+683	Administrator: Passwort wird bei jeder Aktion abgefragt (installieren Sie das Programm, um nur einmal gefragt zu werden)
+684	Administrator-Passwort nur einmal beim Start abfragen (beim nächsten Start; sonst wird es bei jeder Aktion erneut abgefragt)
+685	An das bestehende Protokoll anhängen (--appendlog)
+686	Geprüft um
+687	Pakete
+688	Arch-Tracker-Daten gerade heruntergeladen
+689	Bibliotheken
+690	pip (nur requirements-Datei)
+691	Wählen Sie die anzuwendenden Updates. Python: Nur die festgelegte (==) Zeile der requirements-Datei wird geändert; Ihre venvs werden nie angefasst (installieren Sie danach selbst). Jede Datei wird zuerst gesichert („.cs-backup-…“ daneben) und bei einem Fehlschlag wiederhergestellt. Es wird kein Installationsskript ausgeführt und keine Administratorrechte werden verwendet. Testen Sie danach Ihre Projekte.
+692	Diese Bibliothek ist in dieser Datei nicht festgelegt (==): Ändern Sie die Einschränkung von Hand. Die Anwendung ändert Ihre venvs nie.
+693	In einem venv installiert: Die Anwendung ändert Ihre venvs nie. Aktualisieren Sie es selbst (Befehl unten) und beachten Sie die Versionsgrenzen Ihres Projekts.
+694	npm update (innerhalb der Grenzen des Projekts)
+695	npm kann innerhalb der Grenzen des Projekts bis $1 gehen
+696	durch die erlaubten Versionen des Projekts begrenzt: npm kann nur bis $1 gehen (nötig ist $2). Es wurde nichts geändert.
+697	durch die erlaubten Versionen des Projekts begrenzt: npm kann $1 nicht anheben (nötig ist $2). Es wurde nichts geändert.
+698	Ursprüngliche Lock-Dateien wiederhergestellt.
+699	Simulation nicht möglich:
+700	Beheben…
+701	$1 in „$3“ auf $2 aktualisieren (vorher automatische Sicherung, die Versionsgrenzen des Projekts werden eingehalten)
+702	bereits behoben: Version $1 ist nicht mehr installiert (jetzt: $2)
+703	Paket „$1“
+704	installierte Version $1
+705	neueste bekannte Version $1 ($2)
+706	{distro}-Paketquellen
+707	AUR
+708	wie Ihre: es gibt kein Update
+709	neuer als Ihre: Es gibt ein Update
+710	älter als Ihre: nichts zu aktualisieren
+711	diese Datei ist keine requirements.txt
+712	ungültige CVE-Kennung im Katalog
+713	1/3 Einstellungen werden vorbereitet…
+714	2/3 $1 wird geschrieben ($2 Einstellung(en))…
+715	3/3 Wird sofort angewendet…
+716	Keine gültige Einstellung: Es wurde nichts geändert.
+717	Verbirgt interne Kerneladressen vor Benutzern, was Kernel-Schwachstellen schwerer ausnutzbar macht.
+718	Dieser Computer ist kein Router: Er hat keinen Grund, Umleitungen zu senden.
+719	Härtung abgebrochen: Die ursprünglichen Werte werden wiederhergestellt.
+720	Verhindert, dass unprivilegierte Programme Kernelmeldungen lesen (die für Angreifer nützliche Adressen verraten).
+721	Dasselbe für neue Netzwerkschnittstellen.
+722	Verbietet Speicherabzüge (Core Dumps) privilegierter Programme, die Geheimnisse enthalten können.
+723	Protokolliert Pakete mit unmöglichen Adressen (ein Zeichen für Spoofing), damit man sie erkennen kann.
+724	Schützt vor Verbindungsfluten (SYN-Flood).
+725	Lehnt Pakete ab, die ihre eigene Route vorgeben (eine Entführungstechnik).
+726	Lehnt IPv6-Umleitungen ab.
+727	Lehnt ICMP-„Redirects“ ab, mit denen ein Angreifer im Netzwerk Ihren Datenverkehr umleiten kann.
+728	Nichts rückgängig zu machen.
+729	Wiederhergestellt: $1 = $2
+730	Eine Einstellung wurde abgelehnt: Alles wird zurückgerollt.
+731	$1 ist bereits blockiert.
+732	1/3 Regeln werden vorbereitet…
+733	1/3 Firewall wird vorbereitet (eigene Tabelle „cachy_shield“, andere Regeln bleiben unberührt)…
+734	1/4 firewalld wird gestartet…
+735	1/4 Standardregeln: Eingehendes verweigern, Ausgehendes erlauben…
+736	2/3 Regel wird hinzugefügt (lokaler Datenverkehr bleibt erlaubt)…
+737	2/3 Startdienst wird installiert („cachy-shield-firewall“, Ihre nftables.conf bleibt unberührt)…
+738	2/4 Regeln (Dienste, die Sie als „erlaubt“ markiert haben, und eigene Regeln), dauerhaft…
+739	2/4 Regeln (Dienste, die Sie als „erlaubt“ markiert haben, und eigene Regeln)…
+740	3/3 Fertig: Port $1/$2 ist aus dem Netzwerk nicht mehr erreichbar, bis zum nächsten Neustart.
+741	3/4 Protokollierung abgelehnter Pakete: $1
+742	Adresse ignoriert: $1
+743	Lokale oder reservierte Adresse ignoriert: $1
+744	Keine Regel gefunden (bereits entfernt, zum Beispiel nach einem Neustart).
+745	Port $1/$2 freigegeben.
+746	Ungültige Regeln: Es wurde nichts geändert.
+747	firewalld aktiviert: Er bleibt bei jedem Start aktiv.
+748	firewalld deaktiviert.
+749	ufw aktiviert: Er bleibt bei jedem Start aktiv.
+750	ufw deaktiviert.
+751	<private temporäre Datei>
+752	Kein Projektordner zu analysieren: Fügen Sie welche mit „Ordner…“ hinzu (Seite Schwachstellen, Kachel „Ihre Projekte“).
+753	Zu analysierende Ordner
+754	Entwicklungsabhängigkeiten einbeziehen (--include-dev-deps) — nur Code-Projekte
+755	Anfragen über diesen Proxy senden (http, https, socks5).
+756	Präzise
+757	Ihre Projektordner, durch „;“ getrennt. Verwalten Sie sie mit der Schaltfläche „Ordner…“ auf der Seite Schwachstellen.
+758	✔ Das Programm wurde beendet.
+759	✔ Update beendet. Starten Sie die Analysen erneut, um die verbleibenden Schwachstellen zu prüfen.
+760	(Snapshot nicht möglich: Die Änderung bleibt umkehrbar)
+761	1/3 package.json und package-lock.json werden gesichert (Endung .cs-backup-$1)…
+762	1/4 Sicherheits-Snapshot (snapper)…
+763	2/3 $1 wird auf $2 aktualisiert (ohne Installationsskripte auszuführen)…
+764	2/4 Einstellung wird geschrieben…
+765	3/3 Fertig. Zum Rückgängigmachen: Kopieren Sie die Dateien „.cs-backup-$1“ über package.json und package-lock.json.
+766	3/4 Konfiguration wird geprüft…
+767	4/4 SSH wird neu geladen (offene Sitzungen werden nicht getrennt)…
+768	ufw wird deaktiviert
+769	firewalld wird deaktiviert
+770	Das Rückgängigmachen ist fehlgeschlagen oder wurde abgelehnt.
+771	Verwendete Firewall: nftables, in einer eigenen Tabelle der Anwendung.
+772	Es wurde nichts geändert (Autorisierung abgelehnt oder Fehler: siehe oben).
+773	major — kann das Projekt beschädigen
+774	package.json in diesem Ordner nicht gefunden.
+775	patch — am sichersten
+776	Fehlschlag: Originaldateien wiederhergestellt.
+777	⚠ VOR DEM UPDATE ERKANNTE RISIKEN:
+778	Diese Bibliothek wird mit einem installierten Programm mitgeliefert: Sie wird durch ein Update dieses Programms behoben. Gibt es noch kein Update, haben die Paketquellen die Korrektur nicht veröffentlicht.
+779	Home-Ordner nicht gefunden: Die Bereinigung ist nicht verfügbar.
+780	Für alles aus dem Netzwerk verweigert
+781	Trivy (Aqua Security) — in installierten Programmen gefundene Bibliotheken
+782	in
+783	Kein Ergebnis
+784	Unlesbares Ergebnis
+785	leerer oder ungültiger Befehl
+786	Befehlsform abgelehnt
+787	Der Helfer antwortet nicht mehr
+788	pacman-Optionen nicht erlaubt
+789	Prüfprogramm nicht erlaubt
+790	Programm nicht erlaubt
+791	Sicherungen: eigene Firewall-Tabelle, Ihre anderen Regeln werden nicht berührt
+792	kann jederzeit über diese Kachel ausgeschaltet werden.
+793	Zwei Möglichkeiten: „Bis zum Neustart“ (nach dem nächsten Start bleibt nichts zurück, der sicherste Weg zum Ausprobieren) oder „Dauerhaft“ (ein kleiner Startdienst „cachy-shield-firewall“ stellt sie bei jedem Start wieder her; Ihre Datei nftables.conf wird nicht geändert).
+794	Kann derzeit nicht aktiviert werden: Dem laufenden Kernel fehlen die installierten Module (der Kernel wurde ohne Neustart aktualisiert). Starten Sie den Computer neu und kommen Sie dann hierher zurück. Bis dahin können Sie ansehen, was angewendet würde, und Ihre Regeln bearbeiten (Abschnitt „Firewall-Regeln“ auf der Netzwerkseite).
+795	pacman-Cache bereinigt (die letzten 3 Versionen bleiben erhalten).
+796	Alte Protokolle entfernt (die letzten 14 Tage bleiben erhalten).
+797	pacman-Cache und alte Protokolle bereinigt.
+798	NVD: Prüfen, ob der Katalog antwortet (NIST)
+799	NVD: $1 CVEs insgesamt im Katalog
+800	NVD: Antwort erhalten, aber unlesbar
+801	Live: auf Anfrage gesucht (Seite Weltweite Schwachstellen) · die Schaltfläche prüft, ob NVD antwortet
+802	Das gesamte AUR in einem Terminal aktualisieren…
+803	In einem Terminal aktualisieren
+804	AUR aktualisieren
+805	Terminal öffnen
+806	Ein Terminal wird geöffnet und führt aus:
+807	• „{assistant}“ zeigt die Änderungen jedes PKGBUILD: Prüfen Sie sie, bevor Sie zustimmen.\n• Das Passwort wird in diesem Terminal abgefragt: Die Anwendung sieht es nie.\n• AUR-Pakete werden von Arch nicht geprüft: 2026 wurden einige AUR-Pakete mit Schadcode präpariert.
+808	Fertig
+809	Drücken Sie die Eingabetaste, um dieses Fenster zu schließen…
+810	Kein Terminal gefunden
+811	Das Terminal konnte nicht geöffnet werden
+812	Paket abgelehnt
+813	„In einem Terminal aktualisieren“ öffnet Ihr Terminal: $1 zeigt dort die PKGBUILD-Änderungen, damit Sie sie vor dem Zustimmen prüfen können, und das Passwort wird dort eingegeben (die Anwendung sieht es nie).
+814	Die Anwendung umgeht diese Prüfung nie: nie eine stille Installation (kein --noconfirm oder --skipreview).
+815	Das gesamte AUR mit $1 in einem Terminal aktualisieren (PKGBUILD-Prüfung, Passwort wird im Terminal eingegeben)
+816	$1 mit $2 in einem Terminal aktualisieren (PKGBUILD-Prüfung)
+817	AUR aktualisieren (Prüfung in der Anwendung)…
+818	Aktualisieren (Prüfung in der Anwendung)
+819	AUR aktualisieren…
+820	AUR aktualisieren?
+821	Herunterladen und prüfen
+822	Fehlende Werkzeuge
+823	Die AUR-Aktualisierung in der Anwendung benötigt „git“ und „makepkg“ (Pakete git und base-devel). Installieren Sie sie oder nutzen Sie „In einem Terminal aktualisieren“.
+824	AUR-Rezepte werden heruntergeladen
+825	AUR-Pakete werden installiert
+826	Weitere Dateien (nicht angezeigt)
+827	Paket
+828	Revision
+829	Vor der Installation prüfen:
+830	Keine automatische Warnung: Lesen Sie den Text unten trotzdem.
+831	Wenn Sie etwas beunruhigt oder Sie das Skript nicht verstehen, wählen Sie „Dieses Paket überspringen“.
+832	Dieses Paket überspringen
+833	Ich habe es geprüft: installieren
+834	Ein Systemfenster fragt für jedes Paket nach Ihrem Passwort.
+835	Pakete werden geprüft
+836	⚠ lädt ein Skript herunter und führt es aus (curl/wget an sh) im PKGBUILD
+837	lädt während des Baus Dateien herunter (curl/wget): Prüfen Sie, woher sie kommen
+838	⚠ enthält codierte Inhalte (base64)
+839	⚠ verwendet „eval“
+840	⚠ öffnet eine rohe Netzwerkverbindung
+841	⚠ setzt das setuid/setgid-Bit
+842	aktiviert oder startet einen Systemdienst
+843	ändert Benutzerkonten oder Rechte
+844	verwendet eine unverschlüsselte Adresse (http://)
+845	die Integrität mindestens einer Quelle wird nicht geprüft (SKIP)
+846	⚠ berührt eine sensible Datei ($1)
+847	Herunterladen: $1 / $2
+848	Installation: $1 / $2
+849	Paket $1 / $2: $3
+850	Beendet mit $1 {Fehlschlag|Fehlschläge}
+851	$1: abgelehnt
+852	✔ $1 installiert
+853	✘ $1: fehlgeschlagen (Code $2). Wenn eine Abhängigkeit ebenfalls aus dem AUR stammt, aktualisieren Sie sie zuerst.
+854	══ $1 ($2/$3) ══
+855	$1 AUR-Update(s) ausstehend: Nutzen Sie die Schaltfläche „AUR aktualisieren…“ unten (PKGBUILD-Prüfung in der Anwendung).
+856	$1: Download fehlgeschlagen ($2)
+857	„$1“ ist ein symbolischer Link: aus Sicherheitsgründen abgelehnt
+858	dieses Repository enthält kein PKGBUILD
+859	1 Update verfügbar
+860	{n} Updates verfügbar
+861	{n} in den offiziellen Paketquellen
+862	{n} im AUR (vor der Installation prüfen)
+863	{n} sensible(s) Element(e): Sie werden vor der Installation gewarnt
+864	Öffnen Sie „Updates“, um sie zu installieren.
+865	installiert eine geplante Aufgabe (cron): Prüfen Sie, was sie ausführt
+866	$1 AUR-Update(s) ausstehend ($2): wird gleich danach in einem zweiten Schritt behandelt. Das AUR verlangt die Prüfung jedes PKGBUILD (2026 wurden AUR-Pakete mit Schadcode präpariert): Sie prüfen sie in der Anwendung, bevor etwas installiert wird.
+867	$1 AUR-Update(s) verfügbar
+868	AUR-Pakete werden von Arch nicht geprüft: Sie prüfen jedes PKGBUILD vor der Installation.
+869	$1 AUR-Update(s)
+870	Die offiziellen Paketquellen sind aktuell. „Beheben“ lädt die AUR-Rezepte herunter, Sie prüfen sie, dann werden sie installiert.
+871	$1 AUR-Update(s) ausstehend: nächster Schritt, PKGBUILD-Prüfung (nächstes Fenster).
+872	Schritte: 1) Die Rezepte (PKGBUILD) werden heruntergeladen; 2) SIE prüfen jedes einzelne; 3) das Geprüfte wird gebaut und installiert.
+873	AUR-Pakete werden von Arch nicht geprüft: Prüfen Sie sorgfältig und überspringen Sie jedes Paket, dessen Skript Sie beunruhigt. Ein Systemfenster fragt für die Installation nach Ihrem Passwort (die Anwendung sieht es nie).
+874	✘ git ist nicht installiert
+875	✘ kein Cache-Ordner
+876	✘ git fehlgeschlagen
+877	✘ Ordner nicht gefunden
+878	✘ makepkg nicht gefunden (Paket base-devel)
+879	✘ „env“ nicht gefunden
+880	✘ ungültiger Paketname: $1
+881	✘ $1: Download fehlgeschlagen ($2)
+882	Adresse abgelehnt.
+883	Ziel abgelehnt.
+884	In der dauerhaften Konfiguration gespeichert: noch nicht angewendet (Neuladen nötig).
+885	Name abgelehnt.
+886	Vorgang abgelehnt.
+887	Port abgelehnt.
+888	Protokoll abgelehnt.
+889	Mit Meldung zurückweisen
+890	Mit Meldung zurückweisen (Standard)
+891	Regel abgelehnt.
+892	Wert abgelehnt.
+893	Zone abgelehnt.
+894	wählen Sie einen Dienst ODER einen Port, nicht beides
+895	ungültige Familie (ipv4 oder ipv6)
+896	firewalld ist gestoppt: Die Regeln werden angewendet, wenn er aktiviert wird.
+897	ungültiger Port (1 bis 65535 oder ein Bereich 8000-8100)
+898	leere Regel: Geben Sie eine Quelle, einen Dienst oder einen Port an
+899	ein Limit gilt nicht für „drop“
+900	Stillschweigend ignorieren
+901	Alles erlauben
+902	Aktion abgelehnt.
+903	Argument abgelehnt: $1
+904	Befehl abgelehnt.
+905	Modus abgelehnt.
+906	Stufe abgelehnt.
+907	Richtlinie abgelehnt.
+908	Regel zu lang.
+909	Richtung abgelehnt.
+910	Zeichen nicht erlaubt
+911	ungültiger Port (1 bis 65535, Bereich 8000:8100 oder Liste 80,443)
+912	leere Regel: Geben Sie mindestens einen Port, eine Adresse, ein Protokoll oder eine Schnittstelle an
+913	ein Port erfordert das Protokoll TCP oder UDP
+914	ungültige Aktion
+915	ungültige Richtung
+916	ungültiges Protokoll
+917	ungültige Schnittstelle
+918	ungültige Quelladresse für ipv4
+919	ungültige Quelladresse für ipv6
+920	ungültiger Dienstname
+921	ungültiges Limit (Beispiel: 10/m)
+922	ungültige $1-Adresse (IPv4 oder IPv6, optional mit /Netzwerk)
+923	An diese Zone gebundene Quelladressen
+924	Regeln anzeigen
+925	Port hinzufügen
+926	Port hinzufügen…
+927	Dienst hinzufügen
+928	Dienst hinzufügen…
+929	Adresse oder Netzwerk hinzufügen…
+930	Detaillierte Regel hinzufügen
+931	Detaillierte Regel hinzufügen…
+932	ufw-Regel hinzufügen
+933	Diese Regel jetzt anwenden?
+934	Jetzt anwenden (firewalld neu laden)
+935	Es ist keine System-Firewall (ufw, firewalld) installiert: Die Anwendung nutzt ihre eigene nftables-Tabelle. Die Regeln unten werden gespeichert und bei der Aktivierung angewendet. Um ufw oder firewalld zu verwalten, installieren Sie eine davon: Dieses Fenster passt sich an.
+936	Kein vordefinierter Dienst gefunden (unvollständiges firewalld-Paket?).
+937	Kein ICMP-Typ gefunden (unvollständiges firewalld-Paket?).
+938	Kein Dienst
+939	Kein Typ
+940	Kein Dienst.
+941	Kein Port.
+942	Keine detaillierte Regel.
+943	Noch keine Regel gespeichert.
+944	Keine firewalld-Zone in /etc/firewalld oder /usr/lib/firewalld gefunden: Prüfen Sie, ob das Paket firewalld vollständig installiert ist.
+945	Keine. Wenn Sie ein Netzwerk (z. B. 192.168.0.0/24) an eine Zone binden, gelten die Regeln dieser Zone dafür.
+946	Keine. Das Blockieren von „echo-request“ macht den Computer für Ping stumm.
+947	Niedrig (empfohlen)
+948	ICMP-Typ blockieren
+949	ICMP-Typ blockieren…
+950	Blockieren
+951	Ändern
+952	Standardzone ändern?
+953	Wählen Sie einen vordefinierten Dienst (ssh, http, samba…). Er wird in dieser Zone erlaubt.
+954	Kombinieren Sie eine Quelle und einen Dienst ODER einen Port. Diese Regel wird in der dauerhaften Konfiguration der Zone gespeichert.
+955	Standardverhalten
+956	Ziel: IP oder Netzwerk (leer = überall)
+957	Quelle: IP oder Netzwerk (leer = überall)
+958	Deaktiviert
+959	Beispiel: echo-request blockiert eingehende Pings.
+960	Geben Sie eine IPv4- oder IPv6-Adresse ein, optional mit /Netzwerk.
+961	Netzwerkschnittstellen dieser Zone (von NetworkManager oder firewalld verwaltet)
+962	Protokoll abgelehnter Pakete
+963	Diese Regel protokollieren
+964	Der Port wird in dieser Zone erlaubt.
+965	Lesen nicht möglich (Autorisierung verweigert oder Fehler).
+966	Verbindungen von dieser Adresse folgen den Regeln dieser Zone.
+967	ufw-Regeln können nur mit Administratorrechten gelesen werden: Ihr Passwort wird beim Klick auf „Regeln anzeigen“ abgefragt.
+968	Die gespeicherten Regeln gelten sofort. Wenn Sie den Dienst entfernt haben, der SSH erlaubt, könnten Sie den Fernzugriff verlieren.
+969	Standardverhalten ändern?
+970	Verwendete Firewall
+971	Verwendete Firewall:
+972	Mehrere Firewalls sind installiert: Wählen Sie die, die die Anwendung verwenden soll. Es sollte jeweils nur eine aktiv sein.
+973	Port (1 bis 65535) oder Bereich 8000-8100
+974	Port, Bereich 8000:8100 oder Liste 80,443
+975	Erlaubte Ports
+976	Eine Quelle an diese Zone binden
+977	Verweigern (empfohlen)
+978	Zurückweisen (mit Meldung)
+979	Entfernen
+980	Dieses Element entfernen?
+981	Neu laden
+982	firewalld neu laden?
+983	Detaillierte Regeln
+984	In ufw gespeicherte Regeln
+985	Allgemeine Einstellungen
+986	Erlaubte Dienste
+987	Diese Regel löschen?
+988	Alle Ablehnungen
+989	Unicast-Ablehnungen
+990	Broadcast-Ablehnungen
+991	Multicast-Ablehnungen
+992	Netzwerkadressübersetzung (NAT), um die Verbindung dieses Computers zu teilen
+993	Von den Regeln nicht erfasster Datenverkehr
+994	Blockierte ICMP-Typen
+995	Diese Zone als Standard verwenden
+996	eingehend (Standard)
+997	ausgehend (Standard)
+998	Protokoll
+999	Ablehnungsprotokoll
+1000	Standardzone
+1001	firewalld ist aktiv: Das Entfernen wird in der dauerhaften Konfiguration gespeichert und gilt beim nächsten Neuladen.
+1002	firewalld ist aktiv: Ihre Änderungen werden in der dauerhaften Konfiguration gespeichert und gelten erst beim Neuladen (Schaltfläche unten).
+1003	firewalld ist deaktiviert: Sie können seine Regeln lesen und bearbeiten; sie gelten bei der Aktivierung. Von diesem Fenster aus wird nichts aktiviert.
+1004	nftables (in die Anwendung eingebaut)
+1005	ufw ist aktiv: Jede Änderung gilt sofort (Sie werden vorher gewarnt).
+1006	ufw ist aktiv: Die Regel verschwindet sofort. Wenn sie SSH erlaubt, könnten Sie den Fernzugriff verlieren.
+1007	ufw ist aktiv: Die Regel gilt sofort.
+1008	ufw ist aktiv: Die Änderung gilt sofort. Das Verweigern des ausgehenden Datenverkehrs kann Ihren Internetzugang kappen.
+1009	ufw ist deaktiviert: Die Regel wird gespeichert und bei der Aktivierung angewendet.
+1010	ufw ist deaktiviert: Sie können seine Regeln lesen und bearbeiten; sie gelten erst bei der Aktivierung. Von diesem Fenster aus wird nichts aktiviert.
+1011	Fehlschlag
+1012	Hoch
+1013	ufw-Zustand
+1014	firewalld-Zustand
+1015	… oder ein Port, z. B. 8080 oder 8000-8100
+1016	Erkannte Firewall:
+1017	ihre echten Regeln (Zonen, Dienste, Ports, detaillierte Regeln) können im Editor gelesen und bearbeitet werden, auch bei deaktivierter Firewall.
+1018	Firewall-Editor öffnen…
+1019	schreibgeschützt
+1020	Zone
+1021	Eingehend
+1022	Ausgehend
+1023	Mittel
+1024	Vollständig
+1025	Limit, z. B. 10/m (optional)
+1026	Begrenzen (Missbrauchsschutz: 6 Verbindungen / 30 s)
+1027	Eingehend (zu diesem Computer)
+1028	Ausgehend (von diesem Computer)
+1029	Schnittstelle, z. B. enp5s0 (optional)
+1030	Protokoll
+1031	Schnittstelle
+1032	Familie
+1033	Limit
+1034	Richtung
+1035	Alle
+1036	(keine)
+1037	Stillschweigend verwerfen
+1038	Erlauben
+1039	Verweigern
+1040	Zurückweisen
+1041	Begrenzen
+1042	Antwort von ufw
+1043	(leer)
+1044	Antwort von ufw (Code $1):
+1045	Added user rules (see 'ufw status' for running firewall):
+1046	(None)
+1047	Läuft… ($1 s)
+1048	Analyse läuft… ($1 s)
+1049	Analyse $1 / $2: $3
+1050	Schritt $1 / $2: $3
+1051	Alle Analysen sind beendet
+1052	Analysen beendet
+1053	Alle Analysen sind beendet: Die Ergebnisse stehen im Dashboard.
+1054	Vorgang läuft… (ein Fenster kann nach Ihrem Passwort fragen)
+1055	(SSH läuft nicht: Die Einstellungen gelten beim Start)
+1056	2/4 Einstellungen der Anwendung werden entfernt…
+1057	2/4 Einstellungen werden geschrieben…
+1058	3/4 Konfiguration wird geprüft (sshd -t)…
+1059	1/4 Sicherheits-Snapshot (snapper)…
+1060	4/4 SSH wird neu geladen (offene Sitzungen werden nicht getrennt)…
+1061	Lauschadressen
+1062	Grafische Programme des Servers auf Ihrem Bildschirm anzeigen.
+1063	Letzte Anmeldung anzeigen
+1064	Nachricht des Tages anzeigen
+1065	Alte Methode (vertrauenswürdige Rechner). Vermeiden.
+1066	Alte, unsichere Methode. Auf „yes“ lassen.
+1067	Nach dieser Anzahl unbeantworteter Prüfungen wird die Sitzung geschlossen.
+1068	Danach wird eine nicht authentifizierte Verbindung getrennt. Kürzer = weniger untätige Verbindungen, die herumhängen.
+1069	Keine Anmeldemethode bliebe aktiv (kein Passwort, kein Schlüssel, keine Tastatur-Interaktion): Niemand könnte sich anmelden.
+1070	Erlaubt tun/tap-Schnittstellen.
+1071	Lässt ein Konto ohne Passwort die Anmeldung zu. Vermeiden.
+1072	Banner vor der Anmeldung
+1073	Kategorie des Systemprotokolls
+1074	Pfad einer Textdatei, die vor der Anmeldung angezeigt wird (rechtlicher Hinweis). „none“ = kein Banner.
+1075	Integritätscodes (MAC)
+1076	Komprimiert Daten: heute in einem schnellen Netzwerk kaum nützlich.
+1077	Ungültige Konfiguration: Änderung abgebrochen, es wurde nichts geändert.
+1078	Anmeldung des Kontos „root“
+1079	Anmeldung mit einem SSH-Schlüssel
+1080	Gleichzeitige nicht authentifizierte Verbindungen
+1081	Schaltet X11, Agent, Ports, Sockets und Tunnel auf einmal ab.
+1082	DEBUG protokolliert sehr viele sensible Daten: nur zur Fehlersuche.
+1083	Zeit für die Anmeldung (Sekunden)
+1084	Schalten Sie es aus, sobald Ihre SSH-Schlüssel eingerichtet sind: Brute-Force-Angriffe werden nutzlos.
+1085	Wenn deaktiviert, funktionieren nur Übertragungen und Befehle ohne Terminal.
+1086	Zusammen mit den Passwörtern deaktiviert, kann sich niemand mehr anmelden.
+1087	Erkennt tote Verbindungen. Deaktiviert, kann ein Netzwerkausfall Geistersitzungen hinterlassen.
+1088	Beispiel: „publickey“ (nur Schlüssel) oder „publickey,password“ (Schlüssel UND Passwort).
+1089	Datei(en) mit autorisierten Schlüsseln
+1090	Format „Start:Rate:Max“ (z. B. 10:30:60) oder eine Zahl: Darüber werden Verbindungen abgelehnt. Begrenzt Überflutungsangriffe.
+1091	Behalten Sie ein normales Konto mit sudo, bevor Sie root verbieten.
+1092	Erlaubte Gruppen
+1093	Verbotene Gruppen
+1094	Nur IPv4, nur IPv6 oder beides.
+1095	Dasselbe: Leer lassen, außer Sie haben einen bestimmten Bedarf.
+1096	.rhosts-Dateien ignorieren
+1097	ALLE Weiterleitungen verbieten
+1098	Bindet SSH in die Systemauthentifizierung ein (Konten, Sitzungen). Arch setzt es in seiner eigenen Datei bereits auf „yes“: Lassen Sie es so.
+1099	Für die Sicherheit nutzlos und verlangsamt die Verbindung, wenn DNS langsam ist.
+1100	Protokoll und Meldungen
+1101	Lässt einen Benutzer über ~/.ssh/environment Variablen vorgeben. Vermeiden.
+1102	Leer lassen: Die Werte von OpenSSH sind aktuell. Präfixe „+“ (hinzufügen), „-“ (entfernen), „^“ (an den Anfang) sind möglich.
+1103	Der empfohlene Weg, sich anzumelden.
+1104	Der Port, auf dem SSH lauscht.
+1105	Die erforderlichen Methoden verlangen ein Passwort, aber die Passwort-Anmeldung ist deaktiviert.
+1106	Die erforderlichen Methoden verlangen einen SSH-Schlüssel, aber für Ihr Konto ist kein Schlüssel hinterlegt.
+1107	Zeile abgelehnt: $1
+1108	Schlüsselwort abgelehnt: $1
+1109	Beschränkt SSH auf einige Adressen dieses Computers (durch Leerzeichen getrennt), zum Beispiel Ihre Adresse im lokalen Netzwerk.
+1110	Liste (durch Leerzeichen getrennt): NUR diese Konten können sich anmelden. Leer = alle.
+1111	Einmalpasswörter, Frage/Antwort. Arch deaktiviert es bereits.
+1112	Erforderliche Methoden
+1113	Vergessen Sie nicht Ihr eigenes Konto, sonst sperren Sie sich aus.
+1114	Detailgrad des Protokolls
+1115	Anzahl der gleichzeitig geöffneten Sitzungen pro Verbindung.
+1116	Anzahl der Versuche, bevor die Verbindung getrennt wird (üblicher Wert: 3 bis 4).
+1117	Namen von Variablen, die der Client senden darf (z. B. LANG LC_*).
+1118	Wo SSH nach autorisierten Schlüsseln sucht (Standard: .ssh/authorized_keys im Home-Ordner).
+1119	Wo das System die Meldungen von SSH ablegt.
+1120	Lässt Sie Ihre Schlüssel vom Server aus verwenden. Ausschalten, wenn nicht nötig.
+1121	Lässt Sie über SSH andere Rechner erreichen. „local“ oder „remote“: nur eine Richtung.
+1122	Lässt andere Rechner Ihre Port-Weiterleitungen nutzen.
+1123	Lauschport
+1124	Weitergeleitete Ports, vom Netzwerk aus sichtbar
+1125	Erinnert Sie an das Datum Ihrer letzten Anmeldung: nützlich, um ein Eindringen zu bemerken.
+1126	Weiterleitungen und Tunnel
+1127	Leitet Unix-Sockets weiter.
+1128	Lehnt Schlüssel ab, wenn ihr Ordner von anderen geändert werden kann.
+1129	Verpasste Antworten vor dem Trennen
+1130	NUR Mitglieder dieser Gruppen können sich anmelden.
+1131	Mitglieder dieser Gruppen können sich nie anmelden.
+1132	Diese Konten können sich nie anmelden.
+1133	SSH lauscht nur auf den aufgeführten Adressen. Existiert eine davon auf diesem Computer nicht, startet SSH beim nächsten Start nicht mehr.
+1134	Ohne PAM funktioniert die Anmeldung mit dem Systempasswort in der Regel nicht mehr.
+1135	Ohne einen für dieses Konto hinterlegten SSH-Schlüssel können Sie sich nicht mehr aus der Ferne anmelden. Testen Sie VORHER eine Anmeldung per Schlüssel.
+1136	Wenn Sie den Port ändern, öffnen Sie den neuen in der Firewall und informieren Sie Ihre Clients: Sonst können Sie sich nicht verbinden.
+1137	Fertig. Lassen Sie diese Sitzung offen und testen Sie eine NEUE Verbindung, bevor Sie sie schließen.
+1138	Nach der Anmeldung angezeigter Text.
+1139	Alle N Sekunden prüft SSH, ob die Gegenseite noch da ist. 0 = nie.
+1140	Netzwerktunnel (VPN über SSH)
+1141	Ein falscher Pfad = kein Schlüssel wird mehr erkannt. Ändern Sie ihn nur, wenn Sie wissen, warum.
+1142	Eine falsche Adresse macht SSH unerreichbar. Prüfen Sie, ob sie auf diesem Computer existiert.
+1143	Eine zu strenge Liste hindert ältere Clients an der Verbindung.
+1144	Eine nicht erfüllbare Methode sperrt alle aus.
+1145	Eine Root-Sitzung aus der Ferne ist offen: Änderung abgelehnt, um Sie nicht abzuschneiden.
+1146	Nur mit einem Unternehmensverzeichnis nützlich.
+1147	Erlaubte Benutzer
+1148	Verbotene Benutzer
+1149	VERBOSE protokolliert den Fingerabdruck des bei jeder Anmeldung verwendeten Schlüssels: nützlich, um herauszufinden, wer sich verbunden hat.
+1150	Vom Client akzeptierte Variablen
+1151	Umgebungsvariablen der Benutzer
+1152	DNS-Namen des Clients prüfen
+1153	Berechtigungen der Schlüsseldateien prüfen
+1154	Prüfen, ob der Client antwortet (Sekunden)
+1155	Prüfen Sie, ob Ihr Konto zu einer dieser Gruppen gehört.
+1156	ungültige Adresse (IPv4, IPv6 oder Adresse:Port)
+1157	absoluter Pfad erwartet (oder „none“)
+1158	wählen Sie Ja oder Nein
+1159	Format: Zahl oder Start:Rate:Max (z. B. 10:30:60)
+1160	der Start muss mindestens 1 sein
+1161	mögliche Methoden: publickey, password, keyboard-interactive, hostbased, gssapi-with-mic
+1162	ungültige Namen (nur Buchstaben, Ziffern, _ . - @ * ? !, durch Leerzeichen getrennt)
+1163	Rate von 0 bis 100 und Maximum mindestens gleich dem Start
+1164	laut den Einstellungen oben
+1165	„AllowGroups“ beschränkt die Anmeldung auf Mitglieder bestimmter Gruppen: Prüfen Sie, ob Ihr Konto dazugehört.
+1166	„no“: Niemand kann sich per SSH als root anmelden. „prohibit-password“: root nur mit einem Schlüssel.
+1167	„no“ deaktiviert auch die Anmeldung mit dem Systempasswort: Sie können sich möglicherweise nicht mehr verbinden.
+1168	Schlüsselaustausch
+1169	⚠ $1: Der geltende Wert weicht ab („$2“): eine andere Einstellung mit höherer Priorität oder eine Normalisierung durch sshd.
+1170	Niemand kann sich aus der Ferne per SSH anmelden. Das ist am sichersten, wenn Sie es nicht brauchen. Klicken Sie hier, um SSH einzustellen.
+1171	Mit SSH können Sie sich aus der Ferne an diesem Computer anmelden. Wenn Sie es nicht nutzen, deaktivieren Sie es besser. Klicken Sie hier, um SSH einzustellen.
+1172	Diese SSH-Einstellungen anwenden?
+1173	Trotzdem anwenden
+1174	Achtung: Gefahr, den Fernzugriff zu verlieren
+1175	Jede auf „Standard“ belassene Zeile wird nicht geändert: SSH behält seinen ursprünglichen Wert. Ihre Auswahl wird in eine einzige Datei der Anwendung geschrieben, nie in Ihre sshd_config. Vor dem Anwenden: Sicherung, Konfigurationsprüfung, automatisches Zurückrollen bei Ungültigkeit, Neuladen ohne Trennung Ihrer offenen Sitzungen. Lassen Sie eine Sitzung offen und testen Sie eine neue Verbindung, bevor Sie sie schließen.
+1176	Der Vorgang ist fehlgeschlagen oder wurde abgebrochen: Es wurde nichts geändert.
+1177	Der SSH-Server (OpenSSH) ist auf diesem Computer nicht installiert: Es gibt nichts einzustellen. Installieren Sie das Paket „openssh“, wenn Sie sich aus der Ferne verbinden möchten.
+1178	Die gewählten Einstellungen entsprechen bereits denen der Datei der Anwendung.
+1179	Empfohlen
+1180	Empfohlene Werte eintragen
+1181	Füllt die Felder mit üblichen Härtungswerten. Nichts wird angewendet, bis Sie auf „Anwenden“ klicken.
+1182	Nichts wurde behalten: Eine Sicherheitsprüfung hat die Änderung verhindert (siehe Meldung oben).
+1183	Einstellung abgelehnt: Sie würden sich aussperren
+1184	SSH-Einstellungen
+1185	Einstellungen angewendet. Testen Sie eine neue Verbindung, bevor Sie Ihre aktuelle Sitzung schließen.
+1186	Einstellungen des SSH-Servers
+1187	Schutzmaßnahmen: Sicherheits-Snapshot (snapper) · „sshd -t“-Prüfung · automatisches Zurückrollen bei ungültiger Konfiguration · Neuladen ohne Trennung Ihrer offenen Sitzungen. Lassen Sie eine Sitzung offen und testen Sie eine neue Verbindung, bevor Sie sie schließen.
+1188	Alles auf Standard zurücksetzen
+1189	gestoppt (die Einstellungen gelten beim Start)
+1190	Standard
+1191	Zustand des SSH-Dienstes
+1192	aktiv
+1193	Ja
+1194	Nein
+1195	Wirksam
+1196	Standard
+1197	alle
+1198	keine
+1199	alle
+1200	keine
+1201	OpenSSH-Werte
+1202	Verbindung
+1203	Authentifizierung
+1204	Wer sich anmelden darf
+1205	Verschlüsselung
+1206	Adressfamilien
+1207	Zeit für die Anmeldung
+1208	Sitzungen pro Verbindung
+1209	TCP-Keep-Alive-Nachrichten
+1210	Komprimierung
+1211	Passwort-Anmeldung
+1212	„Keyboard-interactive“-Anmeldung
+1213	Leere Passwörter
+1214	Versuche pro Verbindung
+1215	PAM verwenden
+1216	Authentifizierung über vertrauenswürdige Rechner
+1217	Kerberos-Authentifizierung (GSSAPI)
+1218	Interaktives Terminal
+1219	Port-Weiterleitung (TCP-Tunnel)
+1220	Weiterleitung des SSH-Agenten
+1221	Grafische Weiterleitung (X11)
+1222	Weiterleitung lokaler Sockets
+1223	Verschlüsselungsalgorithmen
+1224	Nachricht des Tages anzeigen
+1225	Nur IPv4, nur IPv6 oder beides.
+1226	Gestoppt
+1227	Sprache: automatisch
+1228	Sprache der Anwendung. „Automatisch“ folgt der Sprache Ihres Systems.
+1229	Sprache wechseln
+1230	Die Änderung gilt beim nächsten Start. Die Anwendung jetzt neu starten?
+1231	Später
+1232	Jetzt neu starten
+1233	$1 Bibliothek(en) · $2 Schwachstelle(n), davon $3 schwerwiegend
+1234	$1: $2 Bibliothek(en) mit bekannter Schwachstelle, insgesamt $3 Schwachstelle(n) ($4 schwerwiegend).
+1235	• $1: $2 Schwachstelle(n), davon $3 schwerwiegend · $4 · $5
+1236	Bibliotheken eines installierten Programms mit bekannten Schwachstellen.
+1237	Diese Bibliotheken werden mit einem installierten Programm geliefert: Sie werden durch ein Update dieses Programms behoben. Gibt es noch kein Update, ist vorerst nichts zu tun.
+1238	innerhalb der Versionsgrenzen des Projekts nicht möglich: Kein erlaubtes Update hebt $1 auf eine korrigierte Version an (mindestens $2 wird benötigt).$3 Nötig wäre ein MAJOR-Update eines dieser Pakete oder ein „overrides“-Eintrag in package.json: Nichts geschieht automatisch. Es wurde nichts geändert.
+1239	 Sie stammt von: $1.
+1240	npm kann $1 bis $2 anheben$3
+1241	⚠ TEILKORREKTUR: npm kann $1 bis $2 anheben; Version $3 würde alle Schwachstellen beheben, überschreitet aber die Grenzen des Projekts
+1242	$1 ist jetzt bei: $2
+1243	npm kann $1 bis $2 anheben, indem „$3“ aktualisiert wird (innerhalb der Grenzen des Projekts)
+1244	npm kann $1 bis $2 anheben
+1245	⚠ TEILKORREKTUR: npm kann $1 bis $2 anheben, indem „$3“ aktualisiert wird (innerhalb der Grenzen des Projekts); Version $4 würde alle Schwachstellen beheben, überschreitet aber die Grenzen des Projekts
+1246	⚠ TEILKORREKTUR: npm kann $1 bis $2 anheben; Version $3 würde alle Schwachstellen beheben, überschreitet aber die Grenzen des Projekts
+1247	Letzte Analyse
+1248	CVE-Datenbanken geprüft
+1249	⟳ Datenbanken werden geprüft…
+1250	nie
+1251	Letzte Analyse: {d}
+1252	CVE-Datenbanken geprüft — CISA: {k} · Trivy: {v}
+1253	Lokale Analyse dieses Computers (ss und /proc)
+1254	SSH-Korrektur wird rückgängig gemacht
+1255	SSH-Korrektur rückgängig machen
+1256	SSH-Korrektur rückgängig machen?
+1257	Korrektur anwenden
+1258	Arch Security Tracker (Sicherheitsteam von Arch Linux)
+1259	„$1“ wird beendet
+1260	„$1“ beenden?
+1261	„$1“ beenden (sauberes Beenden, PID $2)
+1262	„$1“ wird erzwungen beendet
+1263	Beenden nicht möglich
+1264	Aus der Anwendung nicht zu beenden: $1
+1265	Programm beenden: Es erhält eine saubere Beendigungsanfrage; nicht gespeicherte Daten können verloren gehen, und es startet nicht von selbst neu, außer ein Dienstmanager verwaltet es.
+1266	Keine größere Änderung erkannt: geringes Risiko, aber testen Sie trotzdem vor dem Anwenden.
+1267	Keine Korrektur
+1268	Es ist noch keine Korrektur veröffentlicht: Es gibt nichts zu installieren.
+1269	Für dieses Programm ist keine direkte Aktion sicher (siehe Empfehlung).
+1270	Kein besonders riskantes Update erkannt. Vorher und nachher wird ein snapper-Snapshot erstellt.
+1271	Keine Änderung wurde behalten: Eine Sicherheitsprüfung hat sie verhindert (siehe Meldung oben).
+1272	Keine kompatible Datei
+1273	anderer Benutzer
+1274	$1 Update(s) fehlgeschlagen: Die Daten dieser Quellen können veraltet sein.
+1275	Server werden blockiert
+1276	Port $1 wird blockiert
+1277	Blockieren
+1278	Diese Server blockieren?
+1279	Das Blockieren dieser Server kappt die Verbindungen zu diesen Adressen, ohne das Programm zu beenden. Achtung: Eine Website kann mehrere Adressen nutzen, und das Blockieren einer gemeinsam genutzten Adresse kann andere betreffen. Umkehrbar mit „Alle freigeben“.
+1280	Netzwerkzugriff blockieren: Das Programm läuft weiter und bleibt von diesem Computer aus nutzbar, aber nicht mehr von anderen Geräten. Die Sperre verschwindet beim Neustart (oder mit „Alle freigeben“).
+1281	Port $1 vom Netzwerk aus blockieren?
+1282	Port $1 vom Netzwerk aus blockieren (lokaler Zugriff bleibt möglich, bis zum Neustart)
+1283	Verbindungen zu $1 Server(n) blockieren: $2
+1284	KDE-/Qt-Desktop: Melden Sie sich nach dem Update ab und wieder an (oder starten Sie neu).
+1285	CISA-Katalog
+1286	Dieser Ordner enthält weder package.json noch package-lock.json noch pom.xml.
+1287	Der Befehl „fix“ von OSV-Scanner unterstützt weder requirements.txt noch Go-/Rust-Projekte: Notieren Sie sich dort die in der Spalte „Korrektur“ angezeigte Version und aktualisieren Sie sie von Hand.
+1288	Dieser Port ist bereits blockiert.
+1289	Dieses Programm gehört root (Systemdienst): Es zu beenden kann das System destabilisieren. Bevorzugen Sie „Netzwerkzugriff blockieren“, das nichts beendet.
+1290	Dieses Programm gehört einem anderen Benutzer.
+1291	Dieses Programm existiert nicht mehr, oder das Beenden ist nicht erlaubt (System- oder Sitzungsprogramm).
+1292	WAS DIE ANWENDUNG DIREKT TUN KANN
+1293	Was jetzt getan wird:
+1294	• In eine EIGENE Firewall-Tabelle der Anwendung wird eine Regel eingefügt: „Port {port}/{proto} für alles ablehnen, was von einem anderen Gerät kommt“
+1295	Wirkung: Das Programm läuft weiter und bleibt von diesem Computer aus nutzbar (der lokale Zugriff wird nicht blockiert), aber andere Geräte im Netzwerk können sich nicht mehr damit verbinden.
+1296	Schutzmaßnahmen: Ihre anderen Firewall-Regeln werden nicht berührt · die Sperre verschwindet beim Neustart · jederzeit über die Seite Netzwerk rückgängig zu machen.
+1297	Wenn ein anderes Gerät bei Ihnen zu Hause diesen Dienst nutzt (zum Beispiel ein zweiter Computer), wird es getrennt.
+1298	• Eingehende Verbindungen anderer Geräte werden abgelehnt, außer Antworten auf das, was Sie selbst öffnen, lokalem Datenverkehr und Ping
+1299	• Offen gehaltene Ports (Dienste, die Sie als „erlaubt“ markiert haben): $1
+1300	keine
+1301	Wirkung: Ihr Browser, Updates und alles, was SIE starten, funktionieren weiter. Ein anderes Gerät kann sich nicht mehr mit einem Dienst verbinden, den Sie nicht als „Erlauben“ markiert haben (Dateifreigabe, SSH, Remote-Desktop…).
+1302	Schutzmaßnahmen: eigene Firewall-Tabelle, Ihre anderen Regeln werden nicht berührt · verschwindet beim Neustart · jederzeit über diese Kachel abschaltbar.
+1303	Firewall wird aktiviert
+1304	Firewall wird deaktiviert
+1305	Anwendungs-Firewall deaktiviert.
+1306	Die Firewall wurde nicht aktiviert (Berechtigung verweigert oder Fehler: siehe oben).
+1307	• Erstellung der Datei /etc/ssh/sshd_config.d/10-cachy-shield.conf mit dem Inhalt „PermitRootLogin no“
+1308	Wirkung: Niemand kann sich mehr als „root“ per SSH anmelden, auch nicht mit einem Schlüssel. Sie können sich weiterhin mit Ihrem normalen Konto anmelden und dann sudo verwenden.
+1309	Schutzmaßnahmen: abgelehnt, wenn eine Root-Sitzung aus der Ferne offen ist · Sicherheits-Snapshot (snapper) · Konfiguration vor und nach der Änderung geprüft · automatisches Zurückrollen bei Problemen · jederzeit rückgängig zu machen.
+1310	Das ist das Programm selbst (oder Systemprozess Nr. 1): Es zu beenden würde die Anwendung oder das System schließen.
+1311	⚠ GROSSE ÄNDERUNG: $1
+1312	Auf osv.dev suchen
+1313	CISA — Katalog ausgenutzter Schwachstellen (KEV)
+1314	Befehl: $1
+1315	Wesentliche Systemkomponente: Starten Sie direkt nach dem Update neu.
+1316	Ungültige Konfiguration nach dem Entfernen: Prüfen Sie sshd_config.
+1317	Ungültige Konfiguration: Änderung abgebrochen.
+1318	Von OSV-Scanner vorgeschlagene Korrekturen (Vorschau)
+1319	Korrektur rückgängig gemacht.
+1320	Korrektur rückgängig gemacht: SSH ist wieder auf seiner ursprünglichen Einstellung.
+1321	Korrektur angewendet. Zum Rückgängigmachen: Schutz → diese Warnung → „Korrektur rückgängig machen“.
+1322	Korrektur: SSH ohne Root-Anmeldung
+1323	Port $1 wird freigegeben
+1324	Port $1 freigeben
+1325	Start: Ein Fehler kann den Systemstart verhindern (mit snapper können Sie zurückrollen).
+1326	{distro}-Paketquellen
+1327	Ordner sshd_config.d nicht gefunden: keine Änderung vorgenommen.
+1328	Start fehlgeschlagen
+1329	✘ fehlgeschlagen (siehe oben)
+1330	Begrenzen Sie in der Zwischenzeit die Gefährdung: Verwenden Sie diese Software nicht mit nicht vertrauenswürdigen Dateien oder Servern.
+1331	Einfach gesagt: Wenden Sie die Korrekturen oder Gegenmaßnahmen des Herstellers an; gibt es keine, nutzen Sie das Produkt nicht weiter.
+1332	$1 Schritt(e)
+1333	Erklärung der Prüfung $1
+1334	„$1“ gehört zu Ihrer Sitzung (Anzeige, Ton, Netzwerk oder Authentifizierung): Es zu beenden würde Ihre Sitzung schließen oder stören.
+1335	Offizielle Seite $1
+1336	Betroffene Datei(en): $1
+1337	Firmware / Microcode: wird beim nächsten Neustart angewendet.
+1338	Beenden erzwingen
+1339	Korrektur behalten
+1340	Es widersetzt sich: Beenden erzwingen?
+1341	Das System-Update installieren (enthält $1)
+1342	Anmeldung als „root“ über SSH verbieten?
+1343	Anmeldung als „root“ über SSH verbieten (umkehrbar, mit Sicherheits-Snapshot)
+1344	Die Korrektur ist fehlgeschlagen oder wurde abgebrochen: Es wurde nichts geändert.
+1345	Weiterlaufen lassen
+1346	Das Rückgängigmachen ist fehlgeschlagen: Es wurde nichts geändert.
+1347	Die Anwendung ändert Ihre Projekte NIE: Sie kopiert den Befehl oder zeigt eine Vorschau an einer Kopie. Testen Sie Ihr Projekt nach dem Update.
+1348	Die Korrektur $1 ist veröffentlicht, aber noch nicht in Ihren synchronisierten Paketquellen: Es gibt jetzt nichts zu installieren.
+1349	Das Freigeben ist fehlgeschlagen oder wurde abgebrochen.
+1350	Die Datei /etc/ssh/sshd_config.d/10-cachy-shield.conf wird gelöscht: SSH kehrt zu seiner ursprünglichen Einstellung zurück (root-Anmeldung nur mit Schlüssel).
+1351	Das Programm hat auf die Anfrage zum sauberen Beenden nicht geantwortet.
+1352	Das erzwungene Beenden (SIGKILL) unterbricht es sofort: Nicht gespeicherte Daten gehen verloren.
+1353	Das Programm hat sich nicht von selbst beendet.
+1354	Das Arch-Sicherheitsteam verfolgt diese Schwachstelle. Sobald eine Korrektur veröffentlicht ist, erscheint sie unter „Updates“.
+1355	Die Einstellung wird nicht berücksichtigt: Änderung abgebrochen.
+1356	Alle Sperren werden aufgehoben
+1357	Der Vorgang ist fehlgeschlagen oder wurde abgebrochen.
+1358	Lynis (CISOfy)
+1359	Lynis ändert das System nie, und diese Einstellung hängt davon ab, wie Sie es nutzen: Sie automatisch anzuwenden könnte ein von Ihnen genutztes Programm beschädigen. Es ist eine Empfehlung, die von Hand anzuwenden ist.
+1360	$1 Änderung(en) der Hauptversion: Gefahr, das Projekt zu beschädigen. Vor dem Anwenden testen.
+1361	Diesen Dienst erlauben (keine Änderung am System)
+1362	Aktualisieren Sie $1 in Ihrem Projekt von Version $2 auf Version $3 (oder neuer).
+1363	Aktualisieren
+1364	System aktualisieren?
+1365	System-Update
+1366	Kernelmodul / Grafiktreiber: Eine Inkompatibilität kann verhindern, dass die Anzeige beim nächsten Start funktioniert.
+1367	„$1“ nimmt Verbindungen anderer Geräte an auf: $2.
+1368	„$1“ hat offene Verbindungen zu $2 Server(n): $3.
+1369	Diese Warnung nicht mehr melden (keine Änderung am System)
+1370	✔ Das Programm wurde beendet.
+1371	✔ Update beendet. Starten Sie die Analysen erneut, um die verbleibenden Schwachstellen zu prüfen.
+1372	── Änderungen, die vorgenommen würden (Vorschau an einer Kopie) ──
+1373	AUR: Kein Helfer (paru, yay) erkannt, Ihre AUR-Pakete werden nicht überwacht.
+1374	AUR ($1): Kein Update ausstehend.
+1375	⚠ $1 AUR-Update(s) ausstehend ($2): HIER NICHT enthalten. Das AUR verlangt, jedes PKGBUILD vor der Installation zu lesen (2026 wurden AUR-Pakete mit Schadcode präpariert): Führen Sie „$3 -Sua“ in einem Terminal aus und lesen Sie die Unterschiede.
+1376	snapper erstellt Snapshots davor/danach: Sie können zurückrollen. Schließen Sie Ihre laufende Arbeit.
+1377	Kernel: Danach ist ein Neustart erforderlich. Externe Module (NVIDIA, VirtualBox, DKMS) müssen zum neuen Kernel passen, sonst starten die Grafikanzeige oder virtuelle Maschinen möglicherweise nicht mehr.
+1378	EMPFEHLUNG DER QUELLE — $1
+1379	── Zusammenfassung ──
+1380	Ihre Dateien in $1 wurden NICHT geändert.
+1381	OSV kennt keine korrigierte Version: Es gibt nichts zu aktualisieren.
+1382	OSV (osv.dev) — GitHub Advisory, PyPI, npm, Go, crates.io…
+1383	Seite $1 öffnen
+1384	$1 Paket(e) werden mit „pacman -Syu“ aktualisiert (vollständiges Update, nie teilweise).
+1385	Ungültiger Port.
+1386	Port vom Netzwerk aus blockiert. Zum Rückgängigmachen: Seite Netzwerk → „Aktive Sperren“.
+1387	Port freigegeben.
+1388	PostgreSQL (Benutzer $1)
+1389	Für das Ökosystem „$1“ ändert die Anwendung Ihre Projekte nicht: Ändern Sie die Version in der angezeigten Abhängigkeitsdatei.
+1390	Prozess Nr. $1 (Konto Nr. $2).
+1391	Programm beendet.
+1392	Programm: $1
+1393	Prozess Nr. $1
+1394	Es wird eine Anfrage zum SAUBEREN Beenden (SIGTERM) gesendet: Es hat Zeit zum Speichern und Schließen.
+1395	• Nicht gespeicherte Daten in diesem Programm können verloren gehen.
+1396	• Es startet nicht von selbst neu, außer ein Dienst verwaltet es.
+1397	• Ihre Sitzung und das System sind nicht betroffen.
+1398	Zu untersuchendes Projekt (package.json + package-lock.json oder pom.xml)
+1399	Projekt: $1
+1400	• Arbeitet an einer temporären KOPIE: Ihre Dateien werden nicht geändert.
+1401	• OSV-Scanner kann den Paketmanager ausführen (npm-Skripte, externe Registries): Fahren Sie nur fort, wenn Sie diesem Projekt vertrauen.
+1402	• Ein „major“-Upgrade kann das Projekt beschädigen: Testen Sie, bevor Sie irgendetwas anwenden.
+1403	Wie weit dürfen Versionen geändert werden?
+1404	Vorschlagen
+1405	Korrekturen vorschlagen?
+1406	Python wechselt die Nebenversion: Ihre virtuellen Umgebungen (venv) und pip-Pakete müssen neu erstellt werden, Ihre Python-Projekte können aufhören zu funktionieren.
+1407	Neustart empfohlen: Wesentliche Komponenten wurden aktualisiert.
+1408	Suchen Sie später erneut nach Updates: Die Korrektur kommt mit einem künftigen System-Update.
+1409	Ersetzen Sie die Bibliothek durch eine gepflegte Alternative oder beschränken Sie ihren Einsatz auf vertrauenswürdige Daten.
+1410	Nichts zu beenden
+1411	✘ Nichts Automatisches.
+1412	Nichts wurde blockiert (Berechtigung verweigert oder Fehler).
+1413	Nichts wurde blockiert (Berechtigung verweigert oder Fehler: siehe oben).
+1414	HOHES RISIKO
+1415	⚠ VOR DEM UPDATE ERKANNTE RISIKEN:
+1416	Server blockiert. Zum Freigeben: Seite Netzwerk → „Aktive Sperren“.
+1417	Betroffene Server ($1):
+1418	Wirkung: Verbindungen von diesem Computer zu diesen Adressen werden für ALLE Programme abgelehnt. Eine Website kann mehrere Adressen nutzen, und eine gemeinsam genutzte Adresse (Host, CDN) kann andere Websites bedienen: Manche werden eventuell nicht mehr angezeigt.
+1419	Schutzmaßnahmen: nur öffentliche Adressen werden akzeptiert (nie Ihr lokales Netzwerk) · Ihre anderen Regeln werden nicht berührt · die Sperre verschwindet beim Neustart · rückgängig zu machen mit „Alle freigeben“.
+1420	$1 hat ein Update ausstehend ($2 → $3): Die Installation wendet die Korrekturen des Herstellers an.
+1421	Für „$1“ steht auf Ihrem Rechner kein Update aus. Die CISA-Liste nennt nicht, welche Versionen betroffen sind: Ist die Software aktuell, ist die Schwachstelle wahrscheinlich bereits behoben.
+1422	sshd_config bindet sshd_config.d nicht ein: keine Änderung vorgenommen.
+1423	sshd startet neu: Eine offene SSH-Sitzung kann getrennt werden.
+1424	Unter Arch Linux wird nur ein VOLLSTÄNDIGES System-Update unterstützt (nie ein einzelnes Paket), weil Pakete voneinander abhängen.
+1425	✔ erledigt
+1426	Fertig
+1427	Fertig.
+1428	Mit Fehlschlägen beendet
+1429	Mit Code $1 beendet (abgebrochen oder fehlerhaft)
+1430	Alle Sperren der Anwendung sind aufgehoben.
+1431	Alle Sperren sind aufgehoben.
+1432	Alle Datenbanken sind aktuell
+1433	Eine Korrektur existiert (Version $1). Das Paket $2 gehört zu den ausstehenden Updates: $3 → $4.
+1434	Eine Root-Sitzung aus der Ferne ist offen: Korrektur abgelehnt, um Sie nicht abzuschneiden.
+1435	Vor der Installation wird ein Sicherheits-Snapshot (snapper) erstellt: Sie können zurückrollen.
+1436	 — von Ransomware genutzt
+1437	Virtualisierung: Beenden Sie zuerst Ihre virtuellen Maschinen.
+1438	Vorschau auf Abhängigkeitskorrekturen ansehen (an einer Kopie, Ihre Dateien werden nicht geändert)
+1439	Ihr System ist aktuell: In den offiziellen Paketquellen steht kein Update aus.
+1440	Es gibt jetzt nichts zu beheben: Falls noch Schwachstellen aufgeführt sind, gibt es für Ihre Version keine veröffentlichte Korrektur (siehe deren Details).
+1441	EMPFEHLUNG
+1442	Empfehlung
+1443	Im Projekt aktualisieren: package.json und package-lock.json werden zuerst gesichert und bei einem Fehlschlag automatisch wiederhergestellt. Testen Sie Ihr Projekt nach dem Update.
+1444	Die Anwendung ändert Ihre Projekte nicht ohne Ihre Zustimmung: Sie kopiert den Befehl oder zeigt eine Vorschau an einer Kopie. Testen Sie Ihr Projekt nach dem Update.
+1445	$1 im Projekt auf $2 aktualisieren (vorher automatische Sicherung)
+1446	Im Projekt aktualisieren
+1447	npm nicht gefunden
+1448	Installieren Sie npm (Paket „npm“ oder „nodejs-lts“), um diese Abhängigkeit zu aktualisieren, oder kopieren Sie den Befehl und führen Sie ihn von Hand aus.
+1449	$1 auf $2 aktualisieren?
+1450	$1 wird aktualisiert
+1451	• Sicherung von package.json und package-lock.json („.cs-backup-…“-Dateien daneben)
+1452	• Befehl: $1
+1453	Wirkung: Die Abhängigkeit wird in DIESEM Projekt samt Lock-Datei aktualisiert. Es wird kein Installationsskript ausgeführt und kein Administratorrecht verwendet.
+1454	Schutzmaßnahmen: Bei einem Fehlschlag werden die Originaldateien automatisch wiederhergestellt · ein Sprung auf eine neue Hauptversion kann das Projekt beschädigen: Testen Sie es danach.
+1455	Abhängigkeit aktualisiert. Starten Sie die Projektanalyse erneut zur Prüfung und testen Sie Ihr Projekt.
+1456	Es wurde nichts geändert (die Originaldateien wurden bei Bedarf wiederhergestellt: siehe oben).
+1457	Aktualisieren
+1458	Nichts zu härten
+1459	Alle vorgeschlagenen Kernel- und Netzwerkeinstellungen haben bereits den empfohlenen Wert.
+1460	Was jetzt getan wird:
+1461	Katalog nicht heruntergeladen.
+1462	CISA KEV: $1 aktiv ausgenutzte Schwachstellen — Katalog $2 (veröffentlicht $3) — $4 betreffen möglicherweise Ihre Software.$5
+1463	kritisch in den letzten 7 Tagen
+1464	Kritisch in den letzten 7 Tagen
+1465	CVE-2021-44228 oder ein Stichwort: chrome, log4j, openssl…
+1466	NVD wird abgefragt…
+1467	Die NVD-Datenbank enthält über 400.000 CVEs. Suche auf Anfrage (Limit: 5 Anfragen / 30 s ohne API-Schlüssel).
+1468	$1: $2 Ergebnis(se) insgesamt in NVD, $3 angezeigt. Doppelklick: offizielle Seite öffnen.
+1469	Der Server begrenzt die Rate (NVD: 5 Anfragen pro 30 s ohne Schlüssel). Versuchen Sie es in einer Minute erneut.
+1470	Aktualisierung abgelehnt: $1. Der vorherige Katalog bleibt erhalten.
+1471	Neue aktiv ausgenutzte Schwachstellen
+1472	$1 neue Schwachstellen betreffen möglicherweise: $2
+1473	Keine Internetverbindung oder Server nicht erreichbar.
+1474	Möglich: $1
+1475	leere Antwort
+1476	CISA-KEV-Katalog wird heruntergeladen…
+1477	Download nicht möglich: $1
+1478	Download unterbrochen
+1479	Windows, macOS, Linux, Router, Browser, Server… Zwei offizielle Quellen: der CISA-KEV-Katalog (aktiv in freier Wildbahn ausgenutzte Schwachstellen) und die NIST-NVD-Datenbank (der weltweite Referenzkatalog). Der Abgleich mit Ihrer Software erfolgt über den Namen, ohne Versionsvergleich: zu überprüfen.
+1480	Aktiv ($1)
+1481	Verbindungsanalyse: $1 Fehlversuch(e), $2 IP
+1482	Administratorrechte verweigert oder Analyse abgebrochen.
+1483	Die Analyse kann nicht gestartet werden.
+1484	„$1“: Status „erlaubt“ geändert
+1485	Port $1 ($2) lauscht auf allen Schnittstellen und ist nicht als erlaubt markiert.
+1486	Neuer nicht autorisierter offener Port: $1
+1487	Neuer offener Port
+1488	Neue Verbindung: $1
+1489	Offene Ports, Netzwerkverbindungen und Eindringversuche. Automatische Aktualisierung, ohne Root-Rechte. Als erlaubt markierte Dienste lösen keine Warnung aus.
+1490	Erster Start: Bestätigen Sie die Dienste, die Sie erkennen, mit „Erlauben“.
+1491	Netzwerk ($1)
+1492	Wählen Sie einen auf allen Schnittstellen lauschenden Port. Er wird über seinen Prozess (oder seine Portnummer, falls unbekannt) identifiziert.
+1493	Überwachung gestartet
+1494	$1 zu prüfen
+1495	$1 Fehlversuch(e) von $2 IP(s) — $3 erfolgreiche SSH-Verbindung(en) in $4 Tag(en).
+1496	 · $1 erlaubt
+1497	arch-audit · {distro}-Pakete
+1498	arch-audit: Quelle prüfen (Arch Security Tracker)
+1499	Arch Security Tracker — security.archlinux.org (Sicherheitsteam von Arch Linux)
+1500	Über das System-Update zu synchronisieren
+1501	Keine Datenbank heruntergeladen: Trivy lädt sie bei der ersten Analyse herunter.
+1502	Schwachstellen-Datenbank vom $1 UTC (heruntergeladen am $2) — $3 Tag(e)$4
+1503	Lokale Datenbank: herunterzuladen
+1504	Lokale Datenbank: herunterzuladen (Administrator)
+1505	Trivy-Datenbank (Aqua Security) — offizieller Spiegel mirror.gcr.io/aquasec/trivy-db, ghcr.io als Ausweichmöglichkeit. Deckt Debian, Ubuntu, RHEL, Alpine… und Sprachen ab (Go, Python, Node, Rust, Java…)
+1506	Lokaler Katalog: herunterzuladen
+1507	Offizieller Katalog der CISA (US-Cybersicherheitsbehörde) über aktiv ausgenutzte Schwachstellen: Windows, Apple, Cisco, Linux, Browser…
+1508	CISA KEV · ausgenutzte Schwachstellen, alle Hersteller
+1509	Systempakete
+1510	Offizielle Paketquellen (pacman): Sie bringen die Korrekturen
+1511	✔ Letzte Aktualisierung erfolgreich: $1
+1512	Woher die Daten jedes Werkzeugs stammen und wie Sie sie aktuell halten. „Live“-Quellen werden bei jeder Analyse abgefragt: Es gibt nichts herunterzuladen.
+1513	✘ Letzte Aktualisierung fehlgeschlagen ($1)
+1514	Live (Online-API): immer aktuell
+1515	Live: bei jeder Analyse abgefragt
+1516	Live: Suche auf Anfrage (Seite Weltweite Schwachstellen)
+1517	Signaturdateien des rkhunter-Projekts, von dessen Spiegeln abgerufen
+1518	Mit dem Paket geliefert: von pacman aktualisiert
+1519	Wird von dieser Anwendung nie aktualisiert.
+1520	Lynis · Konfiguration
+1521	Lynis: Version der Regeln prüfen
+1522	System aktualisieren…
+1523	Datenbank-Updates
+1524	NIST National Vulnerability Database — über 400.000 CVEs
+1525	$1 nicht gefunden
+1526	NVD · weltweiter CVE-Katalog
+1527	OSV — osv.dev: PyPI, npm, crates.io, Go, Maven, RubyGems, GitHub Advisory und weitere Ökosysteme
+1528	OSV-Scanner · Abhängigkeiten Ihrer Projekte
+1529	$1 Update(s) ausstehend (manche können riskant sein: vor der Installation geprüft).
+1530	 ⚠ veraltet: aktualisieren
+1531	Von CISOfy im Lynis-Paket gelieferte Prüfregeln
+1532	rkhunter: Signaturen aktualisieren (Administrator)
+1533	rkhunter · Rootkits
+1534	unbekannte Quelle
+1535	System laut Paketquellen aktuell.
+1536	Trivy · Bibliotheken, Binärdateien, Systeme
+1537	Trivy: Schwachstellen-Datenbank herunterladen (Aqua Security)
+1538	Quelle prüfen
+1539	Version prüfen
+1540	leerer Katalog
+1541	curl nicht gefunden
+1542	Geben Sie eine CVE-Kennung (CVE-2021-44228) oder ein einfaches Stichwort ein (2 bis 80 Zeichen: Buchstaben, Ziffern, Leerzeichen, . _ : / + -).
+1543	Quelle nicht erlaubt
+1544	Administratorrechte verweigert oder Analyse abgebrochen
+1545	temporärer Ordner nicht möglich: $1
+1546	Start nicht möglich: $1
+1547	[… Ausgabe gekürzt: zu viele Zeilen …]
+1548	$1: Steuerzeichen verboten
+1549	$1: ungültiges Format
+1550	$1: Ein Wert darf nicht mit „-“ beginnen
+1551	$1: Wert zu lang
+1552	ungültiger Dateiname
+1553	System (lastb)
+1554	$1 rkhunter-Warnung(en) geprüft: Es sind Fehlalarme, unten bestätigt. Letzte Prüfung: $2
+1555	$1 harmlose Warnung(en), mit der Paketdatenbank geprüft.
+1556	Diese Datei UNTERSCHEIDET sich von der im Paket $1. Wenn Sie sie nicht selbst geändert haben, betrachten Sie den Rechner als möglicherweise kompromittiert.
+1557	Abgelehnte ausgehende Verbindungen
+1558	Korrektur verfügbar: $1
+1559	$1 Abhängigkeiten
+1560	Letzte Prüfung: $1
+1561	UNTERSCHIEDLICH zum Paket $1: verändert.
+1562	$1 Tracker-Einträge für „$2“: $3.
+1563	$1 Tracker-Einträge betreffen ältere Versionen (älter als Ihre): ignoriert, siehe unten.
+1564	$1 Schwachstellen · $2 · $3
+1565	Offizielle Datei des Pakets $1 $2, identisch mit dem Original: pacman hat ihren Fingerabdruck mit dem bei der Installation gespeicherten verglichen.
+1566	Offizielle Datei des Pakets $1 $2, identisch mit dem Original (mit pacman geprüft). $3
+1567	Datei: $1
+1568	Systemdatei: $1
+1569	Temporäre Datei von $1, das derzeit auf diesem Rechner läuft (Besitzer und Prozess geprüft).
+1570	Temporäre Datei: $1
+1571	⚠ $1 Element(e) mit hohem Risiko: Vorher wird ein Sicherheits-Snapshot erstellt.
+1572	$1 läuft…
+1573	Führen Sie den kopierten Befehl in einem Terminal aus: $1 zeigt die Unterschiede im PKGBUILD, damit Sie sie vor der Installation lesen können.
+1574	Der Tracker zielt auf Version $1; Sie haben $2: wahrscheinlich bereits behoben
+1575	$1 Software-Element(e)
+1576	Gemeinsamer Speicher von $1: normal.
+1577	auf $1 aktualisieren
+1578	$1 Update(s)
+1579	$1 Update(s) verfügbar
+1580	$1 Verbindung(en) zu $2 Server(n)
+1581	$1 Schwachstellen, davon $2 schwerwiegend · $3
+1582	$1 Schwachstellen, die von Angreifern ausgenutzt werden · zuletzt gemeldet am $2 · $3
+1583	AUR-PAKETE — VOR DER INSTALLATION PRÜFEN ($1)
+1584	Port $1/$2
+1585	Ports: $1
+1586	Warum rkhunter es meldet: $1
+1587	Systemprogramm: $1
+1588	Die als normal markierten $1 Warnung(en) wieder anzeigen
+1589	$1 Bedrohung(en)
+1590	$1 / 100
+1591	$1 zu untersuchen
+1592	$1 Element(e) zu untersuchen
+1593	Server $1
+1594	Systemdienst (Port $1)
+1595	$1 (Zielversion $2)
+1596	Ihre installierte Version ist $1, neuer als jede der Zielversionen.
+1597	$1 erlaubt
+1598	$1. Vom System bei Updates erstellt: normal.
+1599	$1. Der Inhalt der Datei wurde geprüft: Sie trägt tatsächlich das Zeichen ihres Erstellers.
+1600	aktiv ($1)
+1601	zu installieren · ⚠ $1 Element(e) mit hohem Risiko: Sie werden vorher gewarnt
+1602	⚠ $1 Analyse(n) konnte(n) nicht gestartet werden: $2
+1603	$1 verwundbare(s) Paket(e)
+1604	Letzte Analyse: $1   ·   CVE-Datenbanken geprüft — CISA: $2 · Trivy: $3$4
+1605	Letzte Analyse: $1
+1606	$1 Aufgabe(n) bearbeitet. Starten Sie erneut eine Analyse, um das Ergebnis zu prüfen.
+1607	$1 Software-Element(e), auf die echte Angriffe zielen
+1608	$1 Schwachstellen in Ihren Projekten
+1609	$1 Port(s) zu prüfen
+1610	Wert $1/100
+1611	$1 erlaubte(r) Dienst(e) · Firewall $2
+1612	inaktiv
+1613	$1 Warnung(en)
+1614	$1 Warnung(en), $2 {Vorschlag|Vorschläge} zur Härtung des Systems
+1615	(ungültige Option: $1)
+1616	Fertig — $1
+1617	$1 Software-Element(e) · $2 Schwachstellen
+1618	$1 (0 = Standard)
+1619	analysiert am $1
+1620	Zustand kann nicht gespeichert werden: $1
+1621	Hoch
+1622	Unbekannt
+1623	Info
+1624	Vorschlag
+1625	Live-Überwachung
+1626	Live-Ports und -Verbindungen
+1627	Erlaubt
+1628	Zu prüfen
+1629	$1 um $2
+1630	$1 ($2)
+1631	Aktion
+1632	Anzeige und Protokolle
+1633	Zeigt mehr Details auf dem Bildschirm.
+1634	Zeigt nur Pakete, für die bereits eine Korrektur existiert: Diese sind zu aktualisieren.
+1635	Fügt die Spalte „Benötigt von“ hinzu: Pakete, die von einem verwundbaren Paket abhängen.
+1636	Alternative zu /etc/rkhunter.conf.
+1637	Analysiert auch Entwicklungsabhängigkeiten. Im Modus „Dateisystem“ ignoriert (Trivy kennt es nur für Projekte).
+1638	Analysiert auch Git-Repositories, die keine Submodule sind.
+1639	Analysiert auch Dateien, die normalerweise durch .gitignore ausgeschlossen sind.
+1640	Vollständige Analyse
+1641	Aufrufanalyse
+1642	Analyse nicht beendet
+1643	Analyse nicht beendet: $1
+1644	Analysiert nur diese Datei (absoluter Pfad) statt eines Ordners.
+1645	Analysiert einen Ordner oder das ganze System: verwundbare Abhängigkeiten (Python, Node, Go, Rust…), offengelegte Geheimnisse, riskante Konfigurationen. Trivy behandelt keine pacman-Pakete (siehe arch-audit). Die erste Analyse lädt seine Schwachstellen-Datenbank herunter.
+1646	Scanner
+1647	arch-audit — bekannte Schwachstellen in Ihren Paketen
+1648	Keine Warnung
+1649	Keine Abhängigkeitsdatei gefunden
+1650	Keine (empfohlen unter Arch)
+1651	Kein Ergebnis (siehe Rohausgabe)
+1652	Vollständige Prüfung, unprivilegierter Penetrationstest oder forensische Analyse.
+1653	Vollständige Systemprüfung
+1654	Warnungen
+1655	Datenbank und Netzwerk
+1656	Referenzdatenbank fehlt: Führen Sie zuerst „Signaturen aktualisieren“ und dann „Referenzdatenbank initialisieren“ aus, idealerweise auf einem System, von dem Sie wissen, dass es sauber ist.
+1657	Lokale Datenbank
+1658	pacman-Datenbank
+1659	Bibliotheken (library)
+1660	Wonach gesucht werden soll
+1661	Analysierter Pfad. „/“ = das ganze System.
+1662	Sucht in allen Unterordnern nach Abhängigkeitsdateien.
+1663	Wählen Sie, was rkhunter tun soll.
+1664	$1: unbekannte Auswahl
+1665	Sprachcode, z. B. en.
+1666	Vergleicht Systemdateien mit einer Referenzdatenbank, sucht nach bekannten Rootkits, versteckten Prozessen oder Dateien. Einzelne Warnungen sind oft Fehlalarme. Erfordert Administratorrechte.
+1667	Vergleicht installierte Pakete mit dem Sicherheits-Tracker von Arch Linux (security.archlinux.org). AUR-Pakete sind nicht abgedeckt.
+1668	Verhalten
+1669	Konfigurationen (misconfig)
+1670	Behält die alten Ergebnisse im Protokoll.
+1671	Behandelt fehlende Dateien als normal.
+1672	Zuerst behobene
+1673	Sortierkriterium der Ausgabe.
+1674	Maximale Verzögerung
+1675	Datenbank-Repository
+1676	deps.dev (Standard)
+1677	deps.dev (Standard) oder native Auflösung.
+1678	Diese Tests deaktivieren
+1679	Nur diese Tests aktivieren
+1680	Nur Warnungen anzeigen
+1681	An das bestehende Protokoll anhängen
+1682	Deaktiviert jeden Netzwerkzugriff.
+1683	Detail
+1684	Zu analysierender Ordner
+1685	Ordner mit Ihren Projekten.
+1686	Plugin-Ordner von Lynis.
+1687	Plugin-Ordner
+1688	Ausgeschlossene Ordner
+1689	Ignorierte Ordner
+1690	In syslog schreiben
+1691	Alternativer Speicherort der pacman-Datenbank.
+1692	Speicherort des Protokolls.
+1693	Sendet Warnungen zusätzlich an syslog.
+1694	Fehler
+1695	Z. B. 10m, 1h.
+1696	Untersucht SSH, Firewall, Kernel, Berechtigungen, Konten, Dienste… und berechnet einen Härtungswert. Prüft die Konfiguration, nicht die CVEs der Pakete. Erfordert Administratorrechte.
+1697	Ausschlüsse
+1698	Als Administrator ausführen (pkexec)
+1699	Z. B. ssh, firewall, kernel…
+1700	$1 Schwachstellen in $2 Abhängigkeiten
+1701	Konfigurationsdatei
+1702	Profildatei
+1703	Protokolldatei
+1704	Dateien
+1705	Ignorierte Dateien
+1706	Berücksichtigte Dateien
+1707	Filter
+1708	Forensik
+1709	Paketmanager
+1710	Nur Go: meldet nur die tatsächlich aufgerufenen Schwachstellen. (Rust führt Build-Skripte aus: nicht angeboten.)
+1711	Schweregrad, dann Name
+1712	Schweregrade
+1713	Testgruppen
+1714	Durch Leerzeichen getrennte Kennungen, z. B. SSH-7440.
+1715	Ignoriert den in der Umgebung konfigurierten Proxy.
+1716	.gitignore ignorieren
+1717	Schwachstellen ohne Korrektur ignorieren
+1718	Plugins ignorieren
+1719	Git-Wurzel einbeziehen
+1720	Entwicklungsabhängigkeiten einbeziehen — nur Code-Projekte
+1721	Die [testing]-Paketquellen einbeziehen
+1722	Unterordner einbeziehen
+1723	Schließt auch Schwachstellen ein, die als unwichtig oder nicht aufgerufen eingestuft werden.
+1724	Referenzdatenbank initialisieren
+1725	Umkehren
+1726	Protokolliert Debug-Details.
+1727	Sprache der Meldungen
+1728	Lizenz
+1729	Lizenzen (license)
+1730	Zeile $1
+1731	Listet im JSON auch Pakete ohne Schwachstellen auf.
+1732	Tests auflisten
+1733	Durch Kommas getrennte Liste, z. B.: apps,hidden_ports
+1734	Durch Kommas getrennte Liste, z. B.: rootkits,hidden_procs
+1735	Liest die Abhängigkeitsdateien Ihrer Projekte (requirements.txt, package-lock.json, go.mod, Cargo.lock…) und vergleicht sie mit der OSV-Datenbank (GitHub, PyPI, Go, npm…). Ergänzt Trivy. Betrachtet keine pacman-Pakete.
+1736	Lynis — Konfigurations- und Härtungsprüfung
+1737	Verbirgt Schwachstellen, die noch kein Update behebt.
+1738	Signaturen aktualisieren
+1739	Modus
+1740	Prüfmodus
+1741	Debug-Modus
+1742	Offline-Modus: Aktivieren Sie zuerst „Datenbanken herunterladen“ — keine lokale Datenbank vorhanden, die Analyse würde fehlschlagen.
+1743	Offline-Modus
+1744	Schnellmodus, ohne Pausen
+1745	Zeigt auch Pakete aus den Testing-Paketquellen.
+1746	$1 nicht gefunden: Installieren Sie es mit pacman
+1747	Wartet zwischen den Abschnitten nicht auf einen Tastendruck.
+1748	Für eine vollständige Prüfung nötig. Ohne root werden viele Tests übersprungen.
+1749	Lädt die Plugins nicht.
+1750	Schreibt nicht in /var/log/lynis.log.
+1751	Schreibt nicht in /var/log/rkhunter.log.
+1752	Sendet keine externen Anfragen.
+1753	Sendet bei Warnungen keine E-Mail.
+1754	Nicht fehlschlagen, wenn keine Abhängigkeitsdatei vorhanden ist
+1755	Datenbank nicht aktualisieren
+1756	Keinen Proxy verwenden
+1757	Versucht nicht, die indirekten Abhängigkeiten der Manifeste aufzulösen.
+1758	Detailgrad
+1759	Anzuzeigende Schweregrade.
+1760	Anzahl der Worker.
+1761	Name des Prüfers
+1762	Paketname
+1763	Im Bericht eingetragener Name.
+1764	Vorgang
+1765	Vorgang beendet
+1766	Sortierreihenfolge
+1767	OSV-Scanner — Abhängigkeiten Ihrer Projekte (OSV-Datenbank)
+1768	Abhängige Pakete
+1769	$1 verwundbare(s) Paket(e) — $2 mit Korrektur
+1770	Standard
+1771	Keine E-Mail
+1772	Keine transitiven Abhängigkeiten
+1773	Keine Protokolldatei
+1774	Unprivilegierter Pentest
+1775	Leistung
+1776	Erlaubt das Lesen von Dateien, die root vorbehalten sind.
+1777	precise: weniger Fehlalarme; comprehensive: mehr Ergebnisse.
+1778	Erkennungspriorität
+1779	$1 Problem(e) erkannt
+1780	Eigenes Lynis-Profil (.prf), absoluter Pfad.
+1781	Code-Projekt (fs)
+1782	Proxy
+1783	Menge der angezeigten Informationen.
+1784	Beschränkt die Ausgabe auf Warnungen.
+1785	Maven-Registry
+1786	Alternative OCI-Registry.
+1787	Ersetzt osv-scanner.toml.
+1788	Erkennt Paketversionen, die als veraltet erklärt wurden.
+1789	Netzwerk und lokale Datenbank
+1790	Auflösung der Abhängigkeiten
+1791	Unlesbares Ergebnis (siehe Rohausgabe)
+1792	Nichts zu melden
+1793	rkhunter behandelt pacman nicht: Lassen Sie unter Arch „Keine“ gewählt (es nutzt seine eigene Fingerabdruck-Datenbank).
+1794	rkhunter — Suche nach Rootkits und veränderten Dateien
+1795	$1 mögliche(s) Rootkit(s), $2
+1796	rootfs: ganzes Dateisystem; fs: Code-Projekt.
+1797	Wert $1/100 — $2 Warnung(en), $3 {Vorschlag|Vorschläge}
+1798	$1 Warnung(en), $2 {Vorschlag|Vorschläge}
+1799	Geheimnisse
+1800	Geheimnisse (secret)
+1801	Testauswahl
+1802	Durch Kommas getrennt.
+1803	Durch Kommas getrennt. Präfixe: g:glob, r:regex oder exakter Name.
+1804	Schwelle für langsame Tests, Sekunden
+1805	Nur bereits behobene Pakete
+1806	Meldet Tests, die langsamer als diese Schwelle sind.
+1807	Veraltete Versionen melden
+1808	Ausführliche Ausgabe
+1809	Datenquelle
+1810	Paketquelle
+1811	Quelle und Netzwerk
+1812	Dateisystem (rootfs)
+1813	System (os)
+1814	System oder Bibliotheken.
+1815	Parallele Aufgaben
+1816	Lädt die Datenbanken für die Offline-Nutzung herunter.
+1817	Datenbanken herunterladen
+1818	Tests
+1819	Bestimmte Tests
+1820	Alle Pakete
+1821	Alle Schwachstellen
+1822	Trivy — Bibliotheken, Geheimnisse und Konfigurationen
+1823	Analysetyp
+1824	Pakettypen
+1825	Zu suchende Problemarten.
+1826	Eine bestimmte Abhängigkeitsdatei
+1827	URL der Maven-Registry.
+1828	https-URL oder JSON-Datei des Sicherheits-Trackers.
+1829	Verwendet die zuvor heruntergeladene Datenbank.
+1830	Verwendet die bereits heruntergeladenen Datenbanken.
+1831	Konfiguration prüfen
+1832	Version prüfen
+1833	Schwachstelle
+1834	Schwachstellen (vuln)
+1835	Datenbank-Repository (--db-repository)
+1836	Keine
+1837	Nur Warnungen
+1838	WARTUNG NACH DEM UPDATE
+1839	Zu bereinigen
+1840	Zu bearbeiten
+1841	Zu erledigen
+1842	Entfernen…
+1843	Bereinigen…
+1844	Neu starten…
+1845	Der Kernel wurde aktualisiert: Er wird erst nach einem Neustart wirksam.
+1846	Nichts aufzuräumen: keine verwaisten Pakete, Cache sauber, keine .pacnew-Dateien, kein Neustart ausstehend.
+1847	Klicken Sie, um zu sehen, wie Sie damit umgehen
+1848	.pacnew-Dateien
+1849	Zu vergleichende Konfiguration.
+1850	pacman — .pacnew-Dateien
+1851	Wenn ein Update eine neue Version einer von Ihnen geänderten Konfigurationsdatei mitbringt, behält pacman Ihre und legt die neue Version daneben ab (.pacnew).
+1852	Vergleichen Sie sie mit „sudo pacdiff“: Für jede Datei wählen Sie, ob Sie Ihre behalten, die neue übernehmen oder beide zusammenführen. Die Anwendung ändert sie nie von selbst: Eine falsche Wahl kann verhindern, dass ein Dienst startet.
+1853	$1 {verwaistes Paket|verwaiste Pakete}
+1854	$1 {alte Archivdatei|alte Archivdateien} oder {Archivdatei|Archivdateien} deinstallierter Pakete
+1855	$1 {Konfigurationsdatei|Konfigurationsdateien} zum Vergleichen (.pacnew)
+1856	Betroffene Dateien: $1
+1857	Werden entfernt ($1):
+1858	Verwaiste Pakete entfernen?
+1859	Diese Pakete werden von keinem anderen mehr verwendet: Sie wurden als Abhängigkeiten installiert, und nichts braucht sie noch.
+1860	Ihre Konfigurationsdateien werden ebenfalls entfernt. Sie können sie jederzeit mit pacman neu installieren.
+1861	Verwaiste Pakete werden entfernt
+1862	Verwaiste Pakete entfernt.
+1863	Es wurde nichts entfernt (Berechtigung verweigert, Paket wird wieder gebraucht oder Fehler: siehe oben).
+1864	Pacman-Cache bereinigen?
+1865	Der Cache enthält die Archive aller heruntergeladenen Pakete. Gelöscht werden: alte Versionen (die letzten 3 jedes Pakets bleiben erhalten) und Archive bereits deinstallierter Pakete.
+1866	Ihre Programme bleiben unberührt; nur die Archive für ein Zurücksetzen verschwinden.
+1867	Pacman-Cache wird bereinigt
+1868	Pacman-Cache bereinigt.
+1869	Es wurde nichts bereinigt (Berechtigung verweigert oder Fehler: siehe oben).
+1870	Neu starten
+1871	Ungenutzte Flatpak-Elemente entfernen?
+1872	Diese Flatpak-Elemente werden von keiner installierten Anwendung mehr verwendet.
+1873	Ungenutzte Flatpak-Elemente werden entfernt
+1874	Ungenutzte Flatpak-Elemente entfernt.
+1875	Es wurde nichts entfernt (Berechtigung verweigert oder Fehler: siehe oben).
+1876	Der Cache enthält die Archive aller heruntergeladenen Pakete: $1 {alte Archivdatei|alte Archivdateien} oder {Archivdatei|Archivdateien} deinstallierter Pakete können gelöscht werden.
+1877	Gelöscht werden: alte Versionen (die letzten 3 jedes Pakets bleiben erhalten) und Archive bereits deinstallierter Pakete.
+1878	Aktualisierte Dienste neu starten?
+1879	Diese Dienste verwenden alte Dateien, die durch das Update ersetzt wurden: Sie müssen neu gestartet werden, um die neuen Versionen zu verwenden.
+1880	Werden neu gestartet ($1):
+1881	Ein neu gestarteter Dienst ist eine Sekunde lang unterbrochen; der Sitzungsmanager (Anmeldebildschirm) wird nie neu gestartet.
+1882	Dienste werden neu gestartet
+1883	Dienste neu gestartet.
+1884	Einige Dienste wurden nicht neu gestartet (Berechtigung verweigert oder Fehler: siehe oben).
+1885	Für Ihre Flatpak-Anwendungen sind Updates verfügbar.
+1886	Flatpak-Anwendungen aktualisieren?
+1887	Werden aktualisiert ($1):
+1888	Flatpak-Anwendungen werden aktualisiert
+1889	Flatpak-Anwendungen aktualisiert.
+1890	Einige Flatpak-Anwendungen wurden nicht aktualisiert (Berechtigung verweigert oder Fehler: siehe oben).
+1891	Beenden

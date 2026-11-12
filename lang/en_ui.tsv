@@ -1,0 +1,1067 @@
+à analyser (droits administrateur) · correctif disponible	to scan (administrator rights) · fix available
+~^Actif \((.+)\)$	Active ($1)
+~^actif \((.+)\)$	active ($1)
+activée	enabled
+désactivée	disabled
+Désactivée	Disabled
+à installer · aucun risque particulier détecté	to install · no particular risk detected
+~^à installer · ⚠ (\d+) point\(s\) à risque élevé : vous serez prévenu avant$	to install · ⚠ $1 high-risk item(s): you will be warned beforehand
+Analyse	Scan
+Analysé	Scanned
+analyse déjà en cours	scan already running
+~^analysé le (\S+) à (\S+)$	scanned on $1 at $2
+Analyses administrateur : autorisation refusée, annulée ou en échec	Administrator scans: authorization refused, cancelled or failed
+~^⚠ (\d+) analyse\(s\) n'ont pas pu démarrer : (.+)$	⚠ $1 scan(s) could not start: $2
+ancienne faille : probablement déjà corrigée, vérifiez que le logiciel est à jour	old vulnerability: probably already fixed, check that the software is up to date
+Ancien protocole SSH 1	Old SSH protocol 1
+Aperçu sur une copie du projet (npm / Maven) avec évaluation du risque de casse. Vos fichiers ne sont pas modifiés.	Preview on a copy of the project (npm / Maven) with a breakage-risk assessment. Your files are not modified.
+Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.	Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.
+~^(\d+) paquet\(s\) vulnérable\(s\)$	$1 vulnerable package(s)
+Arch Security Tracker + comparaison de versions (vercmp de pacman)	Arch Security Tracker + version comparison (pacman's vercmp)
+À surveiller	Watch
+Attribution d'adresses réseau (DHCP)	Network address assignment (DHCP)
+Aucune	None
+aucune attaque réelle connue sur vos logiciels	no known real attack on your software
+Aucun paquet ne le possède car c'est systemd lui-même qui l'écrit à chaque mise à jour. Conclusion : normal.	No package owns it because systemd itself writes it at each update. Conclusion: normal.
+Aucun paquet officiel ne fournit ce fichier et il n'est pas d'un type connu comme normal : c'est inhabituel.	No official package provides this file and it is not of a type known to be normal: it is unusual.
+Aucun paquet officiel ne fournit ce fichier : inhabituel, examinez-le.	No official package provides this file: unusual, examine it.
+Aucun risque particulier détecté.	No particular risk detected.
+AUR (Arch User Repository)	AUR (Arch User Repository)
+AUR : aucun assistant (paru, yay) détecté : vos paquets AUR ne sont pas surveillés.	AUR: no helper (paru, yay) detected: your AUR packages are not monitored.
+~^AUR \((.+)\) : aucune mise à jour en attente\.$	AUR ($1): no update pending.
+Bases de données	Databases
+~^(\d+) alerte\(s\) de rkhunter examinée\(s\) : ce sont des faux positifs, vérifiés ci-dessous\. Dernière vérification : (.+)$	$1 rkhunter alert(s) examined: they are false positives, verified below. Last check: $2
+~^(\d+) alerte\(s\) sans danger, vérifiée\(s\) avec la base des paquets\.$	$1 harmless alert(s), verified against the package database.
+Bibliothèques	Libraries
+~^Bloquer le port (\d+)$	Block port $1
+catalogue absent	catalog missing
+~^Ce fichier est DIFFÉRENT de celui du paquet (\S+)\. Si vous ne l'avez pas modifié vous-même, considérez la machine comme potentiellement compromise\.$	This file is DIFFERENT from the one in package $1. If you did not modify it yourself, consider the machine as potentially compromised.
+Certaines peuvent bloquer le système si elles se passent mal : vous serez prévenu avant de les installer.	Some can block the system if they go wrong: you will be warned before installing them.
+Cette alerte ne désigne pas un fichier précis : l'application ne peut pas la vérifier automatiquement.	This alert does not designate a specific file: the application cannot verify it automatically.
+Cliquez pour voir ce que l'application peut faire et la recommandation de la source	Click to see what the application can do and the source's recommendation
+Cliquez pour voir ce qui est possible et la recommandation	Click to see what is possible and the recommendation
+Cliquez pour voir comment l'installer en sécurité	Click to see how to install it safely
+Cliquez pour voir la recommandation de Lynis	Click to see Lynis' recommendation
+Cliquez pour voir le détail et installer	Click to see the details and install
+Conclusion : faux positif, aucune correction nécessaire.	Conclusion: false positive, no fix needed.
+Conclusion : normal tant que ce programme est en cours d'exécution.	Conclusion: normal as long as this program is running.
+Connexions ouvertes vers Internet en ce moment (navigateur, mises à jour, etc.).	Connections open to the Internet right now (browser, updates, etc.).
+Connexion SSH en administrateur (root) non interdite explicitement	SSH login as administrator (root) not explicitly forbidden
+Connexions vers Internet	Connections to the Internet
+~^correctif disponible : (.+)$	fix available: $1
+~^Débloquer le port (\d+)$	Unblock port $1
+Découverte d'appareils sur le réseau (mDNS)	Device discovery on the network (mDNS)
+Découverte d'appareils (UPnP)	Device discovery (UPnP)
+~^(\d+) dépendance\(s\)$	$1 dependenc(y/ies)
+Dépendances vulnérables et secrets exposés.	Vulnerable dependencies and exposed secrets.
+~^Dernière analyse : (.+?)   ·   Bases de CVE vérifiées — CISA : (.+?) · Trivy : (.+?)(   ·   ⟳ vérification des bases en cours…)?$	Last scan: $1   ·   CVE databases checked — CISA: $2 · Trivy: $3$4
+   ·   ⟳ vérification des bases en cours…	   ·   ⟳ checking the databases…
+~^Dernière vérification : (.+)$	Last check: $1
+~^DIFFÉRENT du paquet (\S+) : modifié\.$	DIFFERENT from package $1: modified.
+~^(\d+) tâche\(s\) traitée\(s\)\. Relancez une analyse pour vérifier le résultat\.$	$1 task(s) handled. Run a scan again to check the result.
+Durcissement du système	System hardening
+En direct	Live
+~^(\d+) entrée\(s\) du tracker pour « (.+) » : (.+)\.$	$1 tracker entries for “$2”: $3.
+~^(\d+) entrée\(s\) du tracker visent d'anciennes versions \(plus anciennes que les vôtres\) : ignorées, voir plus bas\.$	$1 tracker entries target old versions (older than yours): ignored, see below.
+Failles connues dans vos paquets pacman.	Known vulnerabilities in your pacman packages.
+Failles de la base OSV dans vos fichiers de dépendances.	Vulnerabilities from the OSV database in your dependency files.
+Failles exploitées (vos logiciels)	Exploited vulnerabilities (your software)
+~^(\d+) faille\(s\)$	$1 vulnerabilit(y/ies)
+Failles mondiales	Worldwide vulnerabilities
+Failles système	System vulnerabilities
+Faux positif fréquent : OpenSSH moderne ne gère plus du tout le protocole 1.	Common false positive: modern OpenSSH no longer supports protocol 1 at all.
+~^Fichier officiel du paquet (\S+) (\S+), identique à l'original : pacman a comparé son empreinte à celle enregistrée à l'installation\.$	Official file of package $1 $2, identical to the original: pacman compared its checksum with the one recorded at installation.
+~^Fichier officiel du paquet (\S+) (\S+), identique à l'original \(vérifié avec pacman\)\. (.+)$	Official file of package $1 $2, identical to the original (verified with pacman). $3
+~^Fichier : (.+)$	File: $1
+Fichiers cachés hors des emplacements habituels	Hidden files outside the usual locations
+Fichiers inhabituels dans /dev	Unusual files in /dev
+Fichiers modifiés et portes dérobées.	Modified files and backdoors.
+~^Fichier système : (.+)$	System file: $1
+~^Fichier temporaire de (.+), qui tourne actuellement sur cette machine \(propriétaire et processus vérifiés\)\.$	Temporary file of $1, which is currently running on this machine (owner and process verified).
+~^Fichier temporaire : (.+)$	Temporary file: $1
+Filtrer les résultats…	Filter the results…
+~^⚠ (\d+) point\(s\) à risque élevé : un instantané de secours est créé avant\.$	⚠ $1 high-risk item(s): a safety snapshot is created beforehand.
+Il n'y a rien à corriger : votre version est plus récente que celle visée par ces entrées.	There is nothing to fix: your version is newer than the one targeted by these entries.
+~^(\d+) logiciel\(s\) ciblé\(s\) par des attaques réelles$	$1 software item(s) targeted by real attacks
+~^(\d+) logiciel\(s\) · (\d+) faille\(s\)$	$1 software item(s) · $2 vulnerabilit(y/ies)
+~^(.+) — port (\d+)$	$1 — port $2
+~^(.+) en cours…$	$1 in progress…
+La correction crée un fichier séparé, vérifié avant et après, avec instantané de secours : elle se supprime d'un clic.	The fix creates a separate file, checked before and after, with a safety snapshot: it can be removed with one click.
+~^Lancez la commande copiée dans un terminal : (\S+) affiche les différences du PKGBUILD pour que vous puissiez les relire avant d'installer\.$	Run the copied command in a terminal: $1 shows the PKGBUILD differences so you can review them before installing.
+Lancez l'analyse pour voir les conseils ici.	Run the scan to see the advice here.
+Lancez l'analyse pour voir les résultats ici.	Run the scan to see the results here.
+L'application ne l'installe pas à votre place, volontairement.	The application does not install it for you, on purpose.
+L'application ne peut pas décider à votre place si ce fichier est légitime.	The application cannot decide for you whether this file is legitimate.
+Les connexions entrantes non autorisées sont bloquées.	Unauthorised incoming connections are blocked.
+Les paquets AUR ne sont pas vérifiés par Arch : n'importe qui peut les modifier, et des paquets AUR ont été piégés en 2026 (scripts de build malveillants).	AUR packages are not verified by Arch: anyone can modify them, and AUR packages were booby-trapped in 2026 (malicious build scripts).
+Le tracker garde ces entrées « Vulnerable » sans jamais noter de correctif, d'où l'alerte d'arch-audit. Ce n'est pas une certitude absolue (le tracker ne dit pas quelle version corrige), mais c'est très probablement un faux positif.	The tracker keeps these entries as “Vulnerable” without ever recording a fix, hence the arch-audit alert. It is not an absolute certainty (the tracker does not say which version fixes it), but it is very probably a false positive.
+~^Le tracker vise la version (\S+) ; vous avez la (\S+) : probablement déjà corrigé$	The tracker targets version $1; you have $2: probably already fixed
+~^Liste des attaques réelles \(CISA\) : (.+)\nBase des failles \(Trivy\) : (.+)\nMise à jour automatique : (.+)$	List of real attacks (CISA): $1\nVulnerability database (Trivy): $2\nAutomatic update: $3
+Liste les mises à jour, signale celles qui risquent de bloquer le système, puis demande confirmation.	Lists the updates, flags those that could block the system, then asks for confirmation.
+~^(\d+) logiciel\(s\)$	$1 software item(s)
+Lynis note votre configuration sur 100 et propose des améliorations.	Lynis rates your configuration out of 100 and suggests improvements.
+~^Mémoire partagée de (.+) : normal\.$	Shared memory of $1: normal.
+mettez ce logiciel à jour	update this software
+~^mettre à jour vers (.+)$	update to $1
+~^(\d+) mise\(s\) à jour$	$1 update(s)
+~^(\d+) mise\(s\) à jour disponible\(s\)$	$1 update(s) available
+~^(\d+) connexion\(s\) vers (\d+) serveur\(s\)$	$1 connection(s) to $2 server(s)
+~^(\d+) faille\(s\) dont (\d+) grave\(s\)$	$1 vulnerabilit(y/ies) including $2 severe
+~^(\d+) faille\(s\) exploitée\(s\) par des pirates$	$1 vulnerabilit(y/ies) exploited by attackers
+~^la plus récente signalée le (\S+)$	latest reported on $1
+~^\(option invalide : (.+)\)$	(invalid option: $1)
+~^(\d+) faille\(s\) dans vos projets$	$1 vulnerabilit(y/ies) in your projects
+Outils requis par rkhunter	Tools required by rkhunter
+~^PAQUETS AUR — À RELIRE AVANT D'INSTALLER \((.+)\)$	AUR PACKAGES — REVIEW BEFORE INSTALLING ($1)
+Paquets vulnérables	Vulnerable packages
+Par défaut OpenSSH n'accepte root que par clé (« prohibit-password »). Si vous n'avez pas besoin de root en SSH, la recommandation est « PermitRootLogin no ».	By default OpenSSH only accepts root with a key (“prohibit-password”). If you do not need root over SSH, the recommendation is “PermitRootLogin no”.
+pas de correctif connu	no known fix
+pas encore de correctif publié	no fix published yet
+Personne ne peut se connecter à distance par SSH. C'est le plus sûr si vous n'en avez pas besoin.	Nobody can connect remotely over SSH. It is the safest option if you do not need it.
+Plus le score est haut, mieux votre système est protégé. Les conseils sont en anglais : ils viennent de l'outil Lynis.	The higher the score, the better your system is protected. The advice is in English: it comes from the Lynis tool.
+~^Ports : (.+)$	Ports: $1
+~^(\d+) port\(s\) à vérifier$	$1 port(s) to check
+Ports exposés au réseau	Ports exposed to the network
+~^Pourquoi rkhunter le signale : (.+)$	Why rkhunter flags it: $1
+Pour restaurer l'original : sauvegardez d'abord le fichier, puis lancez la commande copiée (réinstalle le paquet).	To restore the original: back up the file first, then run the copied command (reinstalls the package).
+Prêtes à installer.	Ready to install.
+Programmes qui acceptent des connexions venant d'autres appareils de votre réseau.	Programs that accept connections from other devices on your network.
+~^Programme système : (.+)$	System program: $1
+Projets	Projects
+~^Réafficher les (\d+) alerte\(s\) marquée\(s\) normales$	Show again the $1 alert(s) marked as normal
+Regardez son propriétaire et sa date avec la commande copiée : un fichier récent créé par un programme que vous connaissez est normal.	Look at its owner and date with the copied command: a recent file created by a program you know is normal.
+Réseau (détail)	Network (details)
+Résolution de noms locale (LLMNR)	Local name resolution (LLMNR)
+Rien ne bloque les connexions entrantes. Sur votre réseau maison c'est acceptable ; sur un Wi-Fi public, activez un pare-feu.	Nothing blocks incoming connections. On your home network this is acceptable; on public Wi-Fi, enable a firewall.
+Risque élevé	High risk
+rkhunter compare vos fichiers système à une référence et cherche des rootkits connus.	rkhunter compares your system files to a reference and looks for known rootkits.
+rkhunter signale que la connexion « root » par SSH n'est pas interdite explicitement (PermitRootLogin absent de la configuration).	rkhunter reports that “root” login over SSH is not explicitly forbidden (PermitRootLogin absent from the configuration).
+~^(\d+) menace\(s\)$	$1 threat(s)
+Rootkit possible : à examiner tout de suite.	Possible rootkit: examine immediately.
+Rootkits	Rootkits
+~^(\d+) / 100$	$1 / 100
+~^sauvegarde de l'état impossible : (.+)$	cannot save the state: $1
+Score et recommandations de configuration.	Score and configuration recommendations.
+~^Score (\d+)/100$	Score $1/100
+~^(\d+) à examiner$	$1 to examine
+~^(\d+) point\(s\) à examiner$	$1 item(s) to examine
+~^(\d+) service\(s\) autorisé\(s\)$	$1 allowed service(s)
+pare-feu actif	firewall active
+pare-feu inactif	firewall inactive
+~^pare-feu (actif \(.+\)|inactif)$	firewall $1
+~^Service système \(port (\d+)\)$	System service (port $1)
+Souvent des faux positifs : ouvrez « Revoir » pour les explications.	Often false positives: open “Review” for explanations.
+SSH permet de se connecter à cet ordinateur à distance. Si vous ne l'utilisez pas, mieux vaut le désactiver.	SSH allows connecting to this computer remotely. If you do not use it, it is better to disable it.
+~^Terminé — (.+)$	Finished — $1
+~^(\d+) à vérifier$	$1 to check
+~^(\d+) à vérifier · (\d+) autorisés$	$1 to check · $2 allowed
+Tous les services accessibles depuis votre réseau sont ceux que vous avez choisis.	All services reachable from your network are the ones you chose.
+Tous vos paquets sont à la dernière version.	All your packages are at the latest version.
+Une analyse administrateur ne peut pas être interrompue ici.	An administrator scan cannot be interrupted here.
+Un fichier système modifié ne se corrige pas automatiquement sans risque : réinstaller le paquet écraserait aussi une modification que vous auriez faite volontairement.	A modified system file cannot be fixed automatically without risk: reinstalling the package would also overwrite a change you may have made on purpose.
+Vérification avec la base des paquets (pacman) et rkhunter	Verification against the package database (pacman) and rkhunter
+Vérification en cours…	Checking…
+Vérifiez la liste ci-dessous : cliquez « Autoriser » si vous les reconnaissez.	Check the list below: click “Allow” if you recognize them.
+~^(.+) \(version visée (.+)\)$	$1 (targeted version $2)
+Votre configuration est correcte, avec des points à améliorer	Your configuration is correct, with points to improve
+Votre configuration est solide	Your configuration is solid
+Votre configuration mérite d'être renforcée	Your configuration deserves to be strengthened
+~^Votre version installée est (\S+), plus récente que chacune des versions visées\.$	Your installed version is $1, newer than each of the targeted versions.
+Vue d'ensemble	Overview
+~^(\d+) alerte\(s\)$	$1 alert(s)
+~^(\d+) alerte\(s\), (\d+) suggestion\(s\) pour renforcer le système$	$1 alert(s), $2 suggestion(s) to strengthen the system
+~^(\d+) autorisé\(s\)$	$1 allowed
+~^(.+)\. Créé par le système lors des mises à jour : normal\.$	$1. Created by the system during updates: normal.
+~^(.+)\. Le contenu du fichier a été vérifié : il porte bien la mention de son créateur\.$	$1. The file content was verified: it does carry its creator's mention.
+Marqueur de mise à jour créé par systemd (systemd-update-done)	Update marker created by systemd (systemd-update-done)
+Fichier caché signalé : l'application le compare à la base des paquets pour savoir s'il est normal.	Hidden file reported: the application compares it with the package database to know whether it is normal.
+Fichier inhabituel dans /dev : l'application vérifie à qui il appartient.	Unusual file in /dev: the application checks who owns it.
+Ce sont des scripts shell et non des binaires : très souvent un faux positif sur Arch.	These are shell scripts, not binaries: very often a false positive on Arch.
+Un outil requis par rkhunter est un script ou manque : en général sans gravité.	A tool required by rkhunter is a script or is missing: generally harmless.
+Aucune base de référence : lancez « Initialiser la base de référence » sur un système sain, puis relancez.	No reference database: run “Initialize the reference database” on a healthy system, then run again.
+PermitRootLogin n'est pas défini explicitement dans sshd_config. Définissez-le à « no » pour faire disparaître l'alerte.	PermitRootLogin is not explicitly set in sshd_config. Set it to “no” to make the alert disappear.
+Faux positif fréquent : OpenSSH moderne ne gère plus le protocole 1.	Common false positive: modern OpenSSH no longer supports protocol 1.
+À vérifier : fichiers inhabituels dans /dev (souvent des périphériques virtuels).	To check: unusual files in /dev (often virtual devices).
+À vérifier : fichiers cachés hors des emplacements habituels (souvent des fichiers d'applications).	To check: hidden files outside the usual locations (often application files).
+Autoriser / ne plus autoriser	Allow / stop allowing
+Failles mondiales — tous systèmes et éditeurs	Worldwide vulnerabilities — all systems and vendors
+Période (jours) :	Period (days):
+toutes les (sec.)	every (sec.)
+Actualiser automatiquement	Refresh automatically
+Connexions publiques seulement	Public connections only
+Actualiser	Refresh
+Analyser les tentatives de connexion (admin)	Analyze connection attempts (admin)
+Lit le journal SSH et lastb. Nécessite les droits administrateur.	Reads the SSH log and lastb. Requires administrator rights.
+Proto	Proto
+Adresse	Address
+Port	Port
+Processus	Process
+Exposition	Exposure
+Statut	Status
+Toutes les interfaces	All interfaces
+Local seulement	Local only
+Ajoutée le	Added on
+Échéance	Due date
+Rançongiciel	Ransomware
+Sur votre machine	On your machine
+Éditeur	Vendor
+Produit	Product
+Faille	Vulnerability
+Publiée	Published
+Score	Score
+Gravité	Severity
+Description	Description
+Dernière tentative	Last attempt
+IP source	Source IP
+Échecs	Failures
+Source	Source
+Local	Local
+Distant	Remote
+Type	Type
+Internet	Internet
+Réseau local	Local network
+Paquet	Package
+Correctif	Fix
+Nb CVE	CVE count
+CVE	CVE
+Requis par	Required by
+Identifiant	Identifier
+Cible	Target
+Version	Version
+Paquet / règle	Package / rule
+Écosystème	Ecosystem
+Fichier	File
+Résumé	Summary
+Alerte	Alert
+Commentaire	Comment
+Programme système	System program
+Tout autoriser	Allow all
+Activer le pare-feu	Enable the firewall
+Désactiver le pare-feu	Disable the firewall
+Activer le pare-feu ?	Enable the firewall?
+Activer	Enable
+Débloquer	Unblock
+Tout débloquer	Unblock all
+BLOCAGES ACTIFS	ACTIVE BLOCKS
+Service accessible depuis le réseau	Service reachable from the network
+Connexions vers Internet	Connections to the Internet
+Cliquez pour voir les actions possibles (arrêter, bloquer)	Click to see the possible actions (stop, block)
+Le pare-feu de l'application bloque les connexions entrantes non autorisées (jusqu'au prochain redémarrage).	The application firewall blocks unauthorised incoming connections (until the next restart).
+Pare-feu activé jusqu'au prochain redémarrage.	Firewall enabled until the next restart.
+Pare-feu désactivé.	Firewall disabled.
+Cachy Shield	Cachy Shield
+1 faille(s) — entrée réservée	1 vulnerability $1
+Alertes vérifiées, sans danger : aucune action nécessaire	Verified alerts, harmless: no action needed
+Anciennes failles, probablement déjà corrigées : aucune action nécessaire	Old vulnerabilities, probably already fixed: no action needed
+Entrées obsolètes du tracker : votre version est plus récente, aucune action nécessaire	Outdated tracker entries: your version is newer, no action needed
+Rien d'urgent à corriger.	Nothing urgent to fix.
+Choisir le dossier…	Choose the folder…
+Dossier analysé :	Folder scanned:
+Ne plus autoriser	No longer allow
+Mettre à jour les ports ouverts	Update the open ports
+Jusqu'au redémarrage	Until restart
+Permanent	Permanent
+Pare-feu permanent : il bloque les connexions entrantes non autorisées à chaque démarrage.	Permanent firewall: it blocks unauthorised incoming connections at every boot.
+Pare-feu activé de façon permanente (retiré avec « Désactiver le pare-feu »).	Firewall enabled permanently (removed with “Disable the firewall”).
+Pare-feu activé de façon PERMANENTE (il revient à chaque démarrage).	Firewall enabled PERMANENTLY (it comes back at every boot).
+Pare-feu activé jusqu'au prochain redémarrage.	Firewall enabled until the next restart.
+Pare-feu de l'application désactivé (et retiré du démarrage).	Application firewall disabled (and removed from startup).
+DURCISSEMENT DU SYSTÈME	SYSTEM HARDENING
+Appliqué	Applied
+Rien à durcir	Nothing to harden
+Annuler le durcissement	Undo the hardening
+Appliquer	Apply
+Réglages du noyau et du réseau durcis (fichier sysctl.d). Vous pouvez les annuler à tout moment.	Kernel and network settings hardened (sysctl.d file). You can undo them at any time.
+Les réglages du noyau et du réseau proposés sont déjà à la valeur recommandée.	The proposed kernel and network settings are already at the recommended value.
+Réglages sûrs du noyau et du réseau (redirections ICMP, adresses du noyau…), appliqués par le mécanisme natif de Linux, sans effet sur l'usage normal.	Safe kernel and network settings (ICMP redirects, kernel addresses…), applied through Linux's native mechanism, with no effect on normal use.
+~^(\d+) réglage\(s\) à appliquer$	$1 setting(s) to apply
+Appliquer le durcissement du système ?	Apply the system hardening?
+Rien à durcir	Nothing to harden
+Durcissement du système	System hardening
+Annulation du durcissement	Undoing the hardening
+Durcissement appliqué. Pour l'annuler : « Annuler le durcissement ».	Hardening applied. To undo it: “Undo the hardening”.
+Durcissement annulé.	Hardening undone.
+Pare-feu activé (il reste actif à chaque démarrage).	Firewall enabled (it stays active at every boot).
+~^Pare-feu du système \((\w+)\) actif : il bloque les connexions entrantes non autorisées\.$	System firewall ($1) active: it blocks unauthorised incoming connections.
+Un pare-feu nftables configuré sur votre système est actif : il est géré par vous, l'application n'y touche pas.	An nftables firewall configured on your system is active: you manage it, the application does not touch it.
+RÈGLES DU PARE-FEU	FIREWALL RULES
+Les services marqués « autorisés » sont autorisés automatiquement. Ajoutez vos propres règles : autoriser, refuser ou limiter un port, pour tout le monde ou une seule adresse. Vous pouvez les modifier à tout moment, même pare-feu désactivé : elles sont appliquées à l'activation.	Services marked “allowed” are allowed automatically. Add your own rules: allow, deny or rate-limit a port, for everyone or a single address. You can edit them at any time, even with the firewall off: they are applied on activation.
+Ajouter une règle…	Add a rule…
+Ajouter une règle de pare-feu	Add a firewall rule
+La règle est enregistrée et appliquée quand le pare-feu est activé ou mis à jour. Rien n'est modifié sur le système maintenant.	The rule is saved and applied when the firewall is enabled or updated. Nothing is changed on the system now.
+Supprimer	Delete
+Autoriser	Allow
+Refuser	Deny
+Limiter	Limit
+Limiter (anti-abus : 10 connexions/minute)	Limit (anti-abuse: 10 connections/minute)
+Action	Action
+Protocole	Protocol
+Depuis	From
+Port (1 à 65535)	Port (1 to 65535)
+Adresse ou réseau source, ex. 192.168.0.0/24 (vide = n'importe où)	Source address or network, e.g. 192.168.0.0/24 (empty = anywhere)
+Ajouter	Add
+Règle invalide	Invalid rule
+Vérifiez le port (1 à 65535) et l'adresse source (IPv4, ou réseau comme 192.168.0.0/24).	Check the port (1 to 65535) and the source address (IPv4, or a network like 192.168.0.0/24).
+Journaliser les connexions refusées	Log refused connections
+depuis n'importe où	from anywhere
+~^depuis (\S+)$	from $1
+~^Port (\d+)/(tcp|udp)$	Port $1/$2
+Notifications	Notifications
+Nouveau port ouvert	New open port
+Tentatives de connexion détectées	Connection attempts detected
+Analyse terminée	Scan finished
+Redémarrage nécessaire	Restart required
+Le noyau en cours d'exécution n'a plus ses modules installés (le noyau a été mis à jour sans redémarrage). Le pare-feu ne pourrait pas charger ses composants : redémarrez l'ordinateur, puis activez le pare-feu.	The running kernel no longer has its modules installed (the kernel was updated without a restart). The firewall could not load its components: restart the computer, then enable the firewall.
+Les modules du noyau en cours d'exécution ne sont plus installés (mise à jour du noyau sans redémarrage) : redémarrez avant d'activer le pare-feu.	The running kernel's modules are no longer installed (kernel updated without a restart): restart before enabling the firewall.
+Dossiers…	Folders…
+Retirer	Remove
+Ajouter un dossier…	Add a folder…
+Dossier refusé	Folder refused
+Choisissez un dossier de projets précis (pas la racine du système), sans le caractère « ; » dans son chemin.	Choose a specific projects folder (not the system root), without the “;” character in its path.
+Vos projets	Your projects
+Dossiers de projets à analyser	Project folders to scan
+L'analyse cherche, dans ces dossiers et leurs sous-dossiers, les fichiers de dépendances (requirements.txt, package-lock.json, Cargo.lock, go.mod…) et signale les bibliothèques qui ont une faille connue. Vos fichiers ne sont jamais modifiés sans votre accord.	The scan looks, in these folders and their subfolders, for dependency files (requirements.txt, package-lock.json, Cargo.lock, go.mod…) and reports libraries with a known vulnerability. Your files are never modified without your consent.
+Aucun dossier pour le moment. Ajoutez les dossiers qui contiennent vos projets (Python, Node, Rust, Go…).	No folder yet. Add the folders that contain your projects (Python, Node, Rust, Go…).
+Aucun dossier de projets : cliquez sur « Dossiers… » pour en ajouter.	No project folder: click “Folders…” to add some.
+Dossiers analysés :	Folders scanned:
+Assistant de configuration	Setup assistant
+Ce programme analyse la sécurité de votre ordinateur en s'appuyant sur des outils reconnus. Voici ceux qui sont installés ici :	This program analyses your computer's security using well-known tools. Here are the ones installed on this machine:
+Failles connues des paquets Arch	Known vulnerabilities of Arch packages
+Audit de la configuration	Configuration audit
+Recherche de rootkits	Rootkit search
+Bibliothèques et secrets	Libraries and secrets
+Dépendances de vos projets	Your projects' dependencies
+Liste des mises à jour	List of updates
+Pare-feu (facultatif : sinon firewalld ou nftables)	Firewall (optional: otherwise firewalld or nftables)
+Instantanés de secours (facultatif)	Safety snapshots (optional)
+Les outils absents ne bloquent pas le programme : les fonctions qui en dépendent sont simplement indisponibles. Pour les installer :	Missing tools do not block the program: the functions that depend on them are simply unavailable. To install them:
+Copier la commande	Copy the command
+Ajoutez les dossiers qui contiennent vos projets de programmation. Vous pourrez en ajouter ou en retirer plus tard (page Failles, tuile « Vos projets »). Cette étape est facultative.	Add the folders that contain your programming projects. You can add or remove some later (Vulnerabilities page, “Your projects” tile). This step is optional.
+Préférences	Preferences
+Mettre à jour automatiquement les bases de failles (CVE)	Update the vulnerability (CVE) databases automatically
+Notifications du bureau (nouveau port ouvert, tentatives d'intrusion, fin d'analyse)	Desktop notifications (new open port, intrusion attempts, scan finished)
+Inclure les analyses administrateur (Lynis, rkhunter) dans « Analyser » : votre mot de passe sera demandé une fois	Include administrator scans (Lynis, rkhunter) in “Scan”: your password will be requested once
+Rien n'est modifié sur votre système sans une confirmation de votre part, et le pare-feu n'est jamais activé automatiquement.	Nothing is changed on your system without your confirmation, and the firewall is never enabled automatically.
+Précédent	Back
+Suivant	Next
+Passer	Skip
+Terminer	Finish
+Dossiers dont le nom contient « ; » sont refusés.	Folders whose name contains “;” are refused.
+⚠ Activation impossible pour le moment : le noyau en cours d'exécution n'a plus ses modules installés (le noyau a été mis à jour sans redémarrage). Redémarrez l'ordinateur, puis revenez ici. Vous pouvez en attendant consulter ce qui serait appliqué et modifier vos règles (section « Règles du pare-feu » de la page Réseau).	⚠ Activation impossible for now: the running kernel no longer has its modules installed (the kernel was updated without a restart). Restart the computer, then come back here. In the meantime you can review what would be applied and edit your rules (“Firewall rules” section of the Network page).
+Fermer	Close
+Votre système est sain	Your system is healthy
+Aucune faille connue ne touche vos logiciels. Lancez une analyse pour vérifier à nouveau.	No known vulnerability affects your software. Run a scan to check again.
+Seules les bibliothèques de vos projets ont des failles connues (voir « Vos projets » plus bas).	Only your projects' libraries have known vulnerabilities (see “Your projects” below).
+Aucune urgence	No urgency
+Aucun de vos logiciels n'est concerné par une faille exploitée récente : ceux de la liste CISA sont déjà corrigés chez vous (paquet plus récent que la faille).	None of your software is affected by a recently exploited vulnerability: those on the CISA list are already fixed on your machine (package newer than the vulnerability).
+Aucun de vos paquets n'a de faille connue non corrigée.	None of your packages has a known unfixed vulnerability.
+Probablement corrigé	Probably fixed
+votre paquet est plus récent que la faille : probablement déjà corrigé	your package is newer than the vulnerability: probably already fixed
+Modifier les règles	Edit the rules
+Règles du pare-feu	Firewall rules
+Pare-feu	Firewall
+Modifiez vos règles ici, même si le pare-feu est éteint : rien n'est changé sur votre système maintenant. Les règles sont appliquées quand vous activez le pare-feu (ou le mettez à jour). Les services marqués « autorisés » sont toujours autorisés.	Edit your rules here, even if the firewall is off: nothing is changed on your system now. The rules are applied when you enable (or update) the firewall. Services marked “allowed” are always allowed.
+Aucune règle personnalisée. Les services que vous avez marqués « autorisés » restent autorisés automatiquement.	No custom rule. Services you marked “allowed” stay allowed automatically.
+• règles appliquées (vos services « autorisés » et vos règles personnalisées) : {kept}	• rules applied (your “allowed” services and your custom rules): {kept}
+~^• règles appliquées \(vos services « autorisés » et vos règles personnalisées\) : (.+)$	• rules applied (your “allowed” services and your custom rules): $1
+~^autoriser (\w+) (\d+)(.*)$	allow $1 $2$3
+~^refuser (\w+) (\d+)(.*)$	deny $1 $2$3
+~^limiter (\w+) (\d+)(.*)$	limit $1 $2$3
+~^(.*) depuis (\S+)$	$1 from $2
+journalisation des connexions refusées	logging of refused connections
+Redémarrer maintenant	Restart now
+Redémarrer l'ordinateur maintenant (après confirmation)	Restart the computer now (after confirmation)
+Redémarrer l'ordinateur ?	Restart the computer?
+Redémarrer	Restart
+Tous les programmes seront fermés et l'ordinateur redémarrera tout de suite.	All programs will be closed and the computer will restart right away.
+Enregistrez d'abord vos travaux en cours. Un redémarrage applique les mises à jour du noyau et des pilotes.	Save your work in progress first. A restart applies kernel and driver updates.
+Le noyau en cours d'exécution n'est plus celui qui est installé : un redémarrage applique les mises à jour du noyau et des pilotes (et permet au pare-feu de charger ses composants). Enregistrez vos travaux avant.	The running kernel is no longer the installed one: a restart applies kernel and driver updates (and lets the firewall load its components). Save your work first.
+Le redémarrage n'a pas été lancé (refusé ou erreur : voir ci-dessus).	The restart was not started (refused or error: see above).
+Redémarrage	Restart
+Base locale : téléchargée automatiquement	Local database: downloaded automatically
+Base locale : mise à jour avec les droits administrateur	Local database: updated with administrator rights
+Catalogue local : téléchargé automatiquement	Local catalog: downloaded automatically
+Configuration (score Lynis)	Configuration (Lynis score)
+Nettoyage	Cleanup
+ESPACE À LIBÉRER	SPACE TO FREE
+Libérez de l'espace et protégez votre vie privée	Free up space and protect your privacy
+Analysez pour voir ce qui peut être nettoyé, cochez ce que vous voulez, puis appuyez sur Nettoyer. Rien n'est supprimé sans votre confirmation.	Scan to see what can be cleaned, tick what you want, then press Clean. Nothing is deleted without your confirmation.
+Appuyez sur Analyser pour calculer l'espace récupérable.	Press Scan to compute the recoverable space.
+Cochez ce que vous voulez nettoyer.	Tick what you want to clean.
+Éléments sélectionnés :	Selected items:
+SYSTÈME ET APPLICATIONS	SYSTEM AND APPLICATIONS
+NAVIGATEURS	BROWSERS
+ADMINISTRATEUR (mot de passe demandé)	ADMINISTRATOR (password requested)
+Analyse…	Scanning…
+Rien à nettoyer	Nothing to clean
+Nettoyer	Clean
+Nettoyer maintenant ?	Clean now?
+Fermez d'abord le navigateur	Close the browser first
+Ces navigateurs sont ouverts :	These browsers are open:
+Fermez-les complètement, puis recommencez : leurs données ne peuvent pas être nettoyées pendant qu'ils tournent.	Close them completely, then try again: their data cannot be cleaned while they are running.
+Analysez d'abord, puis cochez ce que vous voulez nettoyer.	Scan first, then tick what you want to clean.
+Ce qui va être supprimé :	What will be deleted:
+Espace libéré :	Space freed:
+Cette opération est définitive : les fichiers ne vont pas à la corbeille.	This operation is permanent: the files do not go to the trash.
+Les cookies supprimés vous déconnectent de la plupart des sites.	Deleted cookies sign you out of most sites.
+Nettoyage terminé	Cleanup finished
+élément(s) n'ont pas pu être supprimés (en cours d'utilisation ?) :	item(s) could not be deleted (in use?):
+Nettoyage administrateur	Administrator cleanup
+Corbeille	Trash
+Fichiers déjà jetés à la corbeille : ils sont supprimés définitivement.	Files already thrown in the trash: they are deleted permanently.
+Miniatures d'images	Image thumbnails
+Aperçus générés par le bureau ; ils se recréent tout seuls.	Previews generated by the desktop; they are recreated by themselves.
+Caches des outils de développement	Development tool caches
+Téléchargements gardés par pip, npm, yay et paru ; ils se retéléchargent au besoin.	Downloads kept by pip, npm, yay and paru; they are downloaded again when needed.
+Caches graphiques	Graphics caches
+Shaders compilés (Mesa, NVIDIA) ; ils se recréent au prochain lancement d'un jeu ou d'une application 3D.	Compiled shaders (Mesa, NVIDIA); they are recreated the next time a game or 3D application starts.
+Pages et images mémorisées : le navigateur les retélécharge (le premier chargement est un peu plus lent).	Pages and images kept in memory: the browser downloads them again (the first load is a little slower).
+Pages et images mémorisées : le navigateur les retélécharge.	Pages and images kept in memory: the browser downloads them again.
+Vous serez déconnecté de la plupart des sites (comptes, paniers…). Utile pour la vie privée.	You will be signed out of most sites (accounts, carts…). Useful for privacy.
+Vous serez déconnecté de la plupart des sites. Utile pour la vie privée.	You will be signed out of most sites. Useful for privacy.
+La liste des pages visitées. Les favoris et les mots de passe ne sont PAS touchés.	The list of visited pages. Bookmarks and passwords are NOT touched.
+Cache de pacman	pacman cache
+Anciennes versions des paquets téléchargés (les 3 dernières sont gardées) : libère souvent plusieurs Go. Demande votre mot de passe.	Old versions of downloaded packages (the last 3 are kept): often frees several GB. Requires your password.
+Anciens journaux système	Old system logs
+Journaux de plus de 14 jours. Demande votre mot de passe.	Logs older than 14 days. Requires your password.
+~^(.+) : cache$	$1: cache
+~^(.+) : cookies$	$1: cookies
+~^(.+) : historique de navigation$	$1: browsing history
+fichiers	files
+Ouvrir	Open
+Icône dans la zone de notification (au prochain lancement ; la croix de la fenêtre laisse alors le programme actif en arrière-plan)	Notification-area icon (at next launch; the window's close button then leaves the program running in the background)
+Corriger vos projets	Fix your projects
+Corriger la sélection	Fix selection
+Aucune de ces corrections ne peut être faite automatiquement : voici ce qu'il faut changer à la main.	None of these fixes can be applied automatically: here is what to change by hand.
+Choisissez les mises à jour à appliquer. Chaque fichier est sauvegardé avant (« .cs-backup-… » à côté) et remis en état si une mise à jour échoue. Aucun script d'installation n'est lancé et aucun droit administrateur n'est utilisé. Testez vos projets ensuite.	Choose the updates to apply. Each file is backed up first (“.cs-backup-…” next to it) and restored if an update fails. No install script is run and no administrator rights are used. Test your projects afterwards.
+⚠ saut de version majeure : peut casser le projet	⚠ major version jump: may break the project
+À faire à la main	To do by hand
+Mise à jour en cours…	Update in progress…
+mise(s) à jour réussie(s)	update(s) succeeded
+échec(s)	failure(s)
+relancez « Analyser » pour vérifier	run “Analyze” again to check
+Le dossier du projet npm est introuvable.	The npm project folder was not found.
+Cette bibliothèque n'est pas épinglée (==) dans ce fichier : changez la contrainte à la main.	This library is not pinned (==) in this file: change the constraint by hand.
+Cargo.toml introuvable à côté de Cargo.lock.	Cargo.toml not found next to Cargo.lock.
+~^Le fichier « (.+) » n'est pas modifié automatiquement : mettez la dépendance à jour avec l'outil de ce projet\.$	The file “$1” is not modified automatically: update the dependency with this project's own tool.
+Rien à corriger	Nothing to fix
+Aucune correction n'est proposée : lancez d'abord « Analyser », ou OSV ne connaît pas de version corrective pour ces bibliothèques.	No fix is offered: run “Analyze” first, or OSV knows no fixed version for these libraries.
+Rien à corriger pour l'instant	Nothing to fix for now
+Aucune mise à jour n'est disponible pour :	No update is available for:
+Votre version est la plus récente des dépôts : il n'y a rien à installer pour l'instant. La liste CISA ne précise pas quelle version corrige la faille. Dès que les dépôts {distro} publieront un correctif, il apparaîtra dans « Mises à jour » et ici.	Your version is the newest in the repositories: there is nothing to install for now. The CISA list does not say which version fixes the flaw. As soon as the {distro} repositories publish a fix, it will appear in “Updates” and here.
+~^dans (.+)$	in $1
+✔ fait	✔ done
+~^✘ échec : (.+)$	✘ failed: $1
+fichier introuvable ou lien symbolique	file not found or symbolic link
+dossier du projet introuvable	project folder not found
+nom ou version invalide	invalid name or version
+correction manuelle uniquement	manual fix only
+Fichiers d'origine restaurés.	Original files restored.
+~^« (.+) » n'est pas installé$	“$1” is not installed
+~^(\d+) ligne\(s\) modifiée\(s\) dans (.+)\. Installez ensuite : (.+)$	$1 line(s) changed in $2. Then install: $3
+~^« (.+) » introuvable dans le fichier \(déjà modifié \?\)$	“$1” not found in the file (already changed?)
+grave	serious
+pip (venv du projet)	pip (project venv)
+pip (fichier seul : rien d'installé)	pip (file only: nothing installed)
+Choisissez les mises à jour à appliquer. Python : la bibliothèque est mise à jour dans le venv du projet (pip refuse si un autre paquet limite la version, et tout est annulé si un conflit apparaît). Chaque fichier est sauvegardé avant (« .cs-backup-… » à côté) et remis en état si une mise à jour échoue. Aucun script d'installation n'est lancé et aucun droit administrateur n'est utilisé. Testez vos projets ensuite.	Choose the updates to apply. Python: the library is updated in the project's venv (pip refuses if another package limits the version, and everything is rolled back if a conflict appears). Each file is backed up first (“.cs-backup-…” next to it) and restored if an update fails. No install script is run and no administrator rights are used. Test your projects afterwards.
+~^Le venv du projet a la version (.+) \(pas (.+)\) : changez la contrainte du projet à la main si besoin\.$	The project's venv has version $1 (not $2): change the project's constraint by hand if needed.
+Cette bibliothèque n'est pas installée dans le venv du projet : changez la contrainte du projet à la main.	This library is not installed in the project's venv: change the project's constraint by hand.
+Aucun venv trouvé et la bibliothèque n'est pas épinglée (==) dans ce fichier : changez la contrainte à la main.	No venv found and the library is not pinned (==) in this file: change the constraint by hand.
+~^venv : (.+)$	venv: $1
+~^déjà à jour dans le venv \((.+)\)$	already up to date in the venv ($1)
+~^installé dans le venv : (.+)$	installed in the venv: $1
+venv remis dans son état d'origine	venv restored to its original state
+~^(\d+) ligne\(s\) modifiée\(s\) dans (.+)$	$1 line(s) changed in $2
+le fichier de dépendances n'a pas de ligne épinglée à changer : il n'est pas modifié	the dependency file has no pinned line to change: it is left unchanged
+~^pip a refusé la mise à jour \(limite de version d'un autre paquet, ou pas de paquet binaire\) :$	pip refused the update (another package limits the version, or no binary wheel available):
+~^cette version casserait des dépendances du projet, annulé :$	this version would break the project's dependencies, cancelled:
+~^pip est introuvable dans ce venv \((.*)\)$	pip not found in this venv ($1)
+paquets vérifiés	packages checked
+bibliothèque(s) de programmes installés avec une faille	library(ies) of installed programs with a known flaw
+Bibliothèques des programmes (Python, Node, Rust…) : pas encore analysées	Libraries of programs (Python, Node, Rust…): not analysed yet
+Vérification des paquets, puis des bibliothèques de vos programmes installés (Python, Node, Rust…). Cela peut prendre quelques minutes.	Checking packages, then the libraries of your installed programs (Python, Node, Rust…). This may take a few minutes.
+BIBLIOTHÈQUES DES PROGRAMMES INSTALLÉS	LIBRARIES OF INSTALLED PROGRAMS
+Bibliothèque d'un programme installé avec une faille connue.	Library of an installed program with a known flaw.
+Non analysé	Not analysed
+~^(\d+) bibliothèque\(s\)$	$1 library(ies)
+Séparés par des virgules. Votre dossier personnel est exclu par défaut : vos projets sont analysés à part (bouton « Dossiers… »).	Comma-separated. Your home folder is excluded by default: your projects are analysed separately (“Folders…” button).
+Corriger les bibliothèques du système	Fix the system's libraries
+Emplacement inconnu : relancez « Analyser » pour le connaître.	Location unknown: run “Analyze” again to find it.
+Ce venv n'appartient pas à votre utilisateur : l'application ne le modifie pas (aucun droit administrateur utilisé).	This venv does not belong to your user: the application does not modify it (no administrator rights are used).
+La version installée dans ce venv n'est plus celle de l'analyse : relancez « Analyser ».	The version installed in this venv is no longer the one from the scan: run “Analyze” again.
+~^Fait partie du paquet « (.+) » : elle se corrige par la mise à jour de ce paquet \(page « Mises à jour »\)\. Aucune n'est en attente tant que les dépôts n'ont pas publié de correctif\.$	Part of the package “$1”: it is fixed by updating that package (“Updates” page). None is pending until the repositories publish a fix.
+Installée globalement hors pacman (pip en administrateur ?) : ne la modifiez pas avec pip sur Arch. Réinstallez-la dans un venv, ou installez le paquet pacman correspondant (python-…).	Installed globally outside pacman (pip as administrator?): do not modify it with pip on Arch. Reinstall it in a venv, or install the matching pacman package (python-…).
+Livrée avec un logiciel ou un projet installé : elle se corrige en mettant ce logiciel à jour (ou en mettant à jour le projet).	Bundled with an installed program or project: it is fixed by updating that program (or the project).
+Administrateur : autorisé pour cette session	Administrator: authorised for this session
+Administrateur : en attente de votre mot de passe…	Administrator: waiting for your password…
+Administrateur : non accordé (mot de passe demandé à chaque action)	Administrator: not granted (password asked at each action)
+Administrateur : mot de passe demandé à chaque action (installez le programme pour une seule demande)	Administrator: password asked at each action (install the program to be asked only once)
+Demander le mot de passe administrateur une seule fois, au démarrage (au prochain lancement ; sinon il est redemandé à chaque action)	Ask for the administrator password only once, at startup (next launch; otherwise it is asked again at each action)
+Ajouter au journal existant (--appendlog)	Append to the existing log (--appendlog)
+Vérifié à	Checked at
+paquets	packages
+données du tracker Arch téléchargées à l'instant	Arch tracker data downloaded just now
+bibliothèques	libraries
+pip (fichier requirements seulement)	pip (requirements file only)
+Choisissez les mises à jour à appliquer. Python : seule la ligne épinglée (==) du fichier requirements est modifiée ; vos venv ne sont jamais touchés (installez ensuite vous-même). Chaque fichier est sauvegardé avant (« .cs-backup-… » à côté) et remis en état si une mise à jour échoue. Aucun script d'installation n'est lancé et aucun droit administrateur n'est utilisé. Testez vos projets ensuite.	Choose the updates to apply. Python: only the pinned (==) line of the requirements file is changed; your venvs are never touched (install afterwards yourself). Each file is backed up first (“.cs-backup-…” next to it) and restored if an update fails. No install script is run and no administrator rights are used. Test your projects afterwards.
+Cette bibliothèque n'est pas épinglée (==) dans ce fichier : changez la contrainte à la main. L'application ne modifie jamais vos venv.	This library is not pinned (==) in this file: change the constraint by hand. The application never modifies your venvs.
+Installée dans un venv : l'application ne modifie jamais vos venv. Mettez-la à jour vous-même (commande ci-dessous), en vérifiant les limites de versions de votre projet.	Installed in a venv: the application never modifies your venvs. Update it yourself (command below), checking your project's version limits.
+npm update (dans les limites du projet)	npm update (within the project's limits)
+~^npm peut monter jusqu'à (.+) dans les limites du projet$	npm can go up to $1 within the project's limits
+~^limité par les versions autorisées du projet : npm ne peut aller que jusqu'à (.+) \(il faut (.+)\)\. Rien n'a été modifié\.$	limited by the project's allowed versions: npm can only go up to $1 (needs $2). Nothing was changed.
+~^limité par les versions autorisées du projet : npm ne peut pas monter (.+) \(il faut (.+)\)\. Rien n'a été modifié\.$	limited by the project's allowed versions: npm cannot raise $1 (needs $2). Nothing was changed.
+Fichiers de verrouillage d'origine restaurés.	Original lock files restored.
+~^simulation impossible :$	simulation impossible:
+Corriger…	Fix…
+~^Mettre à jour (.+) vers (.+) dans « (.+) » \(sauvegarde automatique avant, limites de versions du projet respectées\)$	Update $1 to $2 in “$3” (automatic backup first, the project's version limits are respected)
+~^déjà corrigé : la version (.+) n'est plus installée \(maintenant : (.+)\)$	already fixed: version $1 is no longer installed (now: $2)
+~^Paquet « (.+) »$	Package “$1”
+~^version installée (.+)$	installed version $1
+~^dernière version connue (.+) \((.+)\)$	latest known version $1 ($2)
+dépôts {distro}	{distro} repositories
+AUR	AUR
+identique à la vôtre : aucune mise à jour n'existe	same as yours: no update exists
+plus récente que la vôtre : une mise à jour existe	newer than yours: an update exists
+plus ancienne que la vôtre : rien à mettre à jour	older than yours: nothing to update
+ce fichier n'est pas un requirements.txt	this file is not a requirements.txt
+identifiant CVE invalide dans le catalogue	invalid CVE identifier in the catalogue
+1/3 Préparation des réglages…	1/3 Preparing the settings…
+~^2/3 Écriture de (.+) \((.+) réglage\(s\)\)…$	2/3 Writing $1 ($2 setting(s))…
+3/3 Application immédiate…	3/3 Applying immediately…
+Aucun réglage valide : rien n'a été modifié.	No valid setting: nothing was changed.
+Cache les adresses internes du noyau aux utilisateurs, ce qui complique l'exploitation de failles du noyau.	Hides kernel internal addresses from users, which makes kernel flaws harder to exploit.
+Cet ordinateur n'est pas un routeur : il n'a pas à envoyer de redirections.	This computer is not a router: it has no reason to send redirects.
+Durcissement annulé : les valeurs d'origine sont rétablies.	Hardening cancelled: the original values are restored.
+Empêche les programmes sans droits de lire les messages du noyau (qui révèlent des adresses utiles aux attaquants).	Prevents unprivileged programs from reading kernel messages (which reveal addresses useful to attackers).
+Idem pour les nouvelles interfaces réseau.	Same for new network interfaces.
+Interdit les copies mémoire (core dumps) des programmes à privilèges, qui peuvent contenir des secrets.	Forbids memory dumps (core dumps) of privileged programs, which may contain secrets.
+Journalise les paquets aux adresses impossibles (signe d'usurpation) pour pouvoir les repérer.	Logs packets with impossible addresses (a sign of spoofing) so they can be spotted.
+Protège contre les inondations de connexions (SYN flood).	Protects against connection floods (SYN flood).
+Refuse les paquets qui imposent leur propre chemin (technique de détournement).	Rejects packets that dictate their own route (a hijacking technique).
+Refuse les redirections en IPv6.	Rejects IPv6 redirects.
+Refuse les « redirections » ICMP, qu'un attaquant du réseau peut utiliser pour détourner votre trafic.	Rejects ICMP “redirects”, which a network attacker can use to divert your traffic.
+Rien à annuler.	Nothing to undo.
+~^Rétabli : (.+) = (.+)$	Restored: $1 = $2
+Un réglage a été refusé : tout est annulé.	A setting was refused: everything is rolled back.
+~^(.+) est déjà bloqué\.$	$1 is already blocked.
+1/3 Préparation des règles…	1/3 Preparing the rules…
+1/3 Préparation du pare-feu (table dédiée « cachy_shield », sans toucher aux autres règles)…	1/3 Preparing the firewall (dedicated “cachy_shield” table, other rules untouched)…
+1/4 Démarrage de firewalld…	1/4 Starting firewalld…
+1/4 Règles par défaut : refuser l'entrant, autoriser le sortant…	1/4 Default rules: deny incoming, allow outgoing…
+2/3 Ajout de la règle (le trafic local reste autorisé)…	2/3 Adding the rule (local traffic stays allowed)…
+2/3 Installation du service de démarrage (« cachy-shield-firewall », votre nftables.conf n'est pas touché)…	2/3 Installing the startup service (“cachy-shield-firewall”, your nftables.conf is untouched)…
+2/4 Règles (services « autorisés » et règles personnalisées), permanentes…	2/4 Rules (“allowed” services and custom rules), permanent…
+2/4 Règles (services « autorisés » et règles personnalisées)…	2/4 Rules (“allowed” services and custom rules)…
+~^3/3 Terminé : le port (.+)/(.+) n'est plus joignable depuis le réseau, jusqu'au prochain redémarrage\.$	3/3 Done: port $1/$2 is no longer reachable from the network, until the next restart.
+~^3/4 Journalisation des paquets refusés : (.+)$	3/4 Logging refused packets: $1
+~^Adresse ignorée : (.+)$	Address ignored: $1
+~^Adresse locale ou réservée ignorée : (.+)$	Local or reserved address ignored: $1
+Aucune règle trouvée (déjà retirée, par exemple après un redémarrage).	No rule found (already removed, for example after a restart).
+~^Port (.+)/(.+) débloqué\.$	Port $1/$2 unblocked.
+Règles invalides : rien n'a été modifié.	Invalid rules: nothing was changed.
+firewalld activé : il reste actif à chaque démarrage.	firewalld enabled: it stays active at every startup.
+firewalld désactivé.	firewalld disabled.
+ufw activé : il reste actif à chaque démarrage.	ufw enabled: it stays active at every startup.
+ufw désactivé.	ufw disabled.
+<fichier temporaire privé>	<private temporary file>
+Aucun dossier de projets à analyser : ajoutez-en avec « Dossiers… » (page Failles, tuile « Vos projets »).	No project folder to analyse: add some with “Folders…” (Flaws page, “Your projects” tile).
+Dossiers à analyser	Folders to analyse
+Inclure les dépendances de dev (--include-dev-deps) — projets de code seulement	Include dev dependencies (--include-dev-deps) — code projects only
+Passer les requêtes par ce proxy (http, https, socks5).	Send requests through this proxy (http, https, socks5).
+Précise	Precise
+Vos dossiers de projets, séparés par « ; ». Utilisez le bouton « Dossiers… » de la page Failles pour les gérer.	Your project folders, separated by “;”. Use the “Folders…” button on the Flaws page to manage them.
+✔ Le programme s'est arrêté.	✔ The program has stopped.
+✔ Mise à jour terminée. Relancez les analyses pour vérifier les failles restantes.	✔ Update finished. Run the scans again to check the remaining flaws.
+(instantané impossible : la modification reste réversible)	(snapshot impossible: the change remains reversible)
+~^1/3 Sauvegarde de package\.json et package-lock\.json \(suffixe \.cs-backup-(.+)\)…$	1/3 Backing up package.json and package-lock.json (suffix .cs-backup-$1)…
+1/4 Instantané de secours (snapper)…	1/4 Safety snapshot (snapper)…
+~^2/3 Mise à jour de (.+) vers (.+) \(sans exécuter de scripts d'installation\)…$	2/3 Updating $1 to $2 (without running install scripts)…
+2/4 Écriture du réglage…	2/4 Writing the setting…
+~^3/3 Terminé\. Pour annuler : copiez les fichiers « \.cs-backup-(.+) » par-dessus package\.json et package-lock\.json\.$	3/3 Done. To undo: copy the “.cs-backup-$1” files over package.json and package-lock.json.
+3/4 Contrôle de la configuration…	3/4 Checking the configuration…
+4/4 Rechargement de SSH (les sessions ouvertes ne sont pas coupées)…	4/4 Reloading SSH (open sessions are not cut)…
+Désactivation d'ufw	Disabling ufw
+Désactivation de firewalld	Disabling firewalld
+L'annulation a échoué ou a été refusée.	The undo failed or was refused.
+Pare-feu utilisé : nftables, dans une table dédiée à l'application.	Firewall used: nftables, in a table dedicated to the application.
+Rien n'a été modifié (autorisation refusée ou erreur : voir ci-dessus).	Nothing was changed (authorisation refused or error: see above).
+major — peut casser le projet	major — may break the project
+package.json introuvable dans ce dossier.	package.json not found in this folder.
+patch — le plus prudent	patch — the safest
+Échec : restauration des fichiers d'origine.	Failure: original files restored.
+⚠ RISQUES DÉTECTÉS AVANT MISE À JOUR :	⚠ RISKS DETECTED BEFORE UPDATE:
+Cette bibliothèque est livrée avec un logiciel installé : elle se corrige en mettant ce logiciel à jour. Si aucune mise à jour n'existe encore, le correctif n'est pas publié par les dépôts.	This library ships with an installed program: it is fixed by updating that program. If no update exists yet, the repositories have not published the fix.
+Dossier personnel introuvable : le nettoyage est indisponible.	Home folder not found: cleaning is unavailable.
+Refusé pour tout ce qui vient du réseau	Refused for everything coming from the network
+Trivy (Aqua Security) — bibliothèques trouvées dans les programmes installés	Trivy (Aqua Security) — libraries found in installed programs
+dans	in
+Aucun résultat	No result
+Résultat illisible	Unreadable result
+commande vide ou invalide	empty or invalid command
+forme de commande refusée	command form refused
+l'assistant ne répond plus	the helper no longer responds
+options pacman non autorisées	pacman options not allowed
+programme d'audit non autorisé	audit program not allowed
+programme non autorisé	program not allowed
+Sécurités : table de pare-feu dédiée, vos autres règles ne sont pas touchées	Safeguards: dedicated firewall table, your other rules are not touched
+désactivable à tout moment depuis cette tuile.	can be turned off at any time from this tile.
+Deux choix : « Jusqu'au redémarrage » (rien ne reste après le prochain démarrage, le plus prudent pour essayer) ou « Permanent » (un petit service de démarrage « cachy-shield-firewall » le remet à chaque démarrage ; votre fichier nftables.conf n'est pas modifié).	Two choices: “Until restart” (nothing remains after the next boot, the safest way to try) or “Permanent” (a small startup service “cachy-shield-firewall” restores it at each boot; your nftables.conf file is not modified).
+Activation impossible pour le moment : le noyau en cours d'exécution n'a plus ses modules installés (le noyau a été mis à jour sans redémarrage). Redémarrez l'ordinateur, puis revenez ici. Vous pouvez en attendant consulter ce qui serait appliqué et modifier vos règles (section « Règles du pare-feu » de la page Réseau).	Cannot be enabled right now: the running kernel no longer has its modules installed (the kernel was updated without a restart). Restart the computer, then come back here. In the meantime you can review what would be applied and edit your rules (“Firewall rules” section of the Network page).
+Cache de pacman nettoyé (3 dernières versions gardées).	Pacman cache cleaned (last 3 versions kept).
+Anciens journaux supprimés (14 derniers jours gardés).	Old logs removed (last 14 days kept).
+Cache de pacman et anciens journaux nettoyés.	Pacman cache and old logs cleaned.
+NVD : vérifier que le catalogue répond (NIST)	NVD: check that the catalogue responds (NIST)
+~^NVD : (.+) CVE au total dans le catalogue$	NVD: $1 CVEs in total in the catalogue
+NVD : réponse reçue, mais illisible	NVD: response received, but unreadable
+En direct : recherche à la demande (page Failles mondiales) · le bouton vérifie que NVD répond	Live: searched on demand (Worldwide vulnerabilities page) · the button checks that NVD responds
+Mettre à jour tout l'AUR dans un terminal…	Update the whole AUR in a terminal…
+Mettre à jour dans un terminal	Update in a terminal
+Mettre à jour l'AUR	Update the AUR
+Ouvrir le terminal	Open the terminal
+Un terminal va s'ouvrir et lancer :	A terminal will open and run:
+• « {assistant} » affiche les modifications de chaque PKGBUILD : relisez-les avant d'accepter.\n• Le mot de passe est demandé dans ce terminal : l'application ne le voit jamais.\n• Les paquets AUR ne sont pas vérifiés par Arch : des paquets AUR ont été piégés en 2026.	• “{assistant}” shows the changes of each PKGBUILD: review them before accepting.\n• The password is asked in that terminal: the application never sees it.\n• AUR packages are not verified by Arch: some AUR packages were booby-trapped in 2026.
+Terminé	Done
+Appuyez sur Entrée pour fermer cette fenêtre…	Press Enter to close this window…
+Aucun terminal trouvé	No terminal found
+Le terminal n'a pas pu s'ouvrir	The terminal could not be opened
+Paquet refusé	Package refused
+~^« Mettre à jour dans un terminal » ouvre votre terminal : (.+) y affiche les différences du PKGBUILD pour que vous les releviez avant d'accepter, et le mot de passe y est saisi \(l'application ne le voit jamais\)\.$	“Update in a terminal” opens your terminal: $1 shows the PKGBUILD changes there so you can review them before accepting, and the password is typed there (the application never sees it).
+L'application ne contourne jamais cette relecture : jamais d'installation silencieuse (pas de --noconfirm ni --skipreview).	The application never bypasses this review: never a silent install (no --noconfirm or --skipreview).
+~^Mettre à jour tout l'AUR avec (.+) dans un terminal \(relecture des PKGBUILD, mot de passe saisi dans le terminal\)$	Update the whole AUR with $1 in a terminal (PKGBUILD review, password typed in the terminal)
+~^Mettre à jour (.+) avec (.+) dans un terminal \(relecture du PKGBUILD\)$	Update $1 with $2 in a terminal (PKGBUILD review)
+Mettre à jour l'AUR (relecture dans l'application)…	Update the AUR (review inside the application)…
+Mettre à jour (relecture dans l'application)	Update (review inside the application)
+Mettre à jour l'AUR…	Update the AUR…
+Mettre à jour l'AUR ?	Update the AUR?
+Télécharger et relire	Download and review
+Outils manquants	Missing tools
+La mise à jour AUR dans l'application demande « git » et « makepkg » (paquets git et base-devel). Installez-les, ou utilisez « Mettre à jour dans un terminal ».	Updating the AUR inside the application needs "git" and "makepkg" (packages git and base-devel). Install them, or use "Update in a terminal".
+Téléchargement des recettes AUR	Downloading AUR recipes
+Installation des paquets AUR	Installing AUR packages
+Autres fichiers (non affichés)	Other files (not shown)
+paquet	package
+révision	revision
+Relire avant d'installer :	Review before installing:
+Aucun repère automatique : relisez quand même le texte ci-dessous.	No automatic warning: still read the text below.
+Si un point vous inquiète ou si vous ne comprenez pas le script, choisissez « Ignorer ce paquet ».	If anything worries you or you do not understand the script, choose "Skip this package".
+Ignorer ce paquet	Skip this package
+J'ai relu : installer	I have reviewed it: install
+Une fenêtre système va demander votre mot de passe pour installer chaque paquet.	A system window will ask for your password to install each package.
+Vérification des paquets	Checking packages
+⚠ télécharge puis exécute un script (curl/wget vers sh) dans le PKGBUILD	⚠ downloads then runs a script (curl/wget piped to sh) in the PKGBUILD
+télécharge des fichiers pendant la construction (curl/wget) : vérifiez d'où ils viennent	downloads files during the build (curl/wget): check where they come from
+⚠ contient du contenu encodé (base64)	⚠ contains encoded content (base64)
+⚠ utilise « eval »	⚠ uses "eval"
+⚠ ouvre une connexion réseau brute	⚠ opens a raw network connection
+⚠ active le bit setuid/setgid	⚠ sets the setuid/setgid bit
+active ou démarre un service système	enables or starts a system service
+modifie des comptes ou des droits utilisateur	changes user accounts or privileges
+utilise une adresse non chiffrée (http://)	uses an unencrypted address (http://)
+l'intégrité d'au moins une source n'est pas vérifiée (SKIP)	the integrity of at least one source is not checked (SKIP)
+~^⚠ touche un fichier sensible \((.+)\)$	⚠ touches a sensitive file ($1)
+~^Téléchargement : (\d+) / (\d+)$	Downloading: $1 / $2
+~^Installation : (\d+) / (\d+)$	Installing: $1 / $2
+~^Paquet (\d+) / (\d+) : (.+)$	Package $1 / $2: $3
+~^Terminé avec (\d+) échec\(s\)$	Finished with $1 failure(s)
+~^(.+) : refusé$	$1: refused
+~^✔ (.+) installé$	✔ $1 installed
+~^✘ (.+) : échec \(code (\d+)\)\. Si une dépendance vient aussi de l'AUR, mettez-la à jour d'abord\.$	✘ $1: failed (code $2). If a dependency also comes from the AUR, update it first.
+~^══ (.+) \((\d+)/(\d+)\) ══$	══ $1 ($2/$3) ══
+~^(\d+) mise\(s\) à jour AUR en attente : utilisez le bouton « Mettre à jour l'AUR… » ci-dessous \(relecture des PKGBUILD dans l'application\)\.$	$1 AUR update(s) pending: use the "Update the AUR…" button below (PKGBUILD review inside the application).
+~^(.+) : téléchargement impossible \((.+)\)$	$1: download failed ($2)
+~^« (.+) » est un lien symbolique : refusé par sécurité$	"$1" is a symbolic link: refused for safety
+ce dépôt ne contient pas de PKGBUILD	this repository contains no PKGBUILD
+1 mise à jour disponible	1 update available
+{n} mises à jour disponibles	{n} updates available
+{n} dans les dépôts officiels	{n} in the official repositories
+{n} dans l'AUR (à relire avant d'installer)	{n} in the AUR (review before installing)
+{n} point(s) sensible(s) : vous serez prévenu avant l'installation	{n} sensitive item(s): you will be warned before installing
+Ouvrez « Mises à jour » pour les installer.	Open "Updates" to install them.
+installe une tâche planifiée (cron) : vérifiez ce qu'elle exécute	installs a scheduled task (cron): check what it runs
+~^(\d+) mise\(s\) à jour AUR en attente \((.+)\) : traitées juste après, dans une seconde étape\. .+$	$1 AUR update(s) pending ($2): handled right after, as a second step. The AUR requires reviewing each PKGBUILD (AUR packages were booby-trapped in 2026): you will review them inside the application before anything is installed.
+~^(\d+) mise\(s\) à jour AUR disponible\(s\)$	$1 AUR update(s) available
+Les paquets AUR ne sont pas vérifiés par Arch : vous relirez chaque PKGBUILD avant l'installation.	AUR packages are not vetted by Arch: you will review each PKGBUILD before installing.
+~^(\d+) mise\(s\) à jour AUR$	$1 AUR update(s)
+Dépôts officiels à jour. « Corriger » télécharge les recettes AUR, vous les faites relire, puis les installe.	Official repositories are up to date. "Fix" downloads the AUR recipes, you review them, then they are installed.
+~^(\d+) mise\(s\) à jour AUR en attente : étape suivante, relecture des PKGBUILD \(fenêtre suivante\)\.$	$1 AUR update(s) pending: next step, PKGBUILD review (next window).
+Étapes : 1) téléchargement des recettes (PKGBUILD) ; 2) VOUS relisez chacune ; 3) construction et installation de ce que vous avez relu.	Steps: 1) the recipes (PKGBUILD) are downloaded; 2) YOU review each one; 3) what you reviewed is built and installed.
+Les paquets AUR ne sont pas vérifiés par Arch : relisez attentivement, et ignorez tout paquet dont le script vous inquiète. Une fenêtre système vous demandera votre mot de passe pour l'installation (l'application ne le voit jamais).	AUR packages are not vetted by Arch: review carefully, and skip any package whose script worries you. A system window will ask for your password for the installation (the application never sees it).
+✘ git n'est pas installé	✘ git is not installed
+✘ pas de dossier de cache	✘ no cache folder
+✘ échec de git	✘ git failed
+✘ dossier introuvable	✘ folder not found
+✘ makepkg introuvable (paquet base-devel)	✘ makepkg not found (package base-devel)
+✘ « env » introuvable	✘ "env" not found
+~^✘ nom de paquet invalide : (.+)$	✘ invalid package name: $1
+~^✘ (.+) : téléchargement impossible \((.+)\)$	✘ $1: download failed ($2)
+Adresse refusée.	Address refused.
+Cible refusée.	Target refused.
+Enregistré dans la configuration permanente : pas encore appliqué (rechargement nécessaire).	Saved to the permanent configuration: not applied yet (reload needed).
+Nom refusé.	Name refused.
+Opération refusée.	Operation refused.
+Port refusé.	Port refused.
+Protocole refusé.	Protocol refused.
+Refuser avec message	Reject with a message
+Refuser avec message (défaut)	Reject with a message (default)
+Règle refusée.	Rule refused.
+Valeur refusée.	Value refused.
+Zone refusée.	Zone refused.
+choisissez un service OU un port, pas les deux	choose a service OR a port, not both
+famille invalide (ipv4 ou ipv6)	invalid family (ipv4 or ipv6)
+firewalld est arrêté : les règles seront appliquées à son activation.	firewalld is stopped: the rules will be applied when it is enabled.
+port invalide (1 à 65535, ou une plage 8000-8100)	invalid port (1 to 65535, or a range 8000-8100)
+règle vide : précisez une source, un service ou un port	empty rule: give a source, a service or a port
+une limite ne s'applique pas à « drop »	a limit does not apply to "drop"
+Ignorer en silence	Silently ignore
+Tout autoriser	Allow everything
+Action refusée.	Action refused.
+~^Argument refusé : (.+)$	Argument refused: $1
+Commande refusée.	Command refused.
+Mode refusé.	Mode refused.
+Niveau refusé.	Level refused.
+Politique refusée.	Policy refused.
+Règle trop longue.	Rule too long.
+Sens refusé.	Direction refused.
+caractère non autorisé	character not allowed
+port invalide (1 à 65535, plage 8000:8100 ou liste 80,443)	invalid port (1 to 65535, range 8000:8100 or list 80,443)
+règle vide : précisez au moins un port, une adresse, un protocole ou une interface	empty rule: give at least a port, an address, a protocol or an interface
+un port demande le protocole TCP ou UDP	a port needs the TCP or UDP protocol
+action invalide	invalid action
+sens invalide	invalid direction
+protocole invalide	invalid protocol
+interface invalide	invalid interface
+adresse source invalide pour ipv4	invalid source address for ipv4
+adresse source invalide pour ipv6	invalid source address for ipv6
+nom de service invalide	invalid service name
+limite invalide (exemple : 10/m)	invalid limit (example: 10/m)
+~^adresse (source|destination) invalide \(IPv4 ou IPv6, éventuellement avec /réseau\)$	invalid $1 address (IPv4 or IPv6, optionally with /network)
+Adresses sources rattachées à cette zone	Source addresses attached to this zone
+Afficher les règles	Show the rules
+Ajouter un port	Add a port
+Ajouter un port…	Add a port…
+Ajouter un service	Add a service
+Ajouter un service…	Add a service…
+Ajouter une adresse ou un réseau…	Add an address or network…
+Ajouter une règle détaillée	Add a detailed rule
+Ajouter une règle détaillée…	Add a detailed rule…
+Ajouter une règle ufw	Add a ufw rule
+Appliquer cette règle maintenant ?	Apply this rule now?
+Appliquer maintenant (recharger firewalld)	Apply now (reload firewalld)
+Aucun pare-feu système (ufw, firewalld) n'est installé : l'application utilise sa propre table nftables. Les règles ci-dessous sont enregistrées et appliquées à l'activation. Pour piloter ufw ou firewalld, installez-en un : cette fenêtre s'adaptera.	No system firewall (ufw, firewalld) is installed: the application uses its own nftables table. The rules below are saved and applied at activation. To manage ufw or firewalld, install one: this window will adapt.
+Aucun service prédéfini trouvé (paquet firewalld incomplet ?).	No predefined service found (incomplete firewalld package?).
+Aucun type ICMP trouvé (paquet firewalld incomplet ?).	No ICMP type found (incomplete firewalld package?).
+Aucun service	No service
+Aucun type	No type
+Aucun service.	No service.
+Aucun port.	No port.
+Aucune règle détaillée.	No detailed rule.
+Aucune règle enregistrée pour le moment.	No rule saved yet.
+Aucune zone firewalld trouvée dans /etc/firewalld ni /usr/lib/firewalld : vérifiez que le paquet firewalld est complètement installé.	No firewalld zone found in /etc/firewalld or /usr/lib/firewalld: check that the firewalld package is fully installed.
+Aucune. Rattacher un réseau (ex. 192.168.0.0/24) à une zone lui applique les règles de cette zone.	None. Attaching a network (e.g. 192.168.0.0/24) to a zone applies that zone's rules to it.
+Aucun. Bloquer « echo-request » rend l'ordinateur muet au ping.	None. Blocking "echo-request" makes the computer silent to ping.
+Bas (recommandé)	Low (recommended)
+Bloquer un type ICMP	Block an ICMP type
+Bloquer un type ICMP…	Block an ICMP type…
+Bloquer	Block
+Changer	Change
+Changer la zone par défaut ?	Change the default zone?
+Choisissez un service prédéfini (ssh, http, samba…). Il sera autorisé dans cette zone.	Choose a predefined service (ssh, http, samba…). It will be allowed in this zone.
+Combinez une source et un service OU un port. Cette règle est enregistrée dans la configuration permanente de la zone.	Combine a source and a service OR a port. This rule is saved in the zone's permanent configuration.
+Comportement par défaut	Default behavior
+Destination : IP ou réseau (vide = n'importe où)	Destination: IP or network (empty = anywhere)
+Source : IP ou réseau (vide = n'importe où)	Source: IP or network (empty = anywhere)
+Désactivé	Disabled
+Exemple : echo-request bloque le ping entrant.	Example: echo-request blocks incoming ping.
+Indiquez une adresse IPv4 ou IPv6, éventuellement avec /réseau.	Enter an IPv4 or IPv6 address, optionally with /network.
+Interfaces réseau de cette zone (gérées par NetworkManager ou firewalld)	Network interfaces of this zone (managed by NetworkManager or firewalld)
+Journal des paquets refusés	Log of refused packets
+Journaliser cette règle	Log this rule
+Le port sera autorisé dans cette zone.	The port will be allowed in this zone.
+Lecture impossible (autorisation refusée ou erreur).	Cannot read (authorization refused or error).
+Les connexions venant de cette adresse suivront les règles de cette zone.	Connections coming from this address will follow this zone's rules.
+Les règles d'ufw ne sont lisibles qu'avec les droits administrateur : le mot de passe vous est demandé quand vous cliquez sur « Afficher les règles ».	ufw rules can only be read with administrator rights: your password is requested when you click "Show the rules".
+Les règles enregistrées s'appliquent tout de suite. Si vous avez retiré le service qui autorise SSH, vous pourriez perdre l'accès à distance.	The saved rules apply immediately. If you removed the service that allows SSH, you could lose remote access.
+Modifier le comportement par défaut ?	Change the default behavior?
+Pare-feu utilisé	Firewall in use
+Pare-feu utilisé :	Firewall in use:
+Plusieurs pare-feux sont installés : choisissez celui que l'application doit utiliser. Un seul doit être actif à la fois.	Several firewalls are installed: choose the one the application should use. Only one should be active at a time.
+Port (1 à 65535) ou plage 8000-8100	Port (1 to 65535) or range 8000-8100
+Port, plage 8000:8100 ou liste 80,443	Port, range 8000:8100 or list 80,443
+Ports autorisés	Allowed ports
+Rattacher une source à cette zone	Attach a source to this zone
+Refuser (recommandé)	Deny (recommended)
+Rejeter (avec message)	Reject (with a message)
+Retirer	Remove
+Retirer cet élément ?	Remove this item?
+Recharger	Reload
+Recharger firewalld ?	Reload firewalld?
+Règles détaillées	Detailed rules
+Règles enregistrées dans ufw	Rules saved in ufw
+Réglages généraux	General settings
+Services autorisés	Allowed services
+Supprimer cette règle ?	Delete this rule?
+Tous les refus	All refusals
+Refus unicast	Unicast refusals
+Refus broadcast	Broadcast refusals
+Refus multicast	Multicast refusals
+Traduction d'adresses (NAT) pour partager la connexion de cet ordinateur	Network address translation (NAT) to share this computer's connection
+Trafic non prévu par les règles	Traffic not covered by the rules
+Types ICMP bloqués	Blocked ICMP types
+Utiliser cette zone par défaut	Use this zone as default
+entrant par défaut	default incoming
+sortant par défaut	default outgoing
+journal	log
+journal des refus	denial log
+zone par défaut	default zone
+firewalld est actif : le retrait est enregistré dans la configuration permanente et s'applique au prochain rechargement.	firewalld is active: the removal is saved in the permanent configuration and applies at the next reload.
+firewalld est actif : vos modifications sont enregistrées dans la configuration permanente et ne s'appliquent qu'au rechargement (bouton ci-dessous).	firewalld is active: your changes are saved in the permanent configuration and only apply on reload (button below).
+firewalld est désactivé : vous pouvez lire et modifier ses règles ; elles s'appliqueront à l'activation. Rien n'est activé depuis cette fenêtre.	firewalld is disabled: you can read and edit its rules; they will apply at activation. Nothing is enabled from this window.
+nftables (intégré à l'application)	nftables (built into the application)
+ufw est actif : chaque changement s'applique immédiatement (vous serez prévenu avant).	ufw is active: every change applies immediately (you will be warned first).
+ufw est actif : la règle disparaît tout de suite. Si c'est celle qui autorise SSH, vous pourriez perdre l'accès à distance.	ufw is active: the rule disappears immediately. If it is the one allowing SSH, you could lose remote access.
+ufw est actif : la règle s'applique tout de suite.	ufw is active: the rule applies immediately.
+ufw est actif : le changement s'applique tout de suite. Refuser le sortant peut couper votre accès à Internet.	ufw is active: the change applies immediately. Denying outgoing traffic can cut your Internet access.
+ufw est désactivé : la règle est enregistrée et s'appliquera à l'activation.	ufw is disabled: the rule is saved and will apply at activation.
+ufw est désactivé : vous pouvez lire et modifier ses règles, elles ne s'appliqueront qu'à l'activation. Rien n'est activé depuis cette fenêtre.	ufw is disabled: you can read and edit its rules; they will only apply at activation. Nothing is enabled from this window.
+Échec	Failure
+Élevé	High
+État d'ufw	ufw state
+État de firewalld	firewalld state
+… ou un port, ex. 8080 ou 8000-8100	… or a port, e.g. 8080 or 8000-8100
+Pare-feu détecté :	Detected firewall:
+ses règles réelles (zones, services, ports, règles détaillées) se lisent et se modifient dans l'éditeur, même pare-feu désactivé.	its real rules (zones, services, ports, detailed rules) can be read and edited in the editor, even when the firewall is disabled.
+Ouvrir l'éditeur du pare-feu…	Open the firewall editor…
+lecture seule	read-only
+Zone	Zone
+Entrant	Incoming
+Sortant	Outgoing
+Moyen	Medium
+Complet	Full
+Limite, ex. 10/m (facultatif)	Limit, e.g. 10/m (optional)
+Limiter (anti-abus : 6 connexions / 30 s)	Limit (anti-abuse: 6 connections / 30 s)
+Entrant (vers cet ordinateur)	Incoming (to this computer)
+Sortant (depuis cet ordinateur)	Outgoing (from this computer)
+Interface, ex. enp5s0 (facultatif)	Interface, e.g. enp5s0 (optional)
+Journal	Log
+Interface	Interface
+Famille	Family
+Limite	Limit
+Sens	Direction
+Tous	All
+(aucun)	(none)
+Bloquer en silence	Silently drop
+Autoriser	Allow
+Refuser	Deny
+Rejeter	Reject
+Limiter	Limit
+Réponse d'ufw	ufw's answer
+(vide)	(empty)
+~^Réponse d'ufw \(code (-?\d+)\) :$	ufw's answer (code $1):
+Added user rules (see 'ufw status' for running firewall):	Added user rules (see 'ufw status' for running firewall):
+(None)	(None)
+~^En cours… \((\d+) s\)$	In progress… ($1 s)
+~^Analyse en cours… \((\d+) s\)$	Scan in progress… ($1 s)
+~^Analyse (\d+) / (\d+) : (.+)$	Scan $1 / $2: $3
+~^Étape (\d+) / (\d+) : (.+)$	Step $1 / $2: $3
+Toutes les analyses sont terminées	All scans are finished
+Analyses terminées	Scans finished
+Toutes les analyses sont terminées : les résultats sont sur le tableau de bord.	All scans are finished: the results are on the dashboard.
+Opération en cours… (une fenêtre peut demander votre mot de passe)	Operation in progress… (a window may ask for your password)
+(SSH n'est pas actif : les réglages s'appliqueront à son démarrage)	(SSH is not running: the settings will apply when it starts)
+2/4 Retrait des réglages de l'application…	2/4 Removing the application's settings…
+2/4 Écriture des réglages…	2/4 Writing the settings…
+3/4 Contrôle de la configuration (sshd -t)…	3/4 Checking the configuration (sshd -t)…
+1/4 Instantané de secours (snapper)…	1/4 Safety snapshot (snapper)…
+4/4 Rechargement de SSH (les sessions ouvertes ne sont pas coupées)…	4/4 Reloading SSH (open sessions are not cut)…
+Adresses d'écoute	Listening addresses
+Afficher des programmes graphiques du serveur sur votre écran.	Show the server's graphical programs on your screen.
+Afficher la dernière connexion	Show the last login
+Afficher le message du jour	Show the message of the day
+Ancienne méthode (hôtes de confiance). À éviter.	Old method (trusted hosts). Avoid.
+Ancienne méthode non sûre. Laissez à « yes ».	Old unsafe method. Leave at "yes".
+Après ce nombre de vérifications sans réponse, la session est fermée.	After this many unanswered checks, the session is closed.
+Au-delà, la connexion non identifiée est coupée. Plus court = moins de connexions inutiles qui traînent.	After this, an unauthenticated connection is dropped. Shorter = fewer idle connections lingering.
+Aucune méthode de connexion ne resterait active (ni mot de passe, ni clé, ni clavier interactif) : plus personne ne pourrait se connecter.	No login method would remain active (no password, no key, no keyboard-interactive): nobody could log in.
+Autorise les interfaces tun/tap.	Allows tun/tap interfaces.
+Autoriser un compte sans mot de passe à se connecter. À éviter.	Let an account without a password log in. Avoid.
+Bannière avant la connexion	Banner before login
+Catégorie du journal système	System log category
+Chemin d'un fichier texte affiché avant l'identification (avertissement légal). « none » = aucune.	Path of a text file shown before login (legal notice). "none" = no banner.
+Codes d'intégrité (MAC)	Integrity codes (MAC)
+Compresse les données : peu utile aujourd'hui sur un réseau rapide.	Compresses data: of little use today on a fast network.
+Configuration invalide : modification annulée, rien n'a changé.	Invalid configuration: change cancelled, nothing was changed.
+Connexion du compte « root »	Login of the "root" account
+Connexion par clé SSH	Login with an SSH key
+Connexions non identifiées simultanées	Simultaneous unauthenticated connections
+Coupe d'un coup X11, agent, ports, sockets et tunnels.	Cuts X11, agent, ports, sockets and tunnels all at once.
+DEBUG enregistre énormément de données sensibles : seulement pour dépanner.	DEBUG records a lot of sensitive data: only for troubleshooting.
+Délai pour s'identifier (secondes)	Time allowed to log in (seconds)
+Désactivez-la une fois vos clés SSH en place : les attaques par force brute deviennent inutiles.	Turn it off once your SSH keys are in place: brute-force attacks become useless.
+Désactivé, seuls les transferts et commandes sans terminal fonctionnent.	When disabled, only transfers and commands without a terminal work.
+Désactivée avec le mot de passe désactivé, plus personne ne peut se connecter.	Disabled together with passwords, nobody can log in anymore.
+Détecte les connexions mortes. Désactivé, une coupure réseau peut laisser des sessions fantômes.	Detects dead connections. Disabled, a network cut can leave ghost sessions.
+Exemple : « publickey » (clé seulement) ou « publickey,password » (clé ET mot de passe).	Example: "publickey" (key only) or "publickey,password" (key AND password).
+Fichier(s) des clés autorisées	Authorized keys file(s)
+Format « début:taux:max » (ex. 10:30:60) ou un nombre : au-delà, des connexions sont refusées. Limite les attaques par saturation.	Format "start:rate:max" (e.g. 10:30:60) or a number: beyond it, connections are refused. Limits flooding attacks.
+Gardez un compte normal avec sudo avant d'interdire root.	Keep a normal account with sudo before forbidding root.
+Groupes autorisés	Allowed groups
+Groupes interdits	Denied groups
+IPv4 seulement, IPv6 seulement, ou les deux.	IPv4 only, IPv6 only, or both.
+Idem : laissez vide sauf besoin précis.	Same: leave empty unless you have a specific need.
+Ignorer les fichiers .rhosts	Ignore .rhosts files
+Interdire TOUTES les redirections	Forbid ALL forwarding
+Intègre SSH au système d'authentification (comptes, sessions). Arch le règle déjà sur « yes » dans son propre fichier : laissez-le.	Plugs SSH into the system authentication (accounts, sessions). Arch already sets it to "yes" in its own file: leave it.
+Inutile pour la sécurité et ralentit la connexion si le DNS est lent.	Useless for security and slows the connection if DNS is slow.
+Journal et messages	Log and messages
+Laisse un utilisateur imposer des variables via ~/.ssh/environment. À éviter.	Lets a user impose variables via ~/.ssh/environment. Avoid.
+Laissez vide : les valeurs d'OpenSSH sont à jour. Préfixes « + » (ajouter), « - » (retirer), « ^ » (en premier) possibles.	Leave empty: OpenSSH's values are up to date. Prefixes "+" (add), "-" (remove), "^" (put first) are possible.
+Le moyen recommandé de se connecter.	The recommended way to log in.
+Le port sur lequel SSH attend les connexions.	The port SSH listens on.
+Les méthodes exigées demandent un mot de passe, mais la connexion par mot de passe est désactivée.	The required methods ask for a password, but password login is disabled.
+Les méthodes exigées demandent une clé SSH, mais aucune clé n'est enregistrée pour votre compte.	The required methods ask for an SSH key, but no key is registered for your account.
+~^Ligne refusée : (.+)$	Line refused: $1
+~^Mot-clé refusé : (.+)$	Keyword refused: $1
+Limite SSH à certaines adresses de cet ordinateur (séparées par des espaces), par exemple votre adresse sur le réseau local.	Restricts SSH to some addresses of this computer (separated by spaces), for example your local network address.
+Liste (séparée par des espaces) : SEULS ces comptes peuvent se connecter. Vide = tous.	List (separated by spaces): ONLY these accounts can log in. Empty = everyone.
+Mots de passe à usage unique, questions-réponses. Arch la désactive déjà.	One-time passwords, question/answer. Arch already disables it.
+Méthodes exigées	Required methods
+N'oubliez pas votre propre compte, sinon vous serez exclu.	Do not forget your own account, or you will be locked out.
+Niveau de détail du journal	Log detail level
+Nombre de sessions ouvertes en même temps sur une même connexion.	Number of sessions open at the same time on one connection.
+Nombre de tentatives avant de couper la connexion (valeur courante : 3 à 4).	Number of attempts before the connection is cut (common value: 3 to 4).
+Noms de variables que le client peut transmettre (ex. LANG LC_*).	Names of variables the client may send (e.g. LANG LC_*).
+Où SSH cherche les clés autorisées (défaut : .ssh/authorized_keys dans le dossier personnel).	Where SSH looks for authorized keys (default: .ssh/authorized_keys in the home folder).
+Où le système classe les messages de SSH.	Where the system files SSH's messages.
+Permet d'utiliser vos clés depuis le serveur. À couper si inutile.	Lets you use your keys from the server. Turn off if not needed.
+Permet de passer par SSH pour atteindre d'autres machines. « local » ou « remote » : un seul sens.	Lets you go through SSH to reach other machines. "local" or "remote": one direction only.
+Permet à d'autres machines d'utiliser vos redirections de ports.	Lets other machines use your port forwards.
+Port d'écoute	Listening port
+Ports redirigés visibles du réseau	Forwarded ports visible from the network
+Rappelle la date de votre dernière connexion : utile pour repérer une intrusion.	Reminds you of your last login date: useful to spot an intrusion.
+Redirections et tunnels	Forwarding and tunnels
+Redirige des sockets Unix.	Forwards Unix sockets.
+Refuse les clés si leur dossier est modifiable par d'autres.	Refuses keys if their folder can be modified by others.
+Réponses manquées avant de couper	Missed replies before cutting
+SEULS les membres de ces groupes peuvent se connecter.	ONLY members of these groups can log in.
+Les membres de ces groupes ne peuvent jamais se connecter.	Members of these groups can never log in.
+Ces comptes ne peuvent jamais se connecter.	These accounts can never log in.
+SSH n'écoutera que sur les adresses indiquées. Si l'une n'existe pas sur cet ordinateur, SSH ne démarrera plus au prochain lancement.	SSH will only listen on the listed addresses. If one does not exist on this computer, SSH will no longer start at the next launch.
+Sans PAM, la connexion par mot de passe système ne fonctionne généralement plus.	Without PAM, system password login generally stops working.
+Sans clé SSH enregistrée sur ce compte, vous ne pourrez plus vous connecter à distance. Testez une connexion par clé AVANT.	Without an SSH key registered on this account, you will no longer be able to log in remotely. Test a key login BEFORE.
+Si vous changez le port, ouvrez le nouveau dans le pare-feu et prévenez vos clients : sinon vous ne pourrez plus vous connecter.	If you change the port, open the new one in the firewall and tell your clients: otherwise you will not be able to connect.
+Terminé. Gardez cette session ouverte et testez une NOUVELLE connexion avant de la fermer.	Done. Keep this session open and test a NEW connection before closing it.
+Texte affiché après la connexion.	Text shown after login.
+Toutes les N secondes, SSH vérifie que l'autre côté est toujours là. 0 = jamais.	Every N seconds, SSH checks the other side is still there. 0 = never.
+Tunnels réseau (VPN sur SSH)	Network tunnels (VPN over SSH)
+Un chemin faux = plus aucune clé reconnue. Ne changez que si vous savez pourquoi.	A wrong path = no key recognised anymore. Only change it if you know why.
+Une adresse fausse rend SSH injoignable. Vérifiez qu'elle existe sur cet ordinateur.	A wrong address makes SSH unreachable. Check it exists on this computer.
+Une liste trop stricte empêche les anciens clients de se connecter.	A list that is too strict stops older clients from connecting.
+Une méthode impossible à satisfaire verrouille tout le monde dehors.	A method that cannot be satisfied locks everyone out.
+Une session root distante est ouverte : modification refusée pour ne pas vous couper.	A remote root session is open: change refused so as not to cut you off.
+Utile seulement avec un annuaire d'entreprise.	Only useful with a corporate directory.
+Utilisateurs autorisés	Allowed users
+Utilisateurs interdits	Denied users
+VERBOSE enregistre l'empreinte de la clé utilisée pour chaque connexion : utile pour retrouver qui s'est connecté.	VERBOSE records the fingerprint of the key used for each login: useful to find out who connected.
+Variables acceptées du client	Variables accepted from the client
+Variables d'environnement des utilisateurs	Users' environment variables
+Vérifier le nom DNS du client	Check the client's DNS name
+Vérifier les droits des fichiers de clés	Check key file permissions
+Vérifier que le client répond (secondes)	Check that the client answers (seconds)
+Vérifiez que votre compte est dans l'un de ces groupes.	Check that your account is in one of these groups.
+adresse invalide (IPv4, IPv6, ou adresse:port)	invalid address (IPv4, IPv6, or address:port)
+chemin absolu attendu (ou « none »)	absolute path expected (or "none")
+choisissez oui ou non	choose yes or no
+format : nombre ou début:taux:max (ex. 10:30:60)	format: number or start:rate:max (e.g. 10:30:60)
+le début doit être au moins 1	the start must be at least 1
+méthodes possibles : publickey, password, keyboard-interactive, hostbased, gssapi-with-mic	possible methods: publickey, password, keyboard-interactive, hostbased, gssapi-with-mic
+noms invalides (lettres, chiffres, _ . - @ * ? ! seulement, séparés par des espaces)	invalid names (letters, digits, _ . - @ * ? ! only, separated by spaces)
+taux de 0 à 100 et maximum au moins égal au début	rate from 0 to 100 and maximum at least equal to the start
+selon les réglages ci-dessus	according to the settings above
+« AllowGroups » restreint la connexion aux membres de certains groupes : vérifiez que votre compte en fait partie.	"AllowGroups" restricts login to members of some groups: check that your account is one of them.
+« no » : personne ne peut se connecter en root par SSH. « prohibit-password » : root seulement avec une clé.	"no": nobody can log in as root over SSH. "prohibit-password": root only with a key.
+« no » désactive aussi la connexion par mot de passe système : risque de ne plus pouvoir se connecter.	"no" also disables system password login: you may no longer be able to connect.
+Échange de clés	Key exchange
+~^⚠ (.+) : la valeur en vigueur diffère \(« (.*) »\) : un autre réglage prioritaire ou une normalisation de sshd\.$	⚠ $1: the value in effect differs ("$2"): another higher-priority setting or a normalisation by sshd.
+Personne ne peut se connecter à distance par SSH. C'est le plus sûr si vous n'en avez pas besoin. Cliquez ici pour régler SSH.	Nobody can log in remotely over SSH. That is the safest if you do not need it. Click here to adjust SSH.
+SSH permet de se connecter à cet ordinateur à distance. Si vous ne l'utilisez pas, mieux vaut le désactiver. Cliquez ici pour régler SSH.	SSH lets you log in to this computer remotely. If you do not use it, it is better to disable it. Click here to adjust SSH.
+Appliquer ces réglages SSH ?	Apply these SSH settings?
+Appliquer quand même	Apply anyway
+Attention : risque de perdre l'accès à distance	Warning: risk of losing remote access
+Chaque ligne laissée sur « Par défaut » n'est pas modifiée : SSH garde sa valeur d'origine. Vos choix sont écrits dans un seul fichier de l'application, jamais dans votre sshd_config. Avant d'appliquer : sauvegarde, contrôle de la configuration, retour arrière automatique si elle est invalide, rechargement sans couper vos sessions ouvertes. Gardez une session ouverte et testez une nouvelle connexion avant de la fermer.	Every line left on "Default" is not changed: SSH keeps its original value. Your choices are written to a single application file, never to your sshd_config. Before applying: backup, configuration check, automatic rollback if invalid, reload without cutting your open sessions. Keep a session open and test a new connection before closing it.
+L'opération a échoué ou a été annulée : rien n'a été modifié.	The operation failed or was cancelled: nothing was changed.
+Le serveur SSH (OpenSSH) n'est pas installé sur cet ordinateur : il n'y a rien à régler. Installez le paquet « openssh » si vous voulez vous connecter à distance.	The SSH server (OpenSSH) is not installed on this computer: there is nothing to adjust. Install the "openssh" package if you want to connect remotely.
+Les réglages choisis sont déjà ceux du fichier de l'application.	The chosen settings are already those of the application's file.
+Recommandé	Recommended
+Remplir les valeurs recommandées	Fill in the recommended values
+Remplit les champs avec les valeurs de durcissement courantes. Rien n'est appliqué tant que vous ne cliquez pas sur « Appliquer ».	Fills the fields with common hardening values. Nothing is applied until you click "Apply".
+Rien n'a été conservé : un contrôle de sécurité a empêché la modification (voir le message ci-dessus).	Nothing was kept: a safety check prevented the change (see the message above).
+Réglage refusé : vous seriez enfermé dehors	Setting refused: you would be locked out
+Réglages SSH	SSH settings
+Réglages appliqués. Testez une nouvelle connexion avant de fermer votre session actuelle.	Settings applied. Test a new connection before closing your current session.
+Réglages du serveur SSH	SSH server settings
+Sécurités : instantané de secours (snapper) · contrôle « sshd -t » · retour arrière automatique si la configuration est invalide · rechargement sans couper vos sessions ouvertes. Gardez une session ouverte et testez une nouvelle connexion avant de la fermer.	Safeguards: safety snapshot (snapper) · "sshd -t" check · automatic rollback if the configuration is invalid · reload without cutting your open sessions. Keep a session open and test a new connection before closing it.
+Tout remettre par défaut	Reset everything to default
+arrêté (les réglages s'appliqueront à son démarrage)	stopped (the settings will apply when it starts)
+par défaut	default
+État du service SSH	SSH service state
+actif	active
+Oui	Yes
+Non	No
+En vigueur	In effect
+Par défaut	Default
+toutes	all
+aucun	none
+tous	everyone
+aucune	none
+valeurs d'OpenSSH	OpenSSH values
+Connexion	Connection
+Authentification	Authentication
+Qui peut se connecter	Who can log in
+Chiffrement	Encryption
+Familles d'adresses	Address families
+Délai pour s'identifier	Time to log in
+Sessions par connexion	Sessions per connection
+Messages « keep-alive » TCP	TCP keep-alive messages
+Compression	Compression
+Connexion par mot de passe	Password login
+Connexion « clavier interactif »	"Keyboard-interactive" login
+Mots de passe vides	Empty passwords
+Essais par connexion	Attempts per connection
+Utiliser PAM	Use PAM
+Authentification par machine de confiance	Trusted-host authentication
+Authentification Kerberos (GSSAPI)	Kerberos authentication (GSSAPI)
+Terminal interactif	Interactive terminal
+Redirection de ports (tunnels TCP)	Port forwarding (TCP tunnels)
+Redirection de l'agent SSH	SSH agent forwarding
+Redirection graphique (X11)	Graphical forwarding (X11)
+Redirection de sockets locaux	Local socket forwarding
+Algorithmes de chiffrement	Encryption algorithms
+Afficher le message du jour	Show the message of the day
+IPv4 seulement, IPv6 seulement, ou les deux.	IPv4 only, IPv6 only, or both.
+Arrêté	Stopped
+Langue : automatique	Language: automatic
+Langue de l'application. « Automatique » suit la langue de votre système.	Application language. "Automatic" follows your system language.
+Changer de langue	Change language
+Le changement s'applique au prochain lancement. Relancer l'application maintenant ?	The change applies at the next launch. Restart the application now?
+Plus tard	Later
+Relancer maintenant	Restart now
+~^(\d+) bibliothèque\(s\) · (\d+) faille\(s\) dont (\d+) grave\(s\)$	$1 librar(y/ies) · $2 flaw(s) including $3 serious
+~^(.+) : (\d+) bibliothèque\(s\) avec une faille connue, (\d+) faille\(s\) au total \((\d+) grave\(s\)\)\.$	$1: $2 librar(y/ies) with a known flaw, $3 flaw(s) in total ($4 serious).
+~^• (.+) : (\d+) faille\(s\) dont (\d+) grave\(s\) · (.+) · (.+)$	• $1: $2 flaw(s) including $3 serious · $4 · $5
+Bibliothèques d'un programme installé avec des failles connues.	Libraries of an installed program with known flaws.
+Ces bibliothèques sont livrées avec un logiciel installé : elles se corrigent en mettant ce logiciel à jour. Si aucune mise à jour n'existe encore, il n'y a rien à faire pour l'instant.	These libraries ship with an installed program: they are fixed by updating that program. If no update exists yet, there is nothing to do for now.
+~^impossible dans les limites de versions du projet : aucune mise à jour autorisée ne fait monter (.+) jusqu'à une version corrigée \(il faut au moins (.+)\)\.(.*) Il faudrait une mise à jour MAJEURE d'un de ces paquets, ou un « overrides » dans package\.json : rien n'est fait automatiquement\. Rien n'a été modifié\.$	impossible within the project's version limits: no allowed update brings $1 up to a fixed version (at least $2 is needed).$3 A MAJOR update of one of these packages, or an "overrides" entry in package.json, would be needed: nothing is done automatically. Nothing was changed.
+~^ Elle est apportée par : (.+)\.$	 It comes from: $1.
+~^npm peut monter (.+) jusqu'à (.+?)( en mettant à jour « (.+) » \(dans les limites du projet\))?$	npm can raise $1 up to $2$3
+~^⚠ correction PARTIELLE : npm peut monter (.+) jusqu'à (.+) ; la version (.+) corrigerait toutes les failles mais dépasse les limites du projet$	⚠ PARTIAL fix: npm can raise $1 up to $2; version $3 would fix every flaw but exceeds the project's limits
+~^(.+) est maintenant en : (.+)$	$1 is now at: $2
+~^npm peut monter (.+) jusqu'à (\S+) en mettant à jour « (.+) » \(dans les limites du projet\)$	npm can raise $1 up to $2 by updating "$3" (within the project's limits)
+~^npm peut monter (.+) jusqu'à (\S+)$	npm can raise $1 up to $2
+~^⚠ correction PARTIELLE : npm peut monter (.+) jusqu'à (\S+) en mettant à jour « (.+) » \(dans les limites du projet\) ; la version (\S+) corrigerait toutes les failles mais dépasse les limites du projet$	⚠ PARTIAL fix: npm can raise $1 up to $2 by updating "$3" (within the project's limits); version $4 would fix every flaw but exceeds the project's limits
+~^⚠ correction PARTIELLE : npm peut monter (.+) jusqu'à (\S+) ; la version (\S+) corrigerait toutes les failles mais dépasse les limites du projet$	⚠ PARTIAL fix: npm can raise $1 up to $2; version $3 would fix every flaw but exceeds the project's limits
+Dernière analyse	Last scan
+Bases de CVE vérifiées	CVE databases checked
+⟳ vérification des bases en cours…	⟳ checking the databases…
+jamais	never
+Dernière analyse : {d}	Last scan: {d}
+Bases de CVE vérifiées — CISA : {k} · Trivy : {v}	CVE databases checked — CISA: {k} · Trivy: {v}

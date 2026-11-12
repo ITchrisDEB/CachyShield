@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <clipPath id="s"><path d="M64 6 114 25v38c0 31-21 51-50 61C35 114 14 94 14 63V25z"/></clipPath>
+    <linearGradient id="dot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00c8ff"/><stop offset="1" stop-color="#00f0c8"/></linearGradient>
+  </defs>
+  <!-- bouclier à facettes (teal et cyan) -->
+  <g clip-path="url(#s)">
+    <rect width="128" height="128" fill="#00a884"/>
+    <path d="M0 0H64L14 63 0 40z" fill="#00ccff"/>
+    <path d="M64 6 114 25 72 52z" fill="#009a7a"/>
+    <path d="M14 63 64 6 72 52 36 96z" fill="#00b894"/>
+    <path d="M14 63 36 96 14 94z" fill="#00ccff"/>
+    <path d="M36 96 72 52 114 63v0L64 124z" fill="#008f73"/>
+    <path d="M72 52 114 25v38z" fill="#00bba0"/>
+    <path d="M64 124 36 96 90 100z" fill="#00ccff" opacity=".9"/>
+  </g>
+  <path d="M64 6 114 25v38c0 31-21 51-50 61C35 114 14 94 14 63V25z" fill="none" stroke="#006b57" stroke-width="3" stroke-linejoin="round"/>
+  <!-- le « C » de Cachy en négatif -->
+  <path d="M76 38H46L30 64l16 26h30L66 77H54L48 64l6-13h12z" fill="#fff"/>
+  <!-- les trois bulles de Cachy -->
+  <circle cx="86" cy="49" r="3.5" fill="url(#dot)" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="92" cy="63" r="5.5" fill="url(#dot)" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="97" cy="80" r="7.5" fill="url(#dot)" stroke="#fff" stroke-width="1.5"/>
+  <!-- pastille orange : des mises à jour attendent -->
+  <circle cx="98" cy="30" r="24" fill="#ff8c00" stroke="#fff" stroke-width="5"/>
+  <path d="M98 17v17" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="98" cy="44" r="4.2" fill="#fff"/>
+</svg>

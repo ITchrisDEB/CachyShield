@@ -1,0 +1,169 @@
+Catalogue non téléchargé.	Catalog not downloaded.
+~^CISA KEV : (\d+) failles activement exploitées — catalogue (.+) \(publié le (.+)\) — (\d+) concernent possiblement vos logiciels\.(.*)$	CISA KEV: $1 actively exploited vulnerabilit(y/ies) — catalog $2 (published $3) — $4 possibly affect your software.$5
+critiques des 7 derniers jours	critical in the last 7 days
+Critiques des 7 derniers jours	Critical in the last 7 days
+CVE-2021-44228, ou un mot-clé : chrome, log4j, openssl…	CVE-2021-44228, or a keyword: chrome, log4j, openssl…
+Interrogation de NVD…	Querying NVD…
+La base NVD contient plus de 400 000 CVE. Recherche à la demande (limite : 5 requêtes / 30 s sans clé API).	The NVD database holds over 400,000 CVEs. On-demand search (limit: 5 requests / 30 s without an API key).
+~^(.+) : (\d+) résultat\(s\) au total dans NVD, (\d+) affiché\(s\)\. Double-clic : ouvrir la fiche officielle\.$	$1: $2 result(s) in total in NVD, $3 shown. Double-click: open the official page.
+Le serveur limite le débit (NVD : 5 requêtes par 30 s sans clé). Réessayez dans une minute.	The server limits the rate (NVD: 5 requests per 30 s without a key). Try again in a minute.
+~^Mise à jour refusée : (.+)\. Le catalogue précédent est conservé\.$	Update refused: $1. The previous catalog is kept.
+Nouvelles failles activement exploitées	New actively exploited vulnerabilities
+~^(\d+) nouvelle\(s\) faille\(s\) concernent possiblement : (.+)$	$1 new vulnerabilit(y/ies) possibly affect: $2
+Pas de connexion à Internet ou serveur injoignable.	No Internet connection or server unreachable.
+~^Possible : (.+)$	Possible: $1
+réponse vide	empty reply
+Téléchargement du catalogue CISA KEV…	Downloading the CISA KEV catalog…
+~^Téléchargement impossible : (.+)$	Download impossible: $1
+téléchargement interrompu	download interrupted
+Windows, macOS, Linux, routeurs, navigateurs, serveurs… Deux sources officielles : le catalogue CISA KEV (failles activement exploitées dans la nature) et la base NVD du NIST (catalogue mondial de référence). La correspondance avec vos logiciels se fait par nom, sans comparer la version : à vérifier.	Windows, macOS, Linux, routers, browsers, servers… Two official sources: the CISA KEV catalog (vulnerabilities actively exploited in the wild) and the NIST NVD database (the global reference catalog). Matching with your software is done by name, without comparing versions: to be verified.
+~^Actif \((.+)\)$	Active ($1)
+~^Analyse des connexions : (\d+) échec\(s\), (\d+) IP$	Connection analysis: $1 failure(s), $2 IP
+Droits administrateur refusés ou analyse annulée.	Administrator rights refused or scan cancelled.
+Impossible de lancer l'analyse.	Cannot start the scan.
+~^« (.+) » : statut « autorisé » modifié$	“$1”: “allowed” status changed
+~^Le port (\S+) \((.+)\) écoute sur toutes les interfaces et n'est pas marqué comme autorisé\.$	Port $1 ($2) listens on all interfaces and is not marked as allowed.
+~^Nouveau port exposé non autorisé : (.+)$	New unauthorised exposed port: $1
+Nouveau port ouvert	New open port
+~^Nouvelle connexion : (.+)$	New connection: $1
+Ports ouverts, connexions réseau et tentatives d'intrusion. Actualisation automatique, sans droits root. Les services que vous avez marqués comme autorisés ne déclenchent pas d'alerte.	Open ports, network connections and intrusion attempts. Automatic refresh, without root rights. Services you marked as allowed do not trigger an alert.
+Premier lancement : confirmez les services que vous reconnaissez avec « Autoriser ».	First launch: confirm the services you recognise with “Allow”.
+~^Réseau \((.+)\)$	Network ($1)
+Sélectionnez un port écoutant sur toutes les interfaces. Il est identifié par son processus (ou son numéro de port s'il est inconnu).	Select a port listening on all interfaces. It is identified by its process (or its port number if unknown).
+Surveillance démarrée	Monitoring started
+~^(\d+) à vérifier$	$1 to check
+~^(\d+) tentative\(s\) échouée\(s\) depuis (\d+) IP — (\d+) connexion\(s\) SSH réussie\(s\) sur (\d+) jour\(s\)\.$	$1 failed attempt(s) from $2 IP(s) — $3 successful SSH connection(s) over $4 day(s).
+~^ · (\d+) autorisés$	 · $1 allowed
+arch-audit · paquets {distro}	arch-audit · {distro} packages
+arch-audit : vérifier la source (Arch Security Tracker)	arch-audit: check the source (Arch Security Tracker)
+Arch Security Tracker — security.archlinux.org (équipe sécurité d'Arch Linux)	Arch Security Tracker — security.archlinux.org (Arch Linux security team)
+À synchroniser via la mise à jour du système	To be synchronised through the system update
+Aucune base téléchargée : Trivy la téléchargera à la première analyse.	No database downloaded: Trivy will download it at the first scan.
+~^Base de vulnérabilités du (.+) UTC \(téléchargée le (.+)\) — (\d+) jour\(s\)(.*)$	Vulnerability database of $1 UTC (downloaded on $2) — $3 day(s)$4
+Base locale : à télécharger	Local database: to download
+Base locale : à télécharger (administrateur)	Local database: to download (administrator)
+Base Trivy (Aqua Security) — miroir officiel mirror.gcr.io/aquasec/trivy-db, ghcr.io en secours. Couvre Debian, Ubuntu, RHEL, Alpine… et les langages (Go, Python, Node, Rust, Java…)	Trivy database (Aqua Security) — official mirror mirror.gcr.io/aquasec/trivy-db, ghcr.io as a fallback. Covers Debian, Ubuntu, RHEL, Alpine… and languages (Go, Python, Node, Rust, Java…)
+Catalogue local : à télécharger	Local catalog: to download
+Catalogue officiel CISA (agence américaine de cybersécurité) des failles activement exploitées : Windows, Apple, Cisco, Linux, navigateurs…	Official CISA catalog (US cybersecurity agency) of actively exploited vulnerabilities: Windows, Apple, Cisco, Linux, browsers…
+CISA KEV · failles exploitées, tous éditeurs	CISA KEV · exploited vulnerabilities, all vendors
+paquets système	system packages
+Dépôts officiels (pacman) : ce sont eux qui apportent les correctifs	Official repositories (pacman): they are what brings the fixes
+~^✔ Dernière mise à jour réussie : (.+)$	✔ Last update succeeded: $1
+D'où viennent les données de chaque outil, et comment les garder à jour. Les sources « en direct » sont interrogées à chaque analyse : il n'y a rien à télécharger.	Where each tool's data comes from, and how to keep it up to date. “Live” sources are queried at each scan: there is nothing to download.
+~^✘ Échec de la dernière mise à jour \((.+)\)$	✘ Last update failed ($1)
+En direct (API en ligne) : toujours à jour	Live (online API): always up to date
+En direct : interrogé à chaque analyse	Live: queried at each scan
+En direct : recherche à la demande (page Failles mondiales)	Live: on-demand search (Worldwide vulnerabilities page)
+Fichiers de signatures du projet rkhunter, récupérés depuis ses miroirs	Signature files of the rkhunter project, fetched from its mirrors
+Intégrées au paquet : mises à jour par pacman	Bundled with the package: updated by pacman
+Jamais mise à jour depuis cette application.	Never updated from this application.
+Lynis · configuration	Lynis · configuration
+Lynis : vérifier la version des règles	Lynis: check the rules version
+Mettre à jour le système…	Update the system…
+Mise à jour des bases de données	Database updates
+National Vulnerability Database du NIST — plus de 400 000 CVE	NIST National Vulnerability Database — over 400,000 CVEs
+~^(.+) est introuvable$	$1 not found
+NVD · catalogue mondial des CVE	NVD · worldwide CVE catalog
+OSV — osv.dev : PyPI, npm, crates.io, Go, Maven, RubyGems, GitHub Advisory, et d'autres écosystèmes	OSV — osv.dev: PyPI, npm, crates.io, Go, Maven, RubyGems, GitHub Advisory, and other ecosystems
+OSV-Scanner · dépendances de vos projets	OSV-Scanner · your projects' dependencies
+~^(\d+) mise\(s\) à jour en attente \(certaines peuvent être à risque : vérifiées avant l'installation\)\.$	$1 update(s) pending (some may be risky: checked before installation).
+ ⚠ périmée : mettez à jour	 ⚠ outdated: update
+Règles d'audit embarquées par CISOfy dans le paquet Lynis	Audit rules shipped by CISOfy in the Lynis package
+rkhunter : mettre à jour les signatures (administrateur)	rkhunter: update the signatures (administrator)
+rkhunter · rootkits	rkhunter · rootkits
+source inconnue	unknown source
+Système à jour d'après les dépôts.	System up to date according to the repositories.
+Trivy · bibliothèques, binaires, systèmes	Trivy · libraries, binaries, systems
+Trivy : télécharger la base de vulnérabilités (Aqua Security)	Trivy: download the vulnerability database (Aqua Security)
+Vérifier la source	Check the source
+Vérifier la version	Check the version
+catalogue vide	empty catalog
+curl est introuvable	curl not found
+Saisissez un identifiant CVE (CVE-2021-44228) ou un mot-clé simple (2 à 80 caractères : lettres, chiffres, espace, . _ : / + -).	Enter a CVE identifier (CVE-2021-44228) or a simple keyword (2 to 80 characters: letters, digits, space, . _ : / + -).
+source non autorisée	source not allowed
+Droits administrateur refusés ou analyse annulée	Administrator rights refused or scan cancelled
+~^dossier temporaire impossible : (.+)$	temporary folder impossible: $1
+~^lancement impossible : (.+)$	launch impossible: $1
+[… sortie tronquée : trop de lignes …]	[… output truncated: too many lines …]
+~^(.+) : caractères de contrôle interdits$	$1: control characters forbidden
+~^(.+) : format invalide$	$1: invalid format
+~^(.+) : une valeur ne peut pas commencer par « - »$	$1: a value cannot start with “-”
+~^(.+) : valeur trop longue$	$1: value too long
+nom de fichier invalide	invalid file name
+Système (lastb)	System (lastb)
+~^(\d+) alerte\(s\) de rkhunter examinée\(s\) : ce sont des faux positifs, vérifiés ci-dessous\. Dernière vérification : (.+)$	$1 rkhunter alert(s) examined: they are false positives, verified below. Last check: $2
+~^(\d+) alerte\(s\) sans danger, vérifiée\(s\) avec la base des paquets\.$	$1 harmless alert(s), verified against the package database.
+~^Ce fichier est DIFFÉRENT de celui du paquet (.+)\. Si vous ne l'avez pas modifié vous-même, considérez la machine comme potentiellement compromise\.$	This file is DIFFERENT from the one in package $1. If you did not modify it yourself, consider the machine potentially compromised.
+Connexions sortantes refusées	Outgoing connections refused
+~^correctif disponible : (.+)$	fix available: $1
+~^(\d+) dépendance\(s\)$	$1 dependenc(y/ies)
+~^Dernière vérification : (.+)$	Last check: $1
+~^DIFFÉRENT du paquet (.+) : modifié\.$	DIFFERENT from package $1: modified.
+~^(\d+) entrée\(s\) du tracker pour « (.+) » : (.+)\.$	$1 tracker entries for “$2”: $3.
+~^(\d+) entrée\(s\) du tracker visent d'anciennes versions \(plus anciennes que les vôtres\) : ignorées, voir plus bas\.$	$1 tracker entries target older versions (older than yours): ignored, see below.
+~^(\d+) faille\(s\) · (.+) · (.+)$	$1 vulnerabilit(y/ies) · $2 · $3
+~^Fichier officiel du paquet (\S+) (\S+), identique à l'original : pacman a comparé son empreinte à celle enregistrée à l'installation\.$	Official file of package $1 $2, identical to the original: pacman compared its fingerprint with the one recorded at installation.
+~^Fichier officiel du paquet (\S+) (\S+), identique à l'original \(vérifié avec pacman\)\. (.*)$	Official file of package $1 $2, identical to the original (verified with pacman). $3
+~^Fichier : (.+)$	File: $1
+~^Fichier système : (.+)$	System file: $1
+~^Fichier temporaire de (.+), qui tourne actuellement sur cette machine \(propriétaire et processus vérifiés\)\.$	Temporary file of $1, which is currently running on this machine (owner and process verified).
+~^Fichier temporaire : (.+)$	Temporary file: $1
+~^⚠ (\d+) point\(s\) à risque élevé : un instantané de secours est créé avant\.$	⚠ $1 high-risk item(s): a safety snapshot is created beforehand.
+~^(.+) en cours…$	$1 in progress…
+~^Lancez la commande copiée dans un terminal : (\S+) affiche les différences du PKGBUILD pour que vous puissiez les relire avant d'installer\.$	Run the copied command in a terminal: $1 shows the PKGBUILD differences so you can read them before installing.
+~^Le tracker vise la version (\S+) ; vous avez la (\S+) : probablement déjà corrigé$	The tracker targets version $1; you have $2: probably already fixed
+~^(\d+) logiciel\(s\)$	$1 software item(s)
+~^Mémoire partagée de (.+) : normal\.$	Shared memory of $1: normal.
+~^mettre à jour vers (.+)$	update to $1
+~^(\d+) mise\(s\) à jour$	$1 update(s)
+~^(\d+) mise\(s\) à jour disponible\(s\)$	$1 update(s) available
+~^(\d+) connexion\(s\) vers (\d+) serveur\(s\)$	$1 connection(s) to $2 server(s)
+~^(\d+) faille\(s\) dont (\d+) grave\(s\) · (.+)$	$1 vulnerabilit(y/ies) including $2 severe · $3
+~^(\d+) faille\(s\) exploitée\(s\) par des pirates · la plus récente signalée le (\S+) · (.+)$	$1 vulnerabilit(y/ies) exploited by attackers · latest reported on $2 · $3
+~^PAQUETS AUR — À RELIRE AVANT D'INSTALLER \((.+)\)$	AUR PACKAGES — REVIEW BEFORE INSTALLING ($1)
+~^Port (\d+)/(\w+)$	Port $1/$2
+~^Ports : (.+)$	Ports: $1
+~^Pourquoi rkhunter le signale : (.+)$	Why rkhunter flags it: $1
+~^Programme système : (.+)$	System program: $1
+~^Réafficher les (\d+) alerte\(s\) marquée\(s\) normales$	Show again the $1 alert(s) marked as normal
+~^(\d+) menace\(s\)$	$1 threat(s)
+~^(\d+) / 100$	$1 / 100
+~^(\d+) à examiner$	$1 to examine
+~^(\d+) point\(s\) à examiner$	$1 item(s) to examine
+~^Serveur (.+)$	Server $1
+~^Service système \(port (\d+)\)$	System service (port $1)
+~^(.+) \(version visée (.+)\)$	$1 (targeted version $2)
+~^Votre version installée est (\S+), plus récente que chacune des versions visées\.$	Your installed version is $1, newer than each of the targeted versions.
+~^(\d+) autorisé\(s\)$	$1 allowed
+~^(.+)\. Créé par le système lors des mises à jour : normal\.$	$1. Created by the system during updates: normal.
+~^(.+)\. Le contenu du fichier a été vérifié : il porte bien la mention de son créateur\.$	$1. The file's content was checked: it does carry its creator's mark.
+~^actif \((.+)\)$	active ($1)
+~^à installer · ⚠ (\d+) point\(s\) à risque élevé : vous serez prévenu avant$	to install · ⚠ $1 high-risk item(s): you will be warned beforehand
+~^⚠ (\d+) analyse\(s\) n'ont pas pu démarrer : (.+)$	⚠ $1 scan(s) could not start: $2
+~^(\d+) paquet\(s\) vulnérable\(s\)$	$1 vulnerable package(s)
+~^Dernière analyse : (.+)   ·   Bases de CVE vérifiées — CISA : (.+) · Trivy : (.+? à \d\d:\d\d)(.*)$	Last scan: $1   ·   CVE databases checked — CISA: $2 · Trivy: $3$4
+~^Dernière analyse : (.+)$	Last scan: $1
+~^(\d+) tâche\(s\) traitée\(s\)\. Relancez une analyse pour vérifier le résultat\.$	$1 task(s) processed. Run a scan again to check the result.
+~^(\d+) logiciel\(s\) ciblé\(s\) par des attaques réelles$	$1 software item(s) targeted by real attacks
+~^(\d+) faille\(s\) dans vos projets$	$1 vulnerabilit(y/ies) in your projects
+~^(\d+) port\(s\) à vérifier$	$1 port(s) to check
+~^Score (\d+)/100$	Score $1/100
+~^(\d+) service\(s\) autorisé\(s\) · pare-feu (.+)$	$1 allowed service(s) · firewall $2
+inactif	inactive
+~^(\d+) alerte\(s\)$	$1 alert(s)
+~^(\d+) alerte\(s\), (\d+) suggestion\(s\) pour renforcer le système$	$1 alert(s), $2 suggestion(s) to harden the system
+~^\(option invalide : (.+)\)$	(invalid option: $1)
+~^Terminé — (.+)$	Done — $1
+~^(\d+) logiciel\(s\) · (\d+) faille\(s\)$	$1 software item(s) · $2 vulnerabilit(y/ies)
+~^(.+) \(0 = par défaut\)$	$1 (0 = default)
+~^analysé le (.+)$	scanned on $1
+~^sauvegarde de l'état impossible : (.+)$	saving the state impossible: $1
+Élevée	High
+Inconnue	Unknown
+Info	Info
+Suggestion	Suggestion
+Surveillance en direct	Live monitoring
+Ports et connexions en direct	Live ports and connections
+Autorisé	Allowed
+À vérifier	To check
+~^(\d\d/\d\d/\d{4}) à (\d\d:\d\d)$	$1 at $2

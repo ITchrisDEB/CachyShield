@@ -1,0 +1,262 @@
+~^(.+) \((--?[A-Za-z][A-Za-z0-9-]*)\)$	$1 ($2)
+Action	Action
+Affichage et journaux	Display and logs
+Affiche plus de détails à l'écran.	Shows more details on screen.
+Affiche uniquement les paquets pour lesquels un correctif existe déjà : ce sont ceux à mettre à jour.	Shows only packages for which a fix already exists: these are the ones to update.
+Ajoute la colonne « Requis par » : paquets qui dépendent d'un paquet vulnérable.	Adds the “Required by” column: packages that depend on a vulnerable package.
+Alternative à /etc/rkhunter.conf.	Alternative to /etc/rkhunter.conf.
+Analyse aussi les dépendances de développement. Ignorée en mode « Système de fichiers » (Trivy ne la connaît que pour les projets).	Also scans development dependencies. Ignored in “File system” mode (Trivy only knows it for projects).
+Analyse aussi les dépôts git non-sous-modules.	Also scans git repositories that are not submodules.
+Analyse aussi les fichiers normalement exclus par .gitignore.	Also scans files normally excluded by .gitignore.
+Analyse complète	Full scan
+Analyse d'appel	Call analysis
+Analyse non terminée	Scan not finished
+~^Analyse non terminée : (.+)$	Scan not finished: $1
+Analyse seulement ce fichier (chemin absolu) au lieu d'un dossier.	Scans only this file (absolute path) instead of a folder.
+Analyse un dossier ou tout le système : dépendances vulnérables (Python, Node, Go, Rust…), secrets exposés, configurations à risque. Trivy ne gère pas les paquets pacman (voir arch-audit). La première analyse télécharge sa base de vulnérabilités.	Scans a folder or the whole system: vulnerable dependencies (Python, Node, Go, Rust…), exposed secrets, risky configurations. Trivy does not handle pacman packages (see arch-audit). The first scan downloads its vulnerability database.
+Analyseurs	Scanners
+arch-audit — failles connues dans vos paquets	arch-audit — known vulnerabilities in your packages
+Aucune alerte	No alert
+Aucun fichier de dépendances trouvé	No dependency file found
+Aucun (recommandé sur Arch)	None (recommended on Arch)
+Aucun résultat (voir la sortie brute)	No result (see the raw output)
+Audit complet, test d'intrusion non privilégié ou analyse forensique.	Full audit, unprivileged penetration test or forensic analysis.
+Audit système complet	Full system audit
+Avertissements	Warnings
+Base de données et réseau	Database and network
+Base de référence absente : lancez d'abord « Mettre à jour les signatures » puis « Initialiser la base de référence », idéalement sur un système que vous savez sain.	Reference database missing: first run “Update the signatures” then “Initialise the reference database”, ideally on a system you know to be clean.
+Base locale	Local database
+Base pacman	pacman database
+Bibliothèques (library)	Libraries (library)
+Ce qu'il faut chercher	What to look for
+Chemin analysé. « / » = tout le système.	Path scanned. “/” = the whole system.
+Cherche les fichiers de dépendances dans tous les sous-dossiers.	Looks for dependency files in all subfolders.
+Choisissez ce que rkhunter doit faire.	Choose what rkhunter should do.
+~^(.+) : choix inconnu$	$1: unknown choice
+Code langue, ex. en.	Language code, e.g. en.
+Compare les fichiers système à une base de référence, cherche des rootkits connus, des processus ou fichiers cachés. Des alertes isolées sont souvent des faux positifs. Demande les droits administrateur.	Compares system files with a reference database, looks for known rootkits, hidden processes or files. Isolated alerts are often false positives. Requires administrator rights.
+Compare les paquets installés au tracker de sécurité d'Arch Linux (security.archlinux.org). Les paquets AUR ne sont pas couverts.	Compares installed packages with the Arch Linux security tracker (security.archlinux.org). AUR packages are not covered.
+Comportement	Behaviour
+Configurations (misconfig)	Configurations (misconfig)
+Conserve les anciens résultats dans le journal.	Keeps the old results in the log.
+Considère l'absence de fichiers comme normale.	Treats missing files as normal.
+Corrigés d'abord	Fixed first
+Critère de tri de la sortie.	Sort criterion of the output.
+Délai maximum	Maximum delay
+Dépôt de la base	Database repository
+deps.dev (défaut)	deps.dev (default)
+deps.dev (par défaut) ou résolution native.	deps.dev (default) or native resolution.
+Désactiver ces tests	Disable these tests
+Activer seulement ces tests	Enable only these tests
+Afficher uniquement les alertes	Show only alerts
+Ajouter au journal existant	Append to the existing log
+Désactive tout accès réseau.	Disables all network access.
+Détail	Detail
+Dossier à analyser	Folder to scan
+Dossier contenant vos projets.	Folder containing your projects.
+Dossier de plugins Lynis.	Lynis plugins folder.
+Dossier de plugins	Plugins folder
+Dossiers exclus	Excluded folders
+Dossiers ignorés	Ignored folders
+Écrire dans syslog	Write to syslog
+Emplacement alternatif de la base pacman.	Alternative location of the pacman database.
+Emplacement du journal.	Log location.
+Envoie aussi les alertes à syslog.	Also sends alerts to syslog.
+Erreurs	Errors
+Ex. : 10m, 1h.	E.g. 10m, 1h.
+Examine SSH, pare-feu, noyau, permissions, comptes, services… et calcule un score de durcissement. Il vérifie la configuration, pas les CVE des paquets. Demande les droits administrateur.	Examines SSH, firewall, kernel, permissions, accounts, services… and computes a hardening score. It checks the configuration, not package CVEs. Requires administrator rights.
+Exclusions	Exclusions
+Exécuter en administrateur (pkexec)	Run as administrator (pkexec)
+Ex. : ssh, firewall, kernel…	E.g. ssh, firewall, kernel…
+~^(\d+) faille\(s\) dans (\d+) dépendance\(s\)$	$1 vulnerabilit(y/ies) in $2 dependenc(y/ies)
+Fichier de configuration	Configuration file
+Fichier de profil	Profile file
+Fichier journal	Log file
+Fichiers	Files
+Fichiers ignorés	Ignored files
+Fichiers pris en compte	Files taken into account
+Filtres	Filters
+Forensique	Forensics
+Gestionnaire de paquets	Package manager
+Go uniquement : ne signale que les failles réellement appelées. (Rust lance des scripts de build : non proposé.)	Go only: reports only the vulnerabilities actually called. (Rust runs build scripts: not offered.)
+Gravité puis nom	Severity then name
+Gravités	Severities
+Groupes de tests	Test groups
+Identifiants séparés par des espaces, ex. SSH-7440.	Identifiers separated by spaces, e.g. SSH-7440.
+Ignore le proxy configuré dans l'environnement.	Ignores the proxy configured in the environment.
+Ignorer .gitignore	Ignore .gitignore
+Ignorer les failles sans correctif	Ignore vulnerabilities without a fix
+Ignorer les plugins	Ignore plugins
+Inclure la racine git	Include the git root
+Inclure les dépendances de dev — projets de code seulement	Include dev dependencies — code projects only
+Inclure les dépôts [testing]	Include the [testing] repositories
+Inclure les sous-dossiers	Include subfolders
+Inclut aussi les failles jugées peu importantes ou non appelées.	Also includes vulnerabilities judged unimportant or not called.
+Initialiser la base de référence	Initialise the reference database
+Inverser	Reverse
+Journalise les détails de débogage.	Logs debugging details.
+Langue des messages	Message language
+Licence	License
+Licences (license)	Licenses (license)
+~^ligne (\d+)$	line $1
+Liste aussi les paquets sans faille dans le JSON.	Also lists packages without vulnerabilities in the JSON.
+Lister les tests	List the tests
+Liste séparée par des virgules, ex. : apps,hidden_ports	Comma-separated list, e.g.: apps,hidden_ports
+Liste séparée par des virgules, ex. : rootkits,hidden_procs	Comma-separated list, e.g.: rootkits,hidden_procs
+Lit les fichiers de dépendances de vos projets (requirements.txt, package-lock.json, go.mod, Cargo.lock…) et les compare à la base OSV (GitHub, PyPI, Go, npm…). Complète Trivy. Ne regarde pas les paquets pacman.	Reads your projects' dependency files (requirements.txt, package-lock.json, go.mod, Cargo.lock…) and compares them with the OSV database (GitHub, PyPI, Go, npm…). Complements Trivy. Does not look at pacman packages.
+Lynis — audit de configuration et de durcissement	Lynis — configuration and hardening audit
+Masque les vulnérabilités qu'aucune mise à jour ne corrige encore.	Hides vulnerabilities that no update fixes yet.
+Mettre à jour les signatures	Update the signatures
+Mode	Mode
+Mode d'audit	Audit mode
+Mode débogage	Debug mode
+Mode hors ligne : cochez d'abord « Télécharger les bases » — aucune base locale n'est présente, l'analyse échouerait.	Offline mode: first tick “Download the databases” — no local database is present, the scan would fail.
+Mode hors ligne	Offline mode
+Mode rapide, sans pauses	Quick mode, without pauses
+Montre aussi les paquets présents dans les dépôts de test.	Also shows packages present in the testing repositories.
+~^(.+) est introuvable : installez-le avec pacman$	$1 not found: install it with pacman
+N'attend pas d'appui sur une touche entre les sections.	Does not wait for a key press between sections.
+Nécessaire pour un audit complet. Sans root, de nombreux tests sont ignorés.	Needed for a full audit. Without root, many tests are skipped.
+Ne charge pas les plugins.	Does not load the plugins.
+N'écrit pas /var/log/lynis.log.	Does not write /var/log/lynis.log.
+N'écrit pas /var/log/rkhunter.log.	Does not write /var/log/rkhunter.log.
+N'envoie aucune requête externe.	Sends no external request.
+N'envoie pas de mail en cas d'alerte.	Sends no mail on alert.
+Ne pas échouer sans fichier de dépendances	Do not fail without a dependency file
+Ne pas mettre à jour la base	Do not update the database
+Ne pas utiliser de proxy	Do not use a proxy
+N'essaie pas de résoudre les dépendances indirectes des manifestes.	Does not try to resolve the manifests' indirect dependencies.
+Niveau de détail	Level of detail
+Niveaux de gravité à afficher.	Severity levels to display.
+Nombre de workers.	Number of workers.
+Nom de l'auditeur	Auditor name
+Nom du paquet	Package name
+Nom inscrit dans le rapport.	Name written in the report.
+Opération	Operation
+Opération terminée	Operation finished
+Ordre de tri	Sort order
+OSV-Scanner — dépendances de vos projets (base OSV)	OSV-Scanner — your projects' dependencies (OSV database)
+Paquets dépendants	Dependent packages
+~^(\d+) paquet\(s\) vulnérable\(s\) — (\d+) avec correctif$	$1 vulnerable package(s) — $2 with a fix
+Par défaut	Default
+Pas de courriel	No e-mail
+Pas de dépendances transitives	No transitive dependencies
+Pas de fichier journal	No log file
+Pentest non privilégié	Unprivileged pentest
+Performance	Performance
+Permet de lire les fichiers réservés à root.	Allows reading files reserved to root.
+precise : moins de faux positifs ; comprehensive : plus de résultats.	precise: fewer false positives; comprehensive: more results.
+Priorité de détection	Detection priority
+~^(\d+) problème\(s\) détecté\(s\)$	$1 problem(s) detected
+Profil Lynis personnalisé (.prf), chemin absolu.	Custom Lynis profile (.prf), absolute path.
+Projet de code (fs)	Code project (fs)
+Proxy	Proxy
+Quantité d'informations affichées.	Amount of information displayed.
+Réduit la sortie aux avertissements.	Reduces the output to warnings.
+Registre Maven	Maven registry
+Registre OCI alternatif.	Alternative OCI registry.
+Remplace osv-scanner.toml.	Replaces osv-scanner.toml.
+Repère les versions de paquets déclarées obsolètes.	Spots package versions declared obsolete.
+Réseau et base locale	Network and local database
+Résolution des dépendances	Dependency resolution
+Résultat illisible (voir la sortie brute)	Unreadable result (see the raw output)
+Rien à signaler	Nothing to report
+rkhunter ne gère pas pacman : sur Arch, laissez « Aucun » (il utilise sa propre base d'empreintes).	rkhunter does not handle pacman: on Arch, leave “None” (it uses its own fingerprint database).
+rkhunter — recherche de rootkits et de fichiers modifiés	rkhunter — search for rootkits and modified files
+~^(\d+) rootkit\(s\) possible\(s\), (.+)$	$1 possible rootkit(s), $2
+rootfs : système de fichiers complet ; fs : projet de code.	rootfs: whole file system; fs: code project.
+~^Score (\d+)/100 — (\d+) alerte\(s\), (\d+) suggestion\(s\)$	Score $1/100 — $2 alert(s), $3 suggestion(s)
+~^(\d+) alerte\(s\), (\d+) suggestion\(s\)$	$1 alert(s), $2 suggestion(s)
+Secrets	Secrets
+Secrets (secret)	Secrets (secret)
+Sélection des tests	Test selection
+Séparés par des virgules.	Separated by commas.
+Séparés par des virgules. Préfixes : g:glob, r:regex, ou nom exact.	Separated by commas. Prefixes: g:glob, r:regex, or exact name.
+Seuil de test lent, secondes	Slow-test threshold, seconds
+Seulement les paquets déjà corrigés	Only already-fixed packages
+Signale les tests plus lents que ce seuil.	Reports tests slower than this threshold.
+Signaler les versions obsolètes	Report obsolete versions
+Sortie détaillée	Detailed output
+Source des données	Data source
+Source des paquets	Package source
+Source et réseau	Source and network
+Système de fichiers (rootfs)	File system (rootfs)
+Système (os)	System (os)
+Système ou bibliothèques.	System or libraries.
+Tâches parallèles	Parallel tasks
+Télécharge les bases pour un usage hors ligne.	Downloads the databases for offline use.
+Télécharger les bases	Download the databases
+Tests	Tests
+Tests précis	Specific tests
+Tous les paquets	All packages
+Toutes les vulnérabilités	All vulnerabilities
+Trivy — bibliothèques, secrets et configurations	Trivy — libraries, secrets and configurations
+Type d'analyse	Scan type
+Types de paquets	Package types
+Types de problèmes à rechercher.	Types of problems to look for.
+Un fichier de dépendances précis	A specific dependency file
+URL du registre Maven.	Maven registry URL.
+URL https ou fichier JSON du tracker de sécurité.	https URL or JSON file of the security tracker.
+Utilise la base téléchargée précédemment.	Uses the previously downloaded database.
+Utilise les bases déjà téléchargées.	Uses the databases already downloaded.
+Vérifier la configuration	Check the configuration
+Vérifier la version	Check the version
+Vulnérabilité	Vulnerability
+Vulnérabilités (vuln)	Vulnerabilities (vuln)
+Dépôt de la base (--db-repository)	Database repository (--db-repository)
+Aucun	None
+Avertissements uniquement	Warnings only
+ENTRETIEN APRÈS MISE À JOUR	AFTER-UPDATE MAINTENANCE
+À nettoyer	To clean up
+À traiter	To handle
+À faire	To do
+Supprimer…	Remove…
+Nettoyer…	Clean…
+Redémarrer…	Restart…
+Le noyau a été mis à jour : il ne sera appliqué qu'après un redémarrage.	The kernel has been updated: it only takes effect after a restart.
+Rien à nettoyer : aucun paquet orphelin, cache propre, aucun fichier .pacnew, aucun redémarrage en attente.	Nothing to clean up: no orphaned packages, clean cache, no .pacnew files, no restart pending.
+Cliquez pour voir comment les traiter	Click to see how to handle them
+Fichiers .pacnew	.pacnew files
+Configuration à comparer.	Configuration to compare.
+pacman — fichiers .pacnew	pacman — .pacnew files
+Quand une mise à jour apporte une nouvelle version d'un fichier de configuration que vous avez modifié, pacman garde le vôtre et dépose la nouvelle version à côté (.pacnew).	When an update ships a new version of a configuration file you have modified, pacman keeps yours and puts the new version next to it (.pacnew).
+Comparez-les avec « sudo pacdiff » : pour chaque fichier, vous choisissez de garder le vôtre, de prendre le nouveau ou de fusionner. L'application ne les modifie jamais toute seule : un mauvais choix peut empêcher un service de démarrer.	Compare them with “sudo pacdiff”: for each file you choose to keep yours, take the new one or merge. The application never changes them on its own: a wrong choice can stop a service from starting.
+~^(\d+) paquet\(s\) orphelin\(s\)$	$1 orphaned package(s)
+~^(\d+) archive\(s\) ancienne\(s\) ou de paquets désinstallés$	$1 old archive(s) or archive(s) of uninstalled packages
+~^(\d+) fichier\(s\) de configuration à comparer \(\.pacnew\)$	$1 configuration file(s) to compare (.pacnew)
+~^Fichiers concernés : (.+)$	Files concerned: $1
+~^Seront supprimés \((\d+)\) :$	Will be removed ($1):
+Supprimer les paquets orphelins ?	Remove orphaned packages?
+Ces paquets ne sont plus utilisés par aucun autre : ils ont été installés comme dépendances et plus rien n'en a besoin.	These packages are no longer used by any other: they were installed as dependencies and nothing needs them anymore.
+Leurs fichiers de configuration sont supprimés aussi. Vous pourrez toujours les réinstaller avec pacman.	Their configuration files are removed too. You can always reinstall them with pacman.
+Suppression des paquets orphelins	Removing orphaned packages
+Paquets orphelins supprimés.	Orphaned packages removed.
+Rien n'a été supprimé (autorisation refusée, paquet devenu utile ou erreur : voir ci-dessus).	Nothing was removed (permission denied, package became useful, or error: see above).
+Nettoyer le cache de pacman ?	Clean the pacman cache?
+Le cache garde les archives de tous les paquets téléchargés. Seront supprimées : les versions anciennes (les 3 dernières de chaque paquet sont gardées) et les archives des paquets déjà désinstallés.	The cache keeps the archives of every downloaded package. Will be deleted: old versions (the last 3 of each package are kept) and archives of packages already uninstalled.
+Vos programmes ne sont pas touchés ; seules les archives de retour en arrière disparaissent.	Your programs are not touched; only the rollback archives disappear.
+Nettoyage du cache de pacman	Cleaning the pacman cache
+Cache de pacman nettoyé.	Pacman cache cleaned.
+Rien n'a été nettoyé (autorisation refusée ou erreur : voir ci-dessus).	Nothing was cleaned (permission denied or error: see above).
+Relancer	Restart
+Supprimer les éléments Flatpak inutilisés ?	Remove unused Flatpak items?
+Ces éléments Flatpak ne sont plus utilisés par aucune application installée.	These Flatpak items are no longer used by any installed application.
+Suppression des éléments Flatpak inutilisés	Removing unused Flatpak items
+Éléments Flatpak inutilisés supprimés.	Unused Flatpak items removed.
+Rien n'a été supprimé (autorisation refusée ou erreur : voir ci-dessus).	Nothing was removed (permission denied or error: see above).
+~^Le cache garde les archives de tous les paquets téléchargés : (\d+) archive\(s\) ancienne\(s\) ou de paquets désinstallés peuvent être supprimées\.$	The cache keeps the archives of every downloaded package: $1 old archive(s) or archive(s) of uninstalled packages can be deleted.
+Seront supprimées : les versions anciennes (les 3 dernières de chaque paquet sont gardées) et les archives des paquets déjà désinstallés.	Will be deleted: old versions (the last 3 of each package are kept) and archives of packages already uninstalled.
+Relancer les services mis à jour ?	Restart the updated services?
+Ces services utilisent d'anciens fichiers remplacés par la mise à jour : ils doivent être relancés pour utiliser les nouvelles versions.	These services use old files replaced by the update: they must be restarted to use the new versions.
+~^Seront relancés \((\d+)\) :$	Will be restarted ($1):
+Un service relancé est coupé une seconde ; le gestionnaire de session (écran de connexion) n'est jamais relancé.	A restarted service is interrupted for a second; the session manager (login screen) is never restarted.
+Relance des services	Restarting services
+Services relancés.	Services restarted.
+Certains services n'ont pas été relancés (autorisation refusée ou erreur : voir ci-dessus).	Some services were not restarted (permission denied or error: see above).
+Des mises à jour sont disponibles pour vos applications Flatpak.	Updates are available for your Flatpak applications.
+Mettre à jour les applications Flatpak ?	Update the Flatpak applications?
+~^Seront mises à jour \((\d+)\) :$	Will be updated ($1):
+Mise à jour des applications Flatpak	Updating Flatpak applications
+Applications Flatpak mises à jour.	Flatpak applications updated.
+Certaines applications Flatpak n'ont pas été mises à jour (autorisation refusée ou erreur : voir ci-dessus).	Some Flatpak applications were not updated (permission denied or error: see above).
+Quitter	Quit

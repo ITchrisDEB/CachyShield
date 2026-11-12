@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=Cachy Shield
+DBusActivatable=false
+Comment=Analyse, failles connues (CVE), mises à jour et protection — en un clic
+Comment[en]=Scan, known vulnerabilities (CVE), updates and protection — in one click
+Exec=cachy-shield
+Icon=cachy-shield
+Categories=System;Security;GTK;
+Keywords=security;cve;vulnerability;audit;lynis;rkhunter;trivy;
+Terminal=false
+StartupWMClass=io.github.cachy_shield.CachyShield

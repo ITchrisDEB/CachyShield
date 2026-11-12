@@ -1,0 +1,17 @@
+name: Dependency audit
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  cargo-audit:
+    runs-on: ubuntu-latest
+    container: archlinux:latest
+    steps:
+      - name: Install dependencies
+        run: pacman -Syu --noconfirm --needed git rust cargo-audit
+      - uses: actions/checkout@v4
+      - name: Audit Cargo.lock
+        run: cargo audit

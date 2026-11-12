@@ -1,0 +1,29 @@
+name: Release
+
+# Push a tag such as v1.0.0: the program is built and attached to a GitHub release, with its SHA256 checksum.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    container: archlinux:latest
+    steps:
+      - name: Install dependencies
+        run: pacman -Syu --noconfirm --needed base-devel git rust gtk4 libadwaita pkgconf polkit pacman-contrib iproute2 nftables curl
+      - uses: actions/checkout@v4
+      - name: Test
+        run: cargo test --release --locked
+      - name: Build the release archive
+        run: sh packaging/make-release.sh
+      - name: Publish
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/*.tar.gz
+            dist/*.sha256
+          generate_release_notes: true

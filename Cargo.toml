@@ -1,0 +1,28 @@
+[package]
+name = "cachy-shield"
+version = "1.0.0"
+edition = "2024"
+description = "Cachy Shield: a friendly security center for Arch-based Linux (arch-audit, Lynis, rkhunter, Trivy, OSV-Scanner) in GTK4/libadwaita"
+license = "MIT"
+readme = "README.md"
+keywords = ["security", "linux", "arch", "gtk4", "cve"]
+categories = ["command-line-utilities"]
+publish = false
+
+[dependencies]
+async-channel = "2.5"
+gtk4 = { version = "0.11.5", features = ["v4_12"] }
+ksni = { version = "0.3", default-features = false, features = ["async-io", "blocking"] }
+libadwaita = { version = "0.9.2", features = ["v1_5"] }
+regex = "1.13"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[profile.release]
+lto = false
+codegen-units = 16
+strip = true
+overflow-checks = true

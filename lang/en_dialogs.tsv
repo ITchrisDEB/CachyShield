@@ -1,0 +1,208 @@
+Analyse locale de cet ordinateur (ss et /proc)	Local analysis of this computer (ss and /proc)
+Annulation de la correction SSH	Undoing the SSH fix
+Annuler la correction SSH	Undo the SSH fix
+Annuler la correction SSH ?	Undo the SSH fix?
+Appliquer la correction	Apply the fix
+Arch Security Tracker (équipe sécurité d'Arch Linux)	Arch Security Tracker (Arch Linux security team)
+~^Arrêt de « (.+) »$	Stopping “$1”
+~^Arrêter « (.+) » \?$	Stop “$1”?
+~^Arrêter « (.+) » \(arrêt propre, PID (\d+)\)$	Stop “$1” (clean stop, PID $2)
+~^Arrêt forcé de « (.+) »$	Force-stopping “$1”
+Arrêt impossible	Cannot stop
+~^Arrêt impossible depuis l'application : (.+)$	Cannot stop from the application: $1
+Arrêter le programme : il reçoit une demande d'arrêt propre ; les données non enregistrées peuvent être perdues, et il ne repart pas tout seul sauf s'il est géré par un service.	Stop the program: it receives a clean stop request; unsaved data may be lost, and it will not restart by itself unless a service manages it.
+Aucun changement majeur détecté : risque faible, testez quand même avant d'appliquer.	No major change detected: low risk, but still test before applying.
+Aucun correctif	No fix
+Aucun correctif n'est publié pour le moment : il n'y a rien à installer.	No fix is published yet: there is nothing to install.
+Aucune action directe n'est sûre pour ce programme (voir la recommandation).	No direct action is safe for this program (see the recommendation).
+Aucune mise à jour particulièrement risquée détectée. Un instantané snapper est créé avant et après.	No particularly risky update detected. A snapper snapshot is created before and after.
+Aucune modification n'a été conservée : un contrôle de sécurité l'a empêchée (voir le message ci-dessus).	No change was kept: a safety check prevented it (see the message above).
+Aucun fichier compatible	No compatible file
+autre utilisateur	another user
+~^(.+) mise\(s\) à jour en échec : les données de ces sources peuvent être périmées\.$	$1 update(s) failed: the data from these sources may be out of date.
+Blocage de serveurs	Blocking servers
+~^Blocage du port (.+)$	Blocking port $1
+Bloquer	Block
+Bloquer ces serveurs ?	Block these servers?
+Bloquer ces serveurs coupe les connexions vers ces adresses sans arrêter le programme. Attention : un site peut utiliser plusieurs adresses, et bloquer une adresse partagée peut en gêner d'autres. Réversible avec « Tout débloquer ».	Blocking these servers cuts the connections to these addresses without stopping the program. Careful: a site can use several addresses, and blocking a shared address may affect others. Reversible with “Unblock all”.
+Bloquer l'accès réseau : le programme continue de fonctionner et reste utilisable depuis cet ordinateur, mais plus depuis les autres appareils. Le blocage disparaît au redémarrage (ou avec « Tout débloquer »).	Block network access: the program keeps running and stays usable from this computer, but no longer from other devices. The block disappears at restart (or with “Unblock all”).
+~^Bloquer le port (\S+) depuis le réseau \?$	Block port $1 from the network?
+~^Bloquer le port (\S+) depuis le réseau \(l'accès local reste possible, jusqu'au redémarrage\)$	Block port $1 from the network (local access stays possible, until restart)
+~^Bloquer les connexions vers (\d+) serveur\(s\) : (.+)$	Block connections to $1 server(s): $2
+Bureau KDE / Qt : fermez et rouvrez la session (ou redémarrez) après la mise à jour.	KDE / Qt desktop: log out and back in (or restart) after the update.
+Catalogue CISA	CISA catalog
+Ce dossier ne contient ni package.json, package-lock.json ni pom.xml.	This folder contains no package.json, package-lock.json or pom.xml.
+La commande « fix » d'OSV-Scanner ne gère pas requirements.txt ni les projets Go ou Rust : pour ceux-là, relevez la version indiquée dans la colonne « Correctif » et mettez-la à jour à la main.	OSV-Scanner's “fix” command does not handle requirements.txt or Go/Rust projects: for those, note the version shown in the “Fix” column and update it by hand.
+Ce port est déjà bloqué.	This port is already blocked.
+Ce programme appartient à root (service système) : l'arrêter peut déstabiliser le système. Préférez « Bloquer l'accès au réseau », qui n'arrête rien.	This program belongs to root (system service): stopping it may destabilise the system. Prefer “Block network access”, which stops nothing.
+Ce programme appartient à un autre utilisateur.	This program belongs to another user.
+Ce programme n'existe plus, ou son arrêt n'est pas autorisé (programme système ou session).	This program no longer exists, or stopping it is not allowed (system or session program).
+CE QUE L'APPLICATION PEUT FAIRE DIRECTEMENT	WHAT THE APPLICATION CAN DO DIRECTLY
+Ce qui va être fait :	What is going to be done:
+• ajout d'une règle dans une table de pare-feu DÉDIÉE à l'application : « refuser le port {port}/{proto} pour tout ce qui vient d'un autre appareil »	• a rule is added to a firewall table DEDICATED to the application: “refuse port {port}/{proto} for everything coming from another device”
+Effet : le programme continue de tourner et reste utilisable depuis cet ordinateur (l'accès local n'est pas bloqué), mais les autres appareils du réseau ne peuvent plus s'y connecter.	Effect: the program keeps running and stays usable from this computer (local access is not blocked), but other devices on the network can no longer connect to it.
+Sécurités : vos autres règles de pare-feu ne sont pas touchées · le blocage disparaît au redémarrage · annulable à tout moment depuis la page Réseau.	Safeguards: your other firewall rules are not touched · the block disappears at restart · can be undone at any time from the Network page.
+Si un autre appareil de chez vous utilise ce service (par exemple un second ordinateur), il sera coupé.	If another device at home uses this service (for example a second computer), it will be cut off.
+• les connexions entrantes venant d'autres appareils sont refusées, sauf les réponses à ce que vous ouvrez vous-même, le trafic local et le ping	• incoming connections from other devices are refused, except replies to what you open yourself, local traffic and ping
+~^• ports gardés ouverts \(services que vous avez marqués « autorisés »\) : (.+)$	• ports kept open (services you marked “allowed”): $1
+aucun	none
+Effet : votre navigateur, les mises à jour et tout ce que VOUS lancez continuent de fonctionner. Un autre appareil ne pourra plus se connecter à un service que vous n'avez pas marqué « Autoriser » (partage de fichiers, SSH, bureau à distance…).	Effect: your browser, updates and everything YOU launch keep working. Another device can no longer connect to a service you have not marked “Allow” (file sharing, SSH, remote desktop…).
+Sécurités : table de pare-feu dédiée, vos autres règles ne sont pas touchées · disparaît au redémarrage · désactivable à tout moment depuis cette tuile.	Safeguards: dedicated firewall table, your other rules are not touched · disappears at restart · can be disabled at any time from this tile.
+Activation du pare-feu	Enabling the firewall
+Désactivation du pare-feu	Disabling the firewall
+Pare-feu de l'application désactivé.	Application firewall disabled.
+Le pare-feu n'a pas été activé (autorisation refusée ou erreur : voir ci-dessus).	The firewall was not enabled (permission refused or error: see above).
+• création du fichier /etc/ssh/sshd_config.d/10-cachy-shield.conf contenant « PermitRootLogin no »	• creation of the file /etc/ssh/sshd_config.d/10-cachy-shield.conf containing “PermitRootLogin no”
+Effet : plus personne ne pourra se connecter en « root » par SSH, même avec une clé. Vous pourrez toujours vous connecter avec votre compte normal, puis utiliser sudo.	Effect: nobody will be able to log in as “root” over SSH any more, even with a key. You can still log in with your normal account, then use sudo.
+Sécurités : refus si une session root distante est ouverte · instantané de secours (snapper) · contrôle de la configuration avant et après · retour arrière automatique en cas de problème · annulation possible à tout moment.	Safeguards: refused if a remote root session is open · safety snapshot (snapper) · configuration checked before and after · automatic rollback if anything goes wrong · can be undone at any time.
+C'est ce programme lui-même (ou le processus système n°1) : l'arrêter fermerait l'application ou le système.	This is the program itself (or system process no. 1): stopping it would close the application or the system.
+~^  ⚠ CHANGEMENT MAJEUR : (.+)$	⚠ MAJOR CHANGE: $1
+Chercher sur osv.dev	Search on osv.dev
+CISA — catalogue des failles exploitées (KEV)	CISA — catalog of exploited vulnerabilities (KEV)
+~^Commande : (.+)$	Command: $1
+Composant essentiel du système : redémarrez juste après la mise à jour.	Essential system component: restart right after the update.
+Configuration invalide après retrait : vérifiez sshd_config.	Invalid configuration after removal: check sshd_config.
+Configuration invalide : modification annulée.	Invalid configuration: change cancelled.
+Correctifs proposés par OSV-Scanner (aperçu)	Fixes suggested by OSV-Scanner (preview)
+Correction annulée.	Fix undone.
+Correction annulée : SSH retrouve son réglage d'origine.	Fix undone: SSH is back to its original setting.
+Correction appliquée. Pour l'annuler : Protection → cette alerte → « Annuler la correction ».	Fix applied. To undo it: Protection → this alert → “Undo the fix”.
+Correction : SSH sans connexion root	Fix: SSH without root login
+~^Déblocage du port (.+)$	Unblocking port $1
+~^Débloquer le port (\S+)$	Unblock port $1
+Démarrage : une erreur peut empêcher le système de démarrer (snapper permet de revenir en arrière).	Boot: an error may prevent the system from starting (snapper lets you roll back).
+Dépôts {distro}	{distro} repositories
+Dossier sshd_config.d introuvable : aucune modification.	sshd_config.d folder not found: no change made.
+Échec du lancement	Launch failed
+✘ échec (voir ci-dessus)	✘ failed (see above)
+En attendant, limitez l'exposition : n'utilisez pas ce logiciel avec des fichiers ou des serveurs non fiables.	Meanwhile, limit exposure: do not use this software with untrusted files or servers.
+En clair : appliquez les correctifs ou mesures de l'éditeur ; s'il n'y en a pas, cessez d'utiliser le produit.	In plain words: apply the vendor's fixes or mitigations; if there are none, stop using the product.
+~^(\d+) étape\(s\)$	$1 step(s)
+~^Explication du contrôle (.+)$	Explanation of check $1
+~^« (.+) » fait partie de votre session \(affichage, son, réseau ou authentification\) : l'arrêter fermerait ou casserait votre session\.$	“$1” is part of your session (display, sound, network or authentication): stopping it would close or break your session.
+~^Fiche officielle (.+)$	Official page $1
+~^Fichier\(s\) concerné\(s\) : (.+)$	Affected file(s): $1
+Firmware / microcode : pris en compte au prochain redémarrage.	Firmware / microcode: applied at the next restart.
+Forcer l'arrêt	Force stop
+Garder la correction	Keep the fix
+Il résiste : forcer l'arrêt ?	It resists: force the stop?
+~^Installer la mise à jour du système \(inclut (.+)\)$	Install the system update (includes $1)
+Interdire la connexion « root » par SSH ?	Forbid “root” login over SSH?
+Interdire la connexion « root » par SSH (réversible, avec instantané de secours)	Forbid “root” login over SSH (reversible, with a safety snapshot)
+La correction a échoué ou a été annulée : rien n'a été modifié.	The fix failed or was cancelled: nothing was changed.
+Laisser tourner	Let it run
+L'annulation a échoué : rien n'a été modifié.	The undo failed: nothing was changed.
+L'application ne modifie JAMAIS vos projets : elle copie la commande ou montre un aperçu sur une copie. Testez votre projet après la mise à jour.	The application NEVER modifies your projects: it copies the command or shows a preview on a copy. Test your project after the update.
+~^Le correctif (\S+) est publié mais n'est pas encore dans vos dépôts synchronisés : il n'y a rien à installer maintenant\.$	Fix $1 is published but not yet in your synchronised repositories: there is nothing to install now.
+Le déblocage a échoué ou a été annulé.	The unblock failed or was cancelled.
+Le fichier /etc/ssh/sshd_config.d/10-cachy-shield.conf sera supprimé : SSH retrouvera son réglage d'origine (connexion root par clé seulement).	The file /etc/ssh/sshd_config.d/10-cachy-shield.conf will be deleted: SSH will return to its original setting (root login by key only).
+Le programme n'a pas répondu à la demande d'arrêt propre.	The program did not answer the clean stop request.
+Forcer l'arrêt (SIGKILL) le coupe immédiatement : les données non enregistrées sont perdues.	Forcing the stop (SIGKILL) cuts it immediately: unsaved data is lost.
+Le programme ne s'est pas arrêté de lui-même.	The program did not stop by itself.
+L'équipe sécurité d'Arch suit cette faille. Dès qu'un correctif sort, il apparaîtra dans « Mises à jour ».	The Arch security team is tracking this vulnerability. As soon as a fix is released, it will appear in “Updates”.
+Le réglage n'est pas pris en compte : modification annulée.	The setting is not taken into account: change cancelled.
+Levée de tous les blocages	Lifting all blocks
+L'opération a échoué ou a été annulée.	The operation failed or was cancelled.
+Lynis (CISOfy)	Lynis (CISOfy)
+Lynis ne modifie jamais le système, et ce réglage dépend de votre usage : l'appliquer automatiquement pourrait casser un programme que vous utilisez. C'est une recommandation à appliquer à la main.	Lynis never modifies the system, and this setting depends on how you use it: applying it automatically could break a program you use. It is a recommendation to apply by hand.
+~^(\d+) changement\(s\) de version majeure : risque de casser le projet\. Testez avant d'appliquer\.$	$1 major version change(s): risk of breaking the project. Test before applying.
+Marquer ce service comme autorisé (aucune modification du système)	Allow this service (no change to the system)
+~^Mettez (\S+) de la version (\S+) à la version (\S+) \(ou plus récente\) dans votre projet\.$	Update $1 from version $2 to version $3 (or newer) in your project.
+Mettre à jour	Update
+Mettre à jour le système ?	Update the system?
+Mise à jour du système	System update
+Module noyau / pilote graphique : une incompatibilité peut empêcher l'affichage au prochain démarrage.	Kernel module / graphics driver: an incompatibility may prevent the display from working at next boot.
+~^« (.+) » accepte des connexions venant d'autres appareils sur : (.+)\.$	“$1” accepts connections from other devices on: $2.
+~^« (.+) » a des connexions ouvertes vers (\d+) serveur\(s\) : (.+)\.$	“$1” has open connections to $2 server(s): $3.
+Ne plus signaler cette alerte (aucune modification du système)	Stop reporting this alert (no change to the system)
+✔ Le programme s'est arrêté.	✔ The program has stopped.
+✔ Mise à jour terminée. Relancez les analyses pour vérifier les failles restantes.	✔ Update finished. Run the scans again to check the remaining vulnerabilities.
+── Modifications qui seraient apportées (aperçu sur copie) ──	── Changes that would be made (preview on a copy) ──
+AUR : aucun assistant (paru, yay) détecté, vos paquets AUR ne sont pas surveillés.	AUR: no helper (paru, yay) detected, your AUR packages are not monitored.
+~^AUR \((.+)\) : aucune mise à jour en attente\.$	AUR ($1): no update pending.
+~^⚠ (\d+) mise\(s\) à jour AUR en attente \((.+)\) : NON incluses ici\. L'AUR demande de relire chaque PKGBUILD avant d'installer \(des paquets AUR ont été piégés en 2026\) : lancez « (.+) -Sua » dans un terminal et relisez les différences\.$	⚠ $1 AUR update(s) pending ($2): NOT included here. The AUR requires reading each PKGBUILD before installing (AUR packages were booby-trapped in 2026): run “$3 -Sua” in a terminal and read the differences.
+snapper crée des instantanés avant/après : vous pourrez revenir en arrière. Fermez vos travaux en cours.	snapper creates before/after snapshots: you will be able to roll back. Close your work in progress.
+Noyau : redémarrage obligatoire ensuite. Les modules externes (NVIDIA, VirtualBox, DKMS) doivent correspondre au nouveau noyau, sinon l'affichage graphique ou les machines virtuelles peuvent ne plus démarrer.	Kernel: a restart is required afterwards. External modules (NVIDIA, VirtualBox, DKMS) must match the new kernel, otherwise the graphics display or virtual machines may no longer start.
+~^RECOMMANDATION DE LA SOURCE — (.+)$	RECOMMENDATION FROM THE SOURCE — $1
+── Résumé ──	── Summary ──
+~^Vos fichiers dans (.+) n'ont PAS été modifiés\.$	Your files in $1 were NOT modified.
+OSV ne connaît pas de version corrigée : il n'y a rien à mettre à jour.	OSV knows no fixed version: there is nothing to update.
+OSV (osv.dev) — GitHub Advisory, PyPI, npm, Go, crates.io…	OSV (osv.dev) — GitHub Advisory, PyPI, npm, Go, crates.io…
+~^Ouvrir la fiche (.+)$	Open page $1
+~^(\d+) paquet\(s\) seront mis à jour avec « pacman -Syu » \(mise à jour complète, jamais partielle\)\.$	$1 package(s) will be updated with “pacman -Syu” (full update, never partial).
+Port invalide.	Invalid port.
+Port bloqué depuis le réseau. Pour l'annuler : page Réseau → « Blocages actifs ».	Port blocked from the network. To undo: Network page → “Active blocks”.
+Port débloqué.	Port unblocked.
+~^PostgreSQL \(utilisateur (.+)\)$	PostgreSQL (user $1)
+~^Pour l'écosystème « (.+) » l'application ne modifie pas vos projets : modifiez la version dans le fichier de dépendances indiqué\.$	For the “$1” ecosystem the application does not modify your projects: change the version in the dependency file shown.
+~^Processus n°(.+) \(compte n°(.+)\)\.$	Process no. $1 (account no. $2).
+Programme arrêté.	Program stopped.
+~^Programme : (.+)$	Program: $1
+~^Processus n°(\d+)$	Process no. $1
+Une demande d'arrêt PROPRE (SIGTERM) lui sera envoyée : il a le temps d'enregistrer et de se fermer.	A CLEAN stop request (SIGTERM) will be sent to it: it has time to save and close.
+• Les données non enregistrées dans ce programme peuvent être perdues.	• Unsaved data in this program may be lost.
+• Il ne redémarre pas tout seul, sauf s'il est géré par un service.	• It does not restart by itself, unless a service manages it.
+• Votre session et le système ne sont pas touchés.	• Your session and the system are not affected.
+Projet à examiner (package.json + package-lock.json, ou pom.xml)	Project to examine (package.json + package-lock.json, or pom.xml)
+~^Projet : (.+)$	Project: $1
+• Travaille sur une COPIE temporaire : vos fichiers ne sont pas modifiés.	• Works on a temporary COPY: your files are not modified.
+• OSV-Scanner peut exécuter le gestionnaire de paquets (scripts npm, registres externes) : ne continuez que si vous faites confiance à ce projet.	• OSV-Scanner may run the package manager (npm scripts, external registries): continue only if you trust this project.
+• Une mise à niveau « major » peut casser le projet : testez avant d'appliquer quoi que ce soit.	• A “major” upgrade may break the project: test before applying anything.
+Jusqu'où peut-on changer les versions ?	How far may versions be changed?
+Proposer	Suggest
+Proposer des correctifs ?	Suggest fixes?
+Python change de version mineure : vos environnements virtuels (venv) et paquets pip doivent être recréés, vos projets Python peuvent cesser de fonctionner.	Python changes minor version: your virtual environments (venv) and pip packages must be recreated, your Python projects may stop working.
+Redémarrage recommandé : des composants essentiels ont été mis à jour.	Restart recommended: essential components were updated.
+Relancez la recherche de mises à jour plus tard : le correctif arrivera avec une prochaine mise à jour du système.	Search for updates again later: the fix will arrive with a future system update.
+Remplacez la bibliothèque par une alternative maintenue, ou limitez son usage aux données de confiance.	Replace the library with a maintained alternative, or limit its use to trusted data.
+Rien à arrêter	Nothing to stop
+✘ Rien d'automatique.	✘ Nothing automatic.
+Rien n'a été bloqué (autorisation refusée ou erreur).	Nothing was blocked (permission refused or error).
+Rien n'a été bloqué (autorisation refusée ou erreur : voir ci-dessus).	Nothing was blocked (permission refused or error: see above).
+RISQUE ÉLEVÉ	HIGH RISK
+⚠ RISQUES DÉTECTÉS AVANT MISE À JOUR :	⚠ RISKS DETECTED BEFORE THE UPDATE:
+Serveurs bloqués. Pour les débloquer : page Réseau → « Blocages actifs ».	Servers blocked. To unblock them: Network page → “Active blocks”.
+~^Serveurs concernés \((\d+)\) :$	Servers concerned ($1):
+Effet : les connexions de cet ordinateur vers ces adresses sont refusées, pour TOUS les programmes. Un site peut utiliser plusieurs adresses, et une adresse partagée (hébergeur, CDN) peut servir d'autres sites : certains pourraient ne plus s'afficher.	Effect: connections from this computer to these addresses are refused, for ALL programs. A site can use several addresses, and a shared address (host, CDN) may serve other sites: some may no longer display.
+Sécurités : seules des adresses publiques sont acceptées (jamais votre réseau local) · vos autres règles ne sont pas touchées · le blocage disparaît au redémarrage · annulable avec « Tout débloquer ».	Safeguards: only public addresses are accepted (never your local network) · your other rules are not touched · the block disappears at restart · can be undone with “Unblock all”.
+~^(.+) a une mise à jour en attente \((.+) → (.+)\) : l'installer applique les correctifs de l'éditeur\.$	$1 has an update pending ($2 → $3): installing it applies the vendor's fixes.
+~^« (.+) » n'a pas de mise à jour en attente chez vous\. La liste CISA ne précise pas quelles versions sont touchées : si le logiciel est à jour, la faille est probablement déjà corrigée\.$	“$1” has no update pending on your machine. The CISA list does not say which versions are affected: if the software is up to date, the vulnerability is probably already fixed.
+sshd_config n'inclut pas sshd_config.d : aucune modification.	sshd_config does not include sshd_config.d: no change made.
+sshd redémarre : une session SSH ouverte peut être coupée.	sshd restarts: an open SSH session may be cut.
+Sur Arch Linux seule la mise à jour COMPLÈTE du système est supportée (jamais un paquet isolé), car les paquets dépendent les uns des autres.	On Arch Linux only a FULL system update is supported (never a single package), because packages depend on one another.
+✔ terminé	✔ done
+Terminé	Done
+Terminé.	Done.
+Terminé avec des échecs	Finished with failures
+~^Terminé avec le code (.+) \(annulé ou en erreur\)$	Finished with code $1 (cancelled or in error)
+Tous les blocages de l'application sont levés.	All the application's blocks are lifted.
+Tous les blocages sont levés.	All blocks are lifted.
+Toutes les bases sont à jour	All databases are up to date
+~^Un correctif existe \(version (\S+)\)\. Le paquet (\S+) fait partie des mises à jour en attente : (.+) → (.+)\.$	A fix exists (version $1). The package $2 is among the pending updates: $3 → $4.
+Une session root distante est ouverte : correction refusée pour ne pas vous couper.	A remote root session is open: fix refused so as not to cut you off.
+Un instantané de secours (snapper) est créé avant l'installation : vous pourrez revenir en arrière.	A safety snapshot (snapper) is created before the installation: you will be able to roll back.
+ — utilisée par des rançongiciels	 — used by ransomware
+Virtualisation : arrêtez vos machines virtuelles avant.	Virtualisation: stop your virtual machines first.
+Voir un aperçu des correctifs de dépendances (sur une copie, vos fichiers ne sont pas modifiés)	See a preview of dependency fixes (on a copy, your files are not modified)
+Votre système est à jour : aucune mise à jour n'est en attente dans les dépôts officiels.	Your system is up to date: no update is pending in the official repositories.
+Il n'y a rien à corriger maintenant : si des failles restent listées, elles n'ont pas de correctif publié pour votre version (voir leur détail).	There is nothing to fix now: if vulnerabilities are still listed, they have no published fix for your version (see their details).
+RECOMMANDATION	RECOMMENDATION
+Recommandation	Recommendation
+Mise à jour dans le projet : package.json et package-lock.json sont sauvegardés avant, et restaurés automatiquement en cas d'échec. Testez votre projet après la mise à jour.	Update inside the project: package.json and package-lock.json are backed up first, and restored automatically on failure. Test your project after the update.
+L'application ne modifie pas vos projets sans votre accord : elle copie la commande ou montre un aperçu sur une copie. Testez votre projet après la mise à jour.	The application does not modify your projects without your consent: it copies the command or shows a preview on a copy. Test your project after the update.
+~^Mettre à jour (\S+) vers (\S+) dans le projet \(sauvegarde automatique avant\)$	Update $1 to $2 in the project (automatic backup first)
+Mettre à jour dans le projet	Update in the project
+npm introuvable	npm not found
+Installez npm (paquet « npm » ou « nodejs-lts ») pour mettre à jour cette dépendance, ou copiez la commande à la main.	Install npm (package “npm” or “nodejs-lts”) to update this dependency, or copy the command by hand.
+~^Mettre à jour (\S+) vers (\S+) \?$	Update $1 to $2?
+~^Mise à jour de (\S+)$	Updating $1
+• sauvegarde de package.json et package-lock.json (fichiers « .cs-backup-… » à côté)	• backup of package.json and package-lock.json (“.cs-backup-…” files next to them)
+~^• commande : (.+)$	• command: $1
+Effet : la dépendance est mise à jour dans CE projet, avec son fichier de verrouillage. Aucun script d'installation n'est exécuté, aucun droit administrateur n'est utilisé.	Effect: the dependency is updated in THIS project, with its lock file. No install script is run, no administrator right is used.
+Sécurités : en cas d'échec, les fichiers d'origine sont restaurés automatiquement · une montée de version majeure peut casser le projet : testez-le ensuite.	Safeguards: on failure, the original files are restored automatically · a major version jump may break the project: test it afterwards.
+Dépendance mise à jour. Relancez l'analyse des projets pour vérifier, et testez votre projet.	Dependency updated. Run the project scan again to check, and test your project.
+Rien n'a été modifié (les fichiers d'origine ont été restaurés si nécessaire : voir ci-dessus).	Nothing was changed (the original files were restored if needed: see above).
+Mettre à jour	Update
+Rien à durcir	Nothing to harden
+Tous les réglages du noyau et du réseau proposés sont déjà à la valeur recommandée.	All the proposed kernel and network settings are already at the recommended value.
+Ce qui va être fait :	What is going to be done:

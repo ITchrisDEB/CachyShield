@@ -1,0 +1,63 @@
+# Maintainer: Your Name <you@example.com>
+pkgname=cachy-shield
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="Friendly security center for Arch-based Linux: CVE scan, updates, rootkit check, firewall (arch-audit, Lynis, rkhunter, Trivy, OSV) — GTK4/libadwaita, Rust"
+arch=('x86_64' 'aarch64')
+url="https://github.com/ITchrisDEB/CachyShield"
+license=('MIT')
+depends=('gtk4' 'libadwaita' 'polkit' 'pacman-contrib' 'iproute2' 'nftables' 'curl')
+makedepends=('cargo' 'pkgconf')
+optdepends=('arch-audit: known vulnerabilities of installed packages'
+            'lynis: system configuration audit'
+            'rkhunter: rootkit detection'
+            'trivy: libraries and secrets scan'
+            'osv-scanner: dependency vulnerabilities of your projects'
+            'snapper: safety snapshot before configuration fixes'
+            'npm: update npm dependencies of your projects (npm update)'
+            'rust: update Cargo.lock of your Rust projects (cargo update)'
+            'ufw: firewall backend (you can choose between ufw and firewalld when both are installed)'
+            'firewalld: firewall backend (otherwise built-in nftables)'
+            'paru: AUR update detection'
+            'yay: AUR update detection'
+            'archlinux-contrib: lists services to restart after an update (checkservices)'
+            'unhide: more complete rkhunter results'
+            'net-tools: more complete Lynis network tests'
+            'git: in-app AUR updates (with base-devel)'
+            'base-devel: in-app AUR updates (makepkg)'
+            'openssh: SSH settings editor (sshd -t validation)'
+            'flatpak: update and clean up your Flatpak apps (this application itself is not a Flatpak)')
+# Remplacer par l'archive publiée (tag git) et renseigner la somme avec « updpkgsums ».
+source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('SKIP')
+
+prepare() {
+  cd "$pkgname-$pkgver"
+  export RUSTUP_TOOLCHAIN=stable
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
+}
+
+build() {
+  cd "$pkgname-$pkgver"
+  export RUSTUP_TOOLCHAIN=stable CARGO_TARGET_DIR=target
+  # aucun chemin de la machine de compilation dans le binaire
+  export RUSTFLAGS="${RUSTFLAGS} --remap-path-prefix=$PWD=. --remap-path-prefix=${CARGO_HOME:-$HOME/.cargo}=/cargo --remap-path-prefix=$HOME=~"
+  cargo build --frozen --release
+}
+
+check() {
+  cd "$pkgname-$pkgver"
+  export RUSTUP_TOOLCHAIN=stable CARGO_TARGET_DIR=target
+  cargo test --frozen --release
+}
+
+package() {
+  cd "$pkgname-$pkgver"
+  install -Dm755 "target/release/$pkgname" "$pkgdir/usr/bin/$pkgname"
+  install -Dm644 "packaging/io.github.cachy_shield.CachyShield.desktop" "$pkgdir/usr/share/applications/io.github.cachy_shield.CachyShield.desktop"
+  install -Dm644 "packaging/$pkgname-tray.desktop" "$pkgdir/etc/xdg/autostart/$pkgname-tray.desktop"
+  install -Dm644 "packaging/cachy-shield.svg" "$pkgdir/usr/share/icons/hicolor/scalable/apps/cachy-shield.svg"
+  install -Dm644 "packaging/cachy-shield-attention.svg" "$pkgdir/usr/share/icons/hicolor/scalable/apps/cachy-shield-attention.svg"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  install -Dm644 README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
+}

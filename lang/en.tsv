@@ -1,0 +1,186 @@
+~^(\d+) faille\(s\) exploitée\(s\) par des pirates$	$1 flaw(s) exploited by attackers
+Soin intelligent	Smart care
+Protection	Protection
+Failles	Vulnerabilities
+Mises à jour	Updates
+Réseau	Network
+Configuration	Configuration
+Avancé	Advanced
+PROTECTION	PROTECTION
+FAILLES	VULNERABILITIES
+MISES À JOUR	UPDATES
+CONFIGURATION	CONFIGURATION
+RÉSEAU	NETWORK
+ROOTKITS ET LOGICIELS ESPIONS	ROOTKITS AND SPYWARE
+ACCÈS À DISTANCE	REMOTE ACCESS
+VOTRE SYSTÈME	YOUR SYSTEM
+VOS PROJETS	YOUR PROJECTS
+ATTAQUES RÉELLES	REAL ATTACKS
+ATTAQUES RÉELLES — À TRAITER EN PREMIER	REAL ATTACKS — HANDLE FIRST
+MISES À JOUR DU SYSTÈME	SYSTEM UPDATES
+BASES DE FAILLES	VULNERABILITY DATABASES
+SERVICES OUVERTS AU RÉSEAU	SERVICES OPEN TO THE NETWORK
+SERVICES ACCESSIBLES DEPUIS VOTRE RÉSEAU	SERVICES REACHABLE FROM YOUR NETWORK
+PARE-FEU	FIREWALL
+CONNEXIONS VERS INTERNET	CONNECTIONS TO THE INTERNET
+CONNEXIONS VERS INTERNET, PAR PROGRAMME	CONNECTIONS TO THE INTERNET, BY PROGRAM
+SCORE DE SÉCURITÉ	SECURITY SCORE
+ENTRÉES OBSOLÈTES — VOTRE VERSION EST PLUS RÉCENTE QUE CELLE CONCERNÉE	OUTDATED ENTRIES — YOUR VERSION IS NEWER THAN THE ONE AFFECTED
+Bienvenue	Welcome
+Lancez une analyse rapide et complète : failles, mises à jour, protection et réseau.	Run a quick, complete scan: vulnerabilities, updates, protection and network.
+Analyser	Scan
+Corriger	Fix
+Arrêter	Stop
+Revoir	Review
+Fermer	Close
+Annuler	Cancel
+Détails	Details
+‹ Recommencer	‹ Start over
+Analyse en cours…	Scanning…
+Calcul en cours…	Calculating…
+Résultats	Results
+Résultats incomplets	Incomplete results
+Terminé !	Done!
+Vos résultats sont prêts. Voici ce que nous avons trouvé :	Your results are ready. Here is what we found:
+Votre ordinateur est en bonne santé !	Your computer is healthy!
+Voici ce que nous avons trouvé lors de la dernière analyse.	Here is what we found in the last scan.
+Cochez ce que vous voulez corriger, puis appuyez sur Corriger. « Revoir » ouvre le détail.	Tick what you want to fix, then press Fix. “Review” opens the details.
+Inclure les analyses administrateur (Lynis, rkhunter) — votre mot de passe sera demandé	Include administrator scans (Lynis, rkhunter) — your password will be requested once
+Mise à jour automatique des CVE	Automatic CVE updates
+jamais analysé	never scanned
+Non analysé	Not scanned
+À jour	Up to date
+À mettre à jour	Needs update
+Aucune faille	No vulnerability
+Aucune faille connue	No known vulnerability
+Aucune faille réelle	No real vulnerability
+Aucune menace	No threat
+Aucune menace détectée	No threat detected
+Aucun service suspect	No suspicious service
+Système à jour	System up to date
+Votre système est à jour	Your system is up to date
+Aucune mise à jour en attente.	No update pending.
+Aucune mise à jour n'est en attente.	No update is pending.
+Des failles connues touchent vos logiciels	Known vulnerabilities affect your software
+Commencez par la liste « Attaques réelles » : ce sont les plus urgentes.	Start with the “Real attacks” list: these are the most urgent.
+Lancez une analyse pour vérifier à nouveau.	Run a scan to check again.
+Aucune faille connue dans les dernières analyses.	No known vulnerability in the latest scans.
+Logiciels installés qui ont une faille connue, d'après l'équipe sécurité d'Arch Linux.	Installed software with a known vulnerability, according to the Arch Linux security team.
+Bibliothèques utilisées par vos projets (Python, npm, Rust…) qui ont une faille connue.	Libraries used by your projects (Python, npm, Rust…) with a known vulnerability.
+Failles utilisées par de vrais pirates en ce moment (liste officielle CISA). À traiter en premier.	Vulnerabilities being used by real attackers right now (official CISA list). Handle first.
+Actualiser la liste	Refresh the list
+Mise à jour…	Updating…
+Votre protection n'a pas encore été vérifiée	Your protection has not been checked yet
+L'analyse cherche les logiciels espions cachés et les fichiers système modifiés. Votre mot de passe sera demandé.	The scan looks for hidden spyware and modified system files. Your password will be requested.
+Une menace possible a été détectée	A possible threat was detected
+Vérification des alertes avec pacman…	Checking alerts against pacman…
+Chaque fichier signalé est comparé à l'original du paquet officiel.	Each flagged file is compared with the original from the official package.
+Aucune alerte. Votre système est sain.	No alert. Your system is healthy.
+Votre système est sain.	Your system is healthy.
+Vérifié, sans danger	Verified, harmless
+Sans gravité	Harmless
+Réglage conseillé	Recommended setting
+Faux positif connu	Known false positive
+À vérifier	To check
+À examiner	To examine
+Urgent	Urgent
+Obsolète	Outdated
+Modifié !	Modified!
+Inconnu	Unknown
+Grave	Severe
+Moyenne	Medium
+Faible	Low
+Critique	Critical
+SSH est actif	SSH is active
+SSH est désactivé	SSH is disabled
+La configuration n'a pas encore été vérifiée	The configuration has not been checked yet
+L'analyse examine SSH, les mots de passe, le noyau, les permissions… Votre mot de passe sera demandé.	The scan examines SSH, passwords, the kernel, permissions… Your password will be requested.
+Alerte	Alert
+Conseil	Advice
+Aucun conseil.	No advice.
+Votre système est à jour : aucune mise à jour n'est en attente dans les dépôts officiels.	Your system is up to date: no update is pending in the official repositories.
+Rien à installer pour l'instant	Nothing to install for now
+Mettre à jour le système	Update the system
+Mettre à jour maintenant	Update now
+Automatique	Automatic
+Corriger : mettre à jour le système…	Fix: update the system…
+Corriger : proposer les correctifs…	Fix: suggest the fixes…
+Aucun port suspect	No suspicious port
+Des services sont ouverts sans que vous l'ayez confirmé	Some services are open without your confirmation
+Autoriser	Allow
+C'est normal : ne plus signaler	That is normal: stop reporting
+Autorisé	Allowed
+Actif	Active
+Inactif	Inactive
+Réafficher	Show again
+Aucun service n'écoute sur toutes les interfaces.	No service listens on all interfaces.
+Aucune connexion vers Internet en ce moment.	No connection to the Internet right now.
+Accès à distance SSH	SSH remote access
+Bureau à distance	Remote desktop
+Résolution de noms (DNS)	Name resolution (DNS)
+Impression (CUPS)	Printing (CUPS)
+Base de données PostgreSQL	PostgreSQL database
+Surveillance en direct	Live monitoring
+Ports en écoute	Listening ports
+Connexions actives	Active connections
+Tentatives de connexion	Connection attempts
+Événements	Events
+Tableau de bord	Dashboard
+Vue d'ensemble de la sécurité de votre système.	Overview of your system security.
+Tout analyser	Scan everything
+Tout mettre à jour	Update everything
+Bases de données de failles	Vulnerability databases
+Failles mondiales — tous systèmes et éditeurs	Worldwide vulnerabilities — all systems and vendors
+Exploitées activement (CISA KEV)	Actively exploited (CISA KEV)
+Recherche dans NVD	NVD search
+Rechercher dans NVD	Search NVD
+Mettre à jour le catalogue CISA KEV	Update the CISA KEV catalog
+Seulement celles qui concernent possiblement ma machine	Only those possibly affecting my machine
+Lancer l'analyse	Start the scan
+Sortie brute	Raw output
+Commande	Command
+Prêt	Ready
+En cours…	In progress…
+Démarrage…	Starting…
+Analyse terminée	Scan finished
+Analyse de la configuration	Configuration scan
+Analyse de vos paquets	Scan of your packages
+Analyse de vos projets	Scan of your projects
+Analyse des bibliothèques	Libraries scan
+Paquets du système	System packages
+Bibliothèques et secrets	Libraries and secrets
+Dépendances de vos projets	Your projects' dependencies
+Configuration du système	System configuration
+Recherche de rootkits	Rootkit search
+Mise à jour des bases de CVE…	Updating the CVE databases…
+Recherche des mises à jour…	Looking for updates…
+Analyses administrateur (Lynis, rkhunter)…	Administrator scans (Lynis, rkhunter)…
+Analyses administrateur en cours (une seule autorisation)…	Administrator scans in progress (single authorization)…
+En attente de votre mot de passe administrateur (fenêtre d'authentification de KDE)…	Waiting for your administrator password (authentication window)…
+Rien à corriger dans votre sélection	Nothing to fix in your selection
+Cochez une tuile qui propose un correctif, ou ouvrez « Revoir » pour traiter un point à la main.	Tick a tile that offers a fix, or open “Review” to handle an item by hand.
+Pare-feu	Firewall
+Interdire root en SSH	Forbid root over SSH
+Annuler la correction	Undo the fix
+Aperçu des correctifs	Preview the fixes
+Copier la commande	Copy the command
+Arrêter le programme	Stop the program
+Bloquer ces serveurs	Block these servers
+Commande copiée	Command copied
+CE QUE L'APPLICATION PEUT FAIRE DIRECTEMENT	WHAT THE APPLICATION CAN DO DIRECTLY
+Aucune action directe n'est possible pour ce point.	No direct action is possible for this item.
+Faux positif vérifié.	Verified false positive.
+Fichier modifié : à examiner en priorité.	Modified file: examine first.
+Fichier inconnu des paquets.	File unknown to the packages.
+Sans gravité.	Harmless.
+À examiner.	To examine.
+Logiciel ciblé par des attaques réelles.	Software targeted by real attacks.
+Logiciel installé avec une faille connue.	Installed software with a known vulnerability.
+Bibliothèque d'un de vos projets avec une faille connue.	Library of one of your projects with a known vulnerability.
+Mise à jour disponible.	Update available.
+Mise à jour AUR disponible.	AUR update available.
+Entrée obsolète du tracker.	Outdated tracker entry.
+AUR — à relire	AUR — review first
+Alerte de configuration	Configuration alert
+Conseil de durcissement	Hardening advice
+Fermer l'analyse	Close the scan

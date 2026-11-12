@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Cachy Shield (zone de notification)
+Name[en]=Cachy Shield (notification area)
+Comment=Icône de la zone de notification et vérification des mises à jour, sans ouvrir la fenêtre
+Comment[en]=Notification-area icon and update check, without opening the window
+Exec=cachy-shield --background
+Icon=cachy-shield
+Terminal=false
+NoDisplay=true
+X-GNOME-Autostart-Delay=3

@@ -1,0 +1,1892 @@
+0	$1 {kwetsbaarheid|kwetsbaarheden} misbruikt door aanvallers
+1	Slimme zorg
+2	Bescherming
+3	Kwetsbaarheden
+4	Updates
+5	Netwerk
+6	Configuratie
+7	Geavanceerd
+8	BESCHERMING
+9	KWETSBAARHEDEN
+10	UPDATES
+11	CONFIGURATIE
+12	NETWERK
+13	ROOTKITS EN SPYWARE
+14	TOEGANG OP AFSTAND
+15	UW SYSTEEM
+16	UW PROJECTEN
+17	ECHTE AANVALLEN
+18	ECHTE AANVALLEN — EERST AANPAKKEN
+19	SYSTEEMUPDATES
+20	KWETSBAARHEDENDATABASES
+21	VOOR HET NETWERK OPENGESTELDE DIENSTEN
+22	DIENSTEN BEREIKBAAR VANAF UW NETWERK
+23	FIREWALL
+24	VERBINDINGEN MET INTERNET
+25	VERBINDINGEN MET INTERNET, PER PROGRAMMA
+26	BEVEILIGINGSSCORE
+27	VEROUDERDE VERMELDINGEN — UW VERSIE IS NIEUWER DAN DE GETROFFEN VERSIE
+28	Welkom
+29	Start een snelle, volledige scan: kwetsbaarheden, updates, bescherming en netwerk.
+30	Scannen
+31	Herstellen
+32	Stoppen
+33	Bekijken
+34	Sluiten
+35	Annuleren
+36	Details
+37	‹ Opnieuw beginnen
+38	Bezig met scannen…
+39	Bezig met berekenen…
+40	Resultaten
+41	Onvolledige resultaten
+42	Klaar!
+43	Uw resultaten zijn klaar. Dit hebben we gevonden:
+44	Uw computer is gezond!
+45	Dit hebben we gevonden bij de laatste scan.
+46	Vink aan wat u wilt herstellen en druk op Herstellen. „Bekijken” opent de details.
+47	Beheerderscans (Lynis, rkhunter) opnemen — uw wachtwoord wordt één keer gevraagd
+48	Automatische CVE-updates
+49	nooit gescand
+50	Niet gescand
+51	Up-to-date
+52	Update nodig
+53	Geen kwetsbaarheid
+54	Geen bekende kwetsbaarheid
+55	Geen echte kwetsbaarheid
+56	Geen bedreiging
+57	Geen bedreiging gevonden
+58	Geen verdachte dienst
+59	Systeem up-to-date
+60	Uw systeem is up-to-date
+61	Geen update in afwachting.
+62	Er is geen update in afwachting.
+63	Bekende kwetsbaarheden treffen uw software
+64	Begin met de lijst „Echte aanvallen”: die zijn het meest urgent.
+65	Start een scan om opnieuw te controleren.
+66	Geen bekende kwetsbaarheid in de laatste scans.
+67	Geïnstalleerde software met een bekende kwetsbaarheid, volgens het beveiligingsteam van Arch Linux.
+68	Bibliotheken die uw projecten gebruiken (Python, npm, Rust…) met een bekende kwetsbaarheid.
+69	Kwetsbaarheden die op dit moment door echte aanvallers worden gebruikt (officiële CISA-lijst). Eerst aanpakken.
+70	Lijst vernieuwen
+71	Bezig met bijwerken…
+72	Uw bescherming is nog niet gecontroleerd
+73	De scan zoekt naar verborgen spyware en gewijzigde systeembestanden. Uw wachtwoord wordt gevraagd.
+74	Er is een mogelijke bedreiging gevonden
+75	Waarschuwingen controleren met pacman…
+76	Elk gemeld bestand wordt vergeleken met het origineel uit het officiële pakket.
+77	Geen waarschuwing. Uw systeem is gezond.
+78	Uw systeem is gezond.
+79	Gecontroleerd, onschadelijk
+80	Onschadelijk
+81	Aanbevolen instelling
+82	Bekende valse melding
+83	Te controleren
+84	Te onderzoeken
+85	Urgent
+86	Verouderd
+87	Gewijzigd!
+88	Onbekend
+89	Ernstig
+90	Gemiddeld
+91	Laag
+92	Kritiek
+93	SSH is actief
+94	SSH is uitgeschakeld
+95	De configuratie is nog niet gecontroleerd
+96	De scan onderzoekt SSH, wachtwoorden, de kernel, rechten… Uw wachtwoord wordt gevraagd.
+97	Waarschuwing
+98	Advies
+99	Geen advies.
+100	Uw systeem is up-to-date: er staat geen update in afwachting in de officiële repositories.
+101	Voorlopig niets te installeren
+102	Systeem bijwerken
+103	Nu bijwerken
+104	Automatisch
+105	Herstellen: systeem bijwerken…
+106	Herstellen: herstelacties voorstellen…
+107	Geen verdachte poort
+108	Sommige diensten staan open zonder uw bevestiging
+109	Toestaan
+110	Dat is normaal: niet meer melden
+111	Toegestaan
+112	Actief
+113	Inactief
+114	Opnieuw tonen
+115	Geen enkele dienst luistert op alle interfaces.
+116	Op dit moment geen verbinding met internet.
+117	Toegang op afstand via SSH
+118	Extern bureaublad
+119	Naamomzetting (DNS)
+120	Afdrukken (CUPS)
+121	PostgreSQL-database
+122	Live bewaking
+123	Luisterende poorten
+124	Actieve verbindingen
+125	Verbindingspogingen
+126	Gebeurtenissen
+127	Dashboard
+128	Overzicht van de beveiliging van uw systeem.
+129	Alles scannen
+130	Alles bijwerken
+131	Kwetsbaarhedendatabases
+132	Wereldwijde kwetsbaarheden — alle systemen en leveranciers
+133	Actief misbruikt (CISA KEV)
+134	NVD-zoekopdracht
+135	NVD doorzoeken
+136	CISA KEV-catalogus bijwerken
+137	Alleen die mijn computer kunnen treffen
+138	Scan starten
+139	Ruwe uitvoer
+140	Opdracht
+141	Gereed
+142	Bezig…
+143	Starten…
+144	Scan voltooid
+145	Configuratiescan
+146	Scan van uw pakketten
+147	Scan van uw projecten
+148	Scan van bibliotheken
+149	Systeempakketten
+150	Bibliotheken en geheimen
+151	Afhankelijkheden van uw projecten
+152	Systeemconfiguratie
+153	Rootkits zoeken
+154	CVE-databases bijwerken…
+155	Zoeken naar updates…
+156	Beheerderscans (Lynis, rkhunter)…
+157	Beheerderscans bezig (eenmalige autorisatie)…
+158	Wachten op uw beheerderswachtwoord (verificatievenster)…
+159	Niets te herstellen in uw selectie
+160	Vink een tegel aan die een herstelactie biedt, of open „Bekijken” om een item handmatig af te handelen.
+161	Firewall
+162	Root via SSH verbieden
+163	Herstelactie ongedaan maken
+164	Herstelacties bekijken
+165	Opdracht kopiëren
+166	Programma stoppen
+167	Deze servers blokkeren
+168	Opdracht gekopieerd
+169	WAT DE TOEPASSING RECHTSTREEKS KAN DOEN
+170	Voor dit item is geen directe actie mogelijk.
+171	Valse melding bevestigd.
+172	Gewijzigd bestand: eerst onderzoeken.
+173	Bestand onbekend bij de pakketten.
+174	Onschadelijk.
+175	Te onderzoeken.
+176	Software waarop echte aanvallen gericht zijn.
+177	Geïnstalleerde software met een bekende kwetsbaarheid.
+178	Bibliotheek van een van uw projecten met een bekende kwetsbaarheid.
+179	Update beschikbaar.
+180	AUR-update beschikbaar.
+181	Verouderde tracker-vermelding.
+182	AUR — eerst controleren
+183	Configuratiewaarschuwing
+184	Verhardingsadvies
+185	Scan sluiten
+186	te scannen (beheerdersrechten) · herstelactie beschikbaar
+187	Actief ($1)
+188	actief ($1)
+189	ingeschakeld
+190	uitgeschakeld
+191	Uitgeschakeld
+192	te installeren · geen bijzonder risico gevonden
+193	te installeren · ⚠ $1 item(s) met hoog risico: u wordt vooraf gewaarschuwd
+194	Scan
+195	Gescand
+196	scan loopt al
+197	gescand op $1 om $2
+198	Beheerderscans: autorisatie geweigerd, geannuleerd of mislukt
+199	⚠ $1 scan(s) kon(den) niet starten: $2
+200	oude kwetsbaarheid: waarschijnlijk al verholpen, controleer of de software up-to-date is
+201	Oud SSH-protocol 1
+202	Voorbeeld op een kopie van het project (npm / Maven) met inschatting van het breukrisico. Uw bestanden worden niet gewijzigd.
+203	Pas de maatregelen toe volgens de instructies van de fabrikant of stop met het gebruik van het product als er geen maatregelen beschikbaar zijn.
+204	$1 kwetsbaar(re) pakket(ten)
+205	Arch Security Tracker + versievergelijking (vercmp van pacman)
+206	Opvolgen
+207	Toewijzing van netwerkadressen (DHCP)
+208	Geen
+209	geen bekende echte aanval op uw software
+210	Geen enkel pakket bezit het omdat systemd het zelf bij elke update schrijft. Conclusie: normaal.
+211	Geen enkel officieel pakket levert dit bestand en het is niet van een type dat als normaal bekend staat: het is ongebruikelijk.
+212	Geen enkel officieel pakket levert dit bestand: ongebruikelijk, onderzoek het.
+213	Geen bijzonder risico gevonden.
+214	AUR (Arch User Repository)
+215	AUR: geen helper (paru, yay) gevonden: uw AUR-pakketten worden niet bewaakt.
+216	AUR ($1): geen update in afwachting.
+217	Databases
+218	$1 rkhunter-waarschuwing(en) onderzocht: het zijn valse meldingen, hieronder bevestigd. Laatste controle: $2
+219	$1 onschadelijke waarschuwing(en), gecontroleerd met de pakketdatabase.
+220	Bibliotheken
+221	Poort $1 blokkeren
+222	catalogus ontbreekt
+223	Dit bestand is ANDERS dan dat van pakket $1. Als u het niet zelf hebt gewijzigd, beschouw de machine dan als mogelijk gecompromitteerd.
+224	Sommige kunnen het systeem blokkeren als er iets misgaat: u wordt vóór de installatie gewaarschuwd.
+225	Deze waarschuwing wijst geen specifiek bestand aan: de toepassing kan ze niet automatisch controleren.
+226	Klik om te zien wat de toepassing kan doen en het advies van de bron
+227	Klik om te zien wat mogelijk is en het advies
+228	Klik om te zien hoe u het veilig installeert
+229	Klik om het advies van Lynis te zien
+230	Klik voor de details en om te installeren
+231	Conclusie: valse melding, geen herstelactie nodig.
+232	Conclusie: normaal zolang dit programma draait.
+233	Op dit moment openstaande verbindingen met internet (browser, updates, enz.).
+234	SSH-aanmelding als beheerder (root) niet uitdrukkelijk verboden
+235	Verbindingen met internet
+236	herstelactie beschikbaar: $1
+237	Poort $1 deblokkeren
+238	Apparaten ontdekken op het netwerk (mDNS)
+239	Apparaten ontdekken (UPnP)
+240	$1 afhankelijkheden
+241	Kwetsbare afhankelijkheden en blootgestelde geheimen.
+242	Laatste scan: $1   ·   CVE-databases gecontroleerd — CISA: $2 · Trivy: $3$4
+243	   ·   ⟳ databases controleren…
+244	Laatste controle: $1
+245	ANDERS dan pakket $1: gewijzigd.
+246	$1 {taak|taken} afgehandeld. Start opnieuw een scan om het resultaat te controleren.
+247	Systeemverharding
+248	Live
+249	$1 tracker-vermeldingen voor „$2”: $3.
+250	$1 tracker-vermeldingen betreffen oude versies (ouder dan de uwe): genegeerd, zie hieronder.
+251	Bekende kwetsbaarheden in uw pacman-pakketten.
+252	Kwetsbaarheden uit de OSV-database in uw afhankelijkheidsbestanden.
+253	Misbruikte kwetsbaarheden (uw software)
+254	$1 kwetsbaarheden
+255	Wereldwijde kwetsbaarheden
+256	Systeemkwetsbaarheden
+257	Veelvoorkomende valse melding: modern OpenSSH ondersteunt protocol 1 helemaal niet meer.
+258	Officieel bestand van pakket $1 $2, identiek aan het origineel: pacman heeft de controlesom vergeleken met die van de installatie.
+259	Officieel bestand van pakket $1 $2, identiek aan het origineel (gecontroleerd met pacman). $3
+260	Bestand: $1
+261	Verborgen bestanden buiten de gebruikelijke locaties
+262	Ongebruikelijke bestanden in /dev
+263	Gewijzigde bestanden en achterdeurtjes.
+264	Systeembestand: $1
+265	Tijdelijk bestand van $1, dat nu op deze machine draait (eigenaar en proces gecontroleerd).
+266	Tijdelijk bestand: $1
+267	Resultaten filteren…
+268	⚠ $1 item(s) met hoog risico: vooraf wordt een veiligheidssnapshot gemaakt.
+269	Er is niets te herstellen: uw versie is nieuwer dan die waarop deze vermeldingen gericht zijn.
+270	$1 softwareonderde(e)l(en) waarop echte aanvallen gericht zijn
+271	$1 softwareonderde(e)l(en) · $2 kwetsbaarheden
+272	$1 — poort $2
+273	$1 bezig…
+274	De herstelactie maakt een apart bestand, vóór en na gecontroleerd, met een veiligheidssnapshot: het kan met één klik worden verwijderd.
+275	Voer de gekopieerde opdracht uit in een terminal: $1 toont de verschillen in de PKGBUILD zodat u ze vóór de installatie kunt nalezen.
+276	Start de scan om hier het advies te zien.
+277	Start de scan om hier de resultaten te zien.
+278	De toepassing installeert het bewust niet voor u.
+279	De toepassing kan niet voor u beslissen of dit bestand legitiem is.
+280	Ongewenste inkomende verbindingen worden geblokkeerd.
+281	AUR-pakketten worden niet door Arch gecontroleerd: iedereen kan ze wijzigen, en in 2026 zijn AUR-pakketten van valstrikken voorzien (kwaadaardige buildscripts).
+282	De tracker houdt deze vermeldingen aan als „Vulnerable” zonder ooit een oplossing te noteren, vandaar de arch-audit-waarschuwing. Het is geen absolute zekerheid (de tracker zegt niet welke versie het oplost), maar zeer waarschijnlijk een valse melding.
+283	De tracker richt zich op versie $1; u hebt $2: waarschijnlijk al verholpen
+284	Lijst van echte aanvallen (CISA): $1\nKwetsbaarhedendatabase (Trivy): $2\nAutomatische update: $3
+285	Toont de updates, markeert die het systeem kunnen blokkeren en vraagt dan om bevestiging.
+286	$1 softwareonderde(e)l(en)
+287	Lynis beoordeelt uw configuratie op 100 en stelt verbeteringen voor.
+288	Gedeeld geheugen van $1: normaal.
+289	deze software bijwerken
+290	bijwerken naar $1
+291	$1 update(s)
+292	$1 update(s) beschikbaar
+293	$1 verbinding(en) met $2 server(s)
+294	$1 kwetsbaarheden, waarvan $2 ernstig
+295	$1 kwetsbaarheden misbruikt door aanvallers
+296	laatst gemeld op $1
+297	(ongeldige optie: $1)
+298	$1 kwetsbaarheden in uw projecten
+299	Door rkhunter vereiste hulpprogramma's
+300	AUR-PAKKETTEN — VÓÓR INSTALLATIE NALEZEN ($1)
+301	Kwetsbare pakketten
+302	Standaard accepteert OpenSSH root alleen met een sleutel („prohibit-password”). Als u root via SSH niet nodig hebt, is het advies „PermitRootLogin no”.
+303	geen bekende oplossing
+304	nog geen oplossing gepubliceerd
+305	Niemand kan op afstand via SSH verbinden. Dat is het veiligst als u het niet nodig hebt.
+306	Hoe hoger de score, hoe beter uw systeem beschermd is. Het advies is in het Engels: het komt van het hulpprogramma Lynis.
+307	Poorten: $1
+308	$1 poort(en) te controleren
+309	Aan het netwerk blootgestelde poorten
+310	Waarom rkhunter het meldt: $1
+311	Het origineel herstellen: maak eerst een back-up van het bestand en voer dan de gekopieerde opdracht uit (installeert het pakket opnieuw).
+312	Klaar om te installeren.
+313	Programma's die verbindingen van andere apparaten op uw netwerk accepteren.
+314	Systeemprogramma: $1
+315	Projecten
+316	De $1 als normaal gemarkeerde waarschuwing(en) opnieuw tonen
+317	Bekijk eigenaar en datum met de gekopieerde opdracht: een recent bestand dat door een bekend programma is gemaakt, is normaal.
+318	Netwerk (details)
+319	Lokale naamomzetting (LLMNR)
+320	Niets blokkeert inkomende verbindingen. Op uw thuisnetwerk is dat acceptabel; schakel op openbare wifi een firewall in.
+321	Hoog risico
+322	rkhunter vergelijkt uw systeembestanden met een referentie en zoekt naar bekende rootkits.
+323	rkhunter meldt dat aanmelden als „root” via SSH niet uitdrukkelijk verboden is (PermitRootLogin ontbreekt in de configuratie).
+324	$1 bedreiging(en)
+325	Mogelijke rootkit: onmiddellijk onderzoeken.
+326	Rootkits
+327	$1 / 100
+328	status kan niet worden opgeslagen: $1
+329	Score en configuratieaanbevelingen.
+330	Score $1/100
+331	$1 te onderzoeken
+332	$1 item(s) te onderzoeken
+333	$1 toegestane dienst(en)
+334	firewall actief
+335	firewall inactief
+336	firewall $1
+337	Systeemdienst (poort $1)
+338	Vaak valse meldingen: open „Bekijken” voor uitleg.
+339	SSH maakt het mogelijk op afstand met deze computer te verbinden. Als u het niet gebruikt, kunt u het beter uitschakelen.
+340	Voltooid — $1
+341	$1 te controleren
+342	$1 te controleren · $2 toegestaan
+343	Alle diensten die vanaf uw netwerk bereikbaar zijn, zijn degene die u hebt gekozen.
+344	Al uw pakketten staan op de nieuwste versie.
+345	Een beheerderscan kan hier niet worden onderbroken.
+346	Een gewijzigd systeembestand kan niet zonder risico automatisch worden hersteld: opnieuw installeren van het pakket zou ook een wijziging overschrijven die u misschien bewust hebt aangebracht.
+347	Controle met de pakketdatabase (pacman) en rkhunter
+348	Controleren…
+349	Controleer de lijst hieronder: klik op „Toestaan” als u ze herkent.
+350	$1 (doelversie $2)
+351	Uw configuratie is correct, met verbeterpunten
+352	Uw configuratie is solide
+353	Uw configuratie verdient versterking
+354	Uw geïnstalleerde versie is $1, nieuwer dan elk van de doelversies.
+355	Overzicht
+356	$1 waarschuwing(en)
+357	$1 waarschuwing(en), $2 suggestie(s) om het systeem te versterken
+358	$1 toegestaan
+359	$1. Door het systeem gemaakt tijdens updates: normaal.
+360	$1. De inhoud van het bestand is gecontroleerd: het draagt inderdaad de vermelding van zijn maker.
+361	Updatemarkering gemaakt door systemd (systemd-update-done)
+362	Verborgen bestand gemeld: de toepassing vergelijkt het met de pakketdatabase om te weten of het normaal is.
+363	Ongebruikelijk bestand in /dev: de toepassing controleert van wie het is.
+364	Dit zijn shellscripts, geen binaire bestanden: op Arch heel vaak een valse melding.
+365	Een door rkhunter vereist hulpprogramma is een script of ontbreekt: meestal onschadelijk.
+366	Geen referentiedatabase: voer „Referentiedatabase initialiseren” uit op een gezond systeem en start daarna opnieuw.
+367	PermitRootLogin is niet expliciet ingesteld in sshd_config. Zet het op „no” om de waarschuwing te laten verdwijnen.
+368	Veelvoorkomende valse melding: modern OpenSSH ondersteunt protocol 1 niet meer.
+369	Te controleren: ongebruikelijke bestanden in /dev (vaak virtuele apparaten).
+370	Te controleren: verborgen bestanden buiten de gebruikelijke locaties (vaak toepassingsbestanden).
+371	Toestaan / niet meer toestaan
+372	Wereldwijde kwetsbaarheden — alle systemen en leveranciers
+373	Periode (dagen):
+374	elke (sec.)
+375	Automatisch vernieuwen
+376	Alleen openbare verbindingen
+377	Vernieuwen
+378	Verbindingspogingen analyseren (beheer)
+379	Leest het SSH-logboek en lastb. Vereist beheerdersrechten.
+380	Proto
+381	Adres
+382	Poort
+383	Proces
+384	Blootstelling
+385	Status
+386	Alle interfaces
+387	Alleen lokaal
+388	Toegevoegd op
+389	Vervaldatum
+390	Ransomware
+391	Op uw machine
+392	Leverancier
+393	Product
+394	Kwetsbaarheid
+395	Gepubliceerd
+396	Score
+397	Ernst
+398	Beschrijving
+399	Laatste poging
+400	Bron-IP
+401	Mislukte pogingen
+402	Bron
+403	Lokaal
+404	Extern
+405	Type
+406	Internet
+407	Lokaal netwerk
+408	Pakket
+409	Oplossing
+410	Aantal CVE's
+411	CVE
+412	Vereist door
+413	Identificatie
+414	Doel
+415	Versie
+416	Pakket / regel
+417	Ecosysteem
+418	Bestand
+419	Samenvatting
+420	Waarschuwing
+421	Opmerking
+422	Systeemprogramma
+423	Alles toestaan
+424	Firewall inschakelen
+425	Firewall uitschakelen
+426	Firewall inschakelen?
+427	Inschakelen
+428	Deblokkeren
+429	Alles deblokkeren
+430	ACTIEVE BLOKKADES
+431	Dienst bereikbaar vanaf het netwerk
+432	Verbindingen met internet
+433	Klik om de mogelijke acties te zien (stoppen, blokkeren)
+434	De firewall van de toepassing blokkeert ongewenste inkomende verbindingen (tot de volgende herstart).
+435	Firewall ingeschakeld tot de volgende herstart.
+436	Firewall uitgeschakeld.
+437	Cachy Shield
+438	1 kwetsbaarheid $1
+439	Gecontroleerde waarschuwingen, onschadelijk: geen actie nodig
+440	Oude kwetsbaarheden, waarschijnlijk al verholpen: geen actie nodig
+441	Verouderde tracker-vermeldingen: uw versie is nieuwer, geen actie nodig
+442	Niets dringends te herstellen.
+443	Kies de map…
+444	Gescande map:
+445	Niet meer toestaan
+446	Open poorten bijwerken
+447	Tot herstart
+448	Permanent
+449	Permanente firewall: blokkeert bij elke start ongewenste inkomende verbindingen.
+450	Firewall permanent ingeschakeld (verwijderd met „Firewall uitschakelen”).
+451	Firewall PERMANENT ingeschakeld (komt bij elke start terug).
+452	Firewall ingeschakeld tot de volgende herstart.
+453	Firewall van de toepassing uitgeschakeld (en uit het opstarten verwijderd).
+454	SYSTEEMVERHARDING
+455	Toegepast
+456	Niets te verharden
+457	Verharding ongedaan maken
+458	Toepassen
+459	Kernel- en netwerkinstellingen verhard (sysctl.d-bestand). U kunt ze op elk moment ongedaan maken.
+460	De voorgestelde kernel- en netwerkinstellingen hebben al de aanbevolen waarde.
+461	Veilige kernel- en netwerkinstellingen (ICMP-omleidingen, kerneladressen…), toegepast via het native mechanisme van Linux, zonder effect op normaal gebruik.
+462	$1 instelling(en) toe te passen
+463	Systeemverharding toepassen?
+464	Niets te verharden
+465	Systeemverharding
+466	Verharding ongedaan maken
+467	Verharding toegepast. Ongedaan maken: „Verharding ongedaan maken”.
+468	Verharding ongedaan gemaakt.
+469	Firewall ingeschakeld (blijft bij elke start actief).
+470	Systeemfirewall ($1) actief: blokkeert ongewenste inkomende verbindingen.
+471	Een op uw systeem geconfigureerde nftables-firewall is actief: u beheert die zelf, de toepassing raakt hem niet aan.
+472	FIREWALLREGELS
+473	Als „toegestaan” gemarkeerde diensten worden automatisch toegestaan. Voeg uw eigen regels toe: een poort toestaan, weigeren of in snelheid beperken, voor iedereen of één adres. U kunt ze op elk moment bewerken, ook met uitgeschakelde firewall: ze worden bij het inschakelen toegepast.
+474	Een regel toevoegen…
+475	Een firewallregel toevoegen
+476	De regel wordt opgeslagen en toegepast wanneer de firewall wordt ingeschakeld of bijgewerkt. Er wordt nu niets op het systeem gewijzigd.
+477	Verwijderen
+478	Toestaan
+479	Weigeren
+480	Beperken
+481	Beperken (misbruikbeveiliging: 10 verbindingen/minuut)
+482	Actie
+483	Protocol
+484	Van
+485	Poort (1 tot 65535)
+486	Bronadres of -netwerk, bv. 192.168.0.0/24 (leeg = overal vandaan)
+487	Toevoegen
+488	Ongeldige regel
+489	Controleer de poort (1 tot 65535) en het bronadres (IPv4, of een netwerk zoals 192.168.0.0/24).
+490	Geweigerde verbindingen loggen
+491	van overal
+492	van $1
+493	Poort $1/$2
+494	Meldingen
+495	Nieuwe open poort
+496	Verbindingspogingen gedetecteerd
+497	Scan voltooid
+498	Herstart vereist
+499	De draaiende kernel heeft zijn geïnstalleerde modules niet meer (de kernel is zonder herstart bijgewerkt). De firewall kon zijn onderdelen niet laden: herstart de computer en schakel daarna de firewall in.
+500	De modules van de draaiende kernel zijn niet meer geïnstalleerd (kernel zonder herstart bijgewerkt): herstart vóór het inschakelen van de firewall.
+501	Mappen…
+502	Verwijderen
+503	Een map toevoegen…
+504	Map geweigerd
+505	Kies een specifieke projectenmap (niet de systeemroot), zonder het teken „;” in het pad.
+506	Uw projecten
+507	Te scannen projectmappen
+508	De scan zoekt in deze mappen en hun submappen naar afhankelijkheidsbestanden (requirements.txt, package-lock.json, Cargo.lock, go.mod…) en meldt bibliotheken met een bekende kwetsbaarheid. Uw bestanden worden nooit zonder uw toestemming gewijzigd.
+509	Nog geen map. Voeg de mappen toe die uw projecten bevatten (Python, Node, Rust, Go…).
+510	Geen projectmap: klik op „Mappen…” om er toe te voegen.
+511	Gescande mappen:
+512	Installatiehulp
+513	Dit programma analyseert de beveiliging van uw computer met bekende hulpprogramma's. Dit zijn de hulpprogramma's die op deze machine geïnstalleerd zijn:
+514	Bekende kwetsbaarheden van Arch-pakketten
+515	Configuratie-audit
+516	Rootkits zoeken
+517	Bibliotheken en geheimen
+518	Afhankelijkheden van uw projecten
+519	Lijst met updates
+520	Firewall (optioneel: anders firewalld of nftables)
+521	Veiligheidssnapshots (optioneel)
+522	Ontbrekende hulpprogramma's blokkeren het programma niet: de functies die ervan afhangen zijn gewoon niet beschikbaar. Om ze te installeren:
+523	Opdracht kopiëren
+524	Voeg de mappen toe die uw programmeerprojecten bevatten. U kunt er later nog toevoegen of verwijderen (pagina Kwetsbaarheden, tegel „Uw projecten”). Deze stap is optioneel.
+525	Voorkeuren
+526	De kwetsbaarhedendatabases (CVE) automatisch bijwerken
+527	Bureaubladmeldingen (nieuwe open poort, inbraakpogingen, scan voltooid)
+528	Beheerderscans (Lynis, rkhunter) opnemen in „Scannen”: uw wachtwoord wordt één keer gevraagd
+529	Er wordt niets aan uw systeem gewijzigd zonder uw bevestiging, en de firewall wordt nooit automatisch ingeschakeld.
+530	Terug
+531	Volgende
+532	Overslaan
+533	Voltooien
+534	Mappen waarvan de naam „;” bevat, worden geweigerd.
+535	⚠ Inschakelen nu niet mogelijk: de draaiende kernel heeft zijn geïnstalleerde modules niet meer (de kernel is zonder herstart bijgewerkt). Herstart de computer en kom dan hier terug. Ondertussen kunt u zien wat er zou worden toegepast en uw regels bewerken (sectie „Firewallregels” op de netwerkpagina).
+536	Sluiten
+537	Uw systeem is gezond
+538	Geen bekende kwetsbaarheid treft uw software. Start een scan om opnieuw te controleren.
+539	Alleen de bibliotheken van uw projecten hebben bekende kwetsbaarheden (zie „Uw projecten” hieronder).
+540	Geen urgentie
+541	Geen van uw software wordt getroffen door een recent misbruikte kwetsbaarheid: die van de CISA-lijst zijn op uw machine al verholpen (pakket nieuwer dan de kwetsbaarheid).
+542	Geen van uw pakketten heeft een bekende onverholpen kwetsbaarheid.
+543	Waarschijnlijk verholpen
+544	uw pakket is nieuwer dan de kwetsbaarheid: waarschijnlijk al verholpen
+545	De regels bewerken
+546	Firewallregels
+547	Firewall
+548	Bewerk hier uw regels, ook als de firewall uit staat: er wordt nu niets aan uw systeem gewijzigd. De regels worden toegepast wanneer u de firewall inschakelt (of bijwerkt). Als „toegestaan” gemarkeerde diensten zijn altijd toegestaan.
+549	Geen eigen regel. Diensten die u als „toegestaan” hebt gemarkeerd, blijven automatisch toegestaan.
+550	• toegepaste regels (uw „toegestane” diensten en uw eigen regels): {kept}
+551	• toegepaste regels (uw „toegestane” diensten en uw eigen regels): $1
+552	$1 $2$3 toestaan
+553	$1 $2$3 weigeren
+554	$1 $2$3 beperken
+555	$1 van $2
+556	logging van geweigerde verbindingen
+557	Nu herstarten
+558	De computer nu herstarten (na bevestiging)
+559	De computer herstarten?
+560	Herstarten
+561	Alle programma's worden gesloten en de computer herstart meteen.
+562	Sla eerst uw lopende werk op. Een herstart past kernel- en stuurprogramma-updates toe.
+563	De draaiende kernel is niet meer de geïnstalleerde: een herstart past kernel- en stuurprogramma-updates toe (en laat de firewall zijn onderdelen laden). Sla eerst uw werk op.
+564	De herstart is niet gestart (geweigerd of fout: zie hierboven).
+565	Herstart
+566	Lokale database: automatisch gedownload
+567	Lokale database: bijgewerkt met beheerdersrechten
+568	Lokale catalogus: automatisch gedownload
+569	Configuratie (Lynis-score)
+570	Opruimen
+571	VRIJ TE MAKEN RUIMTE
+572	Maak ruimte vrij en bescherm uw privacy
+573	Scan om te zien wat kan worden opgeruimd, vink aan wat u wilt en druk op Opruimen. Er wordt niets verwijderd zonder uw bevestiging.
+574	Druk op Scannen om de terug te winnen ruimte te berekenen.
+575	Vink aan wat u wilt opruimen.
+576	Geselecteerde items:
+577	SYSTEEM EN TOEPASSINGEN
+578	BROWSERS
+579	BEHEERDER (wachtwoord gevraagd)
+580	Bezig met scannen…
+581	Niets op te ruimen
+582	Opruimen
+583	Nu opruimen?
+584	Sluit eerst de browser
+585	Deze browsers zijn geopend:
+586	Sluit ze helemaal en probeer opnieuw: hun gegevens kunnen niet worden opgeruimd terwijl ze draaien.
+587	Scan eerst en vink dan aan wat u wilt opruimen.
+588	Wat wordt verwijderd:
+589	Vrijgemaakte ruimte:
+590	Deze bewerking is permanent: de bestanden gaan niet naar de prullenbak.
+591	Verwijderde cookies melden u op de meeste sites af.
+592	Opruimen voltooid
+593	item(s) kon(den) niet worden verwijderd (in gebruik?):
+594	Beheerdersopruiming
+595	Prullenbak
+596	Bestanden die al in de prullenbak zijn gegooid: ze worden definitief verwijderd.
+597	Miniaturen van afbeeldingen
+598	Door het bureaublad gegenereerde voorbeelden; ze worden vanzelf opnieuw gemaakt.
+599	Caches van ontwikkelhulpmiddelen
+600	Door pip, npm, yay en paru bewaarde downloads; ze worden zo nodig opnieuw gedownload.
+601	Grafische caches
+602	Gecompileerde shaders (Mesa, NVIDIA); ze worden opnieuw gemaakt de volgende keer dat een spel of 3D-toepassing start.
+603	In het geheugen bewaarde pagina's en afbeeldingen: de browser downloadt ze opnieuw (het eerste laden is iets trager).
+604	In het geheugen bewaarde pagina's en afbeeldingen: de browser downloadt ze opnieuw.
+605	U wordt van de meeste sites afgemeld (accounts, winkelwagens…). Nuttig voor de privacy.
+606	U wordt van de meeste sites afgemeld. Nuttig voor de privacy.
+607	De lijst met bezochte pagina's. Bladwijzers en wachtwoorden worden NIET aangeraakt.
+608	pacman-cache
+609	Oude versies van gedownloade pakketten (de laatste 3 blijven bewaard): maakt vaak meerdere GB vrij. Vereist uw wachtwoord.
+610	Oude systeemlogboeken
+611	Logboeken ouder dan 14 dagen. Vereist uw wachtwoord.
+612	$1: cache
+613	$1: cookies
+614	$1: browsegeschiedenis
+615	bestanden
+616	Openen
+617	Pictogram in het meldingsgebied (bij de volgende start; de sluitknop van het venster laat het programma dan op de achtergrond draaien)
+618	Uw projecten herstellen
+619	Selectie herstellen
+620	Geen van deze herstelacties kan automatisch worden toegepast: dit moet u met de hand wijzigen.
+621	Kies de toe te passen updates. Elk bestand wordt eerst geback-upt („.cs-backup-…” ernaast) en hersteld als een update mislukt. Er wordt geen installatiescript uitgevoerd en er worden geen beheerdersrechten gebruikt. Test daarna uw projecten.
+622	⚠ sprong naar een nieuwe hoofdversie: kan het project breken
+623	Met de hand te doen
+624	Update bezig…
+625	update(s) geslaagd
+626	mislukking(en)
+627	voer „Scannen” opnieuw uit om te controleren
+628	De npm-projectmap is niet gevonden.
+629	Deze bibliotheek is in dit bestand niet vastgezet (==): wijzig de beperking met de hand.
+630	Cargo.toml niet gevonden naast Cargo.lock.
+631	Het bestand „$1” wordt niet automatisch gewijzigd: werk de afhankelijkheid bij met het eigen hulpmiddel van dit project.
+632	Niets te herstellen
+633	Er wordt geen herstelactie aangeboden: voer eerst „Scannen” uit, of OSV kent geen opgeloste versie voor deze bibliotheken.
+634	Voorlopig niets te herstellen
+635	Er is geen update beschikbaar voor:
+636	Uw versie is de nieuwste in de repositories: er is voorlopig niets te installeren. De CISA-lijst zegt niet welke versie de fout verhelpt. Zodra de {distro}-repositories een oplossing publiceren, verschijnt die onder „Updates” en hier.
+637	in $1
+638	✔ klaar
+639	✘ mislukt: $1
+640	bestand niet gevonden of symbolische koppeling
+641	projectmap niet gevonden
+642	ongeldige naam of versie
+643	alleen handmatig herstel
+644	Originele bestanden hersteld.
+645	„$1” is niet geïnstalleerd
+646	$1 regel(s) gewijzigd in $2. Installeer daarna: $3
+647	„$1” niet gevonden in het bestand (al gewijzigd?)
+648	ernstig
+649	pip (venv van het project)
+650	pip (alleen bestand: er wordt niets geïnstalleerd)
+651	Kies de toe te passen updates. Python: de bibliotheek wordt bijgewerkt in de venv van het project (pip weigert als een ander pakket de versie beperkt, en alles wordt teruggedraaid als er een conflict ontstaat). Elk bestand wordt eerst geback-upt („.cs-backup-…” ernaast) en hersteld als een update mislukt. Er wordt geen installatiescript uitgevoerd en er worden geen beheerdersrechten gebruikt. Test daarna uw projecten.
+652	De venv van het project heeft versie $1 (niet $2): wijzig zo nodig de beperking van het project met de hand.
+653	Deze bibliotheek is niet geïnstalleerd in de venv van het project: wijzig de beperking van het project met de hand.
+654	Geen venv gevonden en de bibliotheek is in dit bestand niet vastgezet (==): wijzig de beperking met de hand.
+655	venv: $1
+656	al up-to-date in de venv ($1)
+657	geïnstalleerd in de venv: $1
+658	venv hersteld in de oorspronkelijke staat
+659	$1 regel(s) gewijzigd in $2
+660	het afhankelijkhedenbestand heeft geen vastgezette regel om te wijzigen: het blijft ongewijzigd
+661	pip weigerde de update (een ander pakket beperkt de versie, of er is geen binair wheel beschikbaar):
+662	deze versie zou de afhankelijkheden van het project breken, geannuleerd:
+663	pip niet gevonden in deze venv ($1)
+664	pakketten gecontroleerd
+665	{bibliotheek|bibliotheken} van geïnstalleerde programma's met een bekende fout
+666	Bibliotheken van programma's (Python, Node, Rust…): nog niet gescand
+667	Pakketten controleren, daarna de bibliotheken van uw geïnstalleerde programma's (Python, Node, Rust…). Dit kan enkele minuten duren.
+668	BIBLIOTHEKEN VAN GEÏNSTALLEERDE PROGRAMMA'S
+669	Bibliotheek van een geïnstalleerd programma met een bekende fout.
+670	Niet gescand
+671	$1 {bibliotheek|bibliotheken}
+672	Gescheiden door komma's. Uw thuismap is standaard uitgesloten: uw projecten worden apart gescand (knop „Mappen…”).
+673	De bibliotheken van het systeem herstellen
+674	Locatie onbekend: voer „Scannen” opnieuw uit om ze te vinden.
+675	Deze venv is niet van uw gebruiker: de toepassing wijzigt hem niet (er worden geen beheerdersrechten gebruikt).
+676	De in deze venv geïnstalleerde versie is niet meer die van de scan: voer „Scannen” opnieuw uit.
+677	Onderdeel van het pakket „$1”: het wordt opgelost door dat pakket bij te werken (pagina „Updates”). Er staat er geen in afwachting totdat de repositories een oplossing publiceren.
+678	Globaal geïnstalleerd buiten pacman (pip als beheerder?): wijzig het op Arch niet met pip. Installeer het opnieuw in een venv of installeer het bijbehorende pacman-pakket (python-…).
+679	Meegeleverd met een geïnstalleerd programma of project: het wordt opgelost door dat programma (of project) bij te werken.
+680	Beheerder: geautoriseerd voor deze sessie
+681	Beheerder: wacht op uw wachtwoord…
+682	Beheerder: niet verleend (wachtwoord bij elke actie gevraagd)
+683	Beheerder: wachtwoord bij elke actie gevraagd (installeer het programma om het maar één keer gevraagd te krijgen)
+684	Het beheerderswachtwoord slechts één keer vragen, bij het opstarten (bij de volgende start; anders wordt het bij elke actie opnieuw gevraagd)
+685	Toevoegen aan het bestaande logboek (--appendlog)
+686	Gecontroleerd om
+687	pakketten
+688	Arch-trackergegevens zojuist gedownload
+689	bibliotheken
+690	pip (alleen requirements-bestand)
+691	Kies de toe te passen updates. Python: alleen de vastgezette (==) regel van het requirements-bestand wordt gewijzigd; uw venvs worden nooit aangeraakt (installeer daarna zelf). Elk bestand wordt eerst geback-upt („.cs-backup-…” ernaast) en hersteld als een update mislukt. Er wordt geen installatiescript uitgevoerd en er worden geen beheerdersrechten gebruikt. Test daarna uw projecten.
+692	Deze bibliotheek is in dit bestand niet vastgezet (==): wijzig de beperking met de hand. De toepassing wijzigt uw venvs nooit.
+693	Geïnstalleerd in een venv: de toepassing wijzigt uw venvs nooit. Werk het zelf bij (opdracht hieronder) en controleer de versielimieten van uw project.
+694	npm update (binnen de grenzen van het project)
+695	npm kan binnen de grenzen van het project tot $1 gaan
+696	beperkt door de toegestane versies van het project: npm kan maximaal tot $1 gaan (nodig is $2). Er is niets gewijzigd.
+697	beperkt door de toegestane versies van het project: npm kan $1 niet verhogen (nodig is $2). Er is niets gewijzigd.
+698	Originele lockbestanden hersteld.
+699	simulatie onmogelijk:
+700	Herstellen…
+701	$1 bijwerken naar $2 in „$3” (eerst automatische back-up, de versielimieten van het project worden gerespecteerd)
+702	al opgelost: versie $1 is niet meer geïnstalleerd (nu: $2)
+703	Pakket „$1”
+704	geïnstalleerde versie $1
+705	laatst bekende versie $1 ($2)
+706	{distro}-repositories
+707	AUR
+708	gelijk aan de uwe: er bestaat geen update
+709	nieuwer dan de uwe: er bestaat een update
+710	ouder dan de uwe: niets bij te werken
+711	dit bestand is geen requirements.txt
+712	ongeldige CVE-identificatie in de catalogus
+713	1/3 Instellingen voorbereiden…
+714	2/3 $1 schrijven ($2 instelling(en))…
+715	3/3 Meteen toepassen…
+716	Geen geldige instelling: er is niets gewijzigd.
+717	Verbergt interne kerneladressen voor gebruikers, waardoor kernelfouten moeilijker te misbruiken zijn.
+718	Deze computer is geen router: hij heeft geen reden om omleidingen te sturen.
+719	Verharding geannuleerd: de oorspronkelijke waarden worden hersteld.
+720	Voorkomt dat programma's zonder privileges kernelmeldingen lezen (die adressen onthullen die nuttig zijn voor aanvallers).
+721	Hetzelfde voor nieuwe netwerkinterfaces.
+722	Verbiedt geheugendumps (core dumps) van geprivilegieerde programma's, die geheimen kunnen bevatten.
+723	Logt pakketten met onmogelijke adressen (een teken van spoofing) zodat ze kunnen worden opgespoord.
+724	Beschermt tegen verbindingsoverstromingen (SYN flood).
+725	Weigert pakketten die hun eigen route dicteren (een kaapmethode).
+726	Weigert IPv6-omleidingen.
+727	Weigert ICMP-„redirects”, die een aanvaller op het netwerk kan gebruiken om uw verkeer om te leiden.
+728	Niets ongedaan te maken.
+729	Hersteld: $1 = $2
+730	Een instelling werd geweigerd: alles wordt teruggedraaid.
+731	$1 is al geblokkeerd.
+732	1/3 Regels voorbereiden…
+733	1/3 Firewall voorbereiden (aparte tabel „cachy_shield”, andere regels blijven onaangeroerd)…
+734	1/4 firewalld starten…
+735	1/4 Standaardregels: inkomend weigeren, uitgaand toestaan…
+736	2/3 Regel toevoegen (lokaal verkeer blijft toegestaan)…
+737	2/3 Opstartdienst installeren („cachy-shield-firewall”, uw nftables.conf blijft onaangeroerd)…
+738	2/4 Regels (diensten die u als „toegestaan” hebt gemarkeerd en eigen regels), permanent…
+739	2/4 Regels (diensten die u als „toegestaan” hebt gemarkeerd en eigen regels)…
+740	3/3 Klaar: poort $1/$2 is niet meer bereikbaar vanaf het netwerk, tot de volgende herstart.
+741	3/4 Loggen van geweigerde pakketten: $1
+742	Adres genegeerd: $1
+743	Lokaal of gereserveerd adres genegeerd: $1
+744	Geen regel gevonden (al verwijderd, bijvoorbeeld na een herstart).
+745	Poort $1/$2 gedeblokkeerd.
+746	Ongeldige regels: er is niets gewijzigd.
+747	firewalld ingeschakeld: blijft bij elke start actief.
+748	firewalld uitgeschakeld.
+749	ufw ingeschakeld: blijft bij elke start actief.
+750	ufw uitgeschakeld.
+751	<privé tijdelijk bestand>
+752	Geen projectmap om te scannen: voeg er toe met „Mappen…” (pagina Kwetsbaarheden, tegel „Uw projecten”).
+753	Te scannen mappen
+754	Ontwikkelafhankelijkheden opnemen (--include-dev-deps) — alleen codeprojecten
+755	Verzoeken via deze proxy versturen (http, https, socks5).
+756	Nauwkeurig
+757	Uw projectmappen, gescheiden door „;”. Beheer ze met de knop „Mappen…” op de pagina Kwetsbaarheden.
+758	✔ Het programma is gestopt.
+759	✔ Update voltooid. Voer de scans opnieuw uit om de resterende kwetsbaarheden te controleren.
+760	(snapshot onmogelijk: de wijziging blijft omkeerbaar)
+761	1/3 Back-up van package.json en package-lock.json (achtervoegsel .cs-backup-$1)…
+762	1/4 Veiligheidssnapshot (snapper)…
+763	2/3 $1 bijwerken naar $2 (zonder installatiescripts uit te voeren)…
+764	2/4 Instelling schrijven…
+765	3/3 Klaar. Ongedaan maken: kopieer de bestanden „.cs-backup-$1” over package.json en package-lock.json.
+766	3/4 Configuratie controleren…
+767	4/4 SSH herladen (open sessies worden niet verbroken)…
+768	ufw uitschakelen
+769	firewalld uitschakelen
+770	Het ongedaan maken is mislukt of geweigerd.
+771	Gebruikte firewall: nftables, in een tabel die aan de toepassing is gewijd.
+772	Er is niets gewijzigd (autorisatie geweigerd of fout: zie hierboven).
+773	hoofdversie — kan het project breken
+774	package.json niet gevonden in deze map.
+775	patch — het veiligst
+776	Mislukt: originele bestanden hersteld.
+777	⚠ VÓÓR DE UPDATE GEDETECTEERDE RISICO'S:
+778	Deze bibliotheek wordt meegeleverd met een geïnstalleerd programma: ze wordt opgelost door dat programma bij te werken. Bestaat er nog geen update, dan hebben de repositories de oplossing niet gepubliceerd.
+779	Thuismap niet gevonden: opruimen is niet beschikbaar.
+780	Geweigerd voor alles wat van het netwerk komt
+781	Trivy (Aqua Security) — bibliotheken gevonden in geïnstalleerde programma's
+782	in
+783	Geen resultaat
+784	Onleesbaar resultaat
+785	lege of ongeldige opdracht
+786	opdrachtvorm geweigerd
+787	de helper reageert niet meer
+788	pacman-opties niet toegestaan
+789	auditprogramma niet toegestaan
+790	programma niet toegestaan
+791	Waarborgen: aparte firewalltabel, uw andere regels worden niet aangeraakt
+792	kan op elk moment via deze tegel worden uitgeschakeld.
+793	Twee keuzes: „Tot herstart” (er blijft niets over na de volgende start, de veiligste manier om te proberen) of „Permanent” (een kleine opstartdienst „cachy-shield-firewall” herstelt hem bij elke start; uw bestand nftables.conf wordt niet gewijzigd).
+794	Kan nu niet worden ingeschakeld: de draaiende kernel heeft zijn geïnstalleerde modules niet meer (de kernel is zonder herstart bijgewerkt). Herstart de computer en kom dan hier terug. Ondertussen kunt u zien wat er zou worden toegepast en uw regels bewerken (sectie „Firewallregels” op de netwerkpagina).
+795	Pacman-cache opgeruimd (de laatste 3 versies blijven bewaard).
+796	Oude logboeken verwijderd (de laatste 14 dagen blijven bewaard).
+797	Pacman-cache en oude logboeken opgeruimd.
+798	NVD: controleren of de catalogus antwoordt (NIST)
+799	NVD: $1 CVE's in totaal in de catalogus
+800	NVD: antwoord ontvangen, maar onleesbaar
+801	Live: op verzoek gezocht (pagina Wereldwijde kwetsbaarheden) · de knop controleert of NVD antwoordt
+802	De hele AUR bijwerken in een terminal…
+803	Bijwerken in een terminal
+804	De AUR bijwerken
+805	De terminal openen
+806	Er opent een terminal die uitvoert:
+807	• „{assistant}” toont de wijzigingen van elke PKGBUILD: lees ze na voordat u akkoord gaat.\n• Het wachtwoord wordt in die terminal gevraagd: de toepassing ziet het nooit.\n• AUR-pakketten worden niet door Arch gecontroleerd: in 2026 zijn sommige AUR-pakketten van valstrikken voorzien.
+808	Klaar
+809	Druk op Enter om dit venster te sluiten…
+810	Geen terminal gevonden
+811	De terminal kon niet worden geopend
+812	Pakket geweigerd
+813	„Bijwerken in een terminal” opent uw terminal: $1 toont daar de PKGBUILD-wijzigingen zodat u ze kunt nalezen voordat u akkoord gaat, en het wachtwoord wordt daar getypt (de toepassing ziet het nooit).
+814	De toepassing omzeilt deze controle nooit: nooit een stille installatie (geen --noconfirm of --skipreview).
+815	De hele AUR bijwerken met $1 in een terminal (PKGBUILD-controle, wachtwoord getypt in de terminal)
+816	$1 bijwerken met $2 in een terminal (PKGBUILD-controle)
+817	De AUR bijwerken (controle binnen de toepassing)…
+818	Bijwerken (controle binnen de toepassing)
+819	De AUR bijwerken…
+820	De AUR bijwerken?
+821	Downloaden en nalezen
+822	Ontbrekende hulpprogramma's
+823	De AUR bijwerken binnen de toepassing vereist „git” en „makepkg” (pakketten git en base-devel). Installeer ze, of gebruik „Bijwerken in een terminal”.
+824	AUR-recepten downloaden
+825	AUR-pakketten installeren
+826	Overige bestanden (niet getoond)
+827	pakket
+828	revisie
+829	Nalezen vóór installatie:
+830	Geen automatische waarschuwing: lees toch de tekst hieronder.
+831	Als iets u zorgen baart of u het script niet begrijpt, kies dan „Dit pakket overslaan”.
+832	Dit pakket overslaan
+833	Ik heb het nagelezen: installeren
+834	Een systeemvenster vraagt om uw wachtwoord om elk pakket te installeren.
+835	Pakketten controleren
+836	⚠ downloadt en voert een script uit (curl/wget naar sh) in de PKGBUILD
+837	downloadt bestanden tijdens de build (curl/wget): controleer waar ze vandaan komen
+838	⚠ bevat gecodeerde inhoud (base64)
+839	⚠ gebruikt „eval”
+840	⚠ opent een onbewerkte netwerkverbinding
+841	⚠ zet de setuid/setgid-bit
+842	schakelt een systeemdienst in of start die
+843	wijzigt gebruikersaccounts of rechten
+844	gebruikt een niet-versleuteld adres (http://)
+845	de integriteit van minstens één bron wordt niet gecontroleerd (SKIP)
+846	⚠ raakt een gevoelig bestand aan ($1)
+847	Downloaden: $1 / $2
+848	Installeren: $1 / $2
+849	Pakket $1 / $2: $3
+850	Voltooid met $1 mislukking(en)
+851	$1: geweigerd
+852	✔ $1 geïnstalleerd
+853	✘ $1: mislukt (code $2). Als een afhankelijkheid ook uit de AUR komt, werk die dan eerst bij.
+854	══ $1 ($2/$3) ══
+855	$1 AUR-update(s) in afwachting: gebruik de knop „De AUR bijwerken…” hieronder (PKGBUILD-controle binnen de toepassing).
+856	$1: download mislukt ($2)
+857	„$1” is een symbolische koppeling: om veiligheidsredenen geweigerd
+858	deze repository bevat geen PKGBUILD
+859	1 update beschikbaar
+860	{n} updates beschikbaar
+861	{n} in de officiële repositories
+862	{n} in de AUR (nalezen vóór installatie)
+863	{n} gevoelig(e) item(s): u wordt vóór de installatie gewaarschuwd
+864	Open „Updates” om ze te installeren.
+865	installeert een geplande taak (cron): controleer wat ze uitvoert
+866	$1 AUR-update(s) in afwachting ($2): direct daarna afgehandeld, in een tweede stap. De AUR vereist dat elke PKGBUILD wordt nagelezen (in 2026 zijn AUR-pakketten van valstrikken voorzien): u leest ze binnen de toepassing na voordat er iets wordt geïnstalleerd.
+867	$1 AUR-update(s) beschikbaar
+868	AUR-pakketten worden niet door Arch gecontroleerd: u leest elke PKGBUILD na vóór de installatie.
+869	$1 AUR-update(s)
+870	De officiële repositories zijn up-to-date. „Herstellen” downloadt de AUR-recepten, u leest ze na, daarna worden ze geïnstalleerd.
+871	$1 AUR-update(s) in afwachting: volgende stap, PKGBUILD-controle (volgend venster).
+872	Stappen: 1) de recepten (PKGBUILD) worden gedownload; 2) U leest elk ervan na; 3) wat u hebt nagelezen wordt gebouwd en geïnstalleerd.
+873	AUR-pakketten worden niet door Arch gecontroleerd: lees zorgvuldig na en sla elk pakket over waarvan het script u zorgen baart. Een systeemvenster vraagt om uw wachtwoord voor de installatie (de toepassing ziet het nooit).
+874	✘ git is niet geïnstalleerd
+875	✘ geen cachemap
+876	✘ git mislukt
+877	✘ map niet gevonden
+878	✘ makepkg niet gevonden (pakket base-devel)
+879	✘ „env” niet gevonden
+880	✘ ongeldige pakketnaam: $1
+881	✘ $1: download mislukt ($2)
+882	Adres geweigerd.
+883	Doel geweigerd.
+884	Opgeslagen in de permanente configuratie: nog niet toegepast (herladen nodig).
+885	Naam geweigerd.
+886	Bewerking geweigerd.
+887	Poort geweigerd.
+888	Protocol geweigerd.
+889	Weigeren met een melding
+890	Weigeren met een melding (standaard)
+891	Regel geweigerd.
+892	Waarde geweigerd.
+893	Zone geweigerd.
+894	kies een dienst OF een poort, niet beide
+895	ongeldige familie (ipv4 of ipv6)
+896	firewalld is gestopt: de regels worden toegepast wanneer hij wordt ingeschakeld.
+897	ongeldige poort (1 tot 65535, of een bereik 8000-8100)
+898	lege regel: geef een bron, een dienst of een poort op
+899	een limiet is niet van toepassing op „drop”
+900	Stilzwijgend negeren
+901	Alles toestaan
+902	Actie geweigerd.
+903	Argument geweigerd: $1
+904	Opdracht geweigerd.
+905	Modus geweigerd.
+906	Niveau geweigerd.
+907	Beleid geweigerd.
+908	Regel te lang.
+909	Richting geweigerd.
+910	teken niet toegestaan
+911	ongeldige poort (1 tot 65535, bereik 8000:8100 of lijst 80,443)
+912	lege regel: geef minstens een poort, een adres, een protocol of een interface op
+913	een poort vereist het protocol TCP of UDP
+914	ongeldige actie
+915	ongeldige richting
+916	ongeldig protocol
+917	ongeldige interface
+918	ongeldig bronadres voor ipv4
+919	ongeldig bronadres voor ipv6
+920	ongeldige dienstnaam
+921	ongeldige limiet (voorbeeld: 10/m)
+922	ongeldig $1-adres (IPv4 of IPv6, eventueel met /netwerk)
+923	Aan deze zone gekoppelde bronadressen
+924	De regels tonen
+925	Een poort toevoegen
+926	Een poort toevoegen…
+927	Een dienst toevoegen
+928	Een dienst toevoegen…
+929	Een adres of netwerk toevoegen…
+930	Een gedetailleerde regel toevoegen
+931	Een gedetailleerde regel toevoegen…
+932	Een ufw-regel toevoegen
+933	Deze regel nu toepassen?
+934	Nu toepassen (firewalld herladen)
+935	Er is geen systeemfirewall (ufw, firewalld) geïnstalleerd: de toepassing gebruikt zijn eigen nftables-tabel. De regels hieronder worden opgeslagen en bij het inschakelen toegepast. Installeer ufw of firewalld om die te beheren: dit venster past zich aan.
+936	Geen vooraf gedefinieerde dienst gevonden (onvolledig firewalld-pakket?).
+937	Geen ICMP-type gevonden (onvolledig firewalld-pakket?).
+938	Geen dienst
+939	Geen type
+940	Geen dienst.
+941	Geen poort.
+942	Geen gedetailleerde regel.
+943	Nog geen regel opgeslagen.
+944	Geen firewalld-zone gevonden in /etc/firewalld of /usr/lib/firewalld: controleer of het pakket firewalld volledig is geïnstalleerd.
+945	Geen. Als u een netwerk (bv. 192.168.0.0/24) aan een zone koppelt, gelden de regels van die zone ervoor.
+946	Geen. „echo-request” blokkeren maakt de computer stil voor ping.
+947	Laag (aanbevolen)
+948	Een ICMP-type blokkeren
+949	Een ICMP-type blokkeren…
+950	Blokkeren
+951	Wijzigen
+952	De standaardzone wijzigen?
+953	Kies een vooraf gedefinieerde dienst (ssh, http, samba…). Hij wordt in deze zone toegestaan.
+954	Combineer een bron en een dienst OF een poort. Deze regel wordt opgeslagen in de permanente configuratie van de zone.
+955	Standaardgedrag
+956	Doel: IP of netwerk (leeg = overal)
+957	Bron: IP of netwerk (leeg = overal)
+958	Uitgeschakeld
+959	Voorbeeld: echo-request blokkeert inkomende pings.
+960	Voer een IPv4- of IPv6-adres in, eventueel met /netwerk.
+961	Netwerkinterfaces van deze zone (beheerd door NetworkManager of firewalld)
+962	Logboek van geweigerde pakketten
+963	Deze regel loggen
+964	De poort wordt in deze zone toegestaan.
+965	Lezen niet mogelijk (autorisatie geweigerd of fout).
+966	Verbindingen vanaf dit adres volgen de regels van deze zone.
+967	ufw-regels zijn alleen met beheerdersrechten te lezen: uw wachtwoord wordt gevraagd wanneer u op „De regels tonen” klikt.
+968	De opgeslagen regels gelden meteen. Als u de dienst hebt verwijderd die SSH toestaat, kunt u de toegang op afstand verliezen.
+969	Het standaardgedrag wijzigen?
+970	Gebruikte firewall
+971	Gebruikte firewall:
+972	Er zijn meerdere firewalls geïnstalleerd: kies degene die de toepassing moet gebruiken. Er mag maar één tegelijk actief zijn.
+973	Poort (1 tot 65535) of bereik 8000-8100
+974	Poort, bereik 8000:8100 of lijst 80,443
+975	Toegestane poorten
+976	Een bron aan deze zone koppelen
+977	Weigeren (aanbevolen)
+978	Afwijzen (met melding)
+979	Verwijderen
+980	Dit item verwijderen?
+981	Herladen
+982	firewalld herladen?
+983	Gedetailleerde regels
+984	In ufw opgeslagen regels
+985	Algemene instellingen
+986	Toegestane diensten
+987	Deze regel verwijderen?
+988	Alle weigeringen
+989	Unicast-weigeringen
+990	Broadcast-weigeringen
+991	Multicast-weigeringen
+992	Netwerkadresomzetting (NAT) om de verbinding van deze computer te delen
+993	Verkeer dat niet door de regels wordt gedekt
+994	Geblokkeerde ICMP-typen
+995	Deze zone als standaard gebruiken
+996	inkomend (standaard)
+997	uitgaand (standaard)
+998	logboek
+999	weigeringslogboek
+1000	standaardzone
+1001	firewalld is actief: de verwijdering wordt opgeslagen in de permanente configuratie en geldt bij de volgende herlaadbeurt.
+1002	firewalld is actief: uw wijzigingen worden opgeslagen in de permanente configuratie en gelden pas bij het herladen (knop hieronder).
+1003	firewalld is uitgeschakeld: u kunt zijn regels lezen en bewerken; ze gelden bij het inschakelen. Vanuit dit venster wordt niets ingeschakeld.
+1004	nftables (ingebouwd in de toepassing)
+1005	ufw is actief: elke wijziging geldt meteen (u wordt vooraf gewaarschuwd).
+1006	ufw is actief: de regel verdwijnt meteen. Als het de regel is die SSH toestaat, kunt u de toegang op afstand verliezen.
+1007	ufw is actief: de regel geldt meteen.
+1008	ufw is actief: de wijziging geldt meteen. Uitgaand verkeer weigeren kan uw internettoegang afsnijden.
+1009	ufw is uitgeschakeld: de regel wordt opgeslagen en geldt bij het inschakelen.
+1010	ufw is uitgeschakeld: u kunt zijn regels lezen en bewerken; ze gelden pas bij het inschakelen. Vanuit dit venster wordt niets ingeschakeld.
+1011	Mislukking
+1012	Hoog
+1013	ufw-status
+1014	firewalld-status
+1015	… of een poort, bv. 8080 of 8000-8100
+1016	Gedetecteerde firewall:
+1017	de echte regels (zones, diensten, poorten, gedetailleerde regels) zijn te lezen en te bewerken in de editor, ook als de firewall is uitgeschakeld.
+1018	De firewall-editor openen…
+1019	alleen-lezen
+1020	Zone
+1021	Inkomend
+1022	Uitgaand
+1023	Gemiddeld
+1024	Volledig
+1025	Limiet, bv. 10/m (optioneel)
+1026	Beperken (misbruikbeveiliging: 6 verbindingen / 30 s)
+1027	Inkomend (naar deze computer)
+1028	Uitgaand (vanaf deze computer)
+1029	Interface, bv. enp5s0 (optioneel)
+1030	Logboek
+1031	Interface
+1032	Familie
+1033	Limiet
+1034	Richting
+1035	Alle
+1036	(geen)
+1037	Stilzwijgend verwerpen
+1038	Toestaan
+1039	Weigeren
+1040	Afwijzen
+1041	Beperken
+1042	antwoord van ufw
+1043	(leeg)
+1044	antwoord van ufw (code $1):
+1045	Added user rules (see 'ufw status' for running firewall):
+1046	(None)
+1047	Bezig… ($1 s)
+1048	Scan bezig… ($1 s)
+1049	Scan $1 / $2: $3
+1050	Stap $1 / $2: $3
+1051	Alle scans zijn voltooid
+1052	Scans voltooid
+1053	Alle scans zijn voltooid: de resultaten staan op het dashboard.
+1054	Bewerking bezig… (een venster kan om uw wachtwoord vragen)
+1055	(SSH draait niet: de instellingen gelden bij het starten)
+1056	2/4 Instellingen van de toepassing verwijderen…
+1057	2/4 Instellingen schrijven…
+1058	3/4 Configuratie controleren (sshd -t)…
+1059	1/4 Veiligheidssnapshot (snapper)…
+1060	4/4 SSH herladen (open sessies worden niet verbroken)…
+1061	Luisteradressen
+1062	De grafische programma's van de server op uw scherm tonen.
+1063	De laatste aanmelding tonen
+1064	Het bericht van de dag tonen
+1065	Oude methode (vertrouwde machines). Vermijden.
+1066	Oude onveilige methode. Laat op „yes”.
+1067	Na dit aantal onbeantwoorde controles wordt de sessie gesloten.
+1068	Daarna wordt een niet-geauthenticeerde verbinding verbroken. Korter = minder ongebruikte verbindingen die blijven hangen.
+1069	Er zou geen aanmeldmethode actief blijven (geen wachtwoord, geen sleutel, geen toetsenbordinteractie): niemand zou kunnen aanmelden.
+1070	Staat tun/tap-interfaces toe.
+1071	Laat een account zonder wachtwoord aanmelden. Vermijden.
+1072	Banner vóór het aanmelden
+1073	Categorie van het systeemlogboek
+1074	Pad van een tekstbestand dat vóór de identificatie wordt getoond (juridische mededeling). „none” = geen banner.
+1075	Integriteitscodes (MAC)
+1076	Comprimeert gegevens: tegenwoordig weinig nuttig op een snel netwerk.
+1077	Ongeldige configuratie: wijziging geannuleerd, er is niets gewijzigd.
+1078	Aanmelden van het account „root”
+1079	Aanmelden met een SSH-sleutel
+1080	Gelijktijdige niet-geauthenticeerde verbindingen
+1081	Schakelt X11, agent, poorten, sockets en tunnels in één keer uit.
+1082	DEBUG logt enorm veel gevoelige gegevens: alleen voor probleemoplossing.
+1083	Toegestane tijd om aan te melden (seconden)
+1084	Schakel het uit zodra uw SSH-sleutels op hun plaats staan: brute-force-aanvallen worden nutteloos.
+1085	Indien uitgeschakeld, werken alleen overdrachten en opdrachten zonder terminal.
+1086	Samen met wachtwoorden uitgeschakeld, kan niemand meer aanmelden.
+1087	Detecteert dode verbindingen. Uitgeschakeld kan een netwerkonderbreking spooksessies achterlaten.
+1088	Voorbeeld: „publickey” (alleen sleutel) of „publickey,password” (sleutel EN wachtwoord).
+1089	Bestand(en) met geautoriseerde sleutels
+1090	Formaat „start:snelheid:max” (bv. 10:30:60) of een getal: daarboven worden verbindingen geweigerd. Beperkt overstromingsaanvallen.
+1091	Bewaar een normaal account met sudo voordat u root verbiedt.
+1092	Toegestane groepen
+1093	Geweigerde groepen
+1094	Alleen IPv4, alleen IPv6, of beide.
+1095	Idem: laat leeg tenzij u een specifieke behoefte hebt.
+1096	.rhosts-bestanden negeren
+1097	ALLE doorsturingen verbieden
+1098	Koppelt SSH aan de systeemauthenticatie (accounts, sessies). Arch zet het al op „yes” in zijn eigen bestand: laat het zo.
+1099	Nutteloos voor de beveiliging en vertraagt de verbinding als DNS traag is.
+1100	Logboek en berichten
+1101	Laat een gebruiker variabelen opleggen via ~/.ssh/environment. Vermijden.
+1102	Laat leeg: de waarden van OpenSSH zijn actueel. Voorvoegsels „+” (toevoegen), „-” (verwijderen), „^” (vooraan zetten) zijn mogelijk.
+1103	De aanbevolen manier om aan te melden.
+1104	De poort waarop SSH luistert.
+1105	De vereiste methoden vragen een wachtwoord, maar aanmelden met wachtwoord is uitgeschakeld.
+1106	De vereiste methoden vragen een SSH-sleutel, maar er is geen sleutel geregistreerd voor uw account.
+1107	Regel geweigerd: $1
+1108	Trefwoord geweigerd: $1
+1109	Beperkt SSH tot enkele adressen van deze computer (gescheiden door spaties), bijvoorbeeld uw adres op het lokale netwerk.
+1110	Lijst (gescheiden door spaties): ALLEEN deze accounts kunnen verbinden. Leeg = iedereen.
+1111	Eenmalige wachtwoorden, vraag/antwoord. Arch schakelt het al uit.
+1112	Vereiste methoden
+1113	Vergeet uw eigen account niet, anders sluit u uzelf buiten.
+1114	Detailniveau van het logboek
+1115	Aantal sessies dat tegelijk open is op één verbinding.
+1116	Aantal pogingen voordat de verbinding wordt verbroken (gebruikelijke waarde: 3 tot 4).
+1117	Namen van variabelen die de client mag sturen (bv. LANG LC_*).
+1118	Waar SSH naar geautoriseerde sleutels zoekt (standaard: .ssh/authorized_keys in de thuismap).
+1119	Waar het systeem de berichten van SSH onderbrengt.
+1120	Laat u uw sleutels vanaf de server gebruiken. Uitschakelen als het niet nodig is.
+1121	Laat u via SSH andere machines bereiken. „local” of „remote”: slechts één richting.
+1122	Laat andere machines uw poortdoorsturingen gebruiken.
+1123	Luisterpoort
+1124	Doorgestuurde poorten zichtbaar vanaf het netwerk
+1125	Herinnert u aan de datum van uw laatste aanmelding: nuttig om een inbraak op te merken.
+1126	Doorsturingen en tunnels
+1127	Stuurt Unix-sockets door.
+1128	Weigert sleutels als hun map door anderen kan worden gewijzigd.
+1129	Gemiste antwoorden vóór het verbreken
+1130	ALLEEN leden van deze groepen kunnen aanmelden.
+1131	Leden van deze groepen kunnen nooit aanmelden.
+1132	Deze accounts kunnen nooit aanmelden.
+1133	SSH luistert alleen op de opgegeven adressen. Bestaat er één niet op deze computer, dan start SSH bij de volgende start niet meer.
+1134	Zonder PAM werkt aanmelden met het systeemwachtwoord doorgaans niet meer.
+1135	Zonder een voor dit account geregistreerde SSH-sleutel kunt u niet meer op afstand aanmelden. Test VOORAF een aanmelding met sleutel.
+1136	Als u de poort wijzigt, open dan de nieuwe in de firewall en waarschuw uw clients: anders kunt u niet verbinden.
+1137	Klaar. Houd deze sessie open en test een NIEUWE verbinding voordat u ze sluit.
+1138	Tekst die na het aanmelden wordt getoond.
+1139	Elke N seconden controleert SSH of de andere kant er nog is. 0 = nooit.
+1140	Netwerktunnels (VPN via SSH)
+1141	Een verkeerd pad = geen sleutel meer herkend. Wijzig het alleen als u weet waarom.
+1142	Een verkeerd adres maakt SSH onbereikbaar. Controleer of het op deze computer bestaat.
+1143	Een te strenge lijst verhindert dat oudere clients verbinden.
+1144	Een niet te vervullen methode sluit iedereen buiten.
+1145	Er is een root-sessie op afstand open: wijziging geweigerd om u niet af te sluiten.
+1146	Alleen nuttig met een bedrijfsmap.
+1147	Toegestane gebruikers
+1148	Geweigerde gebruikers
+1149	VERBOSE logt de vingerafdruk van de bij elke aanmelding gebruikte sleutel: nuttig om te achterhalen wie er verbonden is.
+1150	Door de client geaccepteerde variabelen
+1151	Omgevingsvariabelen van gebruikers
+1152	De DNS-naam van de client controleren
+1153	De rechten van de sleutelbestanden controleren
+1154	Controleren of de client antwoordt (seconden)
+1155	Controleer of uw account in een van deze groepen zit.
+1156	ongeldig adres (IPv4, IPv6 of adres:poort)
+1157	absoluut pad verwacht (of „none”)
+1158	kies ja of nee
+1159	formaat: getal of start:snelheid:max (bv. 10:30:60)
+1160	de start moet minstens 1 zijn
+1161	mogelijke methoden: publickey, password, keyboard-interactive, hostbased, gssapi-with-mic
+1162	ongeldige namen (alleen letters, cijfers, _ . - @ * ? !, gescheiden door spaties)
+1163	snelheid van 0 tot 100 en maximum minstens gelijk aan de start
+1164	volgens de instellingen hierboven
+1165	„AllowGroups” beperkt aanmelden tot leden van bepaalde groepen: controleer of uw account er één van is.
+1166	„no”: niemand kan via SSH als root aanmelden. „prohibit-password”: root alleen met een sleutel.
+1167	„no” schakelt ook aanmelden met het systeemwachtwoord uit: mogelijk kunt u niet meer verbinden.
+1168	Sleuteluitwisseling
+1169	⚠ $1: de geldende waarde wijkt af („$2”): een andere instelling met hogere prioriteit of een normalisatie door sshd.
+1170	Niemand kan via SSH op afstand aanmelden. Dat is het veiligst als u het niet nodig hebt. Klik hier om SSH aan te passen.
+1171	Met SSH kunt u op afstand op deze computer aanmelden. Als u het niet gebruikt, kunt u het beter uitschakelen. Klik hier om SSH aan te passen.
+1172	Deze SSH-instellingen toepassen?
+1173	Toch toepassen
+1174	Let op: risico op verlies van toegang op afstand
+1175	Elke regel die op „Standaard” blijft staan, wordt niet gewijzigd: SSH behoudt zijn oorspronkelijke waarde. Uw keuzes worden in één enkel bestand van de toepassing geschreven, nooit in uw sshd_config. Vóór het toepassen: back-up, configuratiecontrole, automatisch terugdraaien als ze ongeldig is, herladen zonder uw open sessies te verbreken. Houd een sessie open en test een nieuwe verbinding voordat u ze sluit.
+1176	De bewerking is mislukt of geannuleerd: er is niets gewijzigd.
+1177	De SSH-server (OpenSSH) is niet geïnstalleerd op deze computer: er valt niets aan te passen. Installeer het pakket „openssh” als u op afstand wilt verbinden.
+1178	De gekozen instellingen zijn al die van het bestand van de toepassing.
+1179	Aanbevolen
+1180	Aanbevolen waarden invullen
+1181	Vult de velden met gangbare verhardingswaarden. Er wordt niets toegepast totdat u op „Toepassen” klikt.
+1182	Er is niets behouden: een veiligheidscontrole heeft de wijziging verhinderd (zie de melding hierboven).
+1183	Instelling geweigerd: u zou buitengesloten worden
+1184	SSH-instellingen
+1185	Instellingen toegepast. Test een nieuwe verbinding voordat u uw huidige sessie sluit.
+1186	Instellingen van de SSH-server
+1187	Waarborgen: veiligheidssnapshot (snapper) · „sshd -t”-controle · automatisch terugdraaien als de configuratie ongeldig is · herladen zonder uw open sessies te verbreken. Houd een sessie open en test een nieuwe verbinding voordat u ze sluit.
+1188	Alles terugzetten op standaard
+1189	gestopt (de instellingen gelden bij het starten)
+1190	standaard
+1191	Status van de SSH-dienst
+1192	actief
+1193	Ja
+1194	Nee
+1195	Van kracht
+1196	Standaard
+1197	alle
+1198	geen
+1199	iedereen
+1200	geen
+1201	OpenSSH-waarden
+1202	Verbinding
+1203	Authenticatie
+1204	Wie kan aanmelden
+1205	Versleuteling
+1206	Adresfamilies
+1207	Tijd om aan te melden
+1208	Sessies per verbinding
+1209	TCP-keep-alive-berichten
+1210	Compressie
+1211	Aanmelden met wachtwoord
+1212	Aanmelden via „keyboard-interactive”
+1213	Lege wachtwoorden
+1214	Pogingen per verbinding
+1215	PAM gebruiken
+1216	Authenticatie via vertrouwde machines
+1217	Kerberos-authenticatie (GSSAPI)
+1218	Interactieve terminal
+1219	Poortdoorsturing (TCP-tunnels)
+1220	Doorsturing van de SSH-agent
+1221	Grafische doorsturing (X11)
+1222	Doorsturing van lokale sockets
+1223	Versleutelingsalgoritmen
+1224	Het bericht van de dag tonen
+1225	Alleen IPv4, alleen IPv6, of beide.
+1226	Gestopt
+1227	Taal: automatisch
+1228	Taal van de toepassing. „Automatisch” volgt de taal van uw systeem.
+1229	Taal wijzigen
+1230	De wijziging geldt bij de volgende start. De toepassing nu herstarten?
+1231	Later
+1232	Nu herstarten
+1233	$1 {bibliotheek|bibliotheken} · $2 {kwetsbaarheid|kwetsbaarheden}, waarvan $3 ernstig
+1234	$1: $2 {bibliotheek|bibliotheken} met een bekende kwetsbaarheid, $3 {kwetsbaarheid|kwetsbaarheden} in totaal ($4 ernstig).
+1235	• $1: $2 {kwetsbaarheid|kwetsbaarheden}, waarvan $3 ernstig · $4 · $5
+1236	Bibliotheken van een geïnstalleerd programma met bekende kwetsbaarheden.
+1237	Deze bibliotheken worden meegeleverd met een geïnstalleerd programma: ze worden opgelost door dat programma bij te werken. Bestaat er nog geen update, dan is er voorlopig niets te doen.
+1238	onmogelijk binnen de versielimieten van het project: geen toegestane update brengt $1 naar een opgeloste versie (minstens $2 is nodig).$3 Er zou een HOOFD-update van een van deze pakketten nodig zijn, of een „overrides”-vermelding in package.json: er gebeurt niets automatisch. Er is niets gewijzigd.
+1239	 Het komt van: $1.
+1240	npm kan $1 verhogen tot $2$3
+1241	⚠ GEDEELTELIJKE oplossing: npm kan $1 verhogen tot $2; versie $3 zou alle kwetsbaarheden verhelpen maar overschrijdt de grenzen van het project
+1242	$1 staat nu op: $2
+1243	npm kan $1 verhogen tot $2 door „$3” bij te werken (binnen de grenzen van het project)
+1244	npm kan $1 verhogen tot $2
+1245	⚠ GEDEELTELIJKE oplossing: npm kan $1 verhogen tot $2 door „$3” bij te werken (binnen de grenzen van het project); versie $4 zou alle kwetsbaarheden verhelpen maar overschrijdt de grenzen van het project
+1246	⚠ GEDEELTELIJKE oplossing: npm kan $1 verhogen tot $2; versie $3 zou alle kwetsbaarheden verhelpen maar overschrijdt de grenzen van het project
+1247	Laatste scan
+1248	CVE-databases gecontroleerd
+1249	⟳ databases controleren…
+1250	nooit
+1251	Laatste scan: {d}
+1252	CVE-databases gecontroleerd — CISA: {k} · Trivy: {v}
+1253	Lokale analyse van deze computer (ss en /proc)
+1254	SSH-herstelactie ongedaan maken
+1255	SSH-herstelactie ongedaan maken
+1256	SSH-herstelactie ongedaan maken?
+1257	Herstelactie toepassen
+1258	Arch Security Tracker (beveiligingsteam van Arch Linux)
+1259	„$1” stoppen
+1260	„$1” stoppen?
+1261	„$1” stoppen (nette stop, PID $2)
+1262	„$1” geforceerd stoppen
+1263	Kan niet stoppen
+1264	Kan niet vanuit de toepassing worden gestopt: $1
+1265	Het programma stoppen: het krijgt een verzoek tot nette stop; niet-opgeslagen gegevens kunnen verloren gaan, en het herstart niet vanzelf tenzij een dienstbeheerder het beheert.
+1266	Geen grote wijziging gedetecteerd: laag risico, maar test toch vóór het toepassen.
+1267	Geen herstelactie
+1268	Er is nog geen oplossing gepubliceerd: er valt niets te installeren.
+1269	Voor dit programma is geen directe actie veilig (zie het advies).
+1270	Geen bijzonder riskante update gedetecteerd. Vooraf en achteraf wordt een snapper-snapshot gemaakt.
+1271	Er is geen wijziging behouden: een veiligheidscontrole heeft ze verhinderd (zie de melding hierboven).
+1272	Geen compatibel bestand
+1273	een andere gebruiker
+1274	$1 update(s) mislukt: de gegevens van deze bronnen kunnen verouderd zijn.
+1275	Servers blokkeren
+1276	Poort $1 blokkeren
+1277	Blokkeren
+1278	Deze servers blokkeren?
+1279	Het blokkeren van deze servers verbreekt de verbindingen met deze adressen zonder het programma te stoppen. Let op: een site kan meerdere adressen gebruiken, en het blokkeren van een gedeeld adres kan anderen raken. Omkeerbaar met „Alles deblokkeren”.
+1280	Netwerktoegang blokkeren: het programma blijft draaien en blijft bruikbaar vanaf deze computer, maar niet meer vanaf andere apparaten. De blokkade verdwijnt bij de herstart (of met „Alles deblokkeren”).
+1281	Poort $1 vanaf het netwerk blokkeren?
+1282	Poort $1 vanaf het netwerk blokkeren (lokale toegang blijft mogelijk, tot de herstart)
+1283	Verbindingen met $1 server(s) blokkeren: $2
+1284	KDE-/Qt-bureaublad: meld u na de update af en weer aan (of herstart).
+1285	CISA-catalogus
+1286	Deze map bevat geen package.json, package-lock.json of pom.xml.
+1287	Het commando „fix” van OSV-Scanner verwerkt geen requirements.txt of Go-/Rust-projecten: noteer daarvoor de versie uit de kolom „Oplossing” en werk ze met de hand bij.
+1288	Deze poort is al geblokkeerd.
+1289	Dit programma is van root (systeemdienst): het stoppen kan het systeem destabiliseren. Geef de voorkeur aan „Netwerktoegang blokkeren”, dat niets stopt.
+1290	Dit programma is van een andere gebruiker.
+1291	Dit programma bestaat niet meer, of stoppen is niet toegestaan (systeem- of sessieprogramma).
+1292	WAT DE TOEPASSING RECHTSTREEKS KAN DOEN
+1293	Wat er gaat gebeuren:
+1294	• er wordt een regel toegevoegd aan een firewalltabel die aan de toepassing is GEWIJD: „poort {port}/{proto} weigeren voor alles wat van een ander apparaat komt”
+1295	Effect: het programma blijft draaien en blijft bruikbaar vanaf deze computer (lokale toegang wordt niet geblokkeerd), maar andere apparaten op het netwerk kunnen er niet meer mee verbinden.
+1296	Waarborgen: uw andere firewallregels worden niet aangeraakt · de blokkade verdwijnt bij de herstart · kan op elk moment ongedaan worden gemaakt via de pagina Netwerk.
+1297	Als een ander apparaat bij u thuis deze dienst gebruikt (bijvoorbeeld een tweede computer), wordt het afgesneden.
+1298	• inkomende verbindingen van andere apparaten worden geweigerd, behalve antwoorden op wat u zelf opent, lokaal verkeer en ping
+1299	• open gehouden poorten (diensten die u als „toegestaan” hebt gemarkeerd): $1
+1300	geen
+1301	Effect: uw browser, updates en alles wat U start blijven werken. Een ander apparaat kan niet meer verbinden met een dienst die u niet als „Toestaan” hebt gemarkeerd (bestanden delen, SSH, extern bureaublad…).
+1302	Waarborgen: aparte firewalltabel, uw andere regels worden niet aangeraakt · verdwijnt bij de herstart · kan op elk moment via deze tegel worden uitgeschakeld.
+1303	Firewall inschakelen
+1304	Firewall uitschakelen
+1305	Firewall van de toepassing uitgeschakeld.
+1306	De firewall is niet ingeschakeld (toestemming geweigerd of fout: zie hierboven).
+1307	• aanmaken van het bestand /etc/ssh/sshd_config.d/10-cachy-shield.conf met de inhoud „PermitRootLogin no”
+1308	Effect: niemand kan nog via SSH als „root” aanmelden, zelfs niet met een sleutel. U kunt nog steeds met uw gewone account aanmelden en daarna sudo gebruiken.
+1309	Waarborgen: geweigerd als er een root-sessie op afstand open is · veiligheidssnapshot (snapper) · configuratie vóór en na gecontroleerd · automatisch terugdraaien als er iets misgaat · kan op elk moment ongedaan worden gemaakt.
+1310	Dit is het programma zelf (of systeemproces nr. 1): het stoppen zou de toepassing of het systeem sluiten.
+1311	⚠ GROTE WIJZIGING: $1
+1312	Zoeken op osv.dev
+1313	CISA — catalogus van misbruikte kwetsbaarheden (KEV)
+1314	Opdracht: $1
+1315	Essentieel systeemonderdeel: herstart direct na de update.
+1316	Ongeldige configuratie na verwijdering: controleer sshd_config.
+1317	Ongeldige configuratie: wijziging geannuleerd.
+1318	Door OSV-Scanner voorgestelde oplossingen (voorbeeld)
+1319	Herstelactie ongedaan gemaakt.
+1320	Herstelactie ongedaan gemaakt: SSH staat weer op zijn oorspronkelijke instelling.
+1321	Herstelactie toegepast. Ongedaan maken: Bescherming → deze waarschuwing → „Herstelactie ongedaan maken”.
+1322	Herstelactie: SSH zonder root-aanmelding
+1323	Poort $1 deblokkeren
+1324	Poort $1 deblokkeren
+1325	Opstarten: een fout kan voorkomen dat het systeem start (met snapper kunt u terugdraaien).
+1326	{distro}-repositories
+1327	Map sshd_config.d niet gevonden: geen wijziging aangebracht.
+1328	Starten mislukt
+1329	✘ mislukt (zie hierboven)
+1330	Beperk ondertussen de blootstelling: gebruik deze software niet met niet-vertrouwde bestanden of servers.
+1331	In gewone woorden: pas de oplossingen of maatregelen van de fabrikant toe; zijn er geen, stop dan met het gebruik van het product.
+1332	$1 stap(pen)
+1333	Uitleg bij controle $1
+1334	„$1” maakt deel uit van uw sessie (beeld, geluid, netwerk of authenticatie): het stoppen zou uw sessie sluiten of breken.
+1335	Officiële pagina $1
+1336	Getroffen bestand(en): $1
+1337	Firmware / microcode: toegepast bij de volgende herstart.
+1338	Stoppen forceren
+1339	De herstelactie behouden
+1340	Het verzet zich: stoppen forceren?
+1341	De systeemupdate installeren (bevat $1)
+1342	Aanmelden als „root” via SSH verbieden?
+1343	Aanmelden als „root” via SSH verbieden (omkeerbaar, met veiligheidssnapshot)
+1344	De herstelactie is mislukt of geannuleerd: er is niets gewijzigd.
+1345	Laten draaien
+1346	Het ongedaan maken is mislukt: er is niets gewijzigd.
+1347	De toepassing wijzigt uw projecten NOOIT: ze kopieert de opdracht of toont een voorbeeld op een kopie. Test uw project na de update.
+1348	De oplossing $1 is gepubliceerd maar nog niet in uw gesynchroniseerde repositories: er valt nu niets te installeren.
+1349	Het deblokkeren is mislukt of geannuleerd.
+1350	Het bestand /etc/ssh/sshd_config.d/10-cachy-shield.conf wordt verwijderd: SSH keert terug naar zijn oorspronkelijke instelling (root alleen met sleutel).
+1351	Het programma heeft niet geantwoord op het verzoek tot nette stop.
+1352	Het geforceerd stoppen (SIGKILL) onderbreekt het onmiddellijk: niet-opgeslagen gegevens gaan verloren.
+1353	Het programma is niet uit zichzelf gestopt.
+1354	Het beveiligingsteam van Arch volgt deze kwetsbaarheid. Zodra er een oplossing is gepubliceerd, verschijnt die onder „Updates”.
+1355	De instelling wordt niet in aanmerking genomen: wijziging geannuleerd.
+1356	Alle blokkades opheffen
+1357	De bewerking is mislukt of geannuleerd.
+1358	Lynis (CISOfy)
+1359	Lynis wijzigt het systeem nooit, en deze instelling hangt af van hoe u het gebruikt: automatisch toepassen zou een programma kunnen breken dat u gebruikt. Het is een aanbeveling om met de hand toe te passen.
+1360	$1 wijziging(en) van hoofdversie: risico dat het project breekt. Test vóór het toepassen.
+1361	Deze dienst toestaan (geen wijziging aan het systeem)
+1362	Werk $1 in uw project bij van versie $2 naar versie $3 (of nieuwer).
+1363	Bijwerken
+1364	Het systeem bijwerken?
+1365	Systeemupdate
+1366	Kernelmodule / grafisch stuurprogramma: een incompatibiliteit kan voorkomen dat het beeld werkt bij de volgende start.
+1367	„$1” accepteert verbindingen van andere apparaten op: $2.
+1368	„$1” heeft open verbindingen met $2 server(s): $3.
+1369	Deze waarschuwing niet meer melden (geen wijziging aan het systeem)
+1370	✔ Het programma is gestopt.
+1371	✔ Update voltooid. Voer de scans opnieuw uit om de resterende kwetsbaarheden te controleren.
+1372	── Wijzigingen die zouden worden aangebracht (voorbeeld op een kopie) ──
+1373	AUR: geen helper (paru, yay) gevonden, uw AUR-pakketten worden niet bewaakt.
+1374	AUR ($1): geen update in afwachting.
+1375	⚠ $1 AUR-update(s) in afwachting ($2): HIER NIET inbegrepen. De AUR vereist dat elke PKGBUILD wordt gelezen vóór de installatie (in 2026 zijn AUR-pakketten van valstrikken voorzien): voer „$3 -Sua” uit in een terminal en lees de verschillen.
+1376	snapper maakt snapshots ervoor/erna: u kunt terugdraaien. Sluit uw lopende werk af.
+1377	Kernel: daarna is een herstart vereist. Externe modules (NVIDIA, VirtualBox, DKMS) moeten bij de nieuwe kernel passen, anders starten het grafische beeld of virtuele machines mogelijk niet meer.
+1378	ADVIES VAN DE BRON — $1
+1379	── Samenvatting ──
+1380	Uw bestanden in $1 zijn NIET gewijzigd.
+1381	OSV kent geen opgeloste versie: er valt niets bij te werken.
+1382	OSV (osv.dev) — GitHub Advisory, PyPI, npm, Go, crates.io…
+1383	Pagina $1 openen
+1384	$1 pakket(ten) worden bijgewerkt met „pacman -Syu” (volledige update, nooit gedeeltelijk).
+1385	Ongeldige poort.
+1386	Poort vanaf het netwerk geblokkeerd. Ongedaan maken: pagina Netwerk → „Actieve blokkades”.
+1387	Poort gedeblokkeerd.
+1388	PostgreSQL (gebruiker $1)
+1389	Voor het ecosysteem „$1” wijzigt de toepassing uw projecten niet: wijzig de versie in het getoonde afhankelijkhedenbestand.
+1390	Proces nr. $1 (account nr. $2).
+1391	Programma gestopt.
+1392	Programma: $1
+1393	Proces nr. $1
+1394	Er wordt een verzoek tot NETTE stop (SIGTERM) naartoe gestuurd: het heeft tijd om op te slaan en te sluiten.
+1395	• Niet-opgeslagen gegevens in dit programma kunnen verloren gaan.
+1396	• Het herstart niet vanzelf, tenzij een dienst het beheert.
+1397	• Uw sessie en het systeem worden niet beïnvloed.
+1398	Te onderzoeken project (package.json + package-lock.json, of pom.xml)
+1399	Project: $1
+1400	• Werkt op een tijdelijke KOPIE: uw bestanden worden niet gewijzigd.
+1401	• OSV-Scanner kan de pakketbeheerder uitvoeren (npm-scripts, externe registers): ga alleen door als u dit project vertrouwt.
+1402	• Een „major”-upgrade kan het project breken: test vóór u iets toepast.
+1403	Hoe ver mogen versies worden gewijzigd?
+1404	Voorstellen
+1405	Herstelacties voorstellen?
+1406	Python wisselt van minor-versie: uw virtuele omgevingen (venv) en pip-pakketten moeten opnieuw worden gemaakt, en uw Python-projecten kunnen ophouden te werken.
+1407	Herstart aanbevolen: essentiële onderdelen zijn bijgewerkt.
+1408	Zoek later opnieuw naar updates: de oplossing komt met een toekomstige systeemupdate.
+1409	Vervang de bibliotheek door een onderhouden alternatief, of beperk het gebruik tot vertrouwde gegevens.
+1410	Niets te stoppen
+1411	✘ Niets automatisch.
+1412	Er is niets geblokkeerd (toestemming geweigerd of fout).
+1413	Er is niets geblokkeerd (toestemming geweigerd of fout: zie hierboven).
+1414	HOOG RISICO
+1415	⚠ VÓÓR DE UPDATE GEDETECTEERDE RISICO'S:
+1416	Servers geblokkeerd. Deblokkeren: pagina Netwerk → „Actieve blokkades”.
+1417	Betrokken servers ($1):
+1418	Effect: verbindingen van deze computer met deze adressen worden geweigerd, voor ALLE programma's. Een site kan meerdere adressen gebruiken en een gedeeld adres (host, CDN) kan andere sites bedienen: sommige worden mogelijk niet meer getoond.
+1419	Waarborgen: alleen openbare adressen worden geaccepteerd (nooit uw lokale netwerk) · uw andere regels worden niet aangeraakt · de blokkade verdwijnt bij de herstart · ongedaan te maken met „Alles deblokkeren”.
+1420	$1 heeft een update in afwachting ($2 → $3): installeren past de oplossingen van de fabrikant toe.
+1421	„$1” heeft geen update in afwachting op uw machine. De CISA-lijst zegt niet welke versies getroffen zijn: als de software up-to-date is, is de kwetsbaarheid waarschijnlijk al verholpen.
+1422	sshd_config bevat sshd_config.d niet: geen wijziging aangebracht.
+1423	sshd herstart: een open SSH-sessie kan worden verbroken.
+1424	Op Arch Linux wordt alleen een VOLLEDIGE systeemupdate ondersteund (nooit één enkel pakket), omdat pakketten van elkaar afhangen.
+1425	✔ klaar
+1426	Klaar
+1427	Klaar.
+1428	Voltooid met mislukkingen
+1429	Voltooid met code $1 (geannuleerd of met fout)
+1430	Alle blokkades van de toepassing zijn opgeheven.
+1431	Alle blokkades zijn opgeheven.
+1432	Alle databases zijn up-to-date
+1433	Er bestaat een oplossing (versie $1). Het pakket $2 staat tussen de updates in afwachting: $3 → $4.
+1434	Er is een root-sessie op afstand open: herstelactie geweigerd om u niet af te sluiten.
+1435	Vóór de installatie wordt een veiligheidssnapshot (snapper) gemaakt: u kunt terugdraaien.
+1436	 — gebruikt door ransomware
+1437	Virtualisatie: stop eerst uw virtuele machines.
+1438	Een voorbeeld van de afhankelijkheidsoplossingen bekijken (op een kopie, uw bestanden worden niet gewijzigd)
+1439	Uw systeem is up-to-date: er staat geen update in afwachting in de officiële repositories.
+1440	Er valt nu niets te herstellen: als er nog kwetsbaarheden vermeld staan, hebben ze geen gepubliceerde oplossing voor uw versie (zie hun details).
+1441	ADVIES
+1442	Advies
+1443	Werk bij binnen het project: package.json en package-lock.json worden eerst geback-upt en bij een mislukking automatisch hersteld. Test uw project na de update.
+1444	De toepassing wijzigt uw projecten niet zonder uw toestemming: ze kopieert de opdracht of toont een voorbeeld op een kopie. Test uw project na de update.
+1445	$1 bijwerken naar $2 in het project (eerst automatische back-up)
+1446	Bijwerken in het project
+1447	npm niet gevonden
+1448	Installeer npm (pakket „npm” of „nodejs-lts”) om deze afhankelijkheid bij te werken, of kopieer de opdracht en voer hem met de hand uit.
+1449	$1 bijwerken naar $2?
+1450	$1 bijwerken
+1451	• back-up van package.json en package-lock.json („.cs-backup-…”-bestanden ernaast)
+1452	• opdracht: $1
+1453	Effect: de afhankelijkheid wordt in DIT project bijgewerkt, met zijn lockbestand. Er wordt geen installatiescript uitgevoerd en er wordt geen beheerdersrecht gebruikt.
+1454	Waarborgen: bij een mislukking worden de originele bestanden automatisch hersteld · een sprong naar een nieuwe hoofdversie kan het project breken: test het daarna.
+1455	Afhankelijkheid bijgewerkt. Voer de projectscan opnieuw uit om te controleren en test uw project.
+1456	Er is niets gewijzigd (de originele bestanden zijn zo nodig hersteld: zie hierboven).
+1457	Bijwerken
+1458	Niets te verharden
+1459	Alle voorgestelde kernel- en netwerkinstellingen hebben al de aanbevolen waarde.
+1460	Wat er gaat gebeuren:
+1461	Catalogus niet gedownload.
+1462	CISA KEV: $1 actief misbruikte kwetsbaarheden — catalogus $2 (gepubliceerd $3) — $4 treffen mogelijk uw software.$5
+1463	kritiek in de laatste 7 dagen
+1464	Kritiek in de laatste 7 dagen
+1465	CVE-2021-44228, of een trefwoord: chrome, log4j, openssl…
+1466	NVD raadplegen…
+1467	De NVD-database bevat meer dan 400.000 CVE's. Zoeken op verzoek (limiet: 5 verzoeken / 30 s zonder API-sleutel).
+1468	$1: $2 {resultaat|resultaten} in totaal in NVD, $3 getoond. Dubbelklik: officiële pagina openen.
+1469	De server beperkt de snelheid (NVD: 5 verzoeken per 30 s zonder sleutel). Probeer het over een minuut opnieuw.
+1470	Update geweigerd: $1. De vorige catalogus blijft behouden.
+1471	Nieuwe actief misbruikte kwetsbaarheden
+1472	$1 nieuwe kwetsbaarheden treffen mogelijk: $2
+1473	Geen internetverbinding of server onbereikbaar.
+1474	Mogelijk: $1
+1475	leeg antwoord
+1476	CISA KEV-catalogus downloaden…
+1477	Downloaden onmogelijk: $1
+1478	download onderbroken
+1479	Windows, macOS, Linux, routers, browsers, servers… Twee officiële bronnen: de CISA KEV-catalogus (kwetsbaarheden die actief in het wild worden misbruikt) en de NVD-database van NIST (de wereldwijde referentiecatalogus). De koppeling met uw software gebeurt op naam, zonder versies te vergelijken: te verifiëren.
+1480	Actief ($1)
+1481	Verbindingsanalyse: $1 mislukking(en), $2 IP
+1482	Beheerdersrechten geweigerd of scan geannuleerd.
+1483	De scan kan niet worden gestart.
+1484	„$1”: status „toegestaan” gewijzigd
+1485	Poort $1 ($2) luistert op alle interfaces en is niet als toegestaan gemarkeerd.
+1486	Nieuwe niet-geautoriseerde blootgestelde poort: $1
+1487	Nieuwe open poort
+1488	Nieuwe verbinding: $1
+1489	Open poorten, netwerkverbindingen en inbraakpogingen. Automatisch vernieuwd, zonder root-rechten. Diensten die u als toegestaan hebt gemarkeerd, geven geen waarschuwing.
+1490	Eerste start: bevestig de diensten die u herkent met „Toestaan”.
+1491	Netwerk ($1)
+1492	Selecteer een poort die op alle interfaces luistert. Ze wordt geïdentificeerd door haar proces (of haar poortnummer als dat onbekend is).
+1493	Bewaking gestart
+1494	$1 te controleren
+1495	$1 mislukte poging(en) vanaf $2 IP('s) — $3 geslaagde SSH-verbinding(en) over $4 dag(en).
+1496	 · $1 toegestaan
+1497	arch-audit · {distro}-pakketten
+1498	arch-audit: de bron controleren (Arch Security Tracker)
+1499	Arch Security Tracker — security.archlinux.org (beveiligingsteam van Arch Linux)
+1500	Te synchroniseren via de systeemupdate
+1501	Geen database gedownload: Trivy downloadt ze bij de eerste scan.
+1502	Kwetsbaarhedendatabase van $1 UTC (gedownload op $2) — $3 dag(en)$4
+1503	Lokale database: te downloaden
+1504	Lokale database: te downloaden (beheerder)
+1505	Trivy-database (Aqua Security) — officiële mirror mirror.gcr.io/aquasec/trivy-db, ghcr.io als terugval. Dekt Debian, Ubuntu, RHEL, Alpine… en talen (Go, Python, Node, Rust, Java…)
+1506	Lokale catalogus: te downloaden
+1507	Officiële catalogus van de CISA (Amerikaans cyberveiligheidsagentschap) van actief misbruikte kwetsbaarheden: Windows, Apple, Cisco, Linux, browsers…
+1508	CISA KEV · misbruikte kwetsbaarheden, alle leveranciers
+1509	systeempakketten
+1510	Officiële repositories (pacman): zij brengen de oplossingen
+1511	✔ Laatste update geslaagd: $1
+1512	Waar de gegevens van elk hulpprogramma vandaan komen en hoe u ze up-to-date houdt. „Live”-bronnen worden bij elke scan geraadpleegd: er valt niets te downloaden.
+1513	✘ Laatste update mislukt ($1)
+1514	Live (online API): altijd up-to-date
+1515	Live: bij elke scan geraadpleegd
+1516	Live: zoeken op verzoek (pagina Wereldwijde kwetsbaarheden)
+1517	Handtekeningbestanden van het rkhunter-project, opgehaald van zijn mirrors
+1518	Meegeleverd met het pakket: bijgewerkt door pacman
+1519	Nooit bijgewerkt vanuit deze toepassing.
+1520	Lynis · configuratie
+1521	Lynis: de versie van de regels controleren
+1522	Het systeem bijwerken…
+1523	Database-updates
+1524	Nationale kwetsbaarhedendatabase van NIST — meer dan 400.000 CVE's
+1525	$1 niet gevonden
+1526	NVD · wereldwijde CVE-catalogus
+1527	OSV — osv.dev: PyPI, npm, crates.io, Go, Maven, RubyGems, GitHub Advisory en andere ecosystemen
+1528	OSV-Scanner · afhankelijkheden van uw projecten
+1529	$1 update(s) in afwachting (sommige kunnen riskant zijn: gecontroleerd vóór installatie).
+1530	 ⚠ verouderd: bijwerken
+1531	Auditregels meegeleverd door CISOfy in het Lynis-pakket
+1532	rkhunter: de handtekeningen bijwerken (beheerder)
+1533	rkhunter · rootkits
+1534	onbekende bron
+1535	Systeem up-to-date volgens de repositories.
+1536	Trivy · bibliotheken, binaire bestanden, systemen
+1537	Trivy: de kwetsbaarhedendatabase downloaden (Aqua Security)
+1538	De bron controleren
+1539	De versie controleren
+1540	lege catalogus
+1541	curl niet gevonden
+1542	Voer een CVE-identificatie (CVE-2021-44228) of een eenvoudig trefwoord in (2 tot 80 tekens: letters, cijfers, spatie, . _ : / + -).
+1543	bron niet toegestaan
+1544	Beheerdersrechten geweigerd of scan geannuleerd
+1545	tijdelijke map onmogelijk: $1
+1546	starten onmogelijk: $1
+1547	[… uitvoer afgekapt: te veel regels …]
+1548	$1: stuurtekens verboden
+1549	$1: ongeldig formaat
+1550	$1: een waarde mag niet met „-” beginnen
+1551	$1: waarde te lang
+1552	ongeldige bestandsnaam
+1553	Systeem (lastb)
+1554	$1 rkhunter-waarschuwing(en) onderzocht: het zijn valse meldingen, hieronder bevestigd. Laatste controle: $2
+1555	$1 onschadelijke waarschuwing(en), gecontroleerd met de pakketdatabase.
+1556	Dit bestand is ANDERS dan dat van pakket $1. Als u het niet zelf hebt gewijzigd, beschouw de machine dan als mogelijk gecompromitteerd.
+1557	Geweigerde uitgaande verbindingen
+1558	oplossing beschikbaar: $1
+1559	$1 afhankelijkheden
+1560	Laatste controle: $1
+1561	ANDERS dan pakket $1: gewijzigd.
+1562	$1 tracker-vermeldingen voor „$2”: $3.
+1563	$1 tracker-vermeldingen betreffen oudere versies (ouder dan de uwe): genegeerd, zie hieronder.
+1564	$1 kwetsbaarheden · $2 · $3
+1565	Officieel bestand van pakket $1 $2, identiek aan het origineel: pacman heeft zijn vingerafdruk vergeleken met die van de installatie.
+1566	Officieel bestand van pakket $1 $2, identiek aan het origineel (gecontroleerd met pacman). $3
+1567	Bestand: $1
+1568	Systeembestand: $1
+1569	Tijdelijk bestand van $1, dat nu op deze machine draait (eigenaar en proces gecontroleerd).
+1570	Tijdelijk bestand: $1
+1571	⚠ $1 item(s) met hoog risico: vooraf wordt een veiligheidssnapshot gemaakt.
+1572	$1 bezig…
+1573	Voer de gekopieerde opdracht uit in een terminal: $1 toont de verschillen in de PKGBUILD zodat u ze vóór de installatie kunt lezen.
+1574	De tracker richt zich op versie $1; u hebt $2: waarschijnlijk al verholpen
+1575	$1 softwareonderde(e)l(en)
+1576	Gedeeld geheugen van $1: normaal.
+1577	bijwerken naar $1
+1578	$1 update(s)
+1579	$1 update(s) beschikbaar
+1580	$1 verbinding(en) met $2 server(s)
+1581	$1 kwetsbaarheden, waarvan $2 ernstig · $3
+1582	$1 kwetsbaarheden misbruikt door aanvallers · laatst gemeld op $2 · $3
+1583	AUR-PAKKETTEN — VÓÓR INSTALLATIE NALEZEN ($1)
+1584	Poort $1/$2
+1585	Poorten: $1
+1586	Waarom rkhunter het meldt: $1
+1587	Systeemprogramma: $1
+1588	De $1 als normaal gemarkeerde waarschuwing(en) opnieuw tonen
+1589	$1 bedreiging(en)
+1590	$1 / 100
+1591	$1 te onderzoeken
+1592	$1 item(s) te onderzoeken
+1593	Server $1
+1594	Systeemdienst (poort $1)
+1595	$1 (doelversie $2)
+1596	Uw geïnstalleerde versie is $1, nieuwer dan elk van de doelversies.
+1597	$1 toegestaan
+1598	$1. Door het systeem gemaakt tijdens updates: normaal.
+1599	$1. De inhoud van het bestand is gecontroleerd: het draagt inderdaad het merkteken van zijn maker.
+1600	actief ($1)
+1601	te installeren · ⚠ $1 item(s) met hoog risico: u wordt vooraf gewaarschuwd
+1602	⚠ $1 scan(s) kon(den) niet starten: $2
+1603	$1 kwetsbaar(re) pakket(ten)
+1604	Laatste scan: $1   ·   CVE-databases gecontroleerd — CISA: $2 · Trivy: $3$4
+1605	Laatste scan: $1
+1606	$1 {taak|taken} verwerkt. Start opnieuw een scan om het resultaat te controleren.
+1607	$1 softwareonderde(e)l(en) waarop echte aanvallen gericht zijn
+1608	$1 kwetsbaarheden in uw projecten
+1609	$1 poort(en) te controleren
+1610	Score $1/100
+1611	$1 toegestane dienst(en) · firewall $2
+1612	inactief
+1613	$1 waarschuwing(en)
+1614	$1 waarschuwing(en), $2 suggestie(s) om het systeem te verharden
+1615	(ongeldige optie: $1)
+1616	Voltooid — $1
+1617	$1 softwareonderde(e)l(en) · $2 kwetsbaarheden
+1618	$1 (0 = standaard)
+1619	gescand op $1
+1620	status kan niet worden opgeslagen: $1
+1621	Hoog
+1622	Onbekend
+1623	Info
+1624	Suggestie
+1625	Live bewaking
+1626	Live poorten en verbindingen
+1627	Toegestaan
+1628	Te controleren
+1629	$1 om $2
+1630	$1 ($2)
+1631	Actie
+1632	Weergave en logboeken
+1633	Toont meer details op het scherm.
+1634	Toont alleen pakketten waarvoor al een oplossing bestaat: dit zijn de pakketten om bij te werken.
+1635	Voegt de kolom „Vereist door” toe: pakketten die van een kwetsbaar pakket afhangen.
+1636	Alternatief voor /etc/rkhunter.conf.
+1637	Scant ook ontwikkelafhankelijkheden. Genegeerd in de modus „Bestandssysteem” (Trivy kent het alleen voor projecten).
+1638	Scant ook git-repositories die geen submodules zijn.
+1639	Scant ook bestanden die normaal door .gitignore worden uitgesloten.
+1640	Volledige scan
+1641	Aanroepanalyse
+1642	Scan niet voltooid
+1643	Scan niet voltooid: $1
+1644	Scant alleen dit bestand (absoluut pad) in plaats van een map.
+1645	Scant een map of het hele systeem: kwetsbare afhankelijkheden (Python, Node, Go, Rust…), blootgestelde geheimen, riskante configuraties. Trivy verwerkt geen pacman-pakketten (zie arch-audit). De eerste scan downloadt zijn kwetsbaarhedendatabase.
+1646	Scanners
+1647	arch-audit — bekende kwetsbaarheden in uw pakketten
+1648	Geen waarschuwing
+1649	Geen afhankelijkhedenbestand gevonden
+1650	Geen (aanbevolen op Arch)
+1651	Geen resultaat (zie de ruwe uitvoer)
+1652	Volledige audit, penetratietest zonder privileges of forensische analyse.
+1653	Volledige systeemaudit
+1654	Waarschuwingen
+1655	Database en netwerk
+1656	Referentiedatabase ontbreekt: voer eerst „De handtekeningen bijwerken” uit en daarna „Referentiedatabase initialiseren”, bij voorkeur op een systeem waarvan u weet dat het schoon is.
+1657	Lokale database
+1658	pacman-database
+1659	Bibliotheken (library)
+1660	Waarnaar te zoeken
+1661	Gescand pad. „/” = het hele systeem.
+1662	Zoekt in alle submappen naar afhankelijkheidsbestanden.
+1663	Kies wat rkhunter moet doen.
+1664	$1: onbekende keuze
+1665	Taalcode, bv. en.
+1666	Vergelijkt systeembestanden met een referentiedatabase, zoekt naar bekende rootkits, verborgen processen of bestanden. Losse waarschuwingen zijn vaak valse meldingen. Vereist beheerdersrechten.
+1667	Vergelijkt geïnstalleerde pakketten met de beveiligingstracker van Arch Linux (security.archlinux.org). AUR-pakketten worden niet gedekt.
+1668	Gedrag
+1669	Configuraties (misconfig)
+1670	Bewaart de oude resultaten in het logboek.
+1671	Behandelt ontbrekende bestanden als normaal.
+1672	Eerst opgeloste
+1673	Sorteercriterium van de uitvoer.
+1674	Maximale vertraging
+1675	Databaserepository
+1676	deps.dev (standaard)
+1677	deps.dev (standaard) of native resolutie.
+1678	Deze tests uitschakelen
+1679	Alleen deze tests inschakelen
+1680	Alleen waarschuwingen tonen
+1681	Toevoegen aan het bestaande logboek
+1682	Schakelt alle netwerktoegang uit.
+1683	Detail
+1684	Te scannen map
+1685	Map met uw projecten.
+1686	Pluginmap van Lynis.
+1687	Pluginmap
+1688	Uitgesloten mappen
+1689	Genegeerde mappen
+1690	Naar syslog schrijven
+1691	Alternatieve locatie van de pacman-database.
+1692	Locatie van het logboek.
+1693	Stuurt waarschuwingen ook naar syslog.
+1694	Fouten
+1695	Bv. 10m, 1h.
+1696	Onderzoekt SSH, firewall, kernel, rechten, accounts, diensten… en berekent een verhardingsscore. Controleert de configuratie, niet de CVE's van pakketten. Vereist beheerdersrechten.
+1697	Uitsluitingen
+1698	Als beheerder uitvoeren (pkexec)
+1699	Bv. ssh, firewall, kernel…
+1700	$1 kwetsbaarheden in $2 afhankelijkheden
+1701	Configuratiebestand
+1702	Profielbestand
+1703	Logboekbestand
+1704	Bestanden
+1705	Genegeerde bestanden
+1706	Meegenomen bestanden
+1707	Filters
+1708	Forensisch onderzoek
+1709	Pakketbeheerder
+1710	Alleen Go: meldt alleen de daadwerkelijk aangeroepen kwetsbaarheden. (Rust voert buildscripts uit: niet aangeboden.)
+1711	Ernst, dan naam
+1712	Ernstniveaus
+1713	Testgroepen
+1714	Door spaties gescheiden identificaties, bv. SSH-7440.
+1715	Negeert de in de omgeving geconfigureerde proxy.
+1716	.gitignore negeren
+1717	Kwetsbaarheden zonder oplossing negeren
+1718	Plugins negeren
+1719	De git-root opnemen
+1720	Ontwikkelafhankelijkheden opnemen — alleen codeprojecten
+1721	De [testing]-repositories opnemen
+1722	Submappen opnemen
+1723	Neemt ook kwetsbaarheden op die als onbelangrijk of niet aangeroepen worden beoordeeld.
+1724	Referentiedatabase initialiseren
+1725	Omkeren
+1726	Logt foutopsporingsdetails.
+1727	Taal van de berichten
+1728	Licentie
+1729	Licenties (license)
+1730	regel $1
+1731	Toont in de JSON ook pakketten zonder kwetsbaarheden.
+1732	De tests weergeven
+1733	Lijst gescheiden door komma's, bv.: apps,hidden_ports
+1734	Lijst gescheiden door komma's, bv.: rootkits,hidden_procs
+1735	Leest de afhankelijkhedenbestanden van uw projecten (requirements.txt, package-lock.json, go.mod, Cargo.lock…) en vergelijkt ze met de OSV-database (GitHub, PyPI, Go, npm…). Vult Trivy aan. Kijkt niet naar pacman-pakketten.
+1736	Lynis — configuratie- en verhardingsaudit
+1737	Verbergt kwetsbaarheden die nog door geen enkele update worden verholpen.
+1738	De handtekeningen bijwerken
+1739	Modus
+1740	Auditmodus
+1741	Debugmodus
+1742	Offlinemodus: vink eerst „De databases downloaden” aan — er is geen lokale database aanwezig, de scan zou mislukken.
+1743	Offlinemodus
+1744	Snelle modus, zonder pauzes
+1745	Toont ook pakketten die in de testing-repositories staan.
+1746	$1 niet gevonden: installeer het met pacman
+1747	Wacht niet op een toetsaanslag tussen de secties.
+1748	Nodig voor een volledige audit. Zonder root worden veel tests overgeslagen.
+1749	Laadt de plugins niet.
+1750	Schrijft niet naar /var/log/lynis.log.
+1751	Schrijft niet naar /var/log/rkhunter.log.
+1752	Verstuurt geen externe verzoeken.
+1753	Verstuurt geen e-mail bij een waarschuwing.
+1754	Niet mislukken zonder afhankelijkhedenbestand
+1755	De database niet bijwerken
+1756	Geen proxy gebruiken
+1757	Probeert de indirecte afhankelijkheden van de manifesten niet op te lossen.
+1758	Detailniveau
+1759	Weer te geven ernstniveaus.
+1760	Aantal workers.
+1761	Naam van de auditor
+1762	Pakketnaam
+1763	In het rapport geschreven naam.
+1764	Bewerking
+1765	Bewerking voltooid
+1766	Sorteervolgorde
+1767	OSV-Scanner — afhankelijkheden van uw projecten (OSV-database)
+1768	Afhankelijke pakketten
+1769	$1 kwetsbaar(re) pakket(ten) — $2 met oplossing
+1770	Standaard
+1771	Geen e-mail
+1772	Geen transitieve afhankelijkheden
+1773	Geen logboekbestand
+1774	Pentest zonder privileges
+1775	Prestaties
+1776	Staat het lezen toe van bestanden die aan root zijn voorbehouden.
+1777	precise: minder valse meldingen; comprehensive: meer resultaten.
+1778	Detectieprioriteit
+1779	$1 {probleem|problemen} gedetecteerd
+1780	Aangepast Lynis-profiel (.prf), absoluut pad.
+1781	Codeproject (fs)
+1782	Proxy
+1783	Hoeveelheid getoonde informatie.
+1784	Beperkt de uitvoer tot waarschuwingen.
+1785	Maven-register
+1786	Alternatief OCI-register.
+1787	Vervangt osv-scanner.toml.
+1788	Spoort pakketversies op die als verouderd zijn verklaard.
+1789	Netwerk en lokale database
+1790	Oplossing van afhankelijkheden
+1791	Onleesbaar resultaat (zie de ruwe uitvoer)
+1792	Niets te melden
+1793	rkhunter verwerkt pacman niet: laat op Arch „Geen” staan (het gebruikt zijn eigen vingerafdrukkendatabase).
+1794	rkhunter — zoeken naar rootkits en gewijzigde bestanden
+1795	$1 mogelijke rootkit(s), $2
+1796	rootfs: heel bestandssysteem; fs: codeproject.
+1797	Score $1/100 — $2 waarschuwing(en), $3 suggestie(s)
+1798	$1 waarschuwing(en), $2 suggestie(s)
+1799	Geheimen
+1800	Geheimen (secret)
+1801	Testselectie
+1802	Gescheiden door komma's.
+1803	Gescheiden door komma's. Voorvoegsels: g:glob, r:regex, of exacte naam.
+1804	Drempel voor trage tests, seconden
+1805	Alleen al opgeloste pakketten
+1806	Meldt tests die trager zijn dan deze drempel.
+1807	Verouderde versies melden
+1808	Uitgebreide uitvoer
+1809	Gegevensbron
+1810	Pakketbron
+1811	Bron en netwerk
+1812	Bestandssysteem (rootfs)
+1813	Systeem (os)
+1814	Systeem of bibliotheken.
+1815	Parallelle taken
+1816	Downloadt de databases voor offlinegebruik.
+1817	De databases downloaden
+1818	Tests
+1819	Specifieke tests
+1820	Alle pakketten
+1821	Alle kwetsbaarheden
+1822	Trivy — bibliotheken, geheimen en configuraties
+1823	Type scan
+1824	Pakkettypen
+1825	Soorten problemen om naar te zoeken.
+1826	Een specifiek afhankelijkhedenbestand
+1827	URL van het Maven-register.
+1828	https-URL of JSON-bestand van de beveiligingstracker.
+1829	Gebruikt de eerder gedownloade database.
+1830	Gebruikt de reeds gedownloade databases.
+1831	De configuratie controleren
+1832	De versie controleren
+1833	Kwetsbaarheid
+1834	Kwetsbaarheden (vuln)
+1835	Databaserepository (--db-repository)
+1836	Geen
+1837	Alleen waarschuwingen
+1838	ONDERHOUD NA DE UPDATE
+1839	Op te ruimen
+1840	Af te handelen
+1841	Te doen
+1842	Verwijderen…
+1843	Opruimen…
+1844	Opnieuw starten…
+1845	De kernel is bijgewerkt: die wordt pas actief na een herstart.
+1846	Niets op te ruimen: geen verweesde pakketten, cache schoon, geen .pacnew-bestanden, geen herstart nodig.
+1847	Klik om te zien hoe u ze afhandelt
+1848	.pacnew-bestanden
+1849	Te vergelijken configuratie.
+1850	pacman — .pacnew-bestanden
+1851	Wanneer een update een nieuwe versie meebrengt van een configuratiebestand dat u hebt aangepast, bewaart pacman het uwe en zet de nieuwe versie ernaast (.pacnew).
+1852	Vergelijk ze met „sudo pacdiff”: per bestand kiest u of u het uwe houdt, het nieuwe neemt of ze samenvoegt. De toepassing wijzigt ze nooit zelf: een verkeerde keuze kan voorkomen dat een dienst start.
+1853	$1 {verweesd pakket|verweesde pakketten}
+1854	$1 {oud archief|oude archieven} of archieven van verwijderde pakketten
+1855	$1 {configuratiebestand|configuratiebestanden} om te vergelijken (.pacnew)
+1856	Betrokken bestanden: $1
+1857	Worden verwijderd ($1):
+1858	Verweesde pakketten verwijderen?
+1859	Deze pakketten worden door geen enkel ander pakket meer gebruikt: ze zijn als afhankelijkheid geïnstalleerd en niets heeft ze nog nodig.
+1860	Hun configuratiebestanden worden ook verwijderd. U kunt ze altijd opnieuw installeren met pacman.
+1861	Verweesde pakketten worden verwijderd
+1862	Verweesde pakketten verwijderd.
+1863	Er is niets verwijderd (toestemming geweigerd, pakket weer nodig of fout: zie hierboven).
+1864	De pacman-cache opruimen?
+1865	De cache bewaart de archieven van alle gedownloade pakketten. Verwijderd worden: oude versies (de laatste 3 van elk pakket blijven) en archieven van al verwijderde pakketten.
+1866	Uw programma's worden niet aangeraakt; alleen de archieven om terug te gaan verdwijnen.
+1867	De pacman-cache wordt opgeruimd
+1868	Pacman-cache opgeruimd.
+1869	Er is niets opgeruimd (toestemming geweigerd of fout: zie hierboven).
+1870	Herstarten
+1871	Ongebruikte Flatpak-items verwijderen?
+1872	Deze Flatpak-items worden door geen enkele geïnstalleerde toepassing meer gebruikt.
+1873	Ongebruikte Flatpak-items worden verwijderd
+1874	Ongebruikte Flatpak-items verwijderd.
+1875	Er is niets verwijderd (toestemming geweigerd of fout: zie hierboven).
+1876	De cache bewaart de archieven van alle gedownloade pakketten: $1 {oud archief|oude archieven} of archieven van verwijderde pakketten kunnen worden verwijderd.
+1877	Verwijderd worden: oude versies (de laatste 3 van elk pakket blijven) en archieven van al verwijderde pakketten.
+1878	De bijgewerkte diensten herstarten?
+1879	Deze diensten gebruiken oude bestanden die door de update zijn vervangen: ze moeten worden herstart om de nieuwe versies te gebruiken.
+1880	Worden herstart ($1):
+1881	Een herstarte dienst is een seconde onderbroken; de sessiebeheerder (inlogscherm) wordt nooit herstart.
+1882	Diensten worden herstart
+1883	Diensten herstart.
+1884	Sommige diensten zijn niet herstart (toestemming geweigerd of fout: zie hierboven).
+1885	Er zijn updates beschikbaar voor uw Flatpak-toepassingen.
+1886	De Flatpak-toepassingen bijwerken?
+1887	Worden bijgewerkt ($1):
+1888	Flatpak-toepassingen worden bijgewerkt
+1889	Flatpak-toepassingen bijgewerkt.
+1890	Sommige Flatpak-toepassingen zijn niet bijgewerkt (toestemming geweigerd of fout: zie hierboven).
+1891	Afsluiten
